@@ -14,7 +14,7 @@
 .nav-link {
   display: block;
   padding: $nav-link-padding-y $nav-link-padding-x;
-  text-decoration: if($link-decoration == none, null, none);
+  text-decoration: if($link-decoration ==none, null, none);
 
   @include hover-focus() {
     text-decoration: none;
@@ -77,7 +77,7 @@
   }
 
   .nav-link.active,
-  .show > .nav-link {
+  .show>.nav-link {
     color: $nav-pills-link-active-color;
     background-color: $nav-pills-link-active-bg;
   }
@@ -89,7 +89,8 @@
 //
 
 .nav-fill {
-  > .nav-link,
+
+  >.nav-link,
   .nav-item {
     flex: 1 1 auto;
     text-align: center;
@@ -97,7 +98,8 @@
 }
 
 .nav-justified {
-  > .nav-link,
+
+  >.nav-link,
   .nav-item {
     flex-basis: 0;
     flex-grow: 1;
@@ -111,10 +113,55 @@
 // Hide tabbable panes to start, show them when `.active`
 
 .tab-content {
-  > .tab-pane {
+  >.tab-pane {
     display: none;
   }
-  > .active {
+
+  >.active {
     display: block;
   }
 }
+
+
+//RN
+
+/* Addition css made for this blog */
+
+/*************************************
+ * Dropdown menu css for navbar
+ *************************************/
+.dropdown a:link {
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  min-width: 160px;
+  text-decoration: none;
+}
+
+.dropdown-content a {
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*************************************
+ *************************************/
