@@ -10,8 +10,8 @@ permalink: "/icc2023/entry/"
 ---
 
 # Link to Google Forms here.
-To enter your predictions, use the [entry form here](http://bit.ly/2023_icc_worldcup_predictions).
+To enter your predictions, use the [entry form here](https://bit.ly/2023-icc-prediction-contest).
 
 # QR Code
 
-![image info](../../images/promo-video-start.png)
+![image info](../../img/QR.png)

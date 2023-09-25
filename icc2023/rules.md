@@ -9,7 +9,7 @@ permalink: "/icc2023/rules"
 ---
 
 
-# [Click for Entry Form](http://bit.ly/2019_icc_worldcup_predictions)
+# [Click for Entry Form](https://bit.ly/2023-icc-prediction-contest)
 To enter your predictions, use the [entry form here](http://bit.ly/2019_icc_worldcup_predictions). Read on for the rules.
 
 
@@ -22,7 +22,7 @@ To enter your predictions, use the [entry form here](http://bit.ly/2019_icc_worl
 **Entry Deadline: 05 October 2023**, before the first ball is bowled. (8:00 am IST). This is effectively late night on the 4th, if you live in North America. The form will not accept entries after that time.
 
 
-## ICC World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2023_Cricket_World_Cup) Link
+## ICC World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2023_Cricket_World_Cup) Link)
 
 - 10 national teams will be playing in the Group stage. All-play-all in the Group stage. (45 games)
 - The top 4 teams from the Group Stage are ranked and all four go on to the Knockout (Semi-finals) stage 
@@ -58,5 +58,5 @@ The **Ultimate winner** will be declared on November 19th, 2023.
 
 If you have friends or relatives who are cricket lovers, invite them to try. Send them the QR Code to this page.
 
-Good luck. If you are ready to enter your predictions, the form can be found **[here](http://bit.ly/2019_icc_worldcup_predictions)**
+Good luck. If you are ready to enter your predictions, the form can be found **[here](https://bit.ly/2023-icc-prediction-contest)**
 

@@ -20,24 +20,24 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="{{" /leaderboard" | relative_url }}">Leaderboard</a>
+          <a class="nav-link" href={{ "/leaderboard" | relative_url }}>Leaderboard</a>
         </li>
 
         <li class="nav-item dropdown" style="text-decoration: none;">
           <a href={{ "icc/" | relative_url }}>ICC2023 &#9660;</a>
           <div class="dropdown-content">
-            <a href="{{ " /icc/scoreboard" | relative_url }}"> Scoreboard </a>
-            <a href="{{ " /icc/schedule" | relative_url }}"> Schedule </a>
-            <a href="{{ " /icc/news" | relative_url }}"> News </a>
+            <a href={{ "/icc/schedule" | relative_url }}> Match Schedule </a>
+            <a href={{ "/icc/news" | relative_url }}> News </a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ " /posts" | relative_url }}">Updates</a>
+          <a class="nav-link" href={{ "/posts" | relative_url }}>Contest Updates</a>
         </li>
 
         <li class="nav-item dropdown" style="text-decoration: none;">
           <a href={{ '/past' | relative_url }}> Past Contests &#9660;</a>
           <div class="dropdown-content">
+            <a href={{ "/past/hof" | relative_url }}> Hall of Fame </a>
             <a href={{ "/past/fifa2022" | relative_url }}> FIFA2022 </a>
             <a href={{ "/past/icc2019" | relative_url }}> ICC WC 2019 </a>
           </div>
