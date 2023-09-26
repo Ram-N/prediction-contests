@@ -9,6 +9,9 @@ header:
 permalink: "/icc2023/entry/"
 ---
 
+## You entry submission must be made before October 5, 2023, 8:00 IST (October 4 10:30 EST)
+It only takes a minute. Don't miss the deadline!
+
 # Link to Google Forms here.
 To enter your predictions, use the [entry form here](https://bit.ly/2023-icc-prediction-contest).
 

@@ -9,11 +9,9 @@ permalink: "/icc2023/rules"
 ---
 
 
-# [Click for Entry Form](https://bit.ly/2023-icc-prediction-contest)
-To enter your predictions, use the [entry form here](http://bit.ly/2019_icc_worldcup_predictions). Read on for the rules.
 
 
-## Contest Rules and Guidelines
+# ICC2023 Contest Rules and Guidelines
 - This contest is open to all.
 
 - One entry per person. (Honor system)
@@ -43,8 +41,9 @@ To enter your predictions, use the [entry form here](http://bit.ly/2019_icc_worl
 - 0 points if you pick a team that does not qualify in the top 4 spots
 - The maximum possible score in the Group Stage is **16 points**. (4 x 4)
 
-### Semi-finals
-- 8 points for correctly picking a team that makes it to the Semifinals.
+### Semifinals
+- 8 points for correctly picking a team that makes it to the Finals
+- You get full points if your pick wins. (Whether it is Semi1 or Semi2 doesn't matter.)
 - The maximum score in the Semifinals is **16 points**. (8 x 2)
 
 ### Finals
@@ -59,4 +58,7 @@ The **Ultimate winner** will be declared on November 19th, 2023.
 If you have friends or relatives who are cricket lovers, invite them to try. Send them the QR Code to this page.
 
 Good luck. If you are ready to enter your predictions, the form can be found **[here](https://bit.ly/2023-icc-prediction-contest)**
+
+# [Click for Entry Form](https://bit.ly/2023-icc-prediction-contest)
+To enter your predictions, use the [entry form here](http://bit.ly/2019_icc_worldcup_predictions). Read on for the rules.
 

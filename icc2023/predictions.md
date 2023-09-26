@@ -1,15 +1,14 @@
 ---
 layout: page
-title: "Change is good!"
-meta_title: "Feeling Responsive Theme Changelog"
-subheadline: "Feeling Responsive Theme Changelog"
-teaser: "History and changelog of Feeling Responsive Theme"
+title: "Predictions Made"
 header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/icc2023/predictions"
 ---
 
-# See everyone's Predictions here.
+# See everyone's Predictions here
 
-TABLE
+A TABLE of predictions will show up here once all the submissions have been received.
+
+*Will be Updated: October 6, 2023*
 
