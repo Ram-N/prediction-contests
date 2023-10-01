@@ -9,7 +9,8 @@ background: '/img/posts/01.jpg'
 # Now Open
 
 - The Prediction Contest is now Open.
-- Go to [the Entry Form](https://bit.ly/2023-icc-prediction-contest) and submit your entry today.
+- Go to 
+[the Entry Form](https://bit.ly/2023-icc-prediction-contest){:target"_blank" class="link-primary"} and submit your entry today.
 
 
 You can look at the ICC > News to find the latest odds for the 4 teams that will make it past the group stage.
