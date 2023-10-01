@@ -2,7 +2,7 @@
 layout: page
 title: Leaderboard
 description: Points scored by the contestants
-background: '/img/bg-about.jpg'
+background: '/img/bg_score.jpg'
 ---
 
 # Will be updated once the results start coming in.

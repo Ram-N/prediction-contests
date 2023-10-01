@@ -2,13 +2,13 @@
 layout: page
 title: "Cricket WC 2023"
 permalink: "/icc/"
-header:
-   image_fullwidth: "header_roadmap_2.jpg"
+background: '/img/bg_icc2023.jpg'
 ---
 
 ### [Schedule]( {{ '/icc/schedule' |relative_url}} )
 
-### [Scorecard]( {{ '/icc/scoreboard' |relative_url}} )
+## ICC 2023 News
 
-### [News]( {{ '/icc/news' |relative_url}} )
+- Eoin Morgan [predicts the four semifinalists](https://crickettimes.com/2023/08/eoin-morgan-predicts-the-four-semifinals-of-the-2023-icc-odi-world-cup/){:target"_blank" class="link-primary"}
+- Oddschecker Cricket World Cup [Betting Odds](https://www.oddschecker.com/cricket/world-cup){:target"_blank" class="link-primary"}
 
