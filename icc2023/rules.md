@@ -17,7 +17,7 @@ permalink: "/icc2023/rules"
 - One entry per person. (Honor system)
 - You are competing for glory. The winner will be the undisputed **Worldcup Prediction Champion** for the next 4 years, until the next Cricket World cup.
 
-**Entry Deadline: 05 October 2023**, before the first ball is bowled. (8:00 am IST). This is effectively late night on the 4th, if you live in North America. The form will not accept entries after that time.
+**Entry Deadline: 05 October 2023**, before the first ball is bowled. (8:00 am IST). This is effectively late night on the 4th, if you live in Europe or North America. The form will not accept entries after that time.
 
 
 ## ICC World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2023_Cricket_World_Cup) Link)
@@ -51,14 +51,24 @@ permalink: "/icc2023/rules"
 
 Maximum points that can be scored = 16 + 16 + 16 = **48 points**
 
+
 ### Leaderboard
 The leaderboard will be updated regularly, once the Group stage nears its completion and some team places are known. Note that there is a separate leaderboard for participants who are Under-18.
 The **Ultimate winner** will be declared on November 19th, 2023.
 
-If you have friends or relatives who are cricket lovers, invite them to try. Send them the QR Code to this page.
+### Group Code
+If a smaller subset of participants so wish, they could have a mini-leaderboard among themselves. This is possible if they all use a 
+common agreed upon `Group Code`. For example, "Engg Club." It is even possible for one participant to be part of several groups:
+Just enter each one as comma-separated. Example: Engg Club, Hikers
+
+Each group will have its own leaderboard and a web-page, but everyone is part of the main leaderboard.
+
+
+If you have friends or relatives who are cricket lovers, invite them to try. Send them the QR Code to the entry form. It takes less than a minute.
 
 Good luck. If you are ready to enter your predictions, the form can be found **[here](https://bit.ly/2023-icc-prediction-contest)**
 
 # [Click for Entry Form](https://bit.ly/2023-icc-prediction-contest)
-To enter your predictions, use the [entry form here](http://bit.ly/2019_icc_worldcup_predictions). Read on for the rules.
+To enter your predictions, use the [entry form here](http://bit.ly/2019_icc_worldcup_predictions). 
 
+Good luck!

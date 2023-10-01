@@ -7,5 +7,5 @@ header:
 permalink: "/icc/news/"
 ---
 
-- [Eoin Morgan predicts the four semifinalists](https://crickettimes.com/2023/08/eoin-morgan-predicts-the-four-semifinals-of-the-2023-icc-odi-world-cup/)
-- [Oddschecker Cricket World Cup Betting Odds](https://www.oddschecker.com/cricket/world-cup)
+- Eoin Morgan [predicts the four semifinalists](https://crickettimes.com/2023/08/eoin-morgan-predicts-the-four-semifinals-of-the-2023-icc-odi-world-cup/){:target"_blank" class="link-primary"}
+- Oddschecker Cricket World Cup [Betting Odds](https://www.oddschecker.com/cricket/world-cup){:target"_blank" class="link-primary"}

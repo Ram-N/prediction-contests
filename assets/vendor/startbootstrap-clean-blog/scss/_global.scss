@@ -24,6 +24,8 @@ h6 {
 
 a {
     color: $gray-900;
+    color: $blue; //RN
+    text-decoration: underline;
 
     &:focus,
     &:hover {
