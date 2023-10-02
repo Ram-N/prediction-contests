@@ -17,7 +17,7 @@ permalink: "/icc2023/rules"
 - One entry per person. (Honor system)
 - You are competing for glory. The winner will be the undisputed **Worldcup Prediction Champion** for the next 4 years, until the next Cricket World cup.
 
-**Entry Deadline: 05 October 2023**, before the first ball is bowled. (8:00 am IST). This is effectively late night on the 4th, if you live in Europe or North America. The form will not accept entries after that time.
+**Entry Deadline: 05 October 2023**, before the first ball is bowled. (2:00 pm IST). The form will not accept entries after that time.
 
 
 ## ICC World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2023_Cricket_World_Cup) Link)

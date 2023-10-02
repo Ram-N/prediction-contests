@@ -9,7 +9,7 @@ header:
 permalink: "/icc2023/entry/"
 ---
 
-## You entry submission must be made before October 5, 2023, 8:00 IST (October 4 10:30 pm EST)
+## You entry submission must be made before October 5, 2023, 2:00 PM IST (4:30 AM EST)
 It only takes a minute. Don't miss the deadline!
 
 # Link to Google Forms here.
