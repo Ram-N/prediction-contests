@@ -45,6 +45,7 @@ For example: There are 4 points for each qualifier identified correctly _in its 
 
 ### Semifinals
 - 8 points for correctly picking a team that makes it to the Finals
+- Please note that the top qualifier (#1) plays qualifier #4. And Qualifier #2 plays #3.
 - You get full points if your pick wins. (Whether it is Semi1 or Semi2 doesn't matter.)
 - The maximum score in the Semifinals is **16 points**. (8 x 2)
 
