@@ -41,6 +41,8 @@ permalink: "/icc2023/rules"
 - 0 points if you pick a team that does not qualify in the top 4 spots
 - The maximum possible score in the Group Stage is **16 points**. (4 x 4)
 
+For example: There are 4 points for each qualifier identified correctly _in its correct ranking_. If you predict the 4th qualifying team as the #4 qualifier, you get 4 points. But if you predict that it will be #2, you only get 2 points. You lose one point for each position that you missed. 
+
 ### Semifinals
 - 8 points for correctly picking a team that makes it to the Finals
 - You get full points if your pick wins. (Whether it is Semi1 or Semi2 doesn't matter.)
