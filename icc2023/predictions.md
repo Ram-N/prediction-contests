@@ -28,7 +28,7 @@ permalink: "/icc2023/predictions"
 | 15 | Mukund Narasimhan              | USA                      | NZ   | IND  | AUS  | PAK  | NZ    | AUS   | AUS      |
 | 16 | Vivek                          | USA                      | ENG  | IND  | AUS  | SA   | ENG   | IND   | IND      |
 | 17 | Gokul                          |                          | AUS  | IND  | ENG  | PAK  | AUS   | IND   | IND      |
-| 18 | Dodo Prasad                    | Boston                   | ENG  | AUS  | NED  | NZ   | ENG   | IND   | ENG      |
+| 18 | Dodo Prasad                    | Boston                   | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |
 | 19 | Ishaan                         | United States            | IND  | AUS  | ENG  | NZ   | IND   | ENG   | IND      |
 | 20 | bala                           | Oakland                  | ENG  | PAK  | IND  | AUS  | ENG   | IND   | ENG      |
 | 21 | Rajiv Ranjan                   | TAMPA                    | PAK  | IND  | ENG  | AUS  | IND   | ENG   | IND      |
@@ -46,7 +46,7 @@ permalink: "/icc2023/predictions"
 | 33 | Aditya                         | Mumbai                   | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |
 | 34 | RANKANATHAN V S                | INDIA                    | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |
 | 35 | Kshitij                        | Richmond, VA, USA        | IND  | AUS  | ENG  | NZ   | IND   | AUS   | IND      |
-| 36 | Rikhi Kaushal                  | Wesley Chapel, USA       | AUS  | IND  | PAK  | SA   | SL    | AUS   | AUS      |
+| 36 | Rikhi Kaushal                  | Wesley Chapel, USA       | AUS  | IND  | PAK  | SA   | IND    | AUS   | AUS      |
 | 37 | Alok Baveja                    | Macungie, PA, USA        | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |
 | 38 | Shaji                          | USA                      | IND  | PAK  | AUS  | ENG  | IND   | AUS   | IND      |
 | 39 | Subbu Mahadevan                | Palo Alto/USA            | ENG  | IND  | NZ   | AUS  | ENG   | IND   | IND      |
