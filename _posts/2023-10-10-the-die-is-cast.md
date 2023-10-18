@@ -35,7 +35,4 @@ Several of you have written to me about other ways to make the contest more inte
 
 I plan to send out an update or a mini-contest once every few days, just to keep the interest level up. You can always find the latest leaderboard at: [https://ram-n.github.io/prediction-contests](https://ram-n.github.io/prediction-contests)
 
-Stay tuned,
-
-Ram/Prasad 
 
