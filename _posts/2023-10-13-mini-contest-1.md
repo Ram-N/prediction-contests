@@ -17,6 +17,8 @@ Pretty much everyone has picked AUS somewhere in the top 4 at the end of the Poo
 
 Again, it is probably too early for this line of thinking.
 
+![India in 2023]({{ '/img/2023ICCIndia.png' | relative_url }})
+
 ## Mini-Contest #1 - India's performance in the remaining 7 matches
 [https://bit.ly/icc2023-India-mini](https://bit.ly/icc2023-India-mini) - Entry closes in ~24 hours
 This will take less than 1 minute. Really. Plus, I can publish a leaderboard after each one of India's matches. (One small caveat: If a match gets tied/drawn/rained out, then you won't get a point if you picked a winner.) 1 point for each correct prediction. Max possible score: 7 points.
