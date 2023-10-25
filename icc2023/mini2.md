@@ -13,11 +13,10 @@ background: '/img/dharmashala.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                 | Winner            | 1stInnings   | HighScores   |   Pred_Score |
 |:---------------------|:------------------|:-------------|:-------------|-------------:|
-| Ram Narasimhan       | **Ind-win-1**     | **250-275**  | **NZ-2x50**  |            5 |
-| Gokul                | **Ind-win-1**     | **250-275**  | IND-2x50     |            3 |
-| Rahul Santhanam      | **Ind-win-1**     | **250-275**  | No-100       |            3 |
-| Tees                 | **Ind-win-1**     | **250-275**  | IND-2x50     |            3 |
-| Krishnaveni Kumbaji  | **Ind-Comfort-2** | **250-275**  | IND-1x100    |            3 |
+| Rahul Santhanam      | **Ind-win-1**     | **250-275**  | No-100       |            **3** |
+| Gokul                | **Ind-win-1**     | **250-275**  | IND-2x50     |            **3** |
+| Tees                 | **Ind-win-1**     | **250-275**  | IND-2x50     |            **3** |
+| Krishnaveni Kumbaji  | **Ind-Comfort-2** | **250-275**  | IND-1x100    |            **3** |
 | Srirangaraj Setlur   | **Ind-Comfort-2** | **250-300**  | IND-2x50     |            2 |
 | Dodo                 | NZ-win-1          | **250-300**  | **NZ-1x100** |            2 |
 | vish calidas         | **Ind-win-1**     | **250-300**  | IND-2x50     |            1 |
