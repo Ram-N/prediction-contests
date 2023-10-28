@@ -5,7 +5,15 @@ description: Points scored by the contestants
 background: '/img/bg_score.jpg'
 ---
 
-# Leaderboard for the Main ICC2023 Prediction Contest
+&nbsp;
+&nbsp;
+&nbsp;
+
+# Main ICC2023 Prediction Contest
+
+&nbsp;
+&nbsp;
+
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                           | Location                 | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Provisional |
