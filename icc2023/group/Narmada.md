@@ -2,7 +2,7 @@
 layout: page
 title: Group Leaderboard
 description: Points scored by the contestants
-background: '/img/bg_score.jpg'
+background: '/img/narmada.avif'
 ---
 
 ## Group Contest -- Narmada
