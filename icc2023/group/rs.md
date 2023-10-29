@@ -23,12 +23,6 @@ background: '/img/bg_score.jpg'
 
  <br>
 
- <br>
-
- <br>
-
- <br>
-
 ### Minicontest #1 - India-Vs-All Opponents
 
 
@@ -42,11 +36,6 @@ background: '/img/bg_score.jpg'
 
 <br>
 
-<br>
-
-<br>
-
-<br>
 
 ### Minicontest #2 - India-Vs-New Zealand
 
@@ -57,11 +46,5 @@ background: '/img/bg_score.jpg'
 | Rahul Santhanam | **Ind-win-1**     | **250-275**  | No-100       |            3 |
 | R.Santhanam     | NZ-win-1          | **250-300**  | No-100       |           -1 |
 | Radhika         | **Ind-Comfort-2** | 200-225      | No-100       |           -2 |
-
-<br>
-
-<br>
-
-<br>
 
 <br>

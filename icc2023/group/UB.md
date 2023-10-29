@@ -23,11 +23,6 @@ background: '/img/UB.jpg'
 
  <br>
 
- <br>
-
- <br>
-
- <br>
 
 ### Minicontest #1 - India-Vs-All Opponents
 
@@ -45,12 +40,6 @@ background: '/img/UB.jpg'
 
 <br>
 
-<br>
-
-<br>
-
-<br>
-
 ### Minicontest #2 - India-Vs-New Zealand
 
 
@@ -62,11 +51,5 @@ background: '/img/UB.jpg'
 | Alok Baveja         | **Ind-win-1**     | **250-300**  | IND-2x50     |            1 |
 | vivek               | **Ind-win-1**     | 200-250      | No-100       |           -1 |
 | Sreenivas Gollapidi | NZ-win-1          | >300         | IND-1x100    |           -5 |
-
-<br>
-
-<br>
-
-<br>
 
 <br>
