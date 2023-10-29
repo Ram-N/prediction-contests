@@ -20,10 +20,10 @@ background: '/img/bg_score.jpg'
 | G. S. SESHA RAJAN  | Bangalore, IN  | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |             6 |
 | Radhika            | Mumbai         | AUS  | ENG  | IND  | NZ   | IND   | AUS   | AUS      |             6 |
 | Kausalya Santhanam | Chennai/ India | AUS  | ENG  | IND  | SA   | AUS   | IND   | AUS      |             5 |
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 
 ### Minicontest #1 - India-Vs-All Opponents
 
@@ -33,8 +33,12 @@ background: '/img/bg_score.jpg'
 |:-------------------|-----------:|------:|------:|-----:|------:|-----:|-----:|------:|-------------:|
 | Rahul Santhanam    |          6 |     1 |     1 |    1 |     0 |    1 |    1 |     1 |            3 |
 | R SANTHANAM        |          5 |     1 |     1 |    1 |     0 |    1 |    0 |     1 |            3 |
+| KAUSALYA SANTHANAM |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            3 |
 | Radhika            |          5 |     1 |     1 |    1 |     0 |    1 |    0 |     1 |            3 |
-| KAUSALYA SANTHANAM |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            2 |
+<br>
+<br>
+<br>
+<br>
 
 ### Minicontest #2 - India-Vs-New Zealand
 
@@ -45,7 +49,8 @@ background: '/img/bg_score.jpg'
 | Rahul Santhanam | **Ind-win-1**     | **250-275**  | No-100       |            3 |
 | R.Santhanam     | NZ-win-1          | **250-300**  | No-100       |           -1 |
 | Radhika         | **Ind-Comfort-2** | 200-225      | No-100       |           -2 |
-
-
-
+<br>
+<br>
+<br>
+<br>
 
