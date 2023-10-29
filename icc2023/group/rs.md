@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Leaderboard for Santhanams
+title: Santhanams Leaderboard
 description: Points scored by the contestants
 background: '/img/bg_score.jpg'
 ---
