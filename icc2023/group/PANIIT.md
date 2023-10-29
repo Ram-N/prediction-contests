@@ -27,10 +27,14 @@ background: '/img/bg_score.jpg'
 | Pradeep Haldar  | Land O Lakes/USA        | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |             6 |
 | Ajai Singh      | USA                     | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |             6 |
 | Atul Agarwal    | Tampa USA               | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |             3 |
-<br>
-<br>
-<br>
-<br>
+
+ <br>
+
+ <br>
+
+ <br>
+
+ <br>
 
 ### Minicontest #1 - India-Vs-All Opponents
 
@@ -44,9 +48,13 @@ background: '/img/bg_score.jpg'
 | Pradeep Haldar       |          5 |     0 |     1 |    1 |     1 |    1 |    0 |     1 |            3 |
 | Atul Agarwal         |          5 |     1 |     1 |    1 |     0 |    0 |    1 |     1 |            3 |
 | Balaji Rathakrishnan |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            3 |
+
 <br>
+
 <br>
+
 <br>
+
 <br>
 
 ### Minicontest #2 - India-Vs-New Zealand
@@ -61,7 +69,11 @@ background: '/img/bg_score.jpg'
 | Pradeep Haldar | **Ind-win-1**     | 200-250      | IND-2x50     |           -1 |
 | Atul Agarwal   | **Ind-Comfort-2** | >300         | IND-1x100    |           -2 |
 | Manoj  Shah    | **Ind-win-1**     | 275-300      | IND-2x50     |           -3 |
+
 <br>
+
 <br>
+
 <br>
+
 <br>

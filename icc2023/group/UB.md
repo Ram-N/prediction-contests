@@ -20,10 +20,14 @@ background: '/img/UB.jpg'
 | Siva                | Cupertino, CA, USA | IND  | AUS  | PAK  | ENG  | IND   | ENG   | IND      |             7 |
 | Ram Narasimhan      | Orlando, FL        | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |             7 |
 | Alok Baveja         | Macungie, PA, USA  | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |             6 |
-<br>
-<br>
-<br>
-<br>
+
+ <br>
+
+ <br>
+
+ <br>
+
+ <br>
 
 ### Minicontest #1 - India-Vs-All Opponents
 
@@ -38,9 +42,13 @@ background: '/img/UB.jpg'
 | vivek swarnakar |          4 |     1 |     1 |    0 |     1 |    0 |    1 |     0 |            3 |
 | Siva            |          5 |     0 |     1 |    0 |     1 |    1 |    1 |     1 |            2 |
 | Ashish Naik     |          4 |     0 |     1 |    1 |     0 |    0 |    1 |     1 |            2 |
+
 <br>
+
 <br>
+
 <br>
+
 <br>
 
 ### Minicontest #2 - India-Vs-New Zealand
@@ -54,7 +62,11 @@ background: '/img/UB.jpg'
 | Alok Baveja         | **Ind-win-1**     | **250-300**  | IND-2x50     |            1 |
 | vivek               | **Ind-win-1**     | 200-250      | No-100       |           -1 |
 | Sreenivas Gollapidi | NZ-win-1          | >300         | IND-1x100    |           -5 |
+
 <br>
+
 <br>
+
 <br>
+
 <br>

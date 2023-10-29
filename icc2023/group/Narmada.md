@@ -31,10 +31,14 @@ background: '/img/narmada.avif'
 | Sri Iyer        | USA           | AUS  | IND  | PAK  | ENG  | AUS   | IND   | AUS      |             4 |
 | Vish Calidas    |               | AUS  | ENG  | IND  | PAK  | AUS   | ENG   | ENG      |             3 |
 | Cheen           | Singapore     | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |             3 |
-<br>
-<br>
-<br>
-<br>
+
+ <br>
+
+ <br>
+
+ <br>
+
+ <br>
 
 ### Minicontest #1 - India-Vs-All Opponents
 
@@ -53,9 +57,13 @@ background: '/img/narmada.avif'
 | Dodo            |          5 |     1 |     1 |    1 | 0     |    1 |    0 |     1 |            3 |
 | Subbu B,        |          5 |     1 |     1 |    0 | 0     |    1 |    1 |     1 |            2 |
 | Shriya          |          4 |     1 |     1 |    0 | Split |    1 |    0 |     1 |            2 |
+
 <br>
+
 <br>
+
 <br>
+
 <br>
 
 ### Minicontest #2 - India-Vs-New Zealand
@@ -77,8 +85,11 @@ background: '/img/narmada.avif'
 | Shaj            | NZ-win-1          | 275-300      | **NZ-2x50**  |           -3 |
 | Shriya          | NZ-win-1          | 225:250      | **NZ-2x50**  |           -3 |
 | bala            | NZ-win-1          | 275-300      | No-100       |           -5 |
-<br>
-<br>
-<br>
+
 <br>
 
+<br>
+
+<br>
+
+<br>
