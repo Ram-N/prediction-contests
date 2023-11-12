@@ -10,7 +10,7 @@ background: '/img/eden.jpg'
 
 # India vs SA - Nov 05
 
-Congrats, Mukund Narasimhan and Sreenivas Gollapudi, on which the IND-v-SA mini contest.
+Congrats, **Mukund Narasimhan** and **Sreenivas Gollapudi**, on winning the IND-v-SA mini contest.
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                 | Winner            | 1stInnings   | HighScores    |   Pred_Score |
