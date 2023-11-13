@@ -15,7 +15,7 @@ background: '/img/bg_score.jpg'
 &nbsp;
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name                           | Location                 | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Possible |   Tmax |   Pred_Score |
+| Name                           | Location                 | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |  Theoretical max |   Current Score |
 |:-------------------------------|:-------------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|-----------:|-------:|-------------:|
 | **ODI Rankings**                   | Automated                | IND  | PAK  | AUS  | SA   | IND   | PAK   | IND      |         24 |     34 |           10 |
 | **WisdomOfTheCrowd**               | Automated                | IND  | AUS  | ENG  | PAK  | IND   | ENG   | IND      |         24 |     31 |            7 |
