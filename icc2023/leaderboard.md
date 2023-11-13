@@ -11,8 +11,6 @@ background: '/img/bg_score.jpg'
 
 # Main ICC2023 Prediction Contest
 
-&nbsp;
-&nbsp;
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                           | Location                 | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |  Theoretical max |   Current Score |
