@@ -10,21 +10,16 @@ background: '/img/bg_score.jpg'
 
 ### Main ICC WC Prediction Contest
 
-## Group Contest -- Santhanam Family
-
-
-### Main ICC WC Prediction Contest
-
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name               | Location       | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Provisional |
-|:-------------------|:---------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------:|
-| Aditya             | Mumbai         | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |             8 |
-| Radhika            | Mumbai         | AUS  | ENG  | IND  | NZ   | IND   | AUS   | AUS      |             8 |
-| Rahul Santhanam    | United Kingdom | IND  | NZ   | ENG  | SL   | IND   | ENG   | IND      |             7 |
-| R. Santhanam       | Chennai/ India | ENG  | IND  | NZ   | PAK  | ENG   | IND   | IND      |             6 |
-| Kausalya Santhanam | Chennai/ India | AUS  | ENG  | IND  | SA   | AUS   | IND   | AUS      |             6 |
-| G. S. SESHA RAJAN  | Bangalore, IN  | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |             6 |
+| Name               | Location       | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
+|:-------------------|:---------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
+| Radhika            | Mumbai         | AUS  | ENG  | IND  | NZ   | IND   | AUS   | AUS      |                  32 |                40 |               8 |
+| Kausalya Santhanam | Chennai/ India | AUS  | ENG  | IND  | SA   | AUS   | IND   | AUS      |                  32 |                38 |               6 |
+| Aditya             | Mumbai         | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |                  24 |                32 |               8 |
+| Rahul Santhanam    | United Kingdom | IND  | NZ   | ENG  | SL   | IND   | ENG   | IND      |                  24 |                31 |               7 |
+| G. S. SESHA RAJAN  | Bangalore, IN  | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |                  24 |                30 |               6 |
+| R. Santhanam       | Chennai/ India | ENG  | IND  | NZ   | PAK  | ENG   | IND   | IND      |                  24 |                30 |               6 |
 
  <br>
 
@@ -34,7 +29,7 @@ background: '/img/bg_score.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name               | Winner            | 1stInnings   | HighScores    |   Pred_Score |
 |:-------------------|:------------------|:-------------|:--------------|-------------:|
-| **R SANTHANAM **       | **Ind-Comfort-3** | **>300**     | **IND-2x50**  |            7 |
+| R SANTHANAM        | **Ind-Comfort-3** | **>300**     | **IND-2x50**  |            7 |
 | KAUSALYA SANTHANAM | **Ind-Comfort-3** | 275-300      | **IND-1x100** |            3 |
 | Radhika            | **Ind-win-1**     | 225:250      | **IND-2x50**  |            0 |
 
@@ -58,9 +53,9 @@ background: '/img/bg_score.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name               |   Optimism |   PAK |   BAN |   NZ |   ENG |   SL |   SA |   NED |   Pred_Score |
 |:-------------------|-----------:|------:|------:|-----:|------:|-----:|-----:|------:|-------------:|
-| Rahul Santhanam    |          6 |     1 |     1 |    1 |     0 |    1 |    1 |     1 |            5 |
-| R SANTHANAM        |          5 |     1 |     1 |    1 |     0 |    1 |    0 |     1 |            4 |
-| KAUSALYA SANTHANAM |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            4 |
-| Radhika            |          5 |     1 |     1 |    1 |     0 |    1 |    0 |     1 |            4 |
+| Rahul Santhanam    |          6 |     1 |     1 |    1 |     0 |    1 |    1 |     1 |            6 |
+| R SANTHANAM        |          5 |     1 |     1 |    1 |     0 |    1 |    0 |     1 |            5 |
+| KAUSALYA SANTHANAM |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            5 |
+| Radhika            |          5 |     1 |     1 |    1 |     0 |    1 |    0 |     1 |            5 |
 
 <br>

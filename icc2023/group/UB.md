@@ -12,14 +12,14 @@ background: '/img/UB.jpg'
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name                | Location           | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Provisional |
-|:--------------------|:-------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------:|
-| Srirangaraj Setlur  | Buffalo, NY, USA   | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |            12 |
-| Sreenivas Gollapudi | Cupertino, CA      | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |             9 |
-| Alok Baveja         | Macungie, PA, USA  | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |             7 |
-| Siva                | Cupertino, CA, USA | IND  | AUS  | PAK  | ENG  | IND   | ENG   | IND      |             7 |
-| Ram Narasimhan      | Orlando, FL        | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |             7 |
-| Rupal               | Orlando, US        | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |             7 |
+| Name                | Location           | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
+|:--------------------|:-------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
+| Ram Narasimhan      | Orlando, FL        | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  32 |                39 |               7 |
+| Srirangaraj Setlur  | Buffalo, NY, USA   | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  24 |                36 |              12 |
+| Alok Baveja         | Macungie, PA, USA  | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |                  24 |                31 |               7 |
+| Rupal               | Orlando, US        | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  24 |                31 |               7 |
+| Siva                | Cupertino, CA, USA | IND  | AUS  | PAK  | ENG  | IND   | ENG   | IND      |                  24 |                31 |               7 |
+| Sreenivas Gollapudi | Cupertino, CA      | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |                   8 |                17 |               9 |
 
  <br>
 
@@ -60,12 +60,12 @@ background: '/img/UB.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name            |   Optimism |   PAK |   BAN |   NZ |   ENG |   SL |   SA |   NED |   Pred_Score |
 |:----------------|-----------:|------:|------:|-----:|------:|-----:|-----:|------:|-------------:|
-| Rupal           |          7 |     1 |     1 |    1 |     1 |    1 |    1 |     1 |            6 |
-| Ranga Setlur    |          6 |     1 |     1 |    1 |     1 |    1 |    0 |     1 |            5 |
-| Ram Narasimhan  |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            4 |
-| Siva            |          5 |     0 |     1 |    0 |     1 |    1 |    1 |     1 |            4 |
-| Alok Baveja     |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            4 |
+| Rupal           |          7 |     1 |     1 |    1 |     1 |    1 |    1 |     1 |            7 |
+| Ranga Setlur    |          6 |     1 |     1 |    1 |     1 |    1 |    0 |     1 |            6 |
+| Ram Narasimhan  |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            5 |
+| Siva            |          5 |     0 |     1 |    0 |     1 |    1 |    1 |     1 |            5 |
+| Alok Baveja     |          5 |     1 |     1 |    0 |     1 |    1 |    0 |     1 |            5 |
 | vivek swarnakar |          4 |     1 |     1 |    0 |     1 |    0 |    1 |     0 |            4 |
-| Ashish Naik     |          4 |     0 |     1 |    1 |     0 |    0 |    1 |     1 |            3 |
+| Ashish Naik     |          4 |     0 |     1 |    1 |     0 |    0 |    1 |     1 |            4 |
 
 <br>
