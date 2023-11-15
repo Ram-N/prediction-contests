@@ -14,25 +14,47 @@ background: '/img/narmada.avif'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name            | Location      | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
 |:----------------|:--------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Sackett         |               | IND  | SA   | NZ   | AUS  | IND   | SA    | IND      |                  32 |                46 |              14 |
-| Shaji           | USA           | IND  | PAK  | AUS  | ENG  | IND   | AUS   | IND      |                  32 |                40 |               8 |
-| Ram Narasimhan  | Orlando, FL   | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  32 |                39 |               7 |
-| Gokul           |               | AUS  | IND  | ENG  | PAK  | AUS   | IND   | IND      |                  32 |                37 |               5 |
-| Sri Iyer        | USA           | AUS  | IND  | PAK  | ENG  | AUS   | IND   | AUS      |                  32 |                37 |               5 |
-| Ishaan          | United States | IND  | AUS  | ENG  | NZ   | IND   | ENG   | IND      |                  24 |                35 |              11 |
-| Shriya          | Seattle       | IND  | AUS  | ENG  | NZ   | IND   | ENG   | IND      |                  24 |                35 |              11 |
-| Subbu Mahadevan | Palo Alto/USA | ENG  | IND  | NZ   | AUS  | ENG   | IND   | IND      |                  24 |                33 |               9 |
-| Vivek           | USA           | ENG  | IND  | AUS  | SA   | ENG   | IND   | IND      |                  24 |                33 |               9 |
-| Tees            | Seattle       | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |                  24 |                31 |               7 |
-| Rases           | India         | ENG  | IND  | NZ   | PAK  | PAK   | IND   | IND      |                  24 |                30 |               6 |
-| Cheen           | Singapore     | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |                  24 |                28 |               4 |
-| Subbu           | India         | ENG  | IND  | AUS  | NZ   | ENG   | IND   | ENG      |                   8 |                19 |              11 |
-| Dodo Prasad     | Boston        | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |                   8 |                17 |               9 |
-| bala            | Oakland       | ENG  | PAK  | IND  | AUS  | ENG   | IND   | ENG      |                   8 |                13 |               5 |
-| Vish Calidas    |               | AUS  | ENG  | IND  | PAK  | AUS   | ENG   | ENG      |                   8 |                12 |               4 |
+| Sackett         |               | IND  | SA   | NZ   | AUS  | IND   | SA    | IND      |                  24 |                46 |              22 |
+| Shaji           | USA           | IND  | PAK  | AUS  | ENG  | IND   | AUS   | IND      |                  24 |                40 |              16 |
+| Ram Narasimhan  | Orlando, FL   | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  24 |                39 |              15 |
+| Ishaan          | United States | IND  | AUS  | ENG  | NZ   | IND   | ENG   | IND      |                  16 |                35 |              19 |
+| Shriya          | Seattle       | IND  | AUS  | ENG  | NZ   | IND   | ENG   | IND      |                  16 |                35 |              19 |
+| Subbu Mahadevan | Palo Alto/USA | ENG  | IND  | NZ   | AUS  | ENG   | IND   | IND      |                  16 |                33 |              17 |
+| Vivek           | USA           | ENG  | IND  | AUS  | SA   | ENG   | IND   | IND      |                  16 |                33 |              17 |
+| Tees            | Seattle       | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |                  16 |                31 |              15 |
+| Rases           | India         | ENG  | IND  | NZ   | PAK  | PAK   | IND   | IND      |                  16 |                30 |              14 |
+| Gokul           |               | AUS  | IND  | ENG  | PAK  | AUS   | IND   | IND      |                  16 |                29 |              13 |
+| Sri Iyer        | USA           | AUS  | IND  | PAK  | ENG  | AUS   | IND   | AUS      |                  16 |                29 |              13 |
+| Cheen           | Singapore     | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |                  16 |                28 |              12 |
+| Subbu           | India         | ENG  | IND  | AUS  | NZ   | ENG   | IND   | ENG      |                   0 |                19 |              19 |
+| Dodo Prasad     | Boston        | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |                   0 |                17 |              17 |
+| bala            | Oakland       | ENG  | PAK  | IND  | AUS  | ENG   | IND   | ENG      |                   0 |                13 |              13 |
 | Hauroon         | Johor         | IND  | ENG  | NZ   | PAK  | ENG   | PAK   | ENG      |                   0 |                 7 |               7 |
+| Vish Calidas    |               | AUS  | ENG  | IND  | PAK  | AUS   | ENG   | ENG      |                   0 |                 4 |               4 |
 
  <br>
+
+### Semifinals Contest IND-NZ & AUS=SA
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name           | S1-Win          | S1-1stInnings   | S2-Win      | S2-1stInnings   | Defend-or-Chase   | Centuries         |   Current_Score |
+|:---------------|:----------------|:----------------|:------------|:----------------|:------------------|:------------------|----------------:|
+| #ash           | **IND-Comfort** | 300-349         | AUS-Comfort | <250            | Chase-Chase       | **>=2 Centuries** |               8 |
+| Ram Narasimhan | **IND-Comfort** | **>=350**       | AUS-Win     | 300-349         | Chase-Chase       | **>=1 Century**   |               8 |
+| Dodes          | NZ-Win          | 250-299         | AUS-Comfort | <250            | **Defend**-Chase  | **>=3 Centuries** |               6 |
+| Gokul          | IND-Win         | 250-299         | AUS-Comfort | 300-349         | **Defend**-Chase  | **>=2 Centuries** |               6 |
+| Shriya         | IND-Win         | 300-349         | SA-Win      | 250-299         | Chase-Defend      | **>=2 Centuries** |               6 |
+| Sri Iyer       | **IND-Comfort** | 300-349         | SA-Win      | 300-349         | Chase-Defend      | **>=1 Century**   |               6 |
+| Subbu          | **IND-Comfort** | 250-299         | AUS-Win     | 250-299         | Chase-Defend      | **>=1 Century**   |               6 |
+| Subbu M        | **IND-Comfort** | 300-349         | AUS-Win     | 250-299         | **Defend**-Chase  | **>=1 Century**   |               6 |
+| Vivek          | **IND-Comfort** | 250-299         | SA-Win      | 250-299         | Chase-Chase       | **>=1 Century**   |               6 |
+| ishaan         | **IND-Comfort** | 300-349         | SA-Win      | 300-349         | Chase-Chase       | **>=1 Century**   |               6 |
+| C V            | IND-Win         | 250-299         | AUS-Win     | 250-299         | Chase-Defend      | No Centuries      |               2 |
+| bala           | NZ-Win          | 300-349         | SA-Win      | 250-299         | Chase-Defend      | **>=1 Century**   |               2 |
+| Tees           | NZ-Win          | 250-299         | SA-Win      | 250-299         | **Defend**-Chase  | No Centuries      |               0 |
+
+<br>
 
 ### Minicontest #3 - India-Vs-South Africa
 

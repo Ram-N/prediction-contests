@@ -4,7 +4,6 @@ title: Group Leaderboard
 description: Points scored by the contestants
 background: '/img/bg_score.jpg'
 ---
-
 ## Group Contest -- PANIIT
 
 
@@ -14,21 +13,38 @@ background: '/img/bg_score.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name            | Location                | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
 |:----------------|:------------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Manoj  Shah     | Saint Cloud/Florida/USA | AUS  | IND  | NZ   | PAK  | AUS   | IND   | IND      |                  32 |                40 |               8 |
-| Amit Arora      | Atlanta                 | IND  | AUS  | PAK  | ENG  | IND   | AUS   | IND      |                  32 |                39 |               7 |
-| Ram Narasimhan  | Orlando, FL             | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  32 |                39 |               7 |
-| Rikhi Kaushal   | Wesley Chapel, USA      | AUS  | IND  | PAK  | SA   | IND   | AUS   | AUS      |                  32 |                39 |               7 |
-| Manish Bhatt    | Orlando                 | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  24 |                36 |              12 |
-| Surendra Gona   | Usa                     | ENG  | IND  | AUS  | NZ   | ENG   | IND   | IND      |                  24 |                35 |              11 |
-| Ajai Singh      | USA                     | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |                  24 |                32 |               8 |
-| Rupal           | Orlando, US             | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  24 |                31 |               7 |
-| Shiv Iyer       | Tampa/USA               | AUS  | IND  | ENG  | SA   | IND   | ENG   | IND      |                  24 |                31 |               7 |
-| Pradeep Haldar  | Land O Lakes/USA        | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |                  24 |                30 |               6 |
-| Rajiv Ranjan    | TAMPA                   | PAK  | IND  | ENG  | AUS  | IND   | ENG   | IND      |                  24 |                30 |               6 |
-| Atul Agarwal    | Tampa USA               | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |                  24 |                28 |               4 |
+| Amit Arora      | Atlanta                 | IND  | AUS  | PAK  | ENG  | IND   | AUS   | IND      |                  24 |                39 |              15 |
+| Ram Narasimhan  | Orlando, FL             | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  24 |                39 |              15 |
+| Rikhi Kaushal   | Wesley Chapel, USA      | AUS  | IND  | PAK  | SA   | IND   | AUS   | AUS      |                  24 |                39 |              15 |
+| Manish Bhatt    | Orlando                 | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  16 |                36 |              20 |
+| Surendra Gona   | Usa                     | ENG  | IND  | AUS  | NZ   | ENG   | IND   | IND      |                  16 |                35 |              19 |
+| Ajai Singh      | USA                     | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |                  16 |                32 |              16 |
+| Manoj  Shah     | Saint Cloud/Florida/USA | AUS  | IND  | NZ   | PAK  | AUS   | IND   | IND      |                  16 |                32 |              16 |
+| Rupal           | Orlando, US             | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  16 |                31 |              15 |
+| Shiv Iyer       | Tampa/USA               | AUS  | IND  | ENG  | SA   | IND   | ENG   | IND      |                  16 |                31 |              15 |
+| Pradeep Haldar  | Land O Lakes/USA        | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |                  16 |                30 |              14 |
+| Rajiv Ranjan    | TAMPA                   | PAK  | IND  | ENG  | AUS  | IND   | ENG   | IND      |                  16 |                30 |              14 |
+| Atul Agarwal    | Tampa USA               | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |                  16 |                28 |              12 |
 | Bhaskar Pulikal | Tampa/FL                | ENG  | IND  | BAN  | AUS  | BAN   | ENG   | BAN      |                   0 |                 6 |               6 |
 
  <br>
+
+### Semifinals Contest IND-NZ & AUS=SA
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name            | S1-Win          | S1-1stInnings   | S2-Win   | S2-1stInnings   | Defend-or-Chase   | Centuries         |   Current_Score |
+|:----------------|:----------------|:----------------|:---------|:----------------|:------------------|:------------------|----------------:|
+| Shiv Iyer       | **IND-Comfort** | 300-349         | SA-Win   | >=350           | **Defend**-Defend | **>=3 Centuries** |              10 |
+| Pradeep Haldar  | **IND-Comfort** | **>=350**       | AUS-Win  | 300-349         | Chase-Chase       | **>=1 Century**   |               8 |
+| Ram Narasimhan  | **IND-Comfort** | **>=350**       | AUS-Win  | 300-349         | Chase-Chase       | **>=1 Century**   |               8 |
+| Manoj  Shah     | **IND-Comfort** | 300-349         | AUS-Win  | 250-299         | Chase-Chase       | **>=1 Century**   |               6 |
+| Manoj Prabakar  | IND-Win         | 250-299         | AUS-Win  | 300-349         | **Defend**-Defend | **>=2 Centuries** |               6 |
+| Siva Kantamneni | **IND-Comfort** | 300-349         | SA-Win   | 250-299         | Chase-Defend      | **>=1 Century**   |               6 |
+| Kunal Soni      | IND-Win         | 250-299         | AUS-Win  | 250-299         | Chase-Defend      | **>=1 Century**   |               4 |
+| Rupal           | IND-Win         | 250-299         | SA-Win   | <250            | Chase-Defend      | **>=1 Century**   |               4 |
+
+<br>
 
 ### Minicontest #3 - India-Vs-South Africa
 
