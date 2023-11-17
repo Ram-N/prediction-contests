@@ -7,16 +7,18 @@ background: '/img/bg_score.jpg'
 
 ## Group Contest -- Santhanam Family
 
+
 ### Main ICC WC Prediction Contest
+
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name               | Location       | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
 |:-------------------|:---------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Radhika            | Mumbai         | AUS  | ENG  | IND  | NZ   | IND   | AUS   | AUS      |                  24 |                40 |              16 |
+| Radhika            | Mumbai         | AUS  | ENG  | IND  | NZ   | IND   | AUS   | AUS      |                  16 |                40 |              24 |
+| Kausalya Santhanam | Chennai/ India | AUS  | ENG  | IND  | SA   | AUS   | IND   | AUS      |                  16 |                38 |              22 |
 | Aditya             | Mumbai         | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |                  16 |                32 |              16 |
 | Rahul Santhanam    | United Kingdom | IND  | NZ   | ENG  | SL   | IND   | ENG   | IND      |                  16 |                31 |              15 |
 | G. S. SESHA RAJAN  | Bangalore, IN  | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |                  16 |                30 |              14 |
-| Kausalya Santhanam | Chennai/ India | AUS  | ENG  | IND  | SA   | AUS   | IND   | AUS      |                  16 |                30 |              14 |
 | R. Santhanam       | Chennai/ India | ENG  | IND  | NZ   | PAK  | ENG   | IND   | IND      |                  16 |                30 |              14 |
 
  <br>
@@ -27,9 +29,9 @@ background: '/img/bg_score.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name            | S1-Win          | S1-1stInnings   | S2-Win   | S2-1stInnings   | Defend-or-Chase   | Centuries         |   Current_Score |
 |:----------------|:----------------|:----------------|:---------|:----------------|:------------------|:------------------|----------------:|
-| R SANTHANAM     | **IND-Comfort** | 300-349         | AUS-Win  | 300-349         | **Defend**-Chase  | **>=2 Centuries** |               8 |
-| Radhika         | **IND-Comfort** | 250-299         | AUS-Win  | <250            | Chase-Defend      | **>=2 Centuries** |               8 |
-| Rahul Santhanam | **IND-Comfort** | 300-349         | AUS-Win  | >=350           | Chase-Defend      | **>=2 Centuries** |               8 |
+| R SANTHANAM     | **IND-Comfort** | 300-349         | AUS-Win  | 300-349         | **Defend**-Chase  | **>=2 Centuries** |              14 |
+| Radhika         | **IND-Comfort** | 250-299         | AUS-Win  | <250            | Chase-Defend      | **>=2 Centuries** |              14 |
+| Rahul Santhanam | **IND-Comfort** | 300-349         | AUS-Win  | >=350           | Chase-Defend      | **>=2 Centuries** |              12 |
 
 <br>
 

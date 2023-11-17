@@ -14,14 +14,30 @@ background: '/img/UB.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                | Location           | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
 |:--------------------|:-------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Ram Narasimhan      | Orlando, FL        | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  32 |                39 |               7 |
-| Srirangaraj Setlur  | Buffalo, NY, USA   | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  24 |                36 |              12 |
-| Alok Baveja         | Macungie, PA, USA  | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |                  24 |                31 |               7 |
-| Rupal               | Orlando, US        | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  24 |                31 |               7 |
-| Siva                | Cupertino, CA, USA | IND  | AUS  | PAK  | ENG  | IND   | ENG   | IND      |                  24 |                31 |               7 |
-| Sreenivas Gollapudi | Cupertino, CA      | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |                   8 |                17 |               9 |
+| Ram Narasimhan      | Orlando, FL        | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  16 |                39 |              23 |
+| Srirangaraj Setlur  | Buffalo, NY, USA   | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  16 |                36 |              20 |
+| Alok Baveja         | Macungie, PA, USA  | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |                  16 |                31 |              15 |
+| Rupal               | Orlando, US        | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  16 |                31 |              15 |
+| Siva                | Cupertino, CA, USA | IND  | AUS  | PAK  | ENG  | IND   | ENG   | IND      |                  16 |                31 |              15 |
+| Sreenivas Gollapudi | Cupertino, CA      | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |                   0 |                17 |              17 |
 
  <br>
+
+### Semifinals Contest IND-NZ & AUS=SA
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name                | S1-Win          | S1-1stInnings   | S2-Win     | S2-1stInnings   | Defend-or-Chase   | Centuries         |   Current_Score |
+|:--------------------|:----------------|:----------------|:-----------|:----------------|:------------------|:------------------|----------------:|
+| Sreenivas Gollapudi | **IND-Comfort** | **>=350**       | SA-Win     | 300-349         | **Defend**-Chase  | **>=3 Centuries** |              14 |
+| Ram Narasimhan      | **IND-Comfort** | **>=350**       | AUS-Win    | 300-349         | Chase-Chase       | **>=1 Century**   |              12 |
+| Srirangaraj Setlur  | **IND-Comfort** | 250-299         | AUS-Win    | 300-349         | Chase-Defend      | **>=1 Century**   |              10 |
+| Rupal               | IND-Win         | 250-299         | SA-Win     | <250            | Chase-Defend      | **>=1 Century**   |               6 |
+| Siva                | NZ-Win          | 250-299         | SA-Comfort | 300-349         | **Defend**-Chase  | **>=2 Centuries** |               6 |
+| Alok Baveja         | IND-Win         | 300-349         | SA-Win     | 250-299         | Chase-Defend      | **>=1 Century**   |               4 |
+| Ashish Naik         | IND-Win         | 250-299         | SA-Win     | 250-299         | Chase-Defend      | **>=1 Century**   |               4 |
+
+<br>
 
 ### Minicontest #3 - India-Vs-South Africa
 

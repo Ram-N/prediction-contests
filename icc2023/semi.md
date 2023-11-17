@@ -5,16 +5,19 @@ description: Predictions around Ind-NZ and SA-AUS
 background: '/img/wankhede.avif'
 ---
 
+Congrats to **Aakarsh, Kshitij, Radhika, Santhanam** and **Sreenivas** on winning
+the **semifinal prediction contest**
+
 ![India vs NZ]({{ '/img/2023ICC_Semifinals.jpg' | relative_url }})
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                 | S1-Win          | S1-1stInnings   | S2-Win      | S2-1stInnings   | Defend-or-Chase   | Centuries         |   Current_Score |
 |:---------------------|:----------------|:----------------|:------------|:----------------|:------------------|:------------------|----------------:|
-| **Aakarsh**              | **IND-Comfort** | **>=350**       | **AUS-Win** | 300-349         | Defend-Defend     | **>=2 Centuries** |              14 |
-| **Kshitij**              | **IND-Comfort** | **>=350**       | **AUS-Win** | >=350           | Defend-Defend     | **>=2 Centuries** |              14 |
-| **R SANTHANAM**          | **IND-Comfort** | 300-349         | **AUS-Win** | 300-349         | **Defend-Chase**  | **>=2 Centuries** |              14 |
-| **Radhika**              | **IND-Comfort** | 250-299         | **AUS-Win** | **<250**        | Chase-Defend      | **>=2 Centuries** |              14 |
-| **Sreenivas Gollapudi**  | **IND-Comfort** | **>=350**       | SA-Win      | 300-349         | **Defend-Chase**  | **>=3 Centuries** |              14 |
+| **Aakarsh**              | **IND-Comfort** | **>=350**       | **AUS-Win** | 300-349         | Defend-Defend     | **>=2 Centuries** |              **14** |
+| **Kshitij**              | **IND-Comfort** | **>=350**       | **AUS-Win** | >=350           | Defend-Defend     | **>=2 Centuries** |              **14** |
+| **R SANTHANAM**          | **IND-Comfort** | 300-349         | **AUS-Win** | 300-349         | **Defend-Chase**  | **>=2 Centuries** |              **14** |
+| **Radhika**              | **IND-Comfort** | 250-299         | **AUS-Win** | **<250**        | Chase-Defend      | **>=2 Centuries** |              **14** |
+| **Sreenivas Gollapudi**  | **IND-Comfort** | **>=350**       | SA-Win      | 300-349         | **Defend-Chase**  | **>=3 Centuries** |              **14** |
 | #ash                 | **IND-Comfort** | 300-349         | AUS-Comfort | **<250**        | Chase-Chase       | **>=2 Centuries** |              12 |
 | Dodes                | NZ-Win          | 250-299         | AUS-Comfort | **<250**        | **Defend-Chase**  | **>=3 Centuries** |              12 |
 | Pradeep Haldar       | **IND-Comfort** | **>=350**       | **AUS-Win** | 300-349         | Chase-Chase       | **>=1 Century**   |              12 |

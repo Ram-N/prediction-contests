@@ -6,20 +6,19 @@ background: '/img/bg_score.jpg'
 ---
 ## Group Contest -- PANIIT
 
-
 ### Main ICC WC Prediction Contest
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name            | Location                | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
 |:----------------|:------------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Amit Arora      | Atlanta                 | IND  | AUS  | PAK  | ENG  | IND   | AUS   | IND      |                  24 |                39 |              15 |
-| Ram Narasimhan  | Orlando, FL             | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  24 |                39 |              15 |
-| Rikhi Kaushal   | Wesley Chapel, USA      | AUS  | IND  | PAK  | SA   | IND   | AUS   | AUS      |                  24 |                39 |              15 |
+| Manoj  Shah     | Saint Cloud/Florida/USA | AUS  | IND  | NZ   | PAK  | AUS   | IND   | IND      |                  16 |                40 |              24 |
+| Amit Arora      | Atlanta                 | IND  | AUS  | PAK  | ENG  | IND   | AUS   | IND      |                  16 |                39 |              23 |
+| Ram Narasimhan  | Orlando, FL             | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  16 |                39 |              23 |
+| Rikhi Kaushal   | Wesley Chapel, USA      | AUS  | IND  | PAK  | SA   | IND   | AUS   | AUS      |                  16 |                39 |              23 |
 | Manish Bhatt    | Orlando                 | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  16 |                36 |              20 |
 | Surendra Gona   | Usa                     | ENG  | IND  | AUS  | NZ   | ENG   | IND   | IND      |                  16 |                35 |              19 |
 | Ajai Singh      | USA                     | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |                  16 |                32 |              16 |
-| Manoj  Shah     | Saint Cloud/Florida/USA | AUS  | IND  | NZ   | PAK  | AUS   | IND   | IND      |                  16 |                32 |              16 |
 | Rupal           | Orlando, US             | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  16 |                31 |              15 |
 | Shiv Iyer       | Tampa/USA               | AUS  | IND  | ENG  | SA   | IND   | ENG   | IND      |                  16 |                31 |              15 |
 | Pradeep Haldar  | Land O Lakes/USA        | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |                  16 |                30 |              14 |
@@ -35,14 +34,14 @@ background: '/img/bg_score.jpg'
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name            | S1-Win          | S1-1stInnings   | S2-Win   | S2-1stInnings   | Defend-or-Chase   | Centuries         |   Current_Score |
 |:----------------|:----------------|:----------------|:---------|:----------------|:------------------|:------------------|----------------:|
+| Pradeep Haldar  | **IND-Comfort** | **>=350**       | AUS-Win  | 300-349         | Chase-Chase       | **>=1 Century**   |              12 |
+| Ram Narasimhan  | **IND-Comfort** | **>=350**       | AUS-Win  | 300-349         | Chase-Chase       | **>=1 Century**   |              12 |
+| Manoj  Shah     | **IND-Comfort** | 300-349         | AUS-Win  | 250-299         | Chase-Chase       | **>=1 Century**   |              10 |
+| Manoj Prabakar  | IND-Win         | 250-299         | AUS-Win  | 300-349         | **Defend**-Defend | **>=2 Centuries** |              10 |
 | Shiv Iyer       | **IND-Comfort** | 300-349         | SA-Win   | >=350           | **Defend**-Defend | **>=3 Centuries** |              10 |
-| Pradeep Haldar  | **IND-Comfort** | **>=350**       | AUS-Win  | 300-349         | Chase-Chase       | **>=1 Century**   |               8 |
-| Ram Narasimhan  | **IND-Comfort** | **>=350**       | AUS-Win  | 300-349         | Chase-Chase       | **>=1 Century**   |               8 |
-| Manoj  Shah     | **IND-Comfort** | 300-349         | AUS-Win  | 250-299         | Chase-Chase       | **>=1 Century**   |               6 |
-| Manoj Prabakar  | IND-Win         | 250-299         | AUS-Win  | 300-349         | **Defend**-Defend | **>=2 Centuries** |               6 |
+| Kunal Soni      | IND-Win         | 250-299         | AUS-Win  | 250-299         | Chase-Defend      | **>=1 Century**   |               8 |
+| Rupal           | IND-Win         | 250-299         | SA-Win   | <250            | Chase-Defend      | **>=1 Century**   |               6 |
 | Siva Kantamneni | **IND-Comfort** | 300-349         | SA-Win   | 250-299         | Chase-Defend      | **>=1 Century**   |               6 |
-| Kunal Soni      | IND-Win         | 250-299         | AUS-Win  | 250-299         | Chase-Defend      | **>=1 Century**   |               4 |
-| Rupal           | IND-Win         | 250-299         | SA-Win   | <250            | Chase-Defend      | **>=1 Century**   |               4 |
 
 <br>
 
