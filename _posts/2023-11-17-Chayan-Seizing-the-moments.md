@@ -6,7 +6,7 @@ date: 2023-11-17 14:13:13 -0400
 background: '/img/eden.jpg'
 ---
 
-*Chayan Chakrabarti*
+*[Chayan Chakrabarti](https://www.linkedin.com/in/chayanchakrabarti)*
 
 ## Australia: Seizing the Moments
 In sports, champions share a few key traits. They have superlative talent, ambition, and execution. But what truly separates them from the pack is the ability to seize key moments. Cricket is no different, and **Australia** have especially demonstrated this trait in their World Cup Final appearances this century.
