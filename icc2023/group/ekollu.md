@@ -4,21 +4,36 @@ title: Ekollu Family Leaderboard
 description: Points scored by the contestants
 background: '/img/bg_score.jpg'
 ---
+
 ## Group Contest -- Ekollu Family
+
 
 ### Main ICC WC Prediction Contest
 
+
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name             | Location      | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
-|:-----------------|:--------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Srinidhi Kumbaji | Irving/US     | AUS  | ENG  | IND  | NZ   | IND   | AUS   | IND      |                  16 |                40 |              24 |
-| Aakarsh          | America       | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  16 |                36 |              20 |
-| Goutham Ekollu   | Saratoga      | IND  | ENG  | AUS  | SA   | IND   | ENG   | IND      |                  16 |                34 |              18 |
-| Krishnaveni K    | Saratoga, USA | AUS  | IND  | ENG  | PAK  | IND   | ENG   | IND      |                  16 |                29 |              13 |
+| Name             | Location      | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Pred_Score |
+|:-----------------|:--------------|:-----|:-----|:-----|:-----|:------|:------|:---------|-------------:|
+| Srinidhi Kumbaji | Irving/US     | AUS  | ENG  | IND  | NZ   | IND   | AUS   | IND      |           24 |
+| Aakarsh          | America       | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |           20 |
+| Goutham Ekollu   | Saratoga      | IND  | ENG  | AUS  | SA   | IND   | ENG   | IND      |           18 |
+| Krishnaveni K    | Saratoga, USA | AUS  | IND  | ENG  | PAK  | IND   | ENG   | IND      |           13 |
 
  <br>
 
-### Semifinals Contest IND-NZ & AUS=SA
+### Finals mini-contest IND-AUS
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name            | Win         | Defend-or-Chase   | 1stInnings   | Bowling   | Centuries       |   Pred_Score |
+|:----------------|:------------|:------------------|:-------------|:----------|:----------------|-------------:|
+| Goutham Ekollu  | IND-Comfort | Defend            | >=350        | 1 x 4W    | **>=1 Century** |            1 |
+| Aakarsh Ekollu. | IND-Comfort | Defend            | 300-349      | 2 x 3W    | >=2 Centuries   |            0 |
+| Krishnaveni K   | IND-Win     | Defend            | 300-349      | 2 x 3W    | >=2 Centuries   |            0 |
+
+<br>
+
+### Semifinals Contest IND-NZ & AUS-SA
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }

@@ -6,29 +6,47 @@ background: '/img/bg_score.jpg'
 ---
 ## Group Contest -- PANIIT
 
+
 ### Main ICC WC Prediction Contest
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name            | Location                | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
-|:----------------|:------------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Manoj  Shah     | Saint Cloud/Florida/USA | AUS  | IND  | NZ   | PAK  | AUS   | IND   | IND      |                  16 |                40 |              24 |
-| Amit Arora      | Atlanta                 | IND  | AUS  | PAK  | ENG  | IND   | AUS   | IND      |                  16 |                39 |              23 |
-| Ram Narasimhan  | Orlando, FL             | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  16 |                39 |              23 |
-| Rikhi Kaushal   | Wesley Chapel, USA      | AUS  | IND  | PAK  | SA   | IND   | AUS   | AUS      |                  16 |                39 |              23 |
-| Manish Bhatt    | Orlando                 | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  16 |                36 |              20 |
-| Surendra Gona   | Usa                     | ENG  | IND  | AUS  | NZ   | ENG   | IND   | IND      |                  16 |                35 |              19 |
-| Ajai Singh      | USA                     | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |                  16 |                32 |              16 |
-| Rupal           | Orlando, US             | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  16 |                31 |              15 |
-| Shiv Iyer       | Tampa/USA               | AUS  | IND  | ENG  | SA   | IND   | ENG   | IND      |                  16 |                31 |              15 |
-| Pradeep Haldar  | Land O Lakes/USA        | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |                  16 |                30 |              14 |
-| Rajiv Ranjan    | TAMPA                   | PAK  | IND  | ENG  | AUS  | IND   | ENG   | IND      |                  16 |                30 |              14 |
-| Atul Agarwal    | Tampa USA               | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |                  16 |                28 |              12 |
-| Bhaskar Pulikal | Tampa/FL                | ENG  | IND  | BAN  | AUS  | BAN   | ENG   | BAN      |                   0 |                 6 |               6 |
+| Name            | Location                | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Pred_Score |
+|:----------------|:------------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|-------------:|
+| Rikhi Kaushal   | Wesley Chapel, USA      | AUS  | IND  | PAK  | SA   | IND   | AUS   | AUS      |           39 |
+| Ram Narasimhan  | Orlando, FL             | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |           39 |
+| Manoj  Shah     | Saint Cloud/Florida/USA | AUS  | IND  | NZ   | PAK  | AUS   | IND   | IND      |           24 |
+| Amit Arora      | Atlanta                 | IND  | AUS  | PAK  | ENG  | IND   | AUS   | IND      |           23 |
+| Manish Bhatt    | Orlando                 | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |           20 |
+| Surendra Gona   | Usa                     | ENG  | IND  | AUS  | NZ   | ENG   | IND   | IND      |           19 |
+| Ajai Singh      | USA                     | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |           16 |
+| Rupal           | Orlando, US             | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |           15 |
+| Shiv Iyer       | Tampa/USA               | AUS  | IND  | ENG  | SA   | IND   | ENG   | IND      |           15 |
+| Pradeep Haldar  | Land O Lakes/USA        | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |           14 |
+| Rajiv Ranjan    | TAMPA                   | PAK  | IND  | ENG  | AUS  | IND   | ENG   | IND      |           14 |
+| Atul Agarwal    | Tampa USA               | AUS  | ENG  | IND  | PAK  | IND   | ENG   | IND      |           12 |
+| Bhaskar Pulikal | Tampa/FL                | ENG  | IND  | BAN  | AUS  | BAN   | ENG   | BAN      |            6 |
 
  <br>
 
-### Semifinals Contest IND-NZ & AUS=SA
+### Finals mini-contest IND-AUS
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name              | Win         | Defend-or-Chase   | 1stInnings   | Bowling    | Centuries       |   Pred_Score |
+|:------------------|:------------|:------------------|:-------------|:-----------|:----------------|-------------:|
+| Rupal             | IND-Win     | **Chase**         | 250-299      | 2 x 3W     | **>=1 Century** |            3 |
+| Ram Narasimhan    | IND-Comfort | **Chase**         | 250-299      | 2 x 3W     | **>=1 Century** |            3 |
+| Siva P Kantamneni | IND-Comfort | **Chase**         | 300-349      | 2 x 3W     | >=2 Centuries   |            2 |
+| Kunal Soni        | IND-Comfort | Defend            | 300-349      | 1 x 4W     | **>=1 Century** |            1 |
+| Manoj  Shah       | IND-Win     | Defend            | 250-299      | **1 x 3W** | No Centuries    |            1 |
+| Pradeep Haldar    | IND-Win     | Defend            | 300-349      | **1 x 3W** | No Centuries    |            1 |
+| Manish Bhatt      | IND-Win     | Defend            | 300-349      | 1 x 4W     | >=2 Centuries   |            0 |
+| Shiv Iyer         | IND-Comfort | Defend            | 300-349      | 2 x 3W     | >=3 Centuries   |            0 |
+
+<br>
+
+### Semifinals Contest IND-NZ & AUS-SA
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }

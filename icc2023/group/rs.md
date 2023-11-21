@@ -12,18 +12,31 @@ background: '/img/bg_score.jpg'
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name               | Location       | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
-|:-------------------|:---------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Radhika            | Mumbai         | AUS  | ENG  | IND  | NZ   | IND   | AUS   | AUS      |                  16 |                40 |              24 |
-| Kausalya Santhanam | Chennai/ India | AUS  | ENG  | IND  | SA   | AUS   | IND   | AUS      |                  16 |                38 |              22 |
-| Aditya             | Mumbai         | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |                  16 |                32 |              16 |
-| Rahul Santhanam    | United Kingdom | IND  | NZ   | ENG  | SL   | IND   | ENG   | IND      |                  16 |                31 |              15 |
-| G. S. SESHA RAJAN  | Bangalore, IN  | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |                  16 |                30 |              14 |
-| R. Santhanam       | Chennai/ India | ENG  | IND  | NZ   | PAK  | ENG   | IND   | IND      |                  16 |                30 |              14 |
+| Name               | Location       | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Pred_Score |
+|:-------------------|:---------------|:-----|:-----|:-----|:-----|:------|:------|:---------|-------------:|
+| Radhika            | Mumbai         | AUS  | ENG  | IND  | NZ   | IND   | AUS   | AUS      |           40 |
+| Kausalya Santhanam | Chennai/ India | AUS  | ENG  | IND  | SA   | AUS   | IND   | AUS      |           38 |
+| Aditya             | Mumbai         | AUS  | ENG  | IND  | NZ   | ENG   | IND   | IND      |           16 |
+| Rahul Santhanam    | United Kingdom | IND  | NZ   | ENG  | SL   | IND   | ENG   | IND      |           15 |
+| G. S. SESHA RAJAN  | Bangalore, IN  | IND  | ENG  | PAK  | SA   | IND   | ENG   | IND      |           14 |
+| R. Santhanam       | Chennai/ India | ENG  | IND  | NZ   | PAK  | ENG   | IND   | IND      |           14 |
 
  <br>
 
-### Semifinals Contest IND-NZ & AUS=SA
+### Finals mini-contest IND-AUS
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name               | Win         | Defend-or-Chase   | 1stInnings   | Bowling    | Centuries     |   Pred_Score |
+|:-------------------|:------------|:------------------|:-------------|:-----------|:--------------|-------------:|
+| KAUSALYA SANTHANAM | IND-Win     | Defend            | 250-299      | **1 x 3W** | >=2 Centuries |            1 |
+| Radhika            | IND-Comfort | Defend            | 250-299      | **1 x 3W** | >=3 Centuries |            1 |
+| R SANTHANAM        | IND-Win     | Defend            | 250-299      | 2 x 3W     | No Centuries  |            0 |
+| Rahul Santhanam    | IND-Comfort | Defend            | 300-349      | 2 x 3W     | No Centuries  |            0 |
+
+<br>
+
+### Semifinals Contest IND-NZ & AUS-SA
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }

@@ -4,7 +4,6 @@ title: Leaderboard for UB
 description: Points scored by the contestants
 background: '/img/UB.jpg'
 ---
-
 ## Group Contest -- UB
 
 
@@ -12,18 +11,34 @@ background: '/img/UB.jpg'
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name                | Location           | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Earning Potential |   Theoretical max |   Current_Score |
-|:--------------------|:-------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|--------------------:|------------------:|----------------:|
-| Ram Narasimhan      | Orlando, FL        | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |                  16 |                39 |              23 |
-| Srirangaraj Setlur  | Buffalo, NY, USA   | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |                  16 |                36 |              20 |
-| Alok Baveja         | Macungie, PA, USA  | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |                  16 |                31 |              15 |
-| Rupal               | Orlando, US        | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |                  16 |                31 |              15 |
-| Siva                | Cupertino, CA, USA | IND  | AUS  | PAK  | ENG  | IND   | ENG   | IND      |                  16 |                31 |              15 |
-| Sreenivas Gollapudi | Cupertino, CA      | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |                   0 |                17 |              17 |
+| Name                | Location           | Q1   | Q2   | Q3   | Q4   | SF1   | SF2   | Finals   |   Pred_Score |
+|:--------------------|:-------------------|:-----|:-----|:-----|:-----|:------|:------|:---------|-------------:|
+| Ram Narasimhan      | Orlando, FL        | IND  | AUS  | PAK  | ENG  | IND   | AUS   | AUS      |           39 |
+| Srirangaraj Setlur  | Buffalo, NY, USA   | IND  | ENG  | AUS  | NZ   | IND   | ENG   | IND      |           20 |
+| Sreenivas Gollapudi | Cupertino, CA      | ENG  | AUS  | IND  | NZ   | ENG   | IND   | ENG      |           17 |
+| Alok Baveja         | Macungie, PA, USA  | ENG  | IND  | AUS  | PAK  | ENG   | IND   | IND      |           15 |
+| Rupal               | Orlando, US        | IND  | ENG  | PAK  | AUS  | IND   | PAK   | IND      |           15 |
+| Siva                | Cupertino, CA, USA | IND  | AUS  | PAK  | ENG  | IND   | ENG   | IND      |           15 |
 
  <br>
 
-### Semifinals Contest IND-NZ & AUS=SA
+### Finals mini-contest IND-AUS
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name               | Win         | Defend-or-Chase   | 1stInnings   | Bowling   | Centuries       |   Pred_Score |
+|:-------------------|:------------|:------------------|:-------------|:----------|:----------------|-------------:|
+| Ram Narasimhan     | IND-Comfort | **Chase**         | 250-299      | 2 x 3W    | **>=1 Century** |            3 |
+| Rupal              | IND-Win     | **Chase**         | 250-299      | 2 x 3W    | **>=1 Century** |            3 |
+| Srirangaraj Setlur | IND-Win     | **Chase**         | 300-349      | 2 x 3W    | **>=1 Century** |            3 |
+| Alok Baveja        | IND-Win     | **Chase**         | 300-349      | 2 x 3W    | >=2 Centuries   |            2 |
+| Siva               | IND-Comfort | **Chase**         | 300-349      | 1 x 4W    | No Centuries    |            2 |
+| Sreenivas G        | IND-Win     | **Chase**         | 250-299      | 2 x 3W    | No Centuries    |            2 |
+| Ashish Naik        | IND-Win     | Defend            | 300-349      | 1 x 5W    | **>=1 Century** |            1 |
+
+<br>
+
+### Semifinals Contest IND-NZ & AUS-SA
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
