@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: "Semifinals Prediction Contest"
-title: "Leaderboard after the India-NZ Match"
+title: "Leaderboard after Semifinal 1"
 date: 2023-11-15 13:05:13 -0400
 background: '/img/wankhede.avif'
 ---
