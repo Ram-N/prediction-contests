@@ -8,38 +8,37 @@ background: '/img/bg_nfl.webp'
 
 ### Main NFL-2023 Contest
 
-- The main contest consists of 9 games:
-    - The last 2 wild card games 
+- The main contest consists of 13 games:
+    - 6 wild card games 
     - 4 divisional playoffs 
     - 2 conference championship games 
     - the 2023 SuperBowl
 
+### Leaderboard after 6 Wild Card games NFL-2023
 
-### 4 Wild Card games NFL-2023 (before Bills/Steelers)
-- Note that these games are NOT counted for the "main contest."
-
+The best predictor for each game is shown in Bold.
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name                |   Penalty |   Texans-Browns |   Lions-Rams |   Packers-Cowboys |   Chiefs-Dolphins |
-|:--------------------|----------:|----------------:|-------------:|------------------:|------------------:|
-| Ankit Agrawal       |      **2.36** |            0.51 |         0.49 |              1.14 |              0.22 |
-| Pankaj              |      2.88 |            0.18 |         0.84 |              1.72 |              0.14 |
-| Sridhar S           |      3.29 |            1.41 |         0.49 |              0.74 |              0.65 |
-| Aarush              |      3.82 |            0.74 |         0.68 |              1.26 |              1.14 |
-| Ranga Setlur        |      4    |            1    |         0.68 |              2    |              0.32 |
-| Gokul               |      4.08 |            1    |         0.89 |              1.14 |              1.05 |
-| Kshitij             |      4.12 |            1.02 |         0.86 |              1.3  |              0.94 |
-| vivek               |      4.34 |            1    |         1.17 |              1.17 |              1    |
-| #arsh               |      4.59 |            1.17 |         1.58 |              1.1  |              0.74 |
-| Alok Baveja         |      4.68 |            1.68 |         1.32 |              1.08 |              0.6  |
-| Sri Iyer            |      4.97 |            1    |         0.58 |              2.81 |              0.58 |
-| Siva                |      5.6  |            1    |         1    |              3.46 |              0.14 |
-| Sreenivas Gollapudi |      7.02 |            1.58 |         1    |              4.39 |              0.05 |
-| Ashish Naik         |      8.67 |            1    |         1.58 |              5.67 |              0.42 |
-| Sriram Venkatesh    |      9.46 |            3.46 |         1    |              4.95 |              0.05 |
+| Name                | Penalty   | HOU-CLE   | DET-LAR   | GNB-DAL   | KAN-MIA   | BUF-PIT   | TAM-PHI   |
+|:--------------------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
+| Ankit Agrawal       | **3.94**  | 0.51      | **0.49**  | 1.14      | 0.22      | 0.58      | 1.0       |
+| Aarush              | 4.56      | 0.74      | 0.68      | 1.26      | 1.14      | **0.0**   | 0.74      |
+| Pankaj              | 4.94      | **0.18**  | 0.84      | 1.72      | 0.14      | 0.74      | 1.32      |
+| Sridhar S           | 5.05      | 1.41      | **0.49**  | **0.74**  | 0.65      | 0.26      | 1.5       |
+| Yash Aggarwal       | 5.06      | 1.0       | 0.58      | 2.32      | 0.58      | **0.0**   | **0.58**  |
+| Ranga Setlur        | 5.17      | 1.0       | 0.68      | 2.0       | 0.32      | 0.17      | 1.0       |
+| Alok Baveja         | 6.24      | 1.68      | 1.32      | 1.08      | 0.6       | 0.42      | 1.14      |
+| vivek               | 6.25      | 1.0       | 1.17      | 1.17      | 1.0       | 0.74      | 1.17      |
+| #arsh               | 6.3       | 1.17      | 1.58      | 1.1       | 0.74      | 0.49      | 1.22      |
+| Kshitij             | 6.35      | 1.02      | 0.86      | 1.3       | 0.94      | 1.09      | 1.14      |
+| Gokul               | 6.4       | 1.0       | 0.89      | 1.14      | 1.05      | 0.58      | 1.74      |
+| Sreenivas Gollapudi | 8.64      | 1.58      | 1.0       | 4.39      | **0.05**  | 0.04      | 1.58      |
+| Sri Iyer            | 9.37      | 1.0       | 0.58      | 2.81      | 0.58      | 0.01      | 4.39      |
+| Siva                | 12.84     | 1.0       | 1.0       | 3.46      | 0.14      | 0.58      | 6.66      |
+| Sriram Venkatesh    | 14.46     | 3.46      | 1.0       | 4.95      | **0.05**  | 0.05      | 4.95      |
+| Ashish Naik         | 16.97     | 1.0       | 1.58      | 5.67      | 0.42      | 0.07      | 8.23      |
 
-
-# Main NFL-2023 Predictions
+### Main NFL-2023 Predictions
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                |   Ravens |   Bills |   Chiefs |   Texans |   Browns |   Dolphins |   Steelers |   49ers |   Cowboys |   Lions |   Buccaneers |   Eagles |   Rams |   Packers |
@@ -59,5 +58,6 @@ background: '/img/bg_nfl.webp'
 | Kshitij             |     5000 |    3900 |     3500 |     2900 |     3000 |       3200 |       4400 |    5000 |      4400 |    3900 |         2900 |     3500 |   3200 |      3000 |
 | Pankaj              |       90 |      60 |       95 |       75 |       10 |         10 |         40 |      85 |        80 |      70 |           50 |       75 |     55 |        35 |
 | Ankit Agrawal       |     8000 |    5000 |     6000 |     7000 |     3000 |       1000 |       2500 |    8000 |      6000 |    5000 |         3000 |     3000 |   2000 |      5000 |
+| Yash Aggarwal       |     4000 |    3000 |     2000 |     3000 |     3000 |       1000 |          1 |   10000 |      4000 |    4000 |         2000 |     1000 |   2000 |      1000 |
 
 <!-- ![Predictions 2023]({{ '/img/winner1.png' | relative_url }}) -->
