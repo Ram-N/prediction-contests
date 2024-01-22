@@ -6,23 +6,23 @@ background: '/img/bg_nfl.webp'
 ---
 
 
-## Mini-Contest: Divisional Champions NFL-2023
+## Mini-Contest: Divisional Playoffs 2023
 
 - This mini contest consists the 4 divisional playoffs 
 
-### Leaderboard for the 4 Divisional Games NFL-2023
+- The main contest (all 13 games) can be found [here](https://ram-n.github.io/prediction-contests/nfl2023/leaderboard)
 
-**Mini contest Winner: Siva**
+### Leaderboard for the 4 Divisional Games NFL-2023
 
 The following 5 people called all four divisional playoff games correctly:
 **Siva, Sridhar S, Gokul, Pankaj** and **Ankit Agrawal.**
 
+**Mini contest Winner: Siva**
 
 Congrats to **Siva** for winning the mini-contest with an impressive 0.3 penalty after 4 games. Runner up: **Sriram Venkatesh**, 3rd place: **Sri Iyer**
 
-Sri Iyer had the best prediction (max confidence) in the Lions.
+Sri Iyer had the best prediction for (max confidence in) the Detroit Lions.
 Special mention to **Ashish Naik** for his utmost confidence in the Ravens and the 49ers. (He scored an impressive 0.00 in both!)
-
 
 The best predictor for each game is shown in Bold.
 
@@ -46,4 +46,6 @@ The best predictor for each game is shown in Bold.
 | Aarush              |          3.79 | 0.81      | 0.58      | 1.14      | 1.26      |
 | #arsh               |          5.55 | 2.32      | 0.83      | 1.32      | 1.08      |
 
-<!-- ![Predictions 2023]({{ '/img/winner1.png' | relative_url }}) -->
+
+- The main contest (all 13 games) can be found [here](https://ram-n.github.io/prediction-contests/nfl2023/leaderboard)
+
