@@ -16,6 +16,8 @@ background: '/img/bg_nfl.webp'
 
 ### Leaderboard after 12 Playoff Games NFL-2023
 
+(Only the SuperBowl remains)
+
 The best predictor for each game is shown in Bold.
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
