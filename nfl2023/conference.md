@@ -14,14 +14,14 @@ background: '/img/bg_nfl.webp'
 
 ### Leaderboard for the 2 Conference Championship Games NFL-2023 
 
-Baltimore vs Kansas: Only 2 people correctly ranked the Chiefs over the Ravens. Congrats
-**#Harshdeep N** and **Pankaj**
+Baltimore vs Kansas: Only 2 people correctly ranked the Chiefs over the Ravens. 
+Congrats **#Harshdeep N** and **Pankaj**
 
 All the participants (100%!!) correctly picked the 49ers over the Lions.
 
 **Mini contest Winner: Harshdeep**
 
-Congrats to **#Harsh** for winning the mini-contest with an impressive 0.44 penalty for the two games. Runner up: **Sreenivas Gollapudi**, 3rd place: **Ashish Naik**
+Congrats to **#Harsh** for winning the mini-contest with an impressive 0.44 penalty for the two games. Runner up: **Sreenivas Gollapudi**, 3rd place: **Ashish Naik** & **Vivek**
 
 The best predictor for each game is shown in Bold.
 
