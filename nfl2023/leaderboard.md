@@ -16,9 +16,9 @@ background: '/img/bg_nfl.webp'
 
 ### Final Leaderboard for all NFL-2023 Playoff Games
 
-**Winner: Ankit Agrawal**
-*Runner up: Pankaj*
-*3rd place: Sridha S*
+- **Winner: Ankit Agrawal**
+- *Runner up: Pankaj*
+- *3rd place: Sridha S*
 
 Congratulations Ankit, for leading from the wildcard games and staying on top throughout. Well done.
 
