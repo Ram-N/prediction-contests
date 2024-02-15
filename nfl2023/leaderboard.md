@@ -18,7 +18,7 @@ background: '/img/bg_nfl.webp'
 
 - **Winner: Ankit Agrawal**
 - *Runner up: Pankaj*
-- *3rd place: Sridha S*
+- *3rd place: Sridhar S*
 
 Congratulations Ankit, for leading from the wildcard games and staying on top throughout. Well done.
 
