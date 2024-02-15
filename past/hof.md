@@ -11,6 +11,11 @@ Win a contest to get your name up here.
 {:.thead-dark .table-striped .table-bordered .table-sm }
 |Year	|Contest	|Winners|
 |---|---|---|
+|2024|	NFL 2023 Main Contest	|Ankit Agrawal|
+|2024|	NFL 2023 Superbowl Mini Contest	|Pankaj|
+|2024|	NFL 2023 Conference Mini Contest	|Harshdeep|
+|2024|	NFL 2023 Divisional Mini Contest	|D Sivakumar|
+|2024|	NFL 2023 Wildcards Mini Contest	|Ankit Agrawal|
 |2023|	ICC 2023 WC Main Contest	|Keshav Narasimhan|
 |2023|	ICC 2023 WC Finals minicontest	|Chayan, Keshav, Kshitij, Mukund, and Sriram Venkatesh|
 |2023|	ICC 2023 WC Semis minicontest	|Aakarsh, Kshitij, Radhika, R Santhanam and G Sreenivas |
