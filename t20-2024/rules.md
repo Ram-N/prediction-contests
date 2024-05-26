@@ -17,7 +17,6 @@ permalink: "/t20-2024/rules"
 - You are competing for glory. The winner will be the undisputed **T20 Worldcup Prediction Champion** for the next 4 years, until the next T20 World cup.
 - The winner of each stage will make it to the [Prediction Hall of Fame](/prediction-contests/past/hof)
 
-**Entry Deadline: 05 October 2023**, before the first ball is bowled. (2:00 pm IST). The form will not accept entries after that time.
 
 
 ## T20 World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2024_ICC_Men%27s_T20_World_Cup)
