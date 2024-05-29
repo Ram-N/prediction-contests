@@ -28,17 +28,18 @@ permalink: "/t20-2024/rules"
 ## Scoring Rules for the Prediction Contest
 
 ### Group Stage
-- You have to pick the 2 qualifying teams for each group
+
+You pick two teams per group, and for each one, you predict whether it will be the Group winner or the Group runner-up.  For each team you picked, you get 2 points if they advance from the group stage by landing in the exact position (winner/runner-up) you picked. You get 1 point if they advance to the next stage, but in the other position (winner/runner-up). You get 0 points if they don't advance from the group stage.
+
+**Summary**
 - 2 Points if you get the team and its position exactly correct.
 - 1 point if you get the team right, but the rank is off. (Ex. You predicted Afghanistan will finish 2nd, but if Afghanistan finishes 1st - you get only one point.)
 - 0 points if you pick a team that does not qualify in either of the top 2 spots
 - The maximum possible score in the Group Stage is **16 points**. (2+2) x 4 groups
 
-**Clarification**: There are 2 points for each qualifier identified correctly _in its correct ranking_. If you predict the top qualifying team as the #1 qualifier, you get 2 points. But if you predict that it will be the runner-up, you only get 1 point. You lose one point for having gotten the ranking wrong. 
 
-
-**Deadline: Group Stage Predictions close on May 31st, 23:59 UTC**
-(Before the 1st match starts. So please don't wait!)
+**Deadline: Group Stage Predictions close on May 31st**
+(That is, before the 1st match starts. So please don't wait!)
 
 ### Super 8 Stage
 
