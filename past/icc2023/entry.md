@@ -6,7 +6,7 @@ subheadline: "Use this to submit your predictions"
 teaser: "Use this to submit your predictions"
 header:
    image_fullwidth: "header_unsplash_9.jpg"
-permalink: "/icc2023/entry/"
+permalink: "/past/icc2023/entry"
 ---
 
 ## You entry submission must be made before October 5, 2023, 2:00 PM IST (4:30 AM EST)
