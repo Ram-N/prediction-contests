@@ -15,6 +15,9 @@ permalink: "/t20-2024/leaderboard"
 
 Please note that these scores are **Provisional**. Assuming ENGland, USA and BANgladesh qualify in the runners-up spots, and that AFG ends up above WI, these will be the prediction scores.
 
+**Bold** = 2 points
+_italics_ = 1 point
+
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name                           | Location               | A1      | A2      | B1      | B2      | C1      | C2     | D1     | D2      |   Score* |
