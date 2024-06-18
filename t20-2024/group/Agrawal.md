@@ -14,13 +14,13 @@ background: '/img/bg_score.jpg'
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name           | Location    | A1      | A2   | B1      | B2      | C1   | C2     | D1     | D2      |   Score |
-|:---------------|:------------|:--------|:-----|:--------|:--------|:-----|:-------|:-------|:--------|--------:|
-| Rupal          | US          | **IND** | PAK  | **AUS** | **ENG** | NZ   | **WI** | **SA** | **BAN** |      12 |
-| Kshitij        | Richmond    | **IND** | PAK  | **AUS** | **ENG** | NZ   | **WI** | **SA** | SL      |      10 |
-| Ram N          | Orlando, FL | **IND** | PAK  | **AUS** | **ENG** | NZ   | **WI** | **SA** | SL      |      10 |
-| Meenal Choksi  | Pune / IND  | **IND** | PAK  | **AUS** | **ENG** | NZ   | *AFG*  | SL     | **BAN** |       9 |
-| Asheesh Choksi | Pune / IND  | **IND** | PAK  | *ENG*   | *AUS*   | NZ   | *AFG*  | *BAN*  | *SA*    |       7 |
+| Name           | Location    | A1      | A2   | B1      | B2      | C1   | C2      | D1     | D2      |   Score |
+|:---------------|:------------|:--------|:-----|:--------|:--------|:-----|:--------|:-------|:--------|--------:|
+| Rupal          | US          | **IND** | PAK  | **AUS** | **ENG** | NZ   | *WI*    | **SA** | **BAN** |      11 |
+| Meenal Choksi  | Pune / IND  | **IND** | PAK  | **AUS** | **ENG** | NZ   | **AFG** | SL     | **BAN** |      10 |
+| Kshitij        | Richmond    | **IND** | PAK  | **AUS** | **ENG** | NZ   | *WI*    | **SA** | SL      |       9 |
+| Ram N          | Orlando, FL | **IND** | PAK  | **AUS** | **ENG** | NZ   | *WI*    | **SA** | SL      |       9 |
+| Asheesh Choksi | Pune / IND  | **IND** | PAK  | *ENG*   | *AUS*   | NZ   | **AFG** | *BAN*  | *SA*    |       8 |
 
  <br>
 

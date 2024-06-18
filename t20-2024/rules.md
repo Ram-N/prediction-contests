@@ -27,6 +27,15 @@ permalink: "/t20-2024/rules"
 
 ## Scoring Rules for the Prediction Contest
 
+**Deadline: Super-8 Predictions close on June 19th**
+That is, before the 1st match starts. So please don't wait!
+
+### Super 8 Stage
+
+- 4 points for getting the team and the ranking correct. 
+- 2 points if you get only the team correct, but not its ranking. 
+- Maximum possible points = 8+8 = 16.
+
 ### Group Stage
 
 You pick two teams per group, and for each one, you predict whether it will be the Group winner or the Group runner-up.  For each team you picked, you get 2 points if they advance from the group stage by landing in the exact position (winner/runner-up) you picked. You get 1 point if they advance to the next stage, but in the other position (winner/runner-up). You get 0 points if they don't advance from the group stage.
@@ -38,22 +47,8 @@ You pick two teams per group, and for each one, you predict whether it will be t
 - The maximum possible score in the Group Stage is **16 points**. (2+2) x 4 groups
 
 
-**Deadline: Group Stage Predictions close on May 31st**
-(That is, before the 1st match starts. So please don't wait!)
-
-### Super 8 Stage
-
-- Scoring system is yet to be released.
-
-
-### Finals
-
-- Scoring system is yet to be released.
-
-
-
 ### Leaderboard
-The leaderboard will be updated regularly, once the Group stage nears its completion and some team places are known.
+The leaderboard is updated regularly and can be found here: https://ram-n.github.io/prediction-contests/t20-2024/leaderboard
 
 The **Ultimate Winner** will be the person with the maximum points after combining the scores of the Group stage, The Super 8 stage and the Knock-outs (until the final match).
 
@@ -62,7 +57,7 @@ The **Ultimate winner** will be declared on June 29th, 2024.
 If you have friends or relatives who are cricket lovers, invite them to try. 
 It takes less than a minute to make the predictions.
 
-Good luck. If you are ready to enter your predictions, the form can be found **[here](http://bit.ly/t20worldcup-groupstage)**
+Good luck. If you are ready to enter your predictions, the form can be found **[here](http://bit.ly/t20worldcup-super8)**
 
 ### [Click for Entry Form](https://bit.ly/t20worldcup-groupstage)
 

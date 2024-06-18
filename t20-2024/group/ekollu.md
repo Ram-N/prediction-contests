@@ -14,12 +14,12 @@ background: '/img/bg_score.jpg'
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name                | Location             | A1      | A2   | B1      | B2      | C1   | C2     | D1     | D2   |   Score |
-|:--------------------|:---------------------|:--------|:-----|:--------|:--------|:-----|:-------|:-------|:-----|--------:|
-| Dhanush Ekollu      | Saratoga, CA, USA    | **IND** | PAK  | **AUS** | **ENG** | *WI* | NZ     | **SA** | SL   |       9 |
-| Krishnaveni Kumbaji | Saratoga, CA         | **IND** | PAK  | **AUS** | **ENG** | NZ   | *AFG*  | **SA** | SL   |       9 |
-| Goutham Ekollu      | Saratoga             | **IND** | PAK  | **AUS** | **ENG** | *WI* | NZ     | *BAN*  | *SA* |       9 |
-| Aakarsh             | Saratoga, California | **IND** | PAK  | *ENG*   | *AUS*   | NZ   | **WI** | SL     | *SA* |       7 |
+| Name                | Location             | A1      | A2   | B1      | B2      | C1     | C2      | D1     | D2   |   Score |
+|:--------------------|:---------------------|:--------|:-----|:--------|:--------|:-------|:--------|:-------|:-----|--------:|
+| Dhanush Ekollu      | Saratoga, CA, USA    | **IND** | PAK  | **AUS** | **ENG** | **WI** | NZ      | **SA** | SL   |      10 |
+| Goutham Ekollu      | Saratoga             | **IND** | PAK  | **AUS** | **ENG** | **WI** | NZ      | *BAN*  | *SA* |      10 |
+| Krishnaveni Kumbaji | Saratoga, CA         | **IND** | PAK  | **AUS** | **ENG** | NZ     | **AFG** | **SA** | SL   |      10 |
+| Aakarsh             | Saratoga, California | **IND** | PAK  | *ENG*   | *AUS*   | NZ     | *WI*    | SL     | *SA* |       6 |
 
  <br>
 

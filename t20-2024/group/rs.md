@@ -16,16 +16,15 @@ background: '/img/bg_score.jpg'
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name              | Location       | A1      | A2   | B1      | B2      | C1   | C2     | D1     | D2   |   Score |
-|:------------------|:---------------|:--------|:-----|:--------|:--------|:-----|:-------|:-------|:-----|--------:|
-| R. Santhanam      | IND            | **IND** | PAK  | **AUS** | **ENG** | *WI* | *AFG*  | **SA** | SL   |      10 |
-| Kausalya          | IND            | **IND** | PAK  | **AUS** | **ENG** | NZ   | *AFG*  | **SA** | NED  |       9 |
-| Aditya Iyengar    | IND            | **IND** | PAK  | *ENG*   | *AUS*   | NZ   | **WI** | *BAN*  | *SA* |       8 |
-| Radhika Santhanam | Mumbai, IND    | **IND** | PAK  | *ENG*   | *AUS*   | NZ   | **WI** | **SA** | SL   |       8 |
-| Rahul Santhanam   | United Kingdom | **IND** | PAK  | *ENG*   | *AUS*   | *WI* | NZ     | **SA** | SL   |       7 |
+| Name              | Location       | A1      | A2   | B1      | B2      | C1     | C2      | D1     | D2   |   Score |
+|:------------------|:---------------|:--------|:-----|:--------|:--------|:-------|:--------|:-------|:-----|--------:|
+| R. Santhanam      | IND            | **IND** | PAK  | **AUS** | **ENG** | **WI** | **AFG** | **SA** | SL   |      12 |
+| Kausalya          | IND            | **IND** | PAK  | **AUS** | **ENG** | NZ     | **AFG** | **SA** | NED  |      10 |
+| Rahul Santhanam   | United Kingdom | **IND** | PAK  | *ENG*   | *AUS*   | **WI** | NZ      | **SA** | SL   |       8 |
+| Aditya Iyengar    | IND            | **IND** | PAK  | *ENG*   | *AUS*   | NZ     | *WI*    | *BAN*  | *SA* |       7 |
+| Radhika Santhanam | Mumbai, IND    | **IND** | PAK  | *ENG*   | *AUS*   | NZ     | *WI*    | **SA** | SL   |       7 |
 
  <br>
 
 
 <br>
-
