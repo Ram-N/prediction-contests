@@ -21,7 +21,7 @@ We have **6** joint winners in the Super-8 Stage, with a total of **12** points 
 | **Aakarsh Ekollu**        | U.S.A.            | **IND** | AUS     | **SA** | **ENG** |      12 |
 | **Kripa S.**              |                   | **IND** | **AFG** | **SA** | WI      |      12 |
 | **Rahul Santhanam**       | Oxford            | **IND** | **AFG** | WI     | **ENG** |      12 |
-| ishaan**                | oakland/usa       | **IND** | AUS     | **SA** | **ENG** |      12 |
+| **ishaan**                | oakland/usa       | **IND** | AUS     | **SA** | **ENG** |      12 |
 | **Rankanathan V S**       | IND               | **IND** | AUS     | **SA** | **ENG** |      12 |
 | **Atul Agarwal**          | Tampa, USA        | **IND** | **AFG** | **SA** | WI      |      12 |
 | Aditya                | Bangalore         | **IND** | **AFG** | *ENG*  | WI      |      10 |
