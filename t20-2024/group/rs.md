@@ -12,6 +12,20 @@ background: '/img/bg_score.jpg'
 ## Group Contest -- Santhanam Family
 
 
+### Super8 Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name            | Location     | W1      | R1      | W2     | R2      |   Super8 |
+|:----------------|:-------------|:--------|:--------|:-------|:--------|---------:|
+| Rahul Santhanam | Oxford       | **IND** | **AFG** | WI     | **ENG** |       12 |
+| Kausalya        | IND          | **IND** | AUS     | **SA** | USA     |        8 |
+| Raja            | IND          | **IND** | AUS     | *ENG*  | WI      |        6 |
+| R. Santhanam    | Chennai/ IND | AUS     | *IND*   | WI     | *SA*    |        4 |
+
+ <br>
+
+
 ### T20 Group Stage Contest 
 
 
@@ -21,8 +35,8 @@ background: '/img/bg_score.jpg'
 | R. Santhanam      | IND            | **IND** | PAK  | **AUS** | **ENG** | **WI** | **AFG** | **SA** | SL   |      12 |
 | Kausalya          | IND            | **IND** | PAK  | **AUS** | **ENG** | NZ     | **AFG** | **SA** | NED  |      10 |
 | Rahul Santhanam   | United Kingdom | **IND** | PAK  | *ENG*   | *AUS*   | **WI** | NZ      | **SA** | SL   |       8 |
-| Aditya Iyengar    | IND            | **IND** | PAK  | *ENG*   | *AUS*   | NZ     | *WI*    | *BAN*  | *SA* |       7 |
 | Radhika Santhanam | Mumbai, IND    | **IND** | PAK  | *ENG*   | *AUS*   | NZ     | *WI*    | **SA** | SL   |       7 |
+| Aditya Iyengar    | IND            | **IND** | PAK  | *ENG*   | *AUS*   | NZ     | *WI*    | *BAN*  | *SA* |       7 |
 
  <br>
 
