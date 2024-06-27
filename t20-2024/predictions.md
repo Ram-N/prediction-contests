@@ -7,6 +7,79 @@ background: '/img/ahmedabad.gif'
 permalink: "/t20-2024/predictions"
 ---
 
+# Knockout Stage Predictions
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name                  | Location         | Semi1   | Semi2   | Final   |
+|:----------------------|:-----------------|:--------|:--------|:--------|
+| Madhavan SV           | IND              | AFG     | IND     | IND     |
+| Vivek                 | Redwood City     | SA      | IND     | SA      |
+| Shiv                  | Tampa, USA       | SA      | IND     | IND     |
+| Goutham Ekollu        | Saratoga         | AFG     | IND     | IND     |
+| Aakarsh Ekollu        | U.S.A.           | AFG     | IND     | IND     |
+| Sri Iyer              | Philadelphia/USA | SA      | IND     | IND     |
+| Subbu                 | Palo Alto        | SA      | IND     | IND     |
+| Mukund                | Pittsburgh, USA  | SA      | IND     | IND     |
+| Kausalya              | IND              | AFG     | IND     | IND     |
+| Raja                  | IND              | SA      | IND     | IND     |
+| Atul Agarwal          | Tampa, Fl        | SA      | IND     | IND     |
+| BharathKirishnan S R  | Bengaluru        | SA      | IND     | IND     |
+| Preetha               | USA              | SA      | IND     | IND     |
+| Manish Bhatt          | Orlando          | SA      | IND     | IND     |
+| Tees Natarajan        | Seattle          | SA      | IND     | SA      |
+| ishaan                | Oakland          | SA      | IND     | IND     |
+| Dodes                 | BOS              | SA      | ENG     | ENG     |
+| Atanu Roy             | USA              | AFG     | IND     | AFG     |
+| Krishnaveni Kumbaji   | Saratoga, CA     | SA      | IND     | IND     |
+| Sirvalia Mahesh       | Tampa            | SA      | IND     | IND     |
+| Ranga Setlur          | Buffalo, NY      | AFG     | IND     | IND     |
+| Siva                  | Cupertino/USA    | SA      | ENG     | SA      |
+| Keshav Narasimhan     | Pittsburgh       | SA      | ENG     | ENG     |
+| Niraj                 | Tampa            | AFG     | IND     | IND     |
+| Dhanush Ekollu        | Saratoga, CA     | SA      | IND     | IND     |
+| Shaji Samuel          | USA              | SA      | IND     | IND     |
+| Cheen                 | Singapore        | AFG     | IND     | IND     |
+| Sackett               | Pleasanton       | AFG     | IND     | IND     |
+| R. Santhanam          | Chennai/IND      | SA      | IND     | IND     |
+| Subha                 | Seattle          | AFG     | IND     | IND     |
+| #ash                  | DC               | AFG     | IND     | IND     |
+| Aditya                | Bangalore, IND   | AFG     | IND     | IND     |
+| Sahana Sateesh        | Seattle          | AFG     | IND     | SA      |
+| Rupal                 | Orlando          | AFG     | IND     | IND     |
+| Rahul Sannnntham      | Oxford           | AFG     | IND     | IND     |
+| Amritha Parthasarathy | Bangalore IND    | AFG     | IND     | IND     |
+| S.Parthasarathy       | Chennai, IND     | SA      | ENG     | ENG     |
+| Radhika Santhanam     | Mumbai, IND      | AFG     | IND     | IND     |
+| Rajesh                |                  | AFG     | IND     | IND     |
+| Pushpa Parthasarathy  | Chennai IND      | AFG     | IND     | IND     |
+| Mehul Choksi          |                  | AFG     | IND     | IND     |
+| Keshav Venkatesh      | Fremont          | SA      | IND     | IND     |
+| Arvind narayanan      | Santa Clara, usa | AFG     | IND     | IND     |
+| bala                  | Oakland          | SA      | ENG     | SA      |
+| Chayan Chakrabarti    | Oakland CA       | AFG     | ENG     | ENG     |
+| Rankanathan V S       | IND              | SA      | IND     | IND     |
+| Bhargavi              | Chennai          | SA      | IND     | IND     |
+| S. Hemalatha          | CHENNAI          | SA      | IND     | SA      |
+| Sriram Venkatesh      | Fremont          | AFG     | IND     | IND     |
+| Ram N                 | Orlando, FL      | SA      | IND     | IND     |
+| Abhinav Saxena        | Milpitas CA      | AFG     | IND     | IND     |
+| Kshitij               | Richmond         | SA      | IND     | IND     |
+| Alok Baveja           | US               | SA      | ENG     | ENG     |
+| Sreenivas G           |                  | SA      | ENG     | ENG     |
+| Gokul                 |                  | SA      | IND     | IND     |
+| Siva Kantamneni       | LARGO            | SA      | IND     | IND     |
+| Vishal Goyal          | Austin           | SA      | IND     | SA      |
+| Jyothi Sadhu          | Orlando          | SA      | ENG     | ENG     |
+| Krishna               | Sunnyvale, USA   | SA      | IND     | IND     |
+| Ashish Naik           | Los Altos        | SA      | ENG     | ENG     |
+| vivek                 | SF               | AFG     | IND     | IND     |
+| Chink                 | Bay Area, US     | AFG     | ENG     | ENG     |
+| Shriya                | Seattle          | SA      | IND     | IND     |
+| Rishi                 | USA              | SA      | IND     | IND     |
+| Bharath Sridharan     | Dallas, USA      | AFG     | IND     | IND     |
+| Manoj prabakar        | ORLANDO          | SA      | IND     | IND     |
+| Kripa S.              |                  | SA      | IND     | IND     |
+
 # Super-8 Predictions
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
