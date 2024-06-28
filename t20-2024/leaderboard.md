@@ -3,7 +3,7 @@ layout: page
 title: Leaderboard - 2024 T20 World Cup
 meta_title: "Leaderboard"
 teaser: "Can you correctly predict the World Cup Qaulifiers, Super 8 and the Knock-out?"
-background: '/img/ahmedabad.gif'
+background: '/img/barbados.webp'
 permalink: "/t20-2024/leaderboard"
 ---
 
@@ -14,68 +14,85 @@ permalink: "/t20-2024/leaderboard"
 Consists of 3 Contests -- Group Stage, Super-8 and Knockouts
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name                  | Location          | W1   | R1   | W2   | R2   | Group   |   Super8 |   Overall |
-|:----------------------|:------------------|:-----|:-----|:-----|:-----|:--------|---------:|----------:|
-| ishaan                | oakland/usa       | IND  | AUS  | SA   | ENG  | 10      |       12 |        22 |
-| Vivek                 | Redwood City      | AUS  | IND  | SA   | ENG  | 12      |       10 |        22 |
-| Rahul Santhanam       | Oxford            | IND  | AFG  | WI   | ENG  | 8       |       12 |        20 |
-| Aditya                | Bangalore         | IND  | AFG  | ENG  | WI   | 10      |       10 |        20 |
-| Kripa S.              |                   | IND  | AFG  | SA   | WI   | 8       |       12 |        20 |
-| Manoj Prabakar        | ORLANDO           | IND  | AUS  | WI   | ENG  | 12      |        8 |        20 |
-| Rankanathan V S       | IND               | IND  | AUS  | SA   | ENG  | 7       |       12 |        19 |
-| Sackett               | Pleasanton        | IND  | AFG  | ENG  | USA  | 9       |       10 |        19 |
-| Aakarsh Ekollu        | U.S.A.            | IND  | AUS  | SA   | ENG  | 6       |       12 |        18 |
-| Amritha Parthasarathy |                   | AUS  | IND  | WI   | ENG  | 12      |        6 |        18 |
-| Atul Agarwal          | Tampa, USA        | IND  | AFG  | SA   | WI   | 6       |       12 |        18 |
-| Arvind narayanan      | Usa               | IND  | AUS  | WI   | SA   | 12      |        6 |        18 |
-| Goutham Ekollu        | Saratoga          | IND  | AUS  | WI   | ENG  | 10      |        8 |        18 |
-| Ranga Setlur          | Buffalo, NY       | IND  | AUS  | WI   | ENG  | 10      |        8 |        18 |
-| Chink                 | Bay Area, USA     | AUS  | IND  | SA   | WI   | 12      |        6 |        18 |
-| Shriya                | Seattle           | IND  | AUS  | SA   | WI   | 10      |        8 |        18 |
-| Kausalya              | IND               | IND  | AUS  | SA   | USA  | 10      |        8 |        18 |
-| Jyothi Sadhu          | Orlando           | IND  | AUS  | WI   | ENG  | 10      |        8 |        18 |
-| Sri Iyer              | Philadelphia/USA  | IND  | AUS  | WI   | SA   | 12      |        6 |        18 |
-| Siva                  | Cupertino/USA     | AUS  | AFG  | SA   | WI   | 9       |        8 |        17 |
-| BharathKirishnan S R  | Bengaluru         | IND  | AUS  | SA   | WI   | 9       |        8 |        17 |
-| Ram N                 | Orland, FL        | IND  | AUS  | WI   | ENG  | 9       |        8 |        17 |
-| Subha                 | Seattle           | IND  | AUS  | ENG  | USA  | 11      |        6 |        17 |
-| Pankaj Tyagi          | Orlando           | IND  | AUS  | ENG  | WI   | 11      |        6 |        17 |
-| Krishnaveni           | Saratoga, CA      | AUS  | IND  | SA   | USA  | 10      |        6 |        16 |
-| Tees Natarajan        | Seattle           | AUS  | IND  | WI   | ENG  | 10      |        6 |        16 |
-| R. Santhanam          | Chennai/ IND      | AUS  | IND  | WI   | SA   | 12      |        4 |        16 |
-| Shaji Samuel          | Houston/USA       | IND  | AUS  | WI   | ENG  | 8       |        8 |        16 |
-| Neeraj Kumar          | Lakeland          | IND  | AUS  | WI   | SA   | 10      |        6 |        16 |
-| Sreenivas G           | Cupertino, US     | AUS  | IND  | ENG  | WI   | 12      |        4 |        16 |
-| Dhanush Ekollu        | Saratoga, CA, USA | IND  | AUS  | ENG  | WI   | 10      |        6 |        16 |
-| Bhaskar Pulikal       | US                | IND  | AUS  | ENG  | USA  | 10      |        6 |        16 |
-| Sriram Venkatesh      | Fremont USA       | IND  | AUS  | ENG  | WI   | 9       |        6 |        15 |
-| Chayan Chakrabarti    | Oakland, CA       | AUS  | AFG  | WI   | ENG  | 7       |        8 |        15 |
-| Keshav Venkatesh      | Fremont           | IND  | AUS  | ENG  | WI   | 9       |        6 |        15 |
-| Manish Bhatt          | Orlando           | IND  | AUS  | WI   | SA   | 9       |        6 |        15 |
-| Abhinav               | Milpitas USA      | AUS  | IND  | WI   | ENG  | 9       |        6 |        15 |
-| Alok Baveja           | USA               | AUS  | IND  | WI   | ENG  | 9       |        6 |        15 |
-| Gokul                 |                   | IND  | AUS  | ENG  | WI   | 9       |        6 |        15 |
-| S Parthasarathy       | Bangalore IND     | AUS  | IND  | ENG  | WI   | 10      |        4 |        14 |
-| Shiv                  | Tampa             | AUS  | IND  | WI   | SA   | 10      |        4 |        14 |
-| Keshav Narasimhan     | Pittsburgh        | AUS  | IND  | WI   | ENG  | 8       |        6 |        14 |
-| #                     | DC                | IND  | AUS  | WI   | USA  | 10      |        4 |        14 |
-| Mukund                | Pittsburgh, PA    | AUS  | IND  | WI   | SA   | 10      |        4 |        14 |
-| Rupal                 | US                | AUS  | IND  | WI   | USA  | 11      |        2 |        13 |
-| Kshitij               | Richmond          | IND  | AUS  | USA  | WI   | 9       |        4 |        13 |
-| Subbu                 | Palo Alto         | AUS  | IND  | WI   | SA   | 9       |        4 |        13 |
-| ramprasad ramakrishna | Boss              | IND  | AUS  | ENG  | SA   | 5       |        8 |        13 |
-| Rishi                 | USA               | AUS  | IND  | ENG  | WI   | 9       |        4 |        13 |
-| Sahana                | Seattle           | BAN  | IND  | ENG  | USA  | 9       |        4 |        13 |
-| bala                  | Oakland           | AUS  | IND  | WI   | SA   | 8       |        4 |        12 |
-| Vishal Goyal          | Austin            | IND  | AUS  | WI   | ENG  | DNP     |        8 |         8 |
-| Pushpa Parthasarathy  | Chennai/IND       | IND  | AUS  | SA   | USA  | DNP     |        8 |         8 |
-| Preeths               | USA               | IND  | AUS  | ENG  | SA   | DNP     |        8 |         8 |
-| Raja                  | IND               | IND  | AUS  | ENG  | WI   | DNP     |        6 |         6 |
-| Bharath Sridharan     | USA               | IND  | AUS  | ENG  | WI   | DNP     |        6 |         6 |
-| Madhavan SV           | Bangalore         | IND  | AUS  | ENG  | USA  | DNP     |        6 |         6 |
-| Rajesh                | IND               | AUS  | IND  | SA   | WI   | DNP     |        6 |         6 |
-| Ashish                | Los Altos, USA    | IND  | AUS  | WI   | USA  | DNP     |        4 |         4 |
-| Mehul Choksi          |                   | AUS  | IND  | ENG  | WI   | DNP     |        4 |         4 |
+| Name                  | Location          | Semi1   | Semi2   | Final   | Group   | Super8   | KO   |   Overall |
+|:----------------------|:------------------|:--------|:--------|:--------|:--------|:---------|:-----|----------:|
+| Vivek                 | Redwood City      | SA      | IND     | SA      | 12      | 10.0     | 8.0  |        30 |
+| ishaan                | oakland/usa       | SA      | IND     | IND     | 10      | 12.0     | 8.0  |        30 |
+| Manoj Prabakar        | ORLANDO           | SA      | IND     | IND     | 12      | 8.0      | 8.0  |        28 |
+| Kripa S.              |                   | SA      | IND     | IND     | 8       | 12.0     | 8.0  |        28 |
+| Rankanathan V S       | IND               | SA      | IND     | IND     | 7       | 12.0     | 8.0  |        27 |
+| Sri Iyer              | Philadelphia/USA  | SA      | IND     | IND     | 12      | 6.0      | 8.0  |        26 |
+| Atul Agarwal          | Tampa, USA        | SA      | IND     | IND     | 6       | 12.0     | 8.0  |        26 |
+| Shriya                | Seattle           | SA      | IND     | IND     | 10      | 8.0      | 8.0  |        26 |
+| BharathKirishnan S R  | Bengaluru         | SA      | IND     | IND     | 9       | 8.0      | 8.0  |        25 |
+| Ram N                 | Orlando, FL       | SA      | IND     | IND     | 9       | 8.0      | 8.0  |        25 |
+| Dhanush Ekollu        | Saratoga, CA, USA | SA      | IND     | IND     | 10      | 6.0      | 8.0  |        24 |
+| Aditya                | Bangalore         | AFG     | IND     | IND     | 10      | 10.0     | 4.0  |        24 |
+| Krishnaveni           | Saratoga, CA      | SA      | IND     | IND     | 10      | 6.0      | 8.0  |        24 |
+| Tees Natarajan        | Seattle           | SA      | IND     | SA      | 10      | 6.0      | 8.0  |        24 |
+| R. Santhanam          | Chennai/ IND      | SA      | IND     | IND     | 12      | 4.0      | 8.0  |        24 |
+| Rahul Santhanam       | Oxford            | AFG     | IND     | IND     | 8       | 12.0     | 4.0  |        24 |
+| Shaji Samuel          | Houston/USA       | SA      | IND     | IND     | 8       | 8.0      | 8.0  |        24 |
+| Manish Bhatt          | Orlando           | SA      | IND     | IND     | 9       | 6.0      | 8.0  |        23 |
+| Keshav Venkatesh      | Fremont           | SA      | IND     | IND     | 9       | 6.0      | 8.0  |        23 |
+| Sackett               | Pleasanton        | AFG     | IND     | IND     | 9       | 10.0     | 4.0  |        23 |
+| Gokul                 |                   | SA      | IND     | IND     | 9       | 6.0      | 8.0  |        23 |
+| Mukund                | Pittsburgh, PA    | SA      | IND     | IND     | 10      | 4.0      | 8.0  |        22 |
+| Goutham Ekollu        | Saratoga          | AFG     | IND     | IND     | 10      | 8.0      | 4.0  |        22 |
+| Amritha Parthasarathy |                   | AFG     | IND     | IND     | 12      | 6.0      | 4.0  |        22 |
+| Aakarsh Ekollu        | U.S.A.            | AFG     | IND     | IND     | 6       | 12.0     | 4.0  |        22 |
+| Ranga Setlur          | Buffalo, NY       | AFG     | IND     | IND     | 10      | 8.0      | 4.0  |        22 |
+| Kausalya              | IND               | AFG     | IND     | IND     | 10      | 8.0      | 4.0  |        22 |
+| Jyothi Sadhu          | Orlando           | SA      | ENG     | ENG     | 10      | 8.0      | 4.0  |        22 |
+| Arvind narayanan      | Usa               | AFG     | IND     | IND     | 12      | 6.0      | 4.0  |        22 |
+| Shiv                  | Tampa             | SA      | IND     | IND     | 10      | 4.0      | 8.0  |        22 |
+| Siva                  | Cupertino/USA     | SA      | ENG     | SA      | 9       | 8.0      | 4.0  |        21 |
+| Kshitij               | Richmond          | SA      | IND     | IND     | 9       | 4.0      | 8.0  |        21 |
+| Subbu                 | Palo Alto         | SA      | IND     | IND     | 9       | 4.0      | 8.0  |        21 |
+| Rishi                 | USA               | SA      | IND     | IND     | 9       | 4.0      | 8.0  |        21 |
+| Subha                 | Seattle           | AFG     | IND     | IND     | 11      | 6.0      | 4.0  |        21 |
+| Sreenivas G           | Cupertino, US     | SA      | ENG     | ENG     | 12      | 4.0      | 4.0  |        20 |
+| Sriram Venkatesh      | Fremont USA       | AFG     | IND     | IND     | 9       | 6.0      | 4.0  |        19 |
+| Abhinav               | Milpitas USA      | AFG     | IND     | IND     | 9       | 6.0      | 4.0  |        19 |
+| Alok Baveja           | USA               | SA      | ENG     | ENG     | 9       | 6.0      | 4.0  |        19 |
+| #                     | DC                | AFG     | IND     | IND     | 10      | 4.0      | 4.0  |        18 |
+| Alamuru Krishna       | Sunnyvale’, USA   | SA      | IND     | IND     | 10      |          | 8.0  |        18 |
+| S Parthasarathy       | Bangalore IND     | SA      | ENG     | ENG     | 10      | 4.0      | 4.0  |        18 |
+| Chink                 | Bay Area, USA     | AFG     | ENG     | ENG     | 12      | 6.0      | 0.0  |        18 |
+| Keshav Narasimhan     | Pittsburgh        | SA      | ENG     | ENG     | 8       | 6.0      | 4.0  |        18 |
+| ramprasad ramakrishna | Boss              | SA      | ENG     | ENG     | 5       | 8.0      | 4.0  |        17 |
+| Pankaj Tyagi          | Orlando           |         |         |         | 11      | 6.0      | DNP  |        17 |
+| Rupal                 | US                | AFG     | IND     | IND     | 11      | 2.0      | 4.0  |        17 |
+| Sahana                | Seattle           | AFG     | IND     | SA      | 9       | 4.0      | 4.0  |        17 |
+| Vishal Goyal          | Austin            | SA      | IND     | SA      | DNP     | 8.0      | 8.0  |        16 |
+| Neeraj Kumar          | Lakeland          |         |         |         | 10      | 6.0      | DNP  |        16 |
+| Preeths               | USA               | SA      | IND     | IND     | DNP     | 8.0      | 8.0  |        16 |
+| Bhaskar Pulikal       | US                |         |         |         | 10      | 6.0      | DNP  |        16 |
+| bala                  | Oakland           | SA      | ENG     | SA      | 8       | 4.0      | 4.0  |        16 |
+| Chayan Chakrabarti    | Oakland, CA       | AFG     | ENG     | ENG     | 7       | 8.0      | 0.0  |        15 |
+| Raja                  | IND               | SA      | IND     | IND     | DNP     | 6.0      | 8.0  |        14 |
+| Atanu Roy             | USA               | AFG     | IND     | AFG     | 10      |          | 4.0  |        14 |
+| Cheen                 | Singapore         | AFG     | IND     | IND     | 10      |          | 4.0  |        14 |
+| Pushpa Parthasarathy  | Chennai/IND       | AFG     | IND     | IND     | DNP     | 8.0      | 4.0  |        12 |
+| Radhika Santhanam     | Mumbai, IND       | AFG     | IND     | IND     | 7       |          | 4.0  |        11 |
+| Meenal Choksi         | Pune / IND        |         |         |         | 10      |          | DNP  |        10 |
+| AJAI Singh            | Tampa, USA        |         |         |         | 10      |          | DNP  |        10 |
+| Rajesh                | IND               | AFG     | IND     | IND     | DNP     | 6.0      | 4.0  |        10 |
+| Bharath Sridharan     | USA               | AFG     | IND     | IND     | DNP     | 6.0      | 4.0  |        10 |
+| Madhavan SV           | Bangalore         | AFG     | IND     | IND     | DNP     | 6.0      | 4.0  |        10 |
+| C.V.                  |                   |         |         |         | 10      |          | DNP  |        10 |
+| Pradeep Haldar        | Tampa/USA         |         |         |         | 9       |          | DNP  |         9 |
+| Asheesh Choksi        | Pune / IND        |         |         |         | 8       |          | DNP  |         8 |
+| Ashish                | Los Altos, USA    | SA      | ENG     | ENG     | DNP     | 4.0      | 4.0  |         8 |
+| Mehul Choksi          |                   | AFG     | IND     | IND     | DNP     | 4.0      | 4.0  |         8 |
+| Sirvalia Mahesh       | Tampa             | SA      | IND     | IND     | DNP     |          | 8.0  |         8 |
+| Bhargavi              | Chennai           | SA      | IND     | IND     | DNP     |          | 8.0  |         8 |
+| S. Hemalatha          | CHENNAI           | SA      | IND     | SA      | DNP     |          | 8.0  |         8 |
+| Siva Kantamneni       | LARGO             | SA      | IND     | IND     | DNP     |          | 8.0  |         8 |
+| Aditya Iyengar        | IND               |         |         |         | 7       |          | DNP  |         7 |
+| Niraj                 | Tampa             | AFG     | IND     | IND     | DNP     |          | 4.0  |         4 |
+| vivek                 | SF                | AFG     | IND     | IND     | DNP     |          | 4.0  |         4 |
+
 
 *DNP = Did not Participate
 

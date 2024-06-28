@@ -3,7 +3,7 @@ layout: page
 title: Knockout Stage - 2024 T20 World Cup
 meta_title: "Knockout"
 teaser: "Can you correctly predict the outcomes of the Knockout matches?"
-background: '/img/ahmedabad.gif'
+background: '/img/barbados.webp'
 permalink: "/t20-2024/knockout"
 ---
 
