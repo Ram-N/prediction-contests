@@ -9,22 +9,52 @@ background: '/img/bg_score.jpg'
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-## Group Contest -- Santhanam Family
+## Santhanam Family
 
+
+### Overall Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name              | Location     | Semi1   | Semi2   | Final   | Group   | Super8   | KO   |   Overall |
+|:------------------|:-------------|:--------|:--------|:--------|:--------|:---------|:-----|----------:|
+| R. Santhanam      | Chennai/ IND | SA      | IND     | IND     | 12      | 4.0      | 16.0 |        32 |
+| Rahul Santhanam   | Oxford       | AFG     | IND     | IND     | 8       | 12.0     | 12.0 |        32 |
+| Kausalya          | IND          | AFG     | IND     | IND     | 10      | 8.0      | 12.0 |        30 |
+| Raja              | IND          | SA      | IND     | IND     | DNP     | 6.0      | 16.0 |        22 |
+| Radhika Santhanam | Mumbai, IND  | AFG     | IND     | IND     | 7       |          | 12.0 |        19 |
+| Aditya Iyengar    | IND          |         |         |         | 7       |          | DNP  |         7 |
+
+ <br>
+
+### Knockout Stage Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name              | Location    | Semi1   | Semi2   | Final   |   KO |
+|:------------------|:------------|:--------|:--------|:--------|-----:|
+| Raja              | IND         | SA      | IND     | IND     |   16 |
+| R. Santhanam      | Chennai/IND | SA      | IND     | IND     |   16 |
+| Kausalya          | IND         | AFG     | IND     | IND     |   12 |
+| Rahul Sannnntham  | Oxford      | AFG     | IND     | IND     |   12 |
+| Radhika Santhanam | Mumbai, IND | AFG     | IND     | IND     |   12 |
+
+ <br>
 
 ### Super8 Contest 
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name            | Location     | W1      | R1      | W2     | R2      |   Super8 |
-|:----------------|:-------------|:--------|:--------|:-------|:--------|---------:|
-| Rahul Santhanam | Oxford       | **IND** | **AFG** | WI     | **ENG** |       12 |
-| Kausalya        | IND          | **IND** | AUS     | **SA** | USA     |        8 |
-| Raja            | IND          | **IND** | AUS     | *ENG*  | WI      |        6 |
-| R. Santhanam    | Chennai/ IND | AUS     | *IND*   | WI     | *SA*    |        4 |
+| Name              | Location     | W1      | R1      | W2     | R2      |   Super8 |
+|:------------------|:-------------|:--------|:--------|:-------|:--------|---------:|
+| Rahul Santhanam   | Oxford       | **IND** | **AFG** | WI     | **ENG** |       12 |
+| Kausalya          | IND          | **IND** | AUS     | **SA** | USA     |        8 |
+| Raja              | IND          | **IND** | AUS     | *ENG*  | WI      |        6 |
+| R. Santhanam      | Chennai/ IND | AUS     | *IND*   | WI     | *SA*    |        4 |
+| Aditya Iyengar    | IND          | nan     | nan     | nan    | nan     |        0 |
+| Radhika Santhanam | Mumbai, IND  | nan     | nan     | nan    | nan     |        0 |
 
  <br>
-
 
 ### T20 Group Stage Contest 
 

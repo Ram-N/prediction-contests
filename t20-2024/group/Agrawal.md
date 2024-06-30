@@ -7,23 +7,57 @@ background: '/img/bg_score.jpg'
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-## Group Contest -- Agrawal Family
+## Agrawal Family
+
+
+### Overall Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name           | Location    | Semi1   | Semi2   | Final   | Group   | Super8   | KO   |   Overall |
+|:---------------|:------------|:--------|:--------|:--------|:--------|:---------|:-----|----------:|
+| Ram N          | Orlando, FL | SA      | IND     | IND     | 9       | 8.0      | 16.0 |        33 |
+| Kshitij        | Richmond    | SA      | IND     | IND     | 9       | 4.0      | 16.0 |        29 |
+| Rupal          | US          | AFG     | IND     | IND     | 11      | 2.0      | 12.0 |        25 |
+| Preeths        | USA         | SA      | IND     | IND     | DNP     | 8.0      | 16.0 |        24 |
+| Vishal Goyal   | Austin      | SA      | IND     | SA      | DNP     | 8.0      | 8.0  |        16 |
+| Mehul Choksi   |             | AFG     | IND     | IND     | DNP     | 4.0      | 12.0 |        16 |
+| Meenal Choksi  | Pune / IND  |         |         |         | 10      |          | DNP  |        10 |
+| Asheesh Choksi | Pune / IND  |         |         |         | 8       |          | DNP  |         8 |
+
+ <br>
+
+### Knockout Stage Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name         | Location    | Semi1   | Semi2   | Final   |   KO |
+|:-------------|:------------|:--------|:--------|:--------|-----:|
+| Preetha      | USA         | SA      | IND     | IND     |   16 |
+| Ram N        | Orlando, FL | SA      | IND     | IND     |   16 |
+| Kshitij      | Richmond    | SA      | IND     | IND     |   16 |
+| Rupal        | Orlando     | AFG     | IND     | IND     |   12 |
+| Mehul Choksi |             | AFG     | IND     | IND     |   12 |
+| Vishal Goyal | Austin      | SA      | IND     | SA      |    8 |
+
+ <br>
 
 ### Super8 Contest 
 
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name         | Location    | W1      | R1    | W2    | R2      |   Super8 |
-|:-------------|:------------|:--------|:------|:------|:--------|---------:|
-| Vishal Goyal | Austin      | **IND** | AUS   | WI    | **ENG** |        8 |
-| Preeths      | USA         | **IND** | AUS   | *ENG* | *SA*    |        8 |
-| Ram N        | Orlando, FL | **IND** | AUS   | WI    | **ENG** |        8 |
-| Kshitij      | Richmond    | **IND** | AUS   | USA   | WI      |        4 |
-| Mehul Choksi |             | AUS     | *IND* | *ENG* | WI      |        4 |
-| Rupal        | US          | AUS     | *IND* | WI    | USA     |        2 |
+| Name           | Location    | W1      | R1    | W2    | R2      |   Super8 |
+|:---------------|:------------|:--------|:------|:------|:--------|---------:|
+| Vishal Goyal   | Austin      | **IND** | AUS   | WI    | **ENG** |        8 |
+| Ram N          | Orlando, FL | **IND** | AUS   | WI    | **ENG** |        8 |
+| Preeths        | USA         | **IND** | AUS   | *ENG* | *SA*    |        8 |
+| Mehul Choksi   |             | AUS     | *IND* | *ENG* | WI      |        4 |
+| Kshitij        | Richmond    | **IND** | AUS   | USA   | WI      |        4 |
+| Rupal          | US          | AUS     | *IND* | WI    | USA     |        2 |
+| Asheesh Choksi | Pune / IND  | nan     | nan   | nan   | nan     |        0 |
+| Meenal Choksi  | Pune / IND  | nan     | nan   | nan   | nan     |        0 |
 
  <br>
-
 
 ### T20 Group Stage Contest 
 

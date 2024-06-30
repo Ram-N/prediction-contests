@@ -8,9 +8,37 @@ background: '/img/bg_score.jpg'
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-## Group Contest -- Ekollu Family
+## Ekollu Family
+
+
+### Overall Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name           | Location          | Semi1   | Semi2   | Final   |   Group |   Super8 |   KO |   Overall |
+|:---------------|:------------------|:--------|:--------|:--------|--------:|---------:|-----:|----------:|
+| Krishnaveni    | Saratoga, CA      | SA      | IND     | IND     |      10 |        6 |   16 |        32 |
+| Dhanush Ekollu | Saratoga, CA, USA | SA      | IND     | IND     |      10 |        6 |   16 |        32 |
+| Goutham Ekollu | Saratoga          | AFG     | IND     | IND     |      10 |        8 |   12 |        30 |
+| Aakarsh Ekollu | U.S.A.            | AFG     | IND     | IND     |       6 |       12 |   12 |        30 |
+
+ <br>
+
+### Knockout Stage Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name                | Location     | Semi1   | Semi2   | Final   |   KO |
+|:--------------------|:-------------|:--------|:--------|:--------|-----:|
+| Krishnaveni Kumbaji | Saratoga, CA | SA      | IND     | IND     |   16 |
+| Dhanush Ekollu      | Saratoga, CA | SA      | IND     | IND     |   16 |
+| Goutham Ekollu      | Saratoga     | AFG     | IND     | IND     |   12 |
+| Aakarsh Ekollu      | U.S.A.       | AFG     | IND     | IND     |   12 |
+
+ <br>
 
 ### Super8 Contest 
+
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Name           | Location          | W1      | R1    | W2     | R2      |   Super8 |
@@ -21,8 +49,6 @@ background: '/img/bg_score.jpg'
 | Krishnaveni    | Saratoga, CA      | AUS     | *IND* | **SA** | USA     |        6 |
 
  <br>
-
-
 
 ### T20 Group Stage Contest 
 
@@ -36,5 +62,6 @@ background: '/img/bg_score.jpg'
 | Aakarsh             | Saratoga, California | **IND** | PAK  | *ENG*   | *AUS*   | NZ     | *WI*    | SL     | *SA* |       6 |
 
  <br>
+
 
 <br>

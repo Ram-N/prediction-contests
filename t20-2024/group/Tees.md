@@ -9,7 +9,34 @@ background: '/img/narmada.avif'
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-## Group Contest -- Satheesh Family
+## Satheesh Family
+
+
+### Overall Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name           | Location   | Semi1   | Semi2   | Final   |   Group |   Super8 |   KO |   Overall |
+|:---------------|:-----------|:--------|:--------|:--------|--------:|---------:|-----:|----------:|
+| Shriya         | Seattle    | SA      | IND     | IND     |      10 |        8 |   16 |        34 |
+| Subha          | Seattle    | AFG     | IND     | IND     |      11 |        6 |   12 |        29 |
+| Tees Natarajan | Seattle    | SA      | IND     | SA      |      10 |        6 |    8 |        24 |
+| Sahana         | Seattle    | AFG     | IND     | SA      |       9 |        4 |    4 |        17 |
+
+ <br>
+
+### Knockout Stage Contest 
+
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| Name           | Location   | Semi1   | Semi2   | Final   |   KO |
+|:---------------|:-----------|:--------|:--------|:--------|-----:|
+| Shriya         | Seattle    | SA      | IND     | IND     |   16 |
+| Subha          | Seattle    | AFG     | IND     | IND     |   12 |
+| Tees Natarajan | Seattle    | SA      | IND     | SA      |    8 |
+| Sahana Sateesh | Seattle    | AFG     | IND     | SA      |    4 |
+
+ <br>
 
 ### Super8 Contest 
 
@@ -24,8 +51,6 @@ background: '/img/narmada.avif'
 
  <br>
 
-
-
 ### T20 Group Stage Contest 
 
 
@@ -39,3 +64,5 @@ background: '/img/narmada.avif'
 
  <br>
 
+
+<br>
