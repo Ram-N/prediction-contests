@@ -11,7 +11,7 @@ Win a contest to get your name up here.
 {:.thead-dark .table-striped .table-bordered .table-sm }
 |Year	|Contest	|Winners|
 |---|---|---|
-|2024|	T20 2024 WC Overall Contest	|Ishaan Balaji|
+|2024|	T20 2024 WC Overall Contest	|Ishaan|
 |2024|	T20 2024 WC Super-8	|Aakarsh Ekollu, Kripa S, Rahul Santhanam, Ishaan, Rankanathan VS, and Atul Agarwal|
 |2024|	T20 2024 WC Group Stage	|Chink, Manoj, Arvind, Vivek, Sreenivas, R. Santhanam, Amritha Parthasarthy, Sri Iyer|
 |2024|	NFL 2023 Main Contest	|Ankit Agrawal|
