@@ -1,0 +1,20 @@
+{
+  "contest_name": "NFL 2025",
+  "contest_slug": "nfl-2025",
+  "predictions_file": "../NFL-2025-Predictions-Clean.csv",
+  "results_file": "../NFL-2025-results.csv",
+  "leaderboard_file": "../../nfl-2025/leaderboard.md",
+  "blog_post_dir": "../../_posts/",
+  "background_image": "/img/bg_nfl.webp",
+  "total_games": 7,
+  "round_names": {
+    "2": "divisional-round-saturday",
+    "4": "divisional-round",
+    "6": "conference-championships",
+    "7": "super-bowl"
+  },
+  "team_code_map": {
+    "SFO": "SF",
+    "LA": "LAR"
+  }
+}
