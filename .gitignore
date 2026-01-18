@@ -3,3 +3,12 @@ _site
 node_modules
 Gemfile.lock
 *.gem
+
+# Local data directory
+data/
+
+# Claude Code local files
+.claude/
+
+# Windows/WSL zone identifier files
+*:Zone.Identifier
