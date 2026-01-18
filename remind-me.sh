@@ -66,7 +66,9 @@ else
     echo "  deploy      - Deploy to GitHub Pages"
     echo "  archive     - Archive a completed contest"
     echo ""
-    echo "Or view full guide: cat docs/QUICKSTART.md"
-    echo "                    less docs/QUICKSTART.md"
+    echo "Full Guides:"
+    echo "  cat docs/QUICKSTART.md          # Quick start guide"
+    echo "  less docs/CONTEST-MANAGEMENT.md # Complete contest management"
+    echo "  cat docs/archive-current-contest.md  # Detailed archiving steps"
     echo ""
 fi
