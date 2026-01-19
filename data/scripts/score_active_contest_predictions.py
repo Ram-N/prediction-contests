@@ -171,11 +171,16 @@ def score_all_predictions(predictions_df, results_dict):
             directionally_correct = penalty_info['directionally_correct']
             is_best = (penalty == best_penalties[matchup])
 
-            # Format penalty
+            # Format penalty using HTML tags (markdown doesn't work well in kramdown tables)
             penalty_str = str(penalty)
-            if directionally_correct:
-                penalty_str = f"**{penalty_str}**"
-            if is_best:
+            if directionally_correct and is_best:
+                # Both bold and underlined
+                penalty_str = f"<strong><u>{penalty_str}</u></strong>"
+            elif directionally_correct:
+                # Just bold
+                penalty_str = f"<strong>{penalty_str}</strong>"
+            elif is_best:
+                # Just underlined
                 penalty_str = f"<u>{penalty_str}</u>"
 
             row_data[matchup] = penalty_str
