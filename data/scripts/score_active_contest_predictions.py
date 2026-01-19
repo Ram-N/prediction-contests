@@ -409,21 +409,21 @@ def generate_blog_post(scored_df, predictions_df, results_dict, games_scored, co
 
     content = f"""---
 layout: post
-title: "Leaderboard Update: After {games_scored} Games"
-subtitle: "{leader_names[0]} leads with a penalty of {leader_scores[0]}"
+title: "{leader_names[0]} leads with a penalty of {leader_scores[0]}"
+subtitle: "Leaderboard Update: After {games_scored} Games"
 date: {date_with_tz}
 background: '{background_image}'
 ---
 
-# {contest_name} Playoff Predictions - After {games_scored} Games
+# {contest_name} - After {games_scored} Games
 
 **Standings after {games_scored} games** (Lower scores are better!)
+
+{table_md}
 
 **Legend:**
 - **Bold numbers** = Directionally correct predictions (you gave the winner a higher score)
 - <u>Underlined numbers</u> = Best (lowest penalty) prediction for that game
-
-{table_md}
 
 ---
 

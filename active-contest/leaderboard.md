@@ -6,7 +6,7 @@ background: '/img/bg_nfl.webp'
 permalink: "/nfl-2025/leaderboard"
 ---
 
-*Last updated: January 18, 2026 at 11:28 PM EST*
+*Last updated: January 18, 2026 at 11:40 PM EST*
 
 ## Contest Status
 

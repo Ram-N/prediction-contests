@@ -1,18 +1,14 @@
 ---
 layout: post
-title: "Leaderboard Update: After 4 Games"
-subtitle: "Chink leads with a penalty of 2.6"
-date: 2026-01-18 23:28:08 -0500
+title: "Chink leads with a penalty of 2.6"
+subtitle: "Leaderboard Update: After 4 Games"
+date: 2026-01-18 23:40:12 -0500
 background: '/img/bg_nfl.webp'
 ---
 
-# NFL 2025 Playoff Predictions - After 4 Games
+# NFL 2025 - After 4 Games
 
 **Standings after 4 games** (Lower scores are better!)
-
-**Legend:**
-- **Bold numbers** = Directionally correct predictions (you gave the winner a higher score)
-- <u>Underlined numbers</u> = Best (lowest penalty) prediction for that game
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Rank | Name | Total | BUF-DEN | HOU-NE | LAR-CHI | SF-SEA |
@@ -42,6 +38,10 @@ background: '/img/bg_nfl.webp'
 | 23 | Alok | 10.68 | 6.66 | 1.51 | 2.0 | **0.51** |
 | 24 | vivek | 19.99 | 6.66 | <u>**0.01**</u> | 6.66 | 6.66 |
 
+
+**Legend:**
+- **Bold numbers** = Directionally correct predictions (you gave the winner a higher score)
+- <u>Underlined numbers</u> = Best (lowest penalty) prediction for that game
 
 ---
 
