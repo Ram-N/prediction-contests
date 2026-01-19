@@ -20,15 +20,15 @@ Deadline: Before the Divisional Round begins
 
 ## Contest Information
 
-- [Contest Rules](/prediction-contests/nfl-2025/rules)
+- [Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules)
 - [Entry Form](https://forms.gle/y5YWKUnzxvQACuJP8)
-- [Current Leaderboard](/prediction-contests/nfl-2025/leaderboard)
-- [All Predictions](/prediction-contests/nfl-2025/predictions)
+- [Current Leaderboard]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)
+- [All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions)
 
 ## How to Participate
 
-1. Read the [rules](/prediction-contests/nfl-2025/rules) carefully
+1. Read the [rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) carefully
 2. Submit your predictions using the [entry form](https://forms.gle/y5YWKUnzxvQACuJP8)
-3. Track your progress on the [leaderboard](/prediction-contests/nfl-2025/leaderboard)
+3. Track your progress on the [leaderboard]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)
 
 Good luck!

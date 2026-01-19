@@ -3,7 +3,7 @@
   "contest_slug": "nfl-2025",
   "predictions_file": "../NFL-2025-Predictions-Clean.csv",
   "results_file": "../NFL-2025-results.csv",
-  "leaderboard_file": "../../nfl-2025/leaderboard.md",
+  "leaderboard_file": "../../active-contest/leaderboard.md",
   "blog_post_dir": "../../_posts/",
   "background_image": "/img/bg_nfl.webp",
   "total_games": 7,

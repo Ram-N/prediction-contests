@@ -12,8 +12,8 @@ The NFL 2025 Playoff Prediction Contest is now open for entries!
 
 ## Before You Submit
 
-1. Read the [contest rules](/prediction-contests/nfl-2025/rules) carefully
-2. Understand the [scoring system](/prediction-contests/nfl-2025/rules#scoring-system)
+1. Read the [contest rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) carefully
+2. Understand the [scoring system]({{ site.baseurl }}/{{ site.contest.slug }}/rules#scoring-system)
 3. Make your predictions before the Wild Card round begins
 
 ---

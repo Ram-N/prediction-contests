@@ -40,7 +40,7 @@ This file contains all contest-specific settings:
   "contest_slug": "nfl-2025",           // URL slug (used in permalinks)
   "predictions_file": "../NFL-2025-Predictions-Clean.csv",
   "results_file": "../NFL-2025-results.csv",
-  "leaderboard_file": "../../nfl-2025/leaderboard.md",
+  "leaderboard_file": "../../active-contest/leaderboard.md",
   "blog_post_dir": "../../_posts/",
   "background_image": "/img/bg_nfl.webp",
   "total_games": 7,                     // Total games in the contest
@@ -77,11 +77,16 @@ TEAM1-TEAM2, TBD
 TEAM3-TEAM4, TBD
 ```
 
-### 2. Create Contest Directory
+### 2. Archive Current Contest (if one exists)
+
+Use the archival script to move the current contest to past/:
 
 ```bash
-mkdir /home/ram/projects/prediction-contests/fifa-2026
+cd /home/ram/projects/prediction-contests
+bash bin/archive_contest.sh
 ```
+
+This will archive the current contest and set up a new active-contest/ directory.
 
 ### 3. Update Configuration
 
@@ -93,7 +98,7 @@ Edit `contest_config.json` with new contest details:
   "contest_slug": "fifa-2026",
   "predictions_file": "../FIFA-2026-Predictions-Clean.csv",
   "results_file": "../FIFA-2026-results.csv",
-  "leaderboard_file": "../../fifa-2026/leaderboard.md",
+  "leaderboard_file": "../../active-contest/leaderboard.md",
   "blog_post_dir": "../../_posts/",
   "background_image": "/img/bg_fifa.webp",
   "total_games": 7,
@@ -114,8 +119,10 @@ uv run python score_active_contest_predictions.py
 ```
 
 This will generate:
-- `fifa-2026/leaderboard.md`
+- `active-contest/leaderboard.md`
 - `_posts/YYYY-MM-DD-fifa-2026-after-[round].md`
+
+**Note**: The active contest files are in `active-contest/` directory, which maps to the URL slug defined in `_config.yml`.
 
 ### 5. Test and Deploy
 
@@ -204,7 +211,7 @@ cd /home/ram/projects/prediction-contests
 bundle exec jekyll serve
 
 # 4. Commit and push
-git add data/FIFA-2026-results.csv fifa-2026/leaderboard.md _posts/2026-*
+git add data/FIFA-2026-results.csv active-contest/leaderboard.md _posts/2026-*
 git commit -m "feat(fifa-2026): update leaderboard after quarterfinals
 
 - [Game results summary]

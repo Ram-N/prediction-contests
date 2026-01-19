@@ -11,13 +11,13 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown" style="text-decoration: none;">
-          <a href={{ "/nfl-2025/" | relative_url }}>NFL 2025 &#9660;</a>
+          <a href="{{ '/' | append: site.contest.slug | append: '/' | relative_url }}">{{ site.contest.name }} &#9660;</a>
           <div class="dropdown-content">
-            <a href={{ "/nfl-2025/" | relative_url }}>Home</a>
-            <a href={{ "/nfl-2025/leaderboard" | relative_url }}>Leaderboard</a>
-            <a href={{ "/nfl-2025/predictions" | relative_url }}>Predictions</a>
-            <a href={{ "/nfl-2025/rules" | relative_url }}>Rules</a>
-            <a href={{ "/nfl-2025/entry" | relative_url }}>Entry Form</a>
+            <a href="{{ '/' | append: site.contest.slug | append: '/' | relative_url }}">Home</a>
+            <a href="{{ '/' | append: site.contest.slug | append: '/leaderboard' | relative_url }}">Leaderboard</a>
+            <a href="{{ '/' | append: site.contest.slug | append: '/predictions' | relative_url }}">Predictions</a>
+            <a href="{{ '/' | append: site.contest.slug | append: '/rules' | relative_url }}">Rules</a>
+            <a href="{{ '/' | append: site.contest.slug | append: '/entry' | relative_url }}">Entry Form</a>
           </div>
         </li>
         <li class="nav-item dropdown" style="text-decoration: none;">

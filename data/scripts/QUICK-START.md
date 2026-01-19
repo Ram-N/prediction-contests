@@ -20,7 +20,7 @@ uv run python score_active_contest_predictions.py
 
 The script will:
 - Calculate penalties for all participants
-- Update `nfl-2025/leaderboard.md`
+- Update `active-contest/leaderboard.md`
 - Create new blog post in `_posts/`
 
 ### Step 3: Preview Locally (Optional but Recommended)
@@ -36,7 +36,7 @@ Visit: http://localhost:4000/prediction-contests/nfl-2025/leaderboard
 cd /home/ram/projects/prediction-contests
 
 # Add the changed files
-git add data/NFL-2025-results.csv nfl-2025/leaderboard.md _posts/2026-01-*
+git add data/NFL-2025-results.csv active-contest/leaderboard.md _posts/2026-01-*
 
 # Commit with descriptive message
 git commit -m "feat(nfl-2025): update leaderboard after divisional round

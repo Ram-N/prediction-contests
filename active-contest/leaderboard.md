@@ -73,4 +73,4 @@ The more confident you were in the winner, the lower your penalty. Being confide
 
 ---
 
-[View All Predictions](/prediction-contests/{contest_slug}/predictions) | [Contest Rules](/prediction-contests/{contest_slug}/rules)
+[View All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions) | [Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules)

@@ -5,6 +5,14 @@ author: Ram Narasimhan
 baseurl: "/prediction-contests"
 url: "https://ram-n.github.io"
 
+# Active Contest Configuration
+contest:
+  slug: "nfl-2025"
+  name: "NFL 2025 Playoffs"
+  full_title: "NFL 2025-26 Playoff Prediction Contest"
+  background: "/img/bg_nfl.webp"
+  entry_form: "https://forms.gle/y5YWKUnzxvQACuJP8"
+
 # Social Profiles
 
 # Add your google-analytics ID here to activate google analytics
@@ -18,3 +26,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# Exclude templates and bin directories from build
+exclude:
+  - templates/
+  - bin/
+  - data/
