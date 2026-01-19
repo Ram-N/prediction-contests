@@ -2,7 +2,7 @@
 layout: page
 title: Leaderboard
 description: NFL 2025 Playoff Predictions - Live Scoring
-background: '/img/bg_nfl.webp'
+background: '/img/nfl/bg_nfl.webp'
 permalink: "/nfl-2025/leaderboard"
 ---
 

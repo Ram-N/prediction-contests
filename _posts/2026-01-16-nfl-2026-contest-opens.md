@@ -3,7 +3,7 @@ layout: post
 title: "NFL 2025-26 Playoff Contest Now Open!"
 subtitle: "Predict the Divisional Round, Championships, and Super Bowl LX"
 date: 2026-01-16 10:00:00
-background: '/img/bg_nfl.webp'
+background: '/img/nfl/bg_nfl.webp'
 ---
 
 The NFL 2025-26 Playoff Prediction Contest is now open!

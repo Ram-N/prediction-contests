@@ -4,10 +4,25 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% if page.background == 'auto' %}
+    {% comment %}Auto-rotate through NFL backgrounds{% endcomment %}
+    {% assign nfl_posts = site.posts | where_exp: "post", "post.path contains 'nfl'" | reverse %}
+    {% assign post_index = 0 %}
+    {% for post in nfl_posts %}
+      {% if post.url == page.url %}
+        {% assign post_index = forloop.index0 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% assign bg_index = post_index | modulo: site.contest.nfl_backgrounds.size %}
+    {% assign bg_image = site.contest.nfl_backgrounds[bg_index] %}
+<header class="masthead" style="background-image: url('{{ bg_image | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% endif %}
+{% else %}
   <header class="masthead">
-    {% endif %}
+{% endif %}
     <div class="overlay"></div>
     <div class="container">
       <div class="row">

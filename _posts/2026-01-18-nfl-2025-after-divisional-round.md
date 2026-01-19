@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Chink leads with a penalty of 2.6"
+title: "Chink leads after the Divisional Round"
 subtitle: "Leaderboard Update: After 4 Games"
 date: 2026-01-18 23:44:15 -0500
-background: '/img/bg_nfl.webp'
+background: '/img/nfl/bg_nfl.webp'
 ---
 
 # NFL 2025 - After 4 Games
@@ -47,7 +47,9 @@ background: '/img/bg_nfl.webp'
 
 ### Current Leader
 
-**Chink** is in first place with a total penalty of **2.6**, followed by Dodo (2.68) and Kshitij (2.73).
+**Chink** has taken over first place with a total penalty of **2.6**, edging out Dodo (2.68) by just 0.08 points! Kshitij rounds out the top three at 2.73. After Saturday's games, Dodo was leading with 1.06, but Chink's strong performance on the Sunday games (especially an impressive 0.32 penalty on SF-SEA) propelled them to the top.
+
+The race at the top is incredibly tight - the top 8 participants are all separated by less than 0.4 points. Go Seahawks! Tees (2.8) and Chayan Chakrabarti (2.91) are right in the mix, while Sackett, Siva Kantamneni, and Shaji are all clustered around the 3.0 mark.
 
 ### Game Results
 
@@ -56,9 +58,21 @@ background: '/img/bg_nfl.webp'
 - **LAR-CHI**: LAR defeats CHI
 - **SF-SEA**: SEA defeats SF
 
-### No Perfect Predictors Yet
+### Perfect Directional Predictions
 
-No one has gotten all games directionally correct so far. The competition is wide open!
+These participants got **all 4 games directionally correct** (all penalties under 1.0):
+
+- Chink
+- Dodo
+- Kshitij
+- Go Seahawks! Tees
+- Sackett
+- Siva Kantamneni
+- Shaji
+- Surendra Gona
+- Pankaj Tyagi
+
+Nine participants nailed the direction on every game! The difference in standings comes down to confidence levels - those who were more confident in the correct picks earned lower penalties.
 
 ---
 

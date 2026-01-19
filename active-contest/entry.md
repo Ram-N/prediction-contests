@@ -2,7 +2,7 @@
 layout: page
 title: "Entry Form - NFL 2025-26"
 description: "Submit your predictions"
-background: '/img/bg_nfl.webp'
+background: '/img/nfl/bg_nfl.webp'
 permalink: "/nfl-2025/entry"
 ---
 

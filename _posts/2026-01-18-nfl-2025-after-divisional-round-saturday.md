@@ -3,7 +3,7 @@ layout: post
 title: "Leaderboard Update: After 2 Games"
 subtitle: "Dodo leads with a penalty of 1.06"
 date: 2026-01-18 15:39:32 -0500
-background: '/img/bg_nfl.webp'
+background: '/img/nfl/bg_nfl.webp'
 ---
 
 # NFL 2025 Playoff Predictions - After 2 Games

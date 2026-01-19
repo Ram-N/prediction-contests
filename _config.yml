@@ -10,8 +10,13 @@ contest:
   slug: "nfl-2025"
   name: "NFL 2025 Playoffs"
   full_title: "NFL 2025-26 Playoff Prediction Contest"
-  background: "/img/bg_nfl.webp"
+  background: "/img/nfl/bg_nfl.webp"
   entry_form: "https://forms.gle/y5YWKUnzxvQACuJP8"
+  # NFL background images for blog posts (will cycle through automatically)
+  nfl_backgrounds:
+    - "/img/nfl/bg_nfl.webp"
+    - "/img/nfl/bg_nfl1.jpg"
+    - "/img/nfl/bg_nfl2.jpg"
 
 # Social Profiles
 

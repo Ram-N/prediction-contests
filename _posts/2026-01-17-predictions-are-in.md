@@ -3,7 +3,7 @@ layout: post
 title: "The Predictions Are In!"
 subtitle: "24 participants have made their playoff predictions"
 date: 2026-01-17 21:00:00 -0500
-background: '/img/bg_nfl.webp'
+background: '/img/nfl/bg_nfl.webp'
 ---
 
 # NFL 2025-26 Playoff Predictions

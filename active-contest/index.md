@@ -2,7 +2,7 @@
 layout: page
 title: "NFL 2025-26 Playoff Prediction Contest"
 description: "Predict the NFL playoff outcomes"
-background: '/img/bg_nfl.webp'
+background: '/img/nfl/bg_nfl.webp'
 permalink: "/nfl-2025/"
 ---
 
