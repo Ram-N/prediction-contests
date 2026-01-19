@@ -191,6 +191,47 @@ def score_all_predictions(predictions_df, results_dict):
     return scored_df
 
 
+def calculate_ranks(scored_df):
+    """
+    Calculate ranks with tie handling.
+
+    Args:
+        scored_df: DataFrame sorted by Total score (ascending)
+
+    Returns:
+        List of rank strings (e.g., "1", "T-2", "T-2", "4")
+    """
+    ranks = []
+    prev_score = None
+    current_rank = 1
+    tied_count = 0
+
+    for idx, row in scored_df.iterrows():
+        score = row['Total']
+
+        if score == prev_score:
+            # Tie with previous score
+            tied_count += 1
+            if tied_count == 1:
+                # First tie - mark previous rank as tied
+                ranks[-1] = f"T-{current_rank}"
+            ranks.append(f"T-{current_rank}")
+        else:
+            # New score - update rank
+            if tied_count > 0:
+                # Skip ranks for tied entries
+                current_rank += tied_count + 1
+                tied_count = 0
+            else:
+                if len(ranks) > 0:
+                    current_rank += 1
+
+            ranks.append(str(current_rank))
+            prev_score = score
+
+    return ranks
+
+
 def generate_leaderboard_table(scored_df):
     """
     Generate markdown table for leaderboard.
@@ -201,24 +242,27 @@ def generate_leaderboard_table(scored_df):
     Returns:
         Markdown string for the table only
     """
+    # Calculate ranks
+    ranks = calculate_ranks(scored_df)
+
     # Get column names (exclude Name and Total)
     matchup_cols = [col for col in scored_df.columns if col not in ['Name', 'Total']]
 
-    # Build table header
-    header_cols = ['Name', 'Total'] + matchup_cols
+    # Build table header with Rank as first column
+    header_cols = ['Rank', 'Name', 'Total'] + matchup_cols
 
     table_md = "{:.thead-dark .table-striped .table-bordered .table-sm }\n"
 
     # Build table header row
     table_md += "| " + " | ".join(header_cols) + " |\n"
 
-    # Build alignment row
-    alignments = [":------------"] + ["---------:" for _ in range(len(header_cols) - 1)]
+    # Build alignment row (Rank is centered, rest are right-aligned except Name)
+    alignments = [":--------:", ":------------"] + ["---------:" for _ in range(len(header_cols) - 2)]
     table_md += "| " + " | ".join(alignments) + " |\n"
 
     # Build data rows
-    for _, row in scored_df.iterrows():
-        row_values = [str(row['Name'])] + [str(row['Total'])] + [str(row[col]) for col in matchup_cols]
+    for idx, (_, row) in enumerate(scored_df.iterrows()):
+        row_values = [ranks[idx], str(row['Name']), str(row['Total'])] + [str(row[col]) for col in matchup_cols]
         table_md += "| " + " | ".join(row_values) + " |\n"
 
     return table_md
@@ -256,11 +300,11 @@ background: '{background_image}'
 permalink: "/{contest_slug}/leaderboard"
 ---
 
+*Last updated: {current_date}*
+
 ## Contest Status
 
 **{games_scored} of {total_games} games completed** ({games_remaining} remaining)
-
-*Last updated: {current_date}*
 
 ---
 
@@ -302,8 +346,10 @@ The more confident you were in the winner, the lower your penalty. Being confide
 
 ---
 
-[View All Predictions](/prediction-contests/{contest_slug}/predictions) | [Contest Rules](/prediction-contests/{contest_slug}/rules)
 """
+    # Add footer with liquid variables (can't use f-string escaping for this)
+    markdown += "[View All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions) | "
+    markdown += "[Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules)\n"
 
     return markdown
 
@@ -408,8 +454,11 @@ This rewards participants who correctly identified strong winners with high conf
 
 ---
 
-[See All Predictions](/prediction-contests/{contest_slug}/predictions) | [Contest Rules](/prediction-contests/{contest_slug}/rules) | [Leaderboard Page](/prediction-contests/{contest_slug}/leaderboard)
 """
+    # Add footer with liquid variables (can't use f-string escaping for this)
+    content += "[See All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions) | "
+    content += "[Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) | "
+    content += "[Leaderboard Page]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)\n"
 
     return filename, content
 
