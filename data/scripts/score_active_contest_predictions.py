@@ -381,8 +381,6 @@ background: '{background_image}'
 
 ---
 
-## Analysis
-
 ### Current Leader
 
 **{leader_names[0]}** is in first place with a total penalty of **{leader_scores[0]}**, followed by {leader_names[1]} ({leader_scores[1]}) and {leader_names[2]} ({leader_scores[2]}).
