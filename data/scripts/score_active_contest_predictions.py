@@ -3,12 +3,14 @@
 Generic Contest Prediction Scoring Script
 
 Calculates cross-entropy (log loss) penalties for contest predictions.
-Generates leaderboard markdown and blog post for Jekyll site.
+Generates leaderboard markdown and optionally blog post for Jekyll site.
 
 Configuration is read from contest_config.json.
 
 Usage:
-    python score_active_contest_predictions.py
+    python score_active_contest_predictions.py [--generate-blog]
+
+    --generate-blog: Generate a blog post announcement (optional)
 """
 
 import pandas as pd
@@ -16,6 +18,7 @@ import math
 from datetime import datetime
 import os
 import json
+import sys
 
 
 def load_config():
@@ -646,8 +649,15 @@ The more confident you were in the winner, the lower your penalty. Being confide
 
 def main():
     """Main execution function."""
+    # Check for --generate-blog flag
+    generate_blog = '--generate-blog' in sys.argv
+
     print("Contest Prediction Scoring")
     print("=" * 50)
+    if generate_blog:
+        print("📝 Blog post generation: ENABLED")
+    else:
+        print("📝 Blog post generation: DISABLED (use --generate-blog to enable)")
 
     # Load configuration
     print("\nLoading configuration...")
@@ -751,17 +761,21 @@ def main():
         except Exception as e:
             print(f"  ⚠ Warning: Error generating group leaderboards: {e}")
 
-    # Generate blog post
-    print(f"\nGenerating blog post...")
-    blog_filename, blog_content = generate_blog_post(
-        scored_df, predictions_df, results_dict, games_scored, config
-    )
+    # Generate blog post (only if --generate-blog flag is set)
+    blog_post_path = None
+    if generate_blog:
+        print(f"\nGenerating blog post...")
+        blog_filename, blog_content = generate_blog_post(
+            scored_df, predictions_df, results_dict, games_scored, config
+        )
 
-    # Write blog post file
-    blog_post_path = os.path.join(os.path.dirname(__file__), config['blog_post_dir'], blog_filename)
-    with open(blog_post_path, 'w') as f:
-        f.write(blog_content)
-    print(f"  ✓ Written to: {blog_post_path}")
+        # Write blog post file
+        blog_post_path = os.path.join(os.path.dirname(__file__), config['blog_post_dir'], blog_filename)
+        with open(blog_post_path, 'w') as f:
+            f.write(blog_content)
+        print(f"  ✓ Written to: {blog_post_path}")
+    else:
+        print(f"\n⏭  Skipping blog post generation (use --generate-blog to enable)")
 
     print("\n" + "=" * 50)
     print("✓ Scoring complete!")
@@ -771,7 +785,8 @@ def main():
     print("  3. Commit and push to GitHub")
     print("\nFiles updated:")
     print(f"  - {leaderboard_path}")
-    print(f"  - {blog_post_path}")
+    if blog_post_path:
+        print(f"  - {blog_post_path}")
     if 'groups_file' in config and 'group_files_generated' in locals() and group_files_generated:
         for group_file in group_files_generated:
             print(f"  - {group_file}")
