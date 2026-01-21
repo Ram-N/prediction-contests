@@ -468,6 +468,182 @@ This rewards participants who correctly identified strong winners with high conf
     return filename, content
 
 
+def load_groups_config(filepath):
+    """
+    Load groups configuration from CSV file.
+
+    Args:
+        filepath: Path to groups CSV file
+
+    Returns:
+        Dictionary mapping group column names to display titles
+        Example: {'grp_UB': 'UB', 'grp_narmada': 'NARMADA'}
+    """
+    df = pd.read_csv(filepath, encoding='utf-8-sig')  # Handle BOM
+    df = df.apply(lambda x: x.str.strip() if x.dtype == "object" else x)  # Strip whitespace
+
+    groups_dict = {}
+    for _, row in df.iterrows():
+        column = row['Column'].strip()
+        title = row['Title'].strip()
+        groups_dict[column] = title
+
+    return groups_dict
+
+
+def get_group_members(predictions_df, group_column):
+    """
+    Filter predictions DataFrame to include only group members.
+
+    Args:
+        predictions_df: Full predictions DataFrame
+        group_column: Column name indicating group membership
+
+    Returns:
+        Filtered DataFrame with only group members (group columns removed)
+    """
+    # Create a copy to avoid modifying original
+    filtered_df = predictions_df.copy()
+
+    # Filter to members with "1" in the group column
+    # Handle both numeric (float/int) and string types
+    col_dtype = filtered_df[group_column].dtype
+
+    if pd.api.types.is_numeric_dtype(col_dtype):
+        # Numeric column: filter for notna() and == 1
+        filtered_df = filtered_df[filtered_df[group_column].notna() & (filtered_df[group_column] == 1)]
+    else:
+        # String/object column: convert to string, strip, and compare to '1'
+        filtered_df = filtered_df[filtered_df[group_column].notna() &
+                                  (filtered_df[group_column].astype(str).str.strip() == '1')]
+
+    # Remove all group columns (columns starting with 'grp_')
+    group_cols = [col for col in filtered_df.columns if col.startswith('grp_')]
+    filtered_df = filtered_df.drop(columns=group_cols)
+
+    return filtered_df
+
+
+def format_group_filename(group_title):
+    """
+    Convert group display title to filename.
+
+    Args:
+        group_title: Display title (e.g., 'NARMADA', 'UB')
+
+    Returns:
+        Filename (e.g., 'Narmada.md', 'UB.md')
+    """
+    # Preserve 2-3 letter all-caps acronyms
+    if len(group_title) <= 3 and group_title.isupper():
+        return f"{group_title}.md"
+
+    # Otherwise use title case
+    return f"{group_title.title()}.md"
+
+
+def ensure_groups_directory(base_path):
+    """
+    Create groups directory if it doesn't exist.
+
+    Args:
+        base_path: Base path for groups directory (from config)
+
+    Returns:
+        Absolute path to groups directory
+    """
+    script_dir = os.path.dirname(__file__)
+    groups_dir = os.path.abspath(os.path.join(script_dir, base_path))
+    os.makedirs(groups_dir, exist_ok=True)
+    return groups_dir
+
+
+def generate_group_leaderboard_markdown(scored_df, group_name, games_scored, config):
+    """
+    Generate Jekyll markdown for group-specific leaderboard page.
+
+    Args:
+        scored_df: Scored DataFrame with formatted penalties (for group members only)
+        group_name: Display name of the group (e.g., 'NARMADA', 'UB')
+        games_scored: Number of completed games
+        config: Contest configuration dictionary
+
+    Returns:
+        Markdown string for group leaderboard file
+    """
+    total_games = config['total_games']
+    contest_name = config['contest_name']
+    contest_slug = config['contest_slug']
+    background_image = config['background_image']
+
+    games_remaining = total_games - games_scored
+    # Determine EST or EDT based on date
+    import time
+    is_dst = time.localtime().tm_isdst
+    tz_name = "EDT" if is_dst else "EST"
+    current_date = datetime.now().strftime(f"%B %d, %Y at %I:%M %p {tz_name}")
+
+    # Generate permalink (lowercase group name)
+    group_permalink = group_name.lower()
+
+    markdown = f"""---
+layout: page
+title: "Group Leaderboard - {group_name}"
+description: {contest_name} - {group_name} Group Standings
+background: '{background_image}'
+permalink: "/{contest_slug}/groups/{group_permalink}"
+---
+
+*Last updated: {current_date}*
+
+[← Back to Main Leaderboard]({{{{ site.baseurl }}}}/{{{{ site.contest.slug }}}}/leaderboard)
+
+---
+
+## {group_name} Group Standings
+
+**{games_scored} of {total_games} games completed** ({games_remaining} remaining)
+
+"""
+
+    # Add the leaderboard table
+    markdown += generate_leaderboard_table(scored_df)
+
+    # Add scoring explanation
+    markdown += """
+
+---
+
+## How Scoring Works
+
+The penalty for each game is calculated using cross-entropy (log loss):
+
+**Penalty = log₂((Team1_Score + Team2_Score) / Winner_Score)**
+
+This is equivalent to: **-log₂(probability you assigned to the winner)**
+
+### Examples:
+
+- **Perfect prediction** (100-1): penalty = log₂(101/100) = **0.01**
+- **Confident correct** (80-20): penalty = log₂(100/80) = **0.32**
+- **Moderate correct** (60-40): penalty = log₂(100/60) = **0.74**
+- **50-50 prediction**: penalty = log₂(100/50) = **1.0** (not directionally correct)
+- **Wrong direction** (40-60, winner got 40): penalty = log₂(100/40) = **1.32**
+- **Very wrong** (20-80, winner got 20): penalty = log₂(100/20) = **2.32**
+
+The more confident you were in the winner, the lower your penalty. Being confident in the loser results in high penalties!
+
+---
+
+"""
+    # Add footer with liquid variables
+    markdown += "[View All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions) | "
+    markdown += "[Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) | "
+    markdown += "[Main Leaderboard]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)\n"
+
+    return markdown
+
+
 def main():
     """Main execution function."""
     print("Contest Prediction Scoring")
@@ -521,6 +697,60 @@ def main():
         f.write(leaderboard_md)
     print(f"  ✓ Written to: {leaderboard_path}")
 
+    # Generate group leaderboards if groups configuration exists
+    if 'groups_file' in config:
+        print(f"\nGenerating group leaderboards...")
+        groups_file_path = os.path.join(os.path.dirname(__file__), config['groups_file'])
+
+        try:
+            # Load group configuration
+            groups_config = load_groups_config(groups_file_path)
+            print(f"  ✓ Loaded {len(groups_config)} groups from configuration")
+
+            # Ensure groups directory exists
+            groups_dir = ensure_groups_directory(config['groups_dir'])
+            print(f"  ✓ Groups directory: {groups_dir}")
+
+            group_files_generated = []
+
+            # Generate leaderboard for each group
+            for group_column, group_title in groups_config.items():
+                # Check if group column exists in predictions
+                if group_column not in predictions_df.columns:
+                    print(f"  ⚠ Warning: Group column '{group_column}' not found in predictions, skipping")
+                    continue
+
+                # Filter to group members
+                group_predictions = get_group_members(predictions_df, group_column)
+
+                if len(group_predictions) == 0:
+                    print(f"  ⚠ Warning: No members found for group '{group_title}', skipping")
+                    continue
+
+                # Score the group predictions
+                group_scored_df = score_all_predictions(group_predictions, results_dict)
+
+                # Generate markdown
+                group_markdown = generate_group_leaderboard_markdown(
+                    group_scored_df, group_title, games_scored, config
+                )
+
+                # Write group leaderboard file
+                group_filename = format_group_filename(group_title)
+                group_file_path = os.path.join(groups_dir, group_filename)
+                with open(group_file_path, 'w') as f:
+                    f.write(group_markdown)
+
+                group_files_generated.append(group_file_path)
+                print(f"  ✓ {group_title}: {len(group_predictions)} members → {group_filename}")
+
+            if group_files_generated:
+                print(f"  ✓ Generated {len(group_files_generated)} group leaderboards")
+        except FileNotFoundError:
+            print(f"  ⚠ Warning: Groups file not found at {groups_file_path}, skipping group leaderboards")
+        except Exception as e:
+            print(f"  ⚠ Warning: Error generating group leaderboards: {e}")
+
     # Generate blog post
     print(f"\nGenerating blog post...")
     blog_filename, blog_content = generate_blog_post(
@@ -542,6 +772,9 @@ def main():
     print("\nFiles updated:")
     print(f"  - {leaderboard_path}")
     print(f"  - {blog_post_path}")
+    if 'groups_file' in config and 'group_files_generated' in locals() and group_files_generated:
+        for group_file in group_files_generated:
+            print(f"  - {group_file}")
 
 
 if __name__ == "__main__":

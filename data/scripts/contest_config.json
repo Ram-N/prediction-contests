@@ -5,7 +5,7 @@
   "results_file": "../NFL-2025-results.csv",
   "leaderboard_file": "../../active-contest/leaderboard.md",
   "blog_post_dir": "../../_posts/",
-  "background_image": "/img/bg_nfl.webp",
+  "background_image": "/img/nfl/bg_nfl.webp",
   "total_games": 7,
   "round_names": {
     "2": "divisional-round-saturday",
@@ -16,5 +16,7 @@
   "team_code_map": {
     "SFO": "SF",
     "LA": "LAR"
-  }
+  },
+  "groups_file": "../NFL-2025-groups.csv",
+  "groups_dir": "../../active-contest/groups"
 }
