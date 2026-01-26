@@ -126,7 +126,8 @@ def score_all_predictions(predictions_df, results_dict):
         Sorted by Total (lowest = best)
     """
     scored_data = []
-    matchups = sorted(results_dict.keys())
+    # Preserve order from results_dict (which matches CSV row order)
+    matchups = list(results_dict.keys())
 
     # Track best (lowest) penalty for each game
     best_penalties = {matchup: float('inf') for matchup in matchups}
@@ -399,8 +400,9 @@ def generate_blog_post(scored_df, predictions_df, results_dict, games_scored, co
     perfect_predictors = []
     for _, row in scored_df.iterrows():
         # Count bold predictions (directionally correct)
+        # Note: We use <strong> HTML tags, not markdown ** for bold
         bold_count = sum(1 for col in scored_df.columns
-                        if col not in ['Name', 'Total'] and '**' in str(row[col]))
+                        if col not in ['Name', 'Total'] and '<strong>' in str(row[col]))
         if bold_count == games_scored:
             perfect_predictors.append(row['Name'])
 

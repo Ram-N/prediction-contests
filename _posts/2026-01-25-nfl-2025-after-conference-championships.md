@@ -1,25 +1,14 @@
 ---
-layout: page
-title: Leaderboard
-description: NFL 2025 Playoff Predictions - Live Scoring
+layout: post
+title: "Chink leads after the Conference Championships"
+subtitle: "Leaderboard Update: After 6 Games"
+date: 2026-01-25 22:35:58 -0500
 background: '/img/nfl/bg_nfl.webp'
-permalink: "/nfl-2025/leaderboard"
 ---
 
-*Last updated: January 25, 2026 at 10:35 PM EST*
+# NFL 2025 - After 6 Games
 
-## Contest Status
-
-**6 of 7 games completed** (1 remaining)
-
----
-
-## Current Leaderboard
-
-Lower scores are better! The scoring uses cross-entropy (log loss) to penalize incorrect predictions more heavily.
-
-- **Bold numbers** indicate directionally correct predictions (you gave the winner a higher confidence score)
-- <u>Underlined numbers</u> indicate the best (lowest penalty) prediction for that game
+**Standings after 6 games** (Lower scores are better!)
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Rank | Name | Total | BUF-DEN | SF-SEA | HOU-NE | LAR-CHI | NE-DEN | LAR-SEA |
@@ -50,27 +39,48 @@ Lower scores are better! The scoring uses cross-entropy (log loss) to penalize i
 | 24 | vivek | 21.0 | 6.66 | 6.66 | <strong><u>0.01</u></strong> | 6.66 | <strong><u>0.01</u></strong> | 1.0 |
 
 
----
-
-## How Scoring Works
-
-The penalty for each game is calculated using cross-entropy (log loss):
-
-**Penalty = log₂((Team1_Score + Team2_Score) / Winner_Score)**
-
-This is equivalent to: **-log₂(probability you assigned to the winner)**
-
-### Examples:
-
-- **Perfect prediction** (100-1): penalty = log₂(101/100) = **0.01**
-- **Confident correct** (80-20): penalty = log₂(100/80) = **0.32**
-- **Moderate correct** (60-40): penalty = log₂(100/60) = **0.74**
-- **50-50 prediction**: penalty = log₂(100/50) = **1.0** (not directionally correct)
-- **Wrong direction** (40-60, winner got 40): penalty = log₂(100/40) = **1.32**
-- **Very wrong** (20-80, winner got 20): penalty = log₂(100/20) = **2.32**
-
-The more confident you were in the winner, the lower your penalty. Being confident in the loser results in high penalties!
+**Legend:**
+- **Bold numbers** = Directionally correct predictions (you gave the winner a higher score)
+- <u>Underlined numbers</u> = Best (lowest penalty) prediction for that game
 
 ---
 
-[View All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions) | [Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules)
+### Current Leader
+
+**Chink** is in first place with a total penalty of **4.37**, followed by Go Seahawks! Tees (4.44) and Dodo (4.71).
+
+### Game Results
+
+- **BUF-DEN**: DEN defeats BUF
+- **HOU-NE**: NE defeats HOU
+- **LAR-CHI**: LAR defeats CHI
+- **LAR-SEA**: SEA defeats LAR
+- **NE-DEN**: NE defeats DEN
+- **SF-SEA**: SEA defeats SF
+
+### Perfect Predictions So Far
+
+These participants got **all 6 games directionally correct**:
+
+- Chink
+- Go Seahawks! Tees
+- Pankaj Tyagi
+
+---
+
+## How Cross-Entropy Scoring Works
+
+Our scoring system penalizes confident wrong predictions more heavily than tentative ones:
+
+**Formula:** Penalty = log₂((Team1_Score + Team2_Score) / Winner_Score)
+
+**Examples:**
+- Confidently picked the winner (80-20): low penalty (~0.32)
+- No strong opinion (50-50): penalty of 1.0
+- Confidently picked the loser (20-80): high penalty (~2.32)
+
+This rewards participants who correctly identified strong winners with high confidence!
+
+---
+
+[See All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions) | [Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) | [Leaderboard Page]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)
