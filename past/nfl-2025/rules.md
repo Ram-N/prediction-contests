@@ -1,25 +1,25 @@
 ---
 layout: page
-title: "Rules - T20 2026"
+title: "Rules - NFL 2025-26 Playoff Contest"
 description: "Contest rules and scoring system"
-background: '/img/bg_t20.webp'
-permalink: "/{{ site.contest.slug }}/rules"
+background: '/img/nfl/bg_nfl.webp'
+permalink: "/nfl-2025/rules"
 ---
 
-# {{ site.contest.full_title }} Rules
+# NFL 2025-26 Playoff Prediction Contest Rules
 
 ## Overview
 
-Predict the winning teams for all knockout stage matches in the T20 World Cup 2026.
+Predict the outcomes of the NFL 2025-26 playoff games and Super Bowl LX.
 
 ## Contest Format
 
-The contest covers:
-- **Super 8 Stage** (4 matches)
-- **Semi-Finals** (2 matches)
-- **Final** (1 match)
+The contest covers the remaining playoff games:
+- **Divisional Round** (4 games)
+- **Conference Championships** (2 games)
+- **Super Bowl LX** (1 game)
 
-**Total: 9 knockout matches**
+**Total: 7 games**
 
 ## Scoring System
 
@@ -45,17 +45,17 @@ For each game, you predict:
 ## Rules
 
 - One entry per person (honor system)
-- Predictions must be submitted before the first knockout match
-- You are competing for glory and a spot in the [Prediction Hall of Fame]({{ site.baseurl }}/past/hof)
-- The winner will be declared after the T20 World Cup Final
+- Predictions must be submitted before the Divisional Round begins
+- You are competing for glory and a spot in the [Prediction Hall of Fame](/prediction-contests/past/hof)
+- The winner will be declared after the Super Bowl
 
 ## Deadlines
 
-- **Predictions close**: TBD (before first Super 8 match)
-- **All predictions must be in by**: TBD (tournament schedule to be announced)
+- **Predictions close**: Before the first Divisional Round game kicks off
+- **All predictions must be in by**: Divisional Round deadline
 
 ## Entry
 
-Submit your predictions using the [entry form]({{ site.contest.entry_form }}).
+Submit your predictions using the [entry form](https://forms.gle/y5YWKUnzxvQACuJP8).
 
 Good luck!

@@ -1,28 +1,28 @@
 ---
 layout: page
-title: "Entry Form - NFL 2025-26"
+title: "Entry Form - CONTEST_NAME"
 description: "Submit your predictions"
-background: '/img/nfl/bg_nfl.webp'
-permalink: "/nfl-2025/entry"
+background: '/img/bg_default.webp'
+permalink: "/{{ site.contest.slug }}/entry"
 ---
 
 # Submit Your Predictions
 
-The NFL 2025 Playoff Prediction Contest is now open for entries!
+The {{ site.contest.name }} Prediction Contest is now open for entries!
 
 ## Before You Submit
 
 1. Read the [contest rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) carefully
 2. Understand the [scoring system]({{ site.baseurl }}/{{ site.contest.slug }}/rules#scoring-system)
-3. Make your predictions before the Wild Card round begins
+3. Make your predictions before [deadline]
 
 ---
 
 ## Enter the Contest
 
-**[Click here to submit your predictions](https://forms.gle/y5YWKUnzxvQACuJP8)**
+**[Click here to submit your predictions]({{ site.contest.entry_form }})**
 
-Or use this link: `https://forms.gle/y5YWKUnzxvQACuJP8`
+Or use this link: `{{ site.contest.entry_form }}`
 
 ---
 
@@ -30,7 +30,7 @@ Or use this link: `https://forms.gle/y5YWKUnzxvQACuJP8`
 
 - One entry per person (honor system)
 - All predictions must be submitted before the first game kicks off
-- You'll predict all playoff games at once
+- You'll predict all [playoff/tournament] games at once
 - Lowest total score wins
 
 ## Questions?

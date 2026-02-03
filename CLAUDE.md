@@ -102,3 +102,54 @@ subtitle: Post subtitle
 - No automated testing or CI/CD configured
 - Site is manually updated with contest results and leaderboards
 - Historical contests are archived in `past/` directory for reference
+
+## Scoring and Updates
+
+### Running the Scoring Script
+
+The scoring script is located at `data/scripts/score_active_contest_predictions.py`.
+
+**Always use `uv` to run Python scripts:**
+
+```bash
+cd data/scripts
+uv run python score_active_contest_predictions.py --generate-blog
+```
+
+This will automatically update:
+- Main leaderboard (`active-contest/leaderboard.md`)
+- Group leaderboards (`active-contest/groups/*.md`) - if groups are configured
+- Blog post announcing the update (`_posts/*.md`) - only with --generate-blog flag
+
+**Files Updated:**
+- `active-contest/leaderboard.md` - Overall contest standings
+- `active-contest/groups/UB.md` - UB group standings (if configured)
+- `active-contest/groups/Narmada.md` - NARMADA group standings (if configured)
+- `_posts/YYYY-MM-DD-nfl-2025-after-X-games.md` - Blog post (if --generate-blog used)
+
+### Important: Column Order in Leaderboards
+
+**Game columns in leaderboards MUST match the order in the results.csv file.**
+
+The script preserves the row order from `data/NFL-2025-results.csv`:
+- If results.csv has: BUF-DEN, SF-SEA, HOU-NE, LAR-CHI, NE-DEN
+- Then leaderboard columns appear in the same order (not alphabetically sorted)
+
+This ensures that:
+- The visual progression matches the chronological game order
+- It's easier to track which games happened when
+- The leaderboard reads naturally from left to right
+
+### Blog Post Guidelines
+
+**Blog post titles should be fun and engaging**, not technical:
+- ✅ GOOD: "Chink leads after the Divisional Round"
+- ✅ GOOD: "Go Seahawks! Tees takes the lead after 5 games"
+- ❌ BAD: "Chink leads with a penalty of 2.6"
+- ❌ BAD: "Updated standings - 5 games completed"
+
+The title should mention:
+1. Who is leading (by name)
+2. After which round/game milestone
+
+Keep it fun and personalized - readers should immediately know who's winning and at what stage of the contest.

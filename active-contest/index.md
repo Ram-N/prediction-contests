@@ -1,34 +1,34 @@
 ---
 layout: page
-title: "NFL 2025-26 Playoff Prediction Contest"
-description: "Predict the NFL playoff outcomes"
-background: '/img/nfl/bg_nfl.webp'
-permalink: "/nfl-2025/"
+title: "T20 World Cup 2026"
+description: "Predict the knockout stage winners of the T20 World Cup 2026"
+background: '/img/bg_t20.webp'
+permalink: "/{{ site.contest.slug }}/"
 ---
 
-# NFL 2025-26 Playoff Prediction Contest
+# {{ site.contest.full_title }}
 
-Welcome to the NFL 2025-26 Playoff Prediction Contest!
+Welcome to the {{ site.contest.full_title }}!
 
-Predict the outcomes of the Divisional Round, Conference Championships, and Super Bowl LX.
+Predict the winners of the knockout stage matches in the T20 World Cup 2026. Test your cricket knowledge and compete with fellow fans to see who can predict the tournament's outcome!
 
-## 🏈 Enter Now
+## 🏆 Enter Now
 
-**[Submit Your Predictions](https://forms.gle/y5YWKUnzxvQACuJP8)**
+**[Submit Your Predictions]({{ site.contest.entry_form }})**
 
-Deadline: Before the Divisional Round begins
+Deadline: TBD (before first knockout match)
 
 ## Contest Information
 
 - [Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules)
-- [Entry Form](https://forms.gle/y5YWKUnzxvQACuJP8)
+- [Entry Form]({{ site.contest.entry_form }})
 - [Current Leaderboard]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)
 - [All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions)
 
 ## How to Participate
 
 1. Read the [rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) carefully
-2. Submit your predictions using the [entry form](https://forms.gle/y5YWKUnzxvQACuJP8)
+2. Submit your predictions using the [entry form]({{ site.contest.entry_form }})
 3. Track your progress on the [leaderboard]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)
 
 Good luck!

@@ -8,7 +8,7 @@ permalink: "/nfl-2025/groups/narmada"
 
 *Last updated: January 25, 2026 at 10:35 PM EST*
 
-[← Back to Main Leaderboard]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)
+[← Back to Main Leaderboard](/prediction-contests/nfl-2025/leaderboard)
 
 ---
 
@@ -54,4 +54,4 @@ The more confident you were in the winner, the lower your penalty. Being confide
 
 ---
 
-[View All Predictions]({{ site.baseurl }}/{{ site.contest.slug }}/predictions) | [Contest Rules]({{ site.baseurl }}/{{ site.contest.slug }}/rules) | [Main Leaderboard]({{ site.baseurl }}/{{ site.contest.slug }}/leaderboard)
+[View All Predictions](/prediction-contests/nfl-2025/predictions) | [Contest Rules](/prediction-contests/nfl-2025/rules) | [Main Leaderboard](/prediction-contests/nfl-2025/leaderboard)
