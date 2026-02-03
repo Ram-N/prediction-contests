@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Rules - 2024 ICC WC Contest
+title: Rules - 2026 ICC WC Contest
 meta_title: "Rules for this Prediction Contest"
 teaser: "Can you correctly predict the World Cup Qaulifiers, Super 8 and the Knock-out?"
 background: '/img/ahmedabad.gif'
-permalink: "/t20-2024/rules"
+permalink: "/t20-2026/rules"
 ---
 
 
@@ -14,21 +14,22 @@ permalink: "/t20-2024/rules"
 
 - This contest is open to all.
 - One entry per person please (Honor system)
-- You are competing for glory. The winner will be the undisputed **T20 Worldcup Prediction Champion** for the next 4 years, until the next T20 World cup.
+- You are competing for glory. The winner will be the undisputed **T20 Worldcup Prediction Champion** until the next T20 World cup.
 - The winner of each stage will make it to the [Prediction Hall of Fame](/prediction-contests/hof)
 
 
 
-## T20 World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2024_ICC_Men%27s_T20_World_Cup)
+## T20 World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2026_Men%27s_T20_World_Cup#Group_stage))
 
 - 20 national teams will be playing in the Group stage. There are a total of 4 groups of 5 countries each.
 - The top 2 teams from each Group Stage proceed to the *Super 8* stage.
 
+**Deadline: The Group stage prediction close on Feb 7th, before the first match**
+
 
 ## Scoring Rules for the Prediction Contest
 
-**Deadline: Super-8 Predictions close on June 19th**
-That is, before the 1st match starts. So please don't wait!
+All predictions are due before the 1st match of the round starts. So please don't wait!
 
 ### Super 8 Stage
 
@@ -48,19 +49,14 @@ You pick two teams per group, and for each one, you predict whether it will be t
 
 
 ### Leaderboard
-The leaderboard is updated regularly and can be found here: https://ram-n.github.io/prediction-contests/t20-2024/leaderboard
+The leaderboard is updated regularly and can be found [here](https://ram-n.github.io/prediction-contests/t20-2026/leaderboard)
 
-The **Ultimate Winner** will be the person with the maximum points after combining the scores of the Group stage, The Super 8 stage and the Knock-outs (until the final match).
+The **Overall Prediction Champion** will be the person with the maximum points after combining the scores of the Group stage, The Super 8 stage and the Knock-outs (until the final match).
 
-The **Ultimate winner** will be declared on June 29th, 2024.
+The **overall champion** will be declared on March 8th, 2026.
 
 If you have friends or relatives who are cricket lovers, invite them to try. 
 It takes less than a minute to make the predictions.
 
-Good luck. If you are ready to enter your predictions, the form can be found **[here](http://bit.ly/t20worldcup-super8)**
-
-### [Click for Entry Form](https://bit.ly/t20worldcup-groupstage)
-
-To enter your predictions, use the [entry form here](http://bit.ly/t20worldcup-groupstage). 
 
 Good luck!

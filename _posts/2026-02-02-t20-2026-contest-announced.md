@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "T20 World Cup 2026 Prediction Contest is Coming!"
-subtitle: "Get ready to predict the knockout stage winners"
+title: "T20 World Cup 2026 Prediction Contest started!"
+subtitle: "Get ready to predict the Group stage winners"
 date: 2026-02-02 23:06:33
 background: '/img/bg_t20.webp'
 ---
 
-The T20 World Cup 2026 Prediction Contest is now being prepared!
+The T20 World Cup 2026 Prediction Contest is now open.
 
-This year, we're focusing on the knockout stages - predict the winners of the Super 8 matches, semi-finals, and the grand final.
-
+We're focusing on the Group stage - predict the top 2 in each group.
 ## Contest Details
 
 - **Format:** Predict winners of 9 knockout matches
@@ -18,15 +17,13 @@ This year, we're focusing on the knockout stages - predict the winners of the Su
 
 ## How to Enter
 
-Stay tuned for:
-1. Tournament schedule announcement
-2. Entry form link
-3. Submission deadline
+1. Tournament schedule: Feb 07 to March 08  2026
+2. Entry form link:  https://bit.ly/2026-t20wc-groupstage
+3. Submission deadline: Before the first game start.
 
-Check back soon for updates on how to submit your predictions!
 
 ## Meanwhile...
 
-The NFL 2025 Playoff contest is wrapping up with only the Super Bowl LIX remaining. You can see the current standings on the [archived NFL 2025 leaderboard](/prediction-contests/past/nfl-2025/leaderboard).
+The NFL 2025 Playoff contest is wrapping up with only the Super Bowl LIX remaining. You can see the current standings on the [NFL 2025 leaderboard](/prediction-contests/past/nfl-2025/leaderboard).
 
 Get ready to test your cricket knowledge in the T20 World Cup 2026!
