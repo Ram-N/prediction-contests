@@ -17,4 +17,4 @@ header:
 - [FIFA World Cup 2022](/prediction-contests/past/fifa2022/)
 - [ICC Cricket World Cup 2019](/prediction-contests/past/icc2019/)
 
-[View Hall of Fame](/prediction-contests/past/hof)
+[View Hall of Fame](/prediction-contests/hof)

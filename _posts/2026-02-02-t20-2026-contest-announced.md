@@ -14,7 +14,7 @@ This year, we're focusing on the knockout stages - predict the winners of the Su
 
 - **Format:** Predict winners of 9 knockout matches
 - **Scoring:** Logarithmic scoring rewards confident, accurate predictions
-- **Prize:** Glory and a spot in our [Prediction Hall of Fame](/prediction-contests/past/hof)
+- **Prize:** Glory and a spot in our [Prediction Hall of Fame](/prediction-contests/hof)
 
 ## How to Enter
 

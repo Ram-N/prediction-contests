@@ -48,7 +48,7 @@ For each game, you predict:
 
 - One entry per person (honor system)
 - Predictions must be submitted before [deadline]
-- You are competing for glory and a spot in the [Prediction Hall of Fame]({{ site.baseurl }}/past/hof)
+- You are competing for glory and a spot in the [Prediction Hall of Fame]({{ site.baseurl }}/hof)
 - The winner will be declared after [final event]
 
 ## Deadlines

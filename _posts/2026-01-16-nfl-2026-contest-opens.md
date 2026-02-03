@@ -35,7 +35,7 @@ See the full [scoring details](/prediction-contests/nfl-2025/rules#scoring-syste
 
 ## Previous Winners
 
-Check out our [Hall of Fame](/prediction-contests/past/hof) to see past champions, including last season's winner Ankit Agrawal!
+Check out our [Hall of Fame](/prediction-contests/hof) to see past champions, including last season's winner Ankit Agrawal!
 
 ---
 

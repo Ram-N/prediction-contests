@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Prediction Hall of Fame"
-permalink: "/past/hof"
+permalink: "/hof"
 ---
 
 ## Prediction Contest Winners
