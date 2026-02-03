@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Leaderboard
-description: CONTEST_NAME - Live Scoring
-background: '/img/bg_default.webp'
-permalink: "/{{ site.contest.slug }}/leaderboard"
+description: T20 2026 - Live Scoring
+background: '/img/bg_t20.webp'
+permalink: "/t20-2026/leaderboard"
 ---
 
 *Last updated: [Date and time]*

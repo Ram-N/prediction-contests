@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Entry Form - CONTEST_NAME"
+title: "Entry Form - T20 2026"
 description: "Submit your predictions"
-background: '/img/bg_default.webp'
-permalink: "/{{ site.contest.slug }}/entry"
+background: '/img/bg_t20.webp'
+permalink: "/t20-2026/entry"
 ---
 
 # Submit Your Predictions

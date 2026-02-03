@@ -3,7 +3,7 @@ layout: page
 title: "Predictions - T20 2026"
 description: "All submitted predictions"
 background: '/img/bg_t20.webp'
-permalink: "/{{ site.contest.slug }}/predictions"
+permalink: "/t20-2026/predictions"
 ---
 
 # {{ site.contest.full_title }} Predictions

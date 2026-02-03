@@ -3,7 +3,7 @@ layout: page
 title: "Rules - T20 2026"
 description: "Contest rules and scoring system"
 background: '/img/bg_t20.webp'
-permalink: "/{{ site.contest.slug }}/rules"
+permalink: "/t20-2026/rules"
 ---
 
 # {{ site.contest.full_title }} Rules
