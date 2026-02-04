@@ -17,9 +17,9 @@ We're focusing on the Group stage - predict the top 2 in each group.
 
 ## How to Enter
 
-1. Tournament schedule: Feb 07 to March 08  2026
+1. Tournament schedule: *Feb 07 to March 08  2026*
 2. Entry form link:  https://bit.ly/2026-t20wc-groupstage
-3. Submission deadline: Before the first game start.
+3. Submission deadline: Feb 07, before the first game start.
 
 
 ## Meanwhile...
