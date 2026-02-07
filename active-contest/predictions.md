@@ -6,8 +6,10 @@ background: '/img/bg_t20.webp'
 permalink: "/t20-2026/predictions"
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.1/dist/bootstrap-table.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap4.min.js"></script>
 
 <style>
   .table td, .table th {
@@ -17,29 +19,45 @@ permalink: "/t20-2026/predictions"
   .table {
     font-size: 0.9rem;
   }
+  table.dataTable thead .sorting:before,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_desc:before {
+    right: 0.5em;
+    content: "↑";
+    opacity: 0.3;
+  }
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_desc:after {
+    right: 0.1em;
+    content: "↓";
+    opacity: 0.3;
+  }
+  table.dataTable thead .sorting_asc:before {
+    opacity: 1;
+  }
+  table.dataTable thead .sorting_desc:after {
+    opacity: 1;
+  }
 </style>
 
 # T20 World Cup 2026 - Group Stage Predictions
 
-<table class="table table-striped table-bordered table-sm table-hover"
-       data-toggle="table"
-       data-sortable="true"
-       data-sort-name="AI_Similarity"
-       data-sort-order="desc">
+<table id="predictionsTable" class="table table-striped table-bordered table-sm table-hover">
   <thead class="thead-dark">
     <tr>
-      <th data-field="name" data-sortable="true">Name</th>
-      <th data-field="location" data-sortable="true">Location</th>
-      <th data-field="a1" data-sortable="true">A1</th>
-      <th data-field="a2" data-sortable="true">A2</th>
-      <th data-field="b1" data-sortable="true">B1</th>
-      <th data-field="b2" data-sortable="true">B2</th>
-      <th data-field="c1" data-sortable="true">C1</th>
-      <th data-field="c2" data-sortable="true">C2</th>
-      <th data-field="d1" data-sortable="true">D1</th>
-      <th data-field="d2" data-sortable="true">D2</th>
-      <th data-field="similarity" data-sortable="true">AI Sim</th>
-      <th data-field="ai" data-sortable="true">AI</th>
+      <th>Name</th>
+      <th>Location</th>
+      <th>A1</th>
+      <th>A2</th>
+      <th>B1</th>
+      <th>B2</th>
+      <th>C1</th>
+      <th>C2</th>
+      <th>D1</th>
+      <th>D2</th>
+      <th>AI Sim</th>
+      <th>AI</th>
     </tr>
   </thead>
   <tbody>
@@ -941,6 +959,20 @@ permalink: "/t20-2026/predictions"
     </tr>
   </tbody>
 </table>
+
+<script>
+$(document).ready(function() {
+    $('#predictionsTable').DataTable({
+        "paging": false,
+        "searching": true,
+        "info": false,
+        "order": [[10, "desc"]],  // Sort by AI Similarity column (index 10) descending by default
+        "columnDefs": [
+            { "type": "num", "targets": 10 }  // Treat AI Sim column as numeric
+        ]
+    });
+});
+</script>
 
 
 ---
