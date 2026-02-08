@@ -3,7 +3,7 @@ layout: post
 title: "T20 World Cup 2026 Prediction Contest started!"
 subtitle: "Get ready to predict the Group stage winners"
 date: 2026-02-02 23:06:33
-background: '/img/bg_t20.webp'
+background: '/img/cricket/bg_t20.webp'
 ---
 
 The T20 World Cup 2026 Prediction Contest is now open.

@@ -2,7 +2,7 @@
 layout: page
 title: Leaderboard
 description: T20 2026 - Live Scoring
-background: '/img/bg_t20.webp'
+background: '/img/cricket/bg_t20.webp'
 permalink: "/t20-2026/leaderboard"
 ---
 

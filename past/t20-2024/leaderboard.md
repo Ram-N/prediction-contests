@@ -3,7 +3,7 @@ layout: page
 title: Leaderboard - 2024 T20 World Cup
 meta_title: "Leaderboard"
 teaser: "Can you correctly predict the World Cup Qaulifiers, Super 8 and the Knock-out?"
-background: '/img/barbados.webp'
+background: '/img/cricket/barbados.webp'
 permalink: "/t20-2024/leaderboard"
 ---
 

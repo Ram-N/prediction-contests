@@ -3,7 +3,7 @@ layout: post
 title: "Mini-Contest #2 - India vs NZ"
 subtitle: "Matchline - Predictions around the India vs NZ matche"
 date: 2023-10-19 11:05:13 -0400
-background: '/img/Dharmashala.jpg'
+background: '/img/cricket/Dharmashala.jpg'
 ---
 
 ![India vs NZ]({{ '/img/2023ICC_NZ_India.png' | relative_url }})

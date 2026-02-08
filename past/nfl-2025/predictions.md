@@ -2,7 +2,7 @@
 layout: page
 title: "Predictions - NFL 2025-26"
 description: "All submitted predictions"
-background: '/img/nfl/bg_nfl.webp'
+background: '/img/nfl/2025_NFL.png'
 permalink: "/nfl-2025/predictions"
 ---
 

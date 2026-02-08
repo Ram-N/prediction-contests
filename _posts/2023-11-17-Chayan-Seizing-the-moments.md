@@ -3,7 +3,7 @@ layout: post
 title: "World Cup Final: Seizing the Moments"
 subtitle: "Chayan Chakrabarti reminisces about Australia's wins"
 date: 2023-11-17 14:13:13 -0400
-background: '/img/eden.jpg'
+background: '/img/cricket/eden.jpg'
 ---
 
 *[Chayan Chakrabarti](https://www.linkedin.com/in/chayanchakrabarti)*

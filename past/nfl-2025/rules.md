@@ -2,7 +2,7 @@
 layout: page
 title: "Rules - NFL 2025-26 Playoff Contest"
 description: "Contest rules and scoring system"
-background: '/img/nfl/bg_nfl.webp'
+background: '/img/nfl/bg_nfl2.jpg'
 permalink: "/nfl-2025/rules"
 ---
 

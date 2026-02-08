@@ -2,7 +2,7 @@
 layout: page
 title: "T20 World Cup 2026"
 description: "Predict the knockout stage winners of the T20 World Cup 2026"
-background: '/img/bg_t20.webp'
+background: '/img/cricket/bg_t20.webp'
 permalink: "/t20-2026/"
 ---
 

@@ -8,9 +8,10 @@ Generates leaderboard markdown and optionally blog post for Jekyll site.
 Configuration is read from contest_config.json.
 
 Usage:
-    python score_active_contest_predictions.py [--generate-blog]
+    python score_active_contest_predictions.py [--generate-blog] [--config CONFIG_FILE]
 
     --generate-blog: Generate a blog post announcement (optional)
+    --config: Path to config file (default: contest_config.json)
 """
 
 import pandas as pd
@@ -19,13 +20,42 @@ from datetime import datetime
 import os
 import json
 import sys
+import random
 
 
-def load_config():
+def load_config(config_file='contest_config.json'):
     """Load contest configuration from JSON file."""
-    config_path = os.path.join(os.path.dirname(__file__), 'contest_config.json')
+    config_path = os.path.join(os.path.dirname(__file__), config_file)
     with open(config_path, 'r') as f:
         return json.load(f)
+
+
+def get_background_image(config, page_type='leaderboard'):
+    """
+    Get background image path for a specific page type.
+
+    Args:
+        config: Contest configuration dictionary
+        page_type: Type of page ('leaderboard', 'predictions', 'rules', 'blog_post')
+
+    Returns:
+        Background image path string
+    """
+    # Handle both old and new config formats
+    if 'background_images' in config:
+        bg_images = config['background_images']
+
+        if page_type == 'blog_post':
+            # Randomly select from blog_posts array
+            blog_images = bg_images.get('blog_posts', [])
+            if blog_images:
+                return random.choice(blog_images)
+
+        # Return specific page background
+        return bg_images.get(page_type, bg_images.get('leaderboard', '/img/bg-post.jpg'))
+
+    # Fallback to old format
+    return config.get('background_image', '/img/bg-post.jpg')
 
 
 def load_predictions(filepath):
@@ -292,7 +322,7 @@ def generate_leaderboard_markdown(scored_df, games_scored, config):
     total_games = config['total_games']
     contest_name = config['contest_name']
     contest_slug = config['contest_slug']
-    background_image = config['background_image']
+    background_image = get_background_image(config, 'leaderboard')
 
     games_remaining = total_games - games_scored
     # Determine EST or EDT based on date
@@ -379,7 +409,7 @@ def generate_blog_post(scored_df, predictions_df, results_dict, games_scored, co
     """
     contest_name = config['contest_name']
     contest_slug = config['contest_slug']
-    background_image = config['background_image']
+    background_image = get_background_image(config, 'blog_post')
     round_names = config.get('round_names', {})
 
     current_date = datetime.now()
@@ -579,7 +609,7 @@ def generate_group_leaderboard_markdown(scored_df, group_name, games_scored, con
     total_games = config['total_games']
     contest_name = config['contest_name']
     contest_slug = config['contest_slug']
-    background_image = config['background_image']
+    background_image = get_background_image(config, 'leaderboard')
 
     games_remaining = total_games - games_scored
     # Determine EST or EDT based on date
@@ -654,8 +684,16 @@ def main():
     # Check for --generate-blog flag
     generate_blog = '--generate-blog' in sys.argv
 
+    # Check for --config flag
+    config_file = 'contest_config.json'
+    if '--config' in sys.argv:
+        config_idx = sys.argv.index('--config')
+        if config_idx + 1 < len(sys.argv):
+            config_file = sys.argv[config_idx + 1]
+
     print("Contest Prediction Scoring")
     print("=" * 50)
+    print(f"📋 Config file: {config_file}")
     if generate_blog:
         print("📝 Blog post generation: ENABLED")
     else:
@@ -663,7 +701,7 @@ def main():
 
     # Load configuration
     print("\nLoading configuration...")
-    config = load_config()
+    config = load_config(config_file)
     contest_name = config['contest_name']
     print(f"  ✓ Contest: {contest_name}")
 

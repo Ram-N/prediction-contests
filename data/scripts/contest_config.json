@@ -5,7 +5,16 @@
   "results_file": "../T20-2026-results.csv",
   "leaderboard_file": "../../active-contest/leaderboard.md",
   "blog_post_dir": "../../_posts/",
-  "background_image": "/img/bg_t20.webp",
+  "background_images": {
+    "leaderboard": "/img/cricket/bg_cricket.jpg",
+    "predictions": "/img/cricket/2024T20PC.png",
+    "rules": "/img/cricket/bg_icc2023.jpg",
+    "blog_posts": [
+      "/img/cricket/bg_cricket.jpg",
+      "/img/cricket/bg_icc2023.jpg",
+      "/img/cricket/barbados.webp"
+    ]
+  },
   "total_games": 9,
   "round_names": {
     "4": "super-8",

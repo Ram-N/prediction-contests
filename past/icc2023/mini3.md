@@ -2,7 +2,7 @@
 layout: page
 title: India vs SA
 description: Predictions around India-South Africa match on Nov 05
-background: '/img/eden.jpg'
+background: '/img/cricket/eden.jpg'
 ---
 
 

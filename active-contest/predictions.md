@@ -2,7 +2,7 @@
 layout: page
 title: "Predictions - T20 2026"
 description: "All submitted predictions"
-background: '/img/bg_t20.webp'
+background: '/img/cricket/bg_t20.webp'
 permalink: "/t20-2026/predictions"
 ---
 

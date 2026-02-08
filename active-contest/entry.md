@@ -2,7 +2,7 @@
 layout: page
 title: "Entry Form - T20 2026"
 description: "Submit your predictions"
-background: '/img/bg_t20.webp'
+background: '/img/cricket/bg_t20.webp'
 permalink: "/t20-2026/entry"
 ---
 

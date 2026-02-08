@@ -3,7 +3,7 @@ layout: post
 title: "The T20 World Cup 2026 Prediction Battle Begins: Humans vs AI!"
 subtitle: "64 Predictors, 4 Groups, Infinite Possibilities - Analysis of All Predictions"
 date: 2026-02-07 16:13:37
-background: '/img/bg_cricket.jpg'
+background: '/img/cricket/bg_cricket.jpg'
 ---
 
 The T20 World Cup 2026 prediction contest is officially underway, and we've got an exciting lineup of participants—including some unexpected competitors!
