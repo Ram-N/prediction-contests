@@ -59,6 +59,7 @@ Each contest typically contains:
 - `predictions.md` - Submitted predictions
 - `schedule.md` / `group.md` / `knockout.md` - Match schedules and brackets
 - `news.md` - Contest announcements
+- `groups/` - **PRIVATE/UNLISTED** group leaderboards (never link publicly)
 
 ### Leaderboard Tables
 
@@ -102,6 +103,21 @@ subtitle: Post subtitle
 - No automated testing or CI/CD configured
 - Site is manually updated with contest results and leaderboards
 - Historical contests are archived in `past/` directory for reference
+
+## Group Leaderboards - Privacy Policy
+
+**IMPORTANT:** Group leaderboards are PRIVATE/UNLISTED pages.
+
+- Group pages are located in `[contest]/groups/*.md` (e.g., `nfl-2025/groups/UB.md`, `nfl-2025/groups/Narmada.md`)
+- These pages are accessible ONLY via direct URL
+- **NEVER** link to group pages from any public pages including:
+  - Contest landing pages (`past/[contest].md` or `[contest]/index.md`)
+  - Main leaderboards
+  - Blog posts
+  - Navigation menus
+  - README files
+- Group URLs are shared privately with participants to check standings among friends
+- While discoverable, they should not be advertised publicly
 
 ## Scoring and Updates
 

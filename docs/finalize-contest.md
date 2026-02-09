@@ -46,12 +46,11 @@ The final blog post (generated after the last game) needs several modifications:
 
 ### 2. Update All Leaderboards
 
-Add contest completion notice to three leaderboard files:
+Add contest completion notice to all leaderboard files:
 
 **Files to update:**
 - Main leaderboard: `past/[contest-slug]/leaderboard.md`
-- Group leaderboard 1: `past/[contest-slug]/groups/[group1].md`
-- Group leaderboard 2: `past/[contest-slug]/groups/[group2].md`
+- Group leaderboards: `past/[contest-slug]/groups/[group1].md`, `past/[contest-slug]/groups/[group2].md`, etc.
 
 **What to add:**
 
@@ -69,6 +68,11 @@ In each file, add this text in the "Contest Status" section (or create one if it
 - Date only, no time (e.g., "February 08, 2026")
 - Winner name should match the group's winner (Main = overall winner, each group = that group's winner)
 - Score should match the winner's final score
+
+**IMPORTANT - Group Privacy:**
+- Group leaderboards are UNLISTED - accessible only via direct URL
+- DO NOT link to group pages from any public pages (landing pages, main leaderboards, blog posts, etc.)
+- Groups are private for participants to share with their friends only
 
 ### 3. Update Hall of Fame
 
