@@ -10,6 +10,8 @@ permalink: "/nfl-2025/leaderboard"
 
 ## Contest Status
 
+**This contest ended on February 08, 2026. Chink won with a score of 5.18!**
+
 **7 of 7 games completed** (0 remaining)
 
 ---

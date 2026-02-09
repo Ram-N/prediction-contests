@@ -2,18 +2,26 @@
 layout: post
 title: "Chink takes the trophy after the Super Bowl!"
 subtitle: "Final NFL 2025 Playoff Standings"
-date: 2026-02-08 16:03:59 -0500
+date: 2026-02-09 00:00:00 -0500
 background: '/img/nfl/bg_nfl2.jpg'
 ---
 
 # NFL 2025 Playoffs - Final Results
 
-**Standings after 7 games** (Lower scores are better!)
+## Top Predictors
+
+**Chink** won the contest with a total penalty of **5.18**, followed by Go Seahawks! Tees (5.37) and Chayan Chakrabarti (5.62). Congratulations to our top three finishers!
+
+---
+
+## Final Standings
+
+Lower scores are better! The scoring uses cross-entropy (log loss) to penalize incorrect predictions more heavily.
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Rank | Name | Total | BUF-DEN | SF-SEA | HOU-NE | LAR-CHI | NE-DEN | LAR-SEA | SEA-NE |
 | :--------: | :------------ | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: |
-| 1 | Chink | 5.18 | <strong>0.94</strong> | <strong><u>0.32</u></strong> | <strong>0.74</strong> | <strong>0.6</strong> | <strong>0.9</strong> | <strong>0.87</strong> | <strong>0.81</strong> |
+| 1 | **Chink** | **5.18** | <strong>0.94</strong> | <strong><u>0.32</u></strong> | <strong>0.74</strong> | <strong>0.6</strong> | <strong>0.9</strong> | <strong>0.87</strong> | <strong>0.81</strong> |
 | 2 | Go Seahawks! Tees | 5.37 | <strong>0.7</strong> | <strong>0.77</strong> | <strong>0.64</strong> | <strong>0.69</strong> | <strong>0.92</strong> | <strong>0.72</strong> | <strong>0.93</strong> |
 | 3 | Chayan Chakrabarti | 5.62 | 1.15 | <strong>0.96</strong> | <strong>0.76</strong> | <strong><u>0.04</u></strong> | <strong>0.84</strong> | <strong>0.98</strong> | <strong>0.89</strong> |
 | 4 | Dodo | 5.77 | <strong><u>0.32</u></strong> | <strong>0.74</strong> | <strong>0.62</strong> | 1.0 | 1.16 | <strong>0.87</strong> | 1.06 |
@@ -45,10 +53,6 @@ background: '/img/nfl/bg_nfl2.jpg'
 
 ---
 
-### Current Leader
-
-**Chink** is in first place with a total penalty of **5.18**, followed by Go Seahawks! Tees (5.37) and Chayan Chakrabarti (5.62).
-
 ### Game Results
 
 - **BUF-DEN**: DEN defeats BUF
@@ -59,11 +63,11 @@ background: '/img/nfl/bg_nfl2.jpg'
 - **SEA-NE**: SEA defeats NE
 - **SF-SEA**: SEA defeats SF
 
-### Perfect Predictions So Far
+### Perfect Predictions
 
 These participants got **all 7 games directionally correct**:
 
-- Chink
+- **Chink**
 - Go Seahawks! Tees
 
 ---
