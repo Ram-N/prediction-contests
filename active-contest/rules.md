@@ -19,23 +19,26 @@ permalink: "/t20-2026/rules"
 
 
 
-## T20 World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2026_Men%27s_T20_World_Cup#Group_stage))
-
-- 20 national teams will be playing in the Group stage. There are a total of 4 groups of 5 countries each.
-- The top 2 teams from each Group Stage proceed to the *Super 8* stage.
-
-**Deadline: The Group stage prediction close on Feb 7th, before the first match**
-
-
 ## Scoring Rules for the Prediction Contest
 
 All predictions are due before the 1st match of the round starts. So please don't wait!
 
-### Super 8 Stage
+### Super 8 Group Scoring
 
-- 4 points for getting the team and the ranking correct. 
-- 2 points if you get only the team correct, but not its ranking. 
-- Maximum possible points = 8+8 = 16.
+In each group, let **W** = actual group winner and **R** = actual runner-up.
+
+| Points | Condition |
+|--------|-----------|
+| **6** | You picked both W and R to advance, and correctly picked W as the group winner. |
+| **5** | You picked both W and R to advance, but incorrectly picked R to win the group. |
+| **4** | You picked W to advance and correctly as group winner, but did not pick R to advance. |
+| **3** | You picked W to advance, but as runner-up, and did not pick R. |
+| **2** | You picked R to advance as runner-up, but did not pick W. |
+| **1** | You picked R to advance and as group winner, but did not pick W. |
+| **0** | You picked neither W nor R to advance. |
+
+- Maximum possible points per group = 6
+- Maximum possible points across all Super 8 groups = **12** (2 groups × 6 points)
 
 ### Group Stage
 
@@ -60,3 +63,11 @@ It takes less than a minute to make the predictions.
 
 
 Good luck!
+
+
+## T20 World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2026_Men%27s_T20_World_Cup#Group_stage))
+
+- 20 national teams will be playing in the Group stage. There are a total of 4 groups of 5 countries each.
+- The top 2 teams from each Group Stage proceed to the *Super 8* stage.
+
+**Deadline: The Group stage prediction close on Feb 7th, before the first match**
