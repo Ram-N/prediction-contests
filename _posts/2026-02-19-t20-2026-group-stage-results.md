@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aditya & Sahana share the lead after the T20 2026 Group Stage!"
+title: "Aditya and Sahana win the Group Stage!"
 subtitle: "Group Stage complete — 40 matches played"
 date: 2026-02-19 08:49:05
 background: '/img/cricket/bg_icc2023.jpg'
