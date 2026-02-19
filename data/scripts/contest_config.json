@@ -2,7 +2,7 @@
   "contest_name": "T20 2026",
   "contest_slug": "t20-2026",
   "predictions_file": "../T20-2026-Predictions-Clean.csv",
-  "results_file": "../T20-2026-results.csv",
+  "results_file": "../results/T20-2026-group-results.csv",
   "leaderboard_file": "../../active-contest/leaderboard.md",
   "blog_post_dir": "../../_posts/",
   "background_images": {
@@ -16,6 +16,7 @@
     ]
   },
   "total_games": 9,
+  "total_group_stage_games": 40,
   "round_names": {
     "4": "super-8",
     "7": "semifinals",
@@ -23,5 +24,5 @@
   },
   "team_code_map": {},
   "groups_file": "../T20-2026-groups.csv",
-  "groups_dir": "../../active-contest/groups"
+  "groups_dir": "../../t20-2026/groups"
 }
