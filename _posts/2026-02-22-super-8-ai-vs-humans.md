@@ -6,6 +6,28 @@ date: 2026-02-22 12:00:00
 background: '/img/cricket/bg_cricket.jpg'
 ---
 
+## Human vs. AI: 12 Matches to Decide It
+
+**65 humans** vs. **4 top AI models** — who predicted the Super 8 better?
+
+All 69 participants have submitted their picks. Over the next 12 matches, it'll become clear who got it right.
+
+<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-split.png" alt="Who advances? Group 1 vs Group 2" style="width:80%; display:block; margin:1.5em auto;">
+
+**Group 1 is where the AIs will likely sink or swim together.** If West Indies or Zimbabwe pull off an upset, it'll hurt all four models equally.
+
+<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-g2-leader.png" alt="Group 2 leader picks: humans vs AIs" style="width:70%; display:block; margin:1.5em auto;">
+
+**Group 2 is where reputations will be made.** With four different top-two predictions among four models, at least three AIs are going to be wrong. The question is whether any human does better.
+
+The leaderboard will be updated frequently. The Super 8 stage runs from **February 21 through March 1**. Semi-finals follow on March 4-5, with the Final in Ahmedabad on March 8.
+
+Let the games begin. 🏏
+
+[See the full leaderboard]({{ site.baseurl }}/t20-2026/leaderboard) | [Contest Rules]({{ site.baseurl }}/t20-2026/rules)
+
+---
+
 Four of the world's top AI models — **ChatGPT** (deep research), **Claude Opus 4.6**, **Gemini** (deep research), and **Perplexity** (GPT-5.1) — were asked to predict the Super 8 qualifiers. Each was given the same prompt, with full access to the internet. No restrictions. Go figure it out.
 
 The results? Fascinating. They agreed almost instantly on one group — and couldn't agree at all on the other.
@@ -18,12 +40,22 @@ Group 1 is the group that got the dramatic nickname before a single ball was bow
 
 And yet, every single AI landed on the same two teams advancing.
 
-| AI Model             | 1st        | 2nd          | Confidence |
-|----------------------|------------|--------------|------------|
-| ChatGPT (Deep Research) | **India** | **South Africa** | 63% |
-| Claude Opus 4.6      | **India**  | **South Africa** | 55% |
-| Gemini (Deep Research) | **India** | **South Africa** | 88% |
-| Perplexity (GPT-5.1) | **India**  | **South Africa** | 72% |
+<table class="table table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="min-width:200px">AI Model</th>
+      <th style="min-width:130px">1st</th>
+      <th style="min-width:130px">2nd</th>
+      <th style="min-width:100px">Confidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>ChatGPT (Deep Research)</td><td><strong>India</strong></td><td><strong>South Africa</strong></td><td>63%</td></tr>
+    <tr><td>Claude Opus 4.6</td><td><strong>India</strong></td><td><strong>South Africa</strong></td><td>55%</td></tr>
+    <tr><td>Gemini (Deep Research)</td><td><strong>India</strong></td><td><strong>South Africa</strong></td><td>88%</td></tr>
+    <tr><td>Perplexity (GPT-5.1)</td><td><strong>India</strong></td><td><strong>South Africa</strong></td><td>72%</td></tr>
+  </tbody>
+</table>
 
 Four models. Four identical picks. Zero drama.
 
@@ -39,40 +71,26 @@ Now here's where things get interesting. **Pakistan, England, Sri Lanka, New Zea
 
 The AIs took one look at this group and scattered in four different directions.
 
-| AI Model             | 1st           | 2nd          | Confidence |
-|----------------------|---------------|--------------|------------|
-| ChatGPT (Deep Research) | **New Zealand** | **Pakistan** | 56% |
-| Claude Opus 4.6      | **England**   | **Sri Lanka** | 30% |
-| Gemini (Deep Research) | **Pakistan** | **England**  | 72% |
-| Perplexity (GPT-5.1) | **England**   | **Pakistan** | 60% |
+<table class="table table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="min-width:200px">AI Model</th>
+      <th style="min-width:130px">1st</th>
+      <th style="min-width:130px">2nd</th>
+      <th style="min-width:100px">Confidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>ChatGPT (Deep Research)</td><td><strong>New Zealand</strong></td><td><strong>Pakistan</strong></td><td>56%</td></tr>
+    <tr><td>Claude Opus 4.6</td><td><strong>England</strong></td><td><strong>Sri Lanka</strong></td><td>30%</td></tr>
+    <tr><td>Gemini (Deep Research)</td><td><strong>Pakistan</strong></td><td><strong>England</strong></td><td>72%</td></tr>
+    <tr><td>Perplexity (GPT-5.1)</td><td><strong>England</strong></td><td><strong>Pakistan</strong></td><td>60%</td></tr>
+  </tbody>
+</table>
 
 Every team except Sri Lanka appears as someone's *first* pick. Sri Lanka is someone's *second* pick (Claude). No two models agree on the complete top-two pairing.
 
 This is genuinely remarkable. These are not simple chatbots giving gut reactions — they're large language models with real-time internet access, crunching match data, injury reports, betting odds, and venue statistics. And they arrived at four completely different answers.
-
----
-
-## Human vs. AI: 12 Matches to Decide It
-
-The AIs have spoken — sort of. They're unified on India and South Africa. On Group 2, they're a mess.
-
-All 69 participants in the prediction contest have also submitted their Super 8 picks (65 humans + 4 AI models — the entry deadline has passed — no peeking at the AI predictions first!). Over the next 12 matches, it'll become clear who got it right.
-
-<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-split.png" alt="Who advances? Group 1 vs Group 2" style="width:80%; display:block; margin:1.5em auto;">
-
-**Group 1 is where the AIs will likely sink or swim together.** If West Indies or Zimbabwe pull off an upset, it'll hurt all four models equally.
-
-<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-g2-leader.png" alt="Group 2 leader picks: humans vs AIs" style="width:70%; display:block; margin:1.5em auto;">
-
-**Group 2 is where reputations will be made.** With four different top-two predictions among four models, at least three AIs are going to be wrong. The question is whether any human does better.
-
----
-
-The leaderboard will be updated frequently. The Super 8 stage runs from **February 21 through March 1**. Semi-finals follow on March 4-5, with the Final in Ahmedabad on March 8.
-
-Let the games begin. 🏏
-
-[See the full leaderboard]({{ site.baseurl }}/t20-2026/leaderboard) | [Contest Rules]({{ site.baseurl }}/t20-2026/rules)
 
 ---
 
