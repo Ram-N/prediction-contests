@@ -97,141 +97,73 @@ permalink: "/t20-2026/predictions"
   </thead>
   <tbody>
     <tr><td>ChatGPT Deep Research</td><td>SF</td><td>IND</td><td>SA</td><td>NZ</td><td>PAK</td><td>✓</td></tr>
-
     <tr><td>Claude Opus 4.6</td><td>SF</td><td>IND</td><td>SA</td><td>ENG</td><td>SL</td><td>✓</td></tr>
-
-    <tr><td>Gemini (Deep Research)</td><td>MTV, CA</td><td>IND</td><td>SA</td><td>PAK</td><td>ENG</td><td>✓</td></tr>
-
+    <tr><td>Gemini (Deep Research)</td><td>MTV</td><td>IND</td><td>SA</td><td>PAK</td><td>ENG</td><td>✓</td></tr>
     <tr><td>Perplexity GPT-5.1</td><td>SF</td><td>IND</td><td>SA</td><td>ENG</td><td>PAK</td><td>✓</td></tr>
-
     <tr><td>Aakarsh Ekollu</td><td>Saratoga</td><td>IND</td><td>WI</td><td>ENG</td><td>NZ</td><td></td></tr>
-
     <tr><td>Abhinav Saxena</td><td>Milpitas</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
     <tr><td>Aditya</td><td></td><td>IND</td><td>SA</td><td>ENG</td><td>NZ</td><td></td></tr>
-
-    <tr><td>Alamuru Krishna</td><td>Sunnyvale, CA</td><td>IND</td><td>SA</td><td>SL</td><td>ENG</td><td></td></tr>
-
+    <tr><td>Alamuru Krishna</td><td>Sunnyvale</td><td>IND</td><td>SA</td><td>SL</td><td>ENG</td><td></td></tr>
     <tr><td>ALEX</td><td>Seattle</td><td>IND</td><td>SA</td><td>PAK</td><td>NZ</td><td></td></tr>
-
     <tr><td>Alok</td><td>US</td><td>IND</td><td>SA</td><td>SL</td><td>PAK</td><td></td></tr>
-
     <tr><td>Ashish</td><td>Los Altos</td><td>IND</td><td>SA</td><td>ENG</td><td>NZ</td><td></td></tr>
-
     <tr><td>Atul Agarwal</td><td>Colorado Springs</td><td>IND</td><td>SA</td><td>SL</td><td>PAK</td><td></td></tr>
-
     <tr><td>bala</td><td>oakland</td><td>IND</td><td>SA</td><td>SL</td><td>ENG</td><td></td></tr>
-
     <tr><td>Bharath Sridharan</td><td>Dallas</td><td>IND</td><td>WI</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Bharathkirishnan S R</td><td>Bengaluru</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Bhargavi</td><td>India</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
     <tr><td>Chandran Dharmarajan</td><td>India</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Chayan Chakrabarti</td><td>Oakland</td><td>SA</td><td>IND</td><td>ENG</td><td>PAK</td><td></td></tr>
-
-    <tr><td>Chink</td><td>US</td><td>IND</td><td>SA</td><td>PAK</td><td>ENG</td><td></td></tr>
-
-    <tr><td>D. Sivakumar</td><td>Cupertino, CA</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
-    <tr><td>Dhanush Ekollu</td><td>Saratoga, CA</td><td>IND</td><td>SA</td><td>ENG</td><td>SL</td><td></td></tr>
-
+    <tr><td>Chink</td><td>U.S.A</td><td>IND</td><td>SA</td><td>PAK</td><td>ENG</td><td></td></tr>
+    <tr><td>D. Sivakumar</td><td>Cupertino</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
+    <tr><td>Dhanush Ekollu</td><td>Saratoga</td><td>IND</td><td>SA</td><td>ENG</td><td>SL</td><td></td></tr>
     <tr><td>Dodes</td><td>Boston</td><td>SA</td><td>IND</td><td>PAK</td><td>NZ</td><td></td></tr>
-
     <tr><td>Goutham Ekollu</td><td>Saratoga</td><td>IND</td><td>WI</td><td>SL</td><td>NZ</td><td></td></tr>
-
     <tr><td>Harish Natarajan</td><td>India</td><td>IND</td><td>WI</td><td>NZ</td><td>ENG</td><td></td></tr>
-
-    <tr><td>Harsh</td><td>US</td><td>IND</td><td>ZIM</td><td>PAK</td><td>SL</td><td></td></tr>
-
+    <tr><td>Harsh</td><td>United States</td><td>IND</td><td>ZIM</td><td>PAK</td><td>SL</td><td></td></tr>
     <tr><td>Hauroon</td><td>Malaysia</td><td>IND</td><td>ZIM</td><td>SL</td><td>PAK</td><td></td></tr>
-
     <tr><td>Ishaan</td><td>Oakland</td><td>IND</td><td>ZIM</td><td>ENG</td><td>PAK</td><td></td></tr>
-
     <tr><td>Kausalya</td><td>Chennai</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
     <tr><td>Kaushik</td><td>Wesley Chapel</td><td>IND</td><td>WI</td><td>ENG</td><td>PAK</td><td></td></tr>
-
     <tr><td>Keshav Narasimhan</td><td>College Park</td><td>SA</td><td>WI</td><td>SL</td><td>NZ</td><td></td></tr>
-
-    <tr><td>Keshav Venkatesh</td><td>US</td><td>SA</td><td>IND</td><td>ENG</td><td>NZ</td><td></td></tr>
-
-    <tr><td>Krishnaveni Kumbaji</td><td>Saratoga, CA</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
+    <tr><td>Keshav Venkatesh</td><td></td><td>SA</td><td>IND</td><td>ENG</td><td>NZ</td><td></td></tr>
+    <tr><td>Krishnaveni Kumbaji</td><td>Saratoga</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
     <tr><td>Kshitij</td><td>Richmond</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
     <tr><td>Manish</td><td>Orlando</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Manoj S</td><td>Knoxville</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Mukund N.</td><td>Pittsburgh, PA</td><td>SA</td><td>IND</td><td>SL</td><td>NZ</td><td></td></tr>
-
     <tr><td>Narmada 237</td><td>Santa Clara</td><td>IND</td><td>SA</td><td>SL</td><td>ENG</td><td></td></tr>
-
     <tr><td>Niraj Mishra</td><td>Tampa</td><td>IND</td><td>SA</td><td>SL</td><td>ENG</td><td></td></tr>
-
-    <tr><td>Nitin Khanna</td><td>US</td><td>IND</td><td>WI</td><td>NZ</td><td>PAK</td><td></td></tr>
-
+    <tr><td>Nitin Khanna</td><td>United States</td><td>IND</td><td>WI</td><td>NZ</td><td>PAK</td><td></td></tr>
     <tr><td>P Amritha</td><td>Bangalore</td><td>SA</td><td>IND</td><td>SL</td><td>NZ</td><td></td></tr>
-
     <tr><td>Pradeep</td><td>Tampa</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
-    <tr><td>R. Santhanam</td><td>Chennai</td><td>SA</td><td>IND</td><td>NZ</td><td>SL</td><td></td></tr>
-
+    <tr><td>R. Santhanam</td><td>Chennai</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
     <tr><td>Radhika Santhanam</td><td>Mumbai</td><td>IND</td><td>SA</td><td>ENG</td><td>NZ</td><td></td></tr>
-
     <tr><td>Rahul Santhanam</td><td>UK</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Rajesh</td><td>Chennai</td><td>IND</td><td>WI</td><td>NZ</td><td>ENG</td><td></td></tr>
-
     <tr><td>Ram</td><td>Orlando</td><td>IND</td><td>SA</td><td>SL</td><td>NZ</td><td></td></tr>
-
     <tr><td>Rama</td><td></td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Ramana Kadari</td><td>Riverview, FL</td><td>IND</td><td>SA</td><td>ENG</td><td>NZ</td><td></td></tr>
-
     <tr><td>Ramesh Srinivasan</td><td>India</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
     <tr><td>Ranga</td><td>Buffalo</td><td>IND</td><td>SA</td><td>ENG</td><td>NZ</td><td></td></tr>
-
     <tr><td>Rankanathan V S</td><td>Chennai</td><td>IND</td><td>WI</td><td>ENG</td><td>NZ</td><td></td></tr>
-
     <tr><td>Rupal</td><td>US</td><td>IND</td><td>SA</td><td>SL</td><td>ENG</td><td></td></tr>
-
     <tr><td>S Parthasarathy</td><td>Chennai</td><td>IND</td><td>WI</td><td>NZ</td><td>ENG</td><td></td></tr>
-
     <tr><td>S V Madhavan</td><td>India</td><td>IND</td><td>WI</td><td>ENG</td><td>PAK</td><td></td></tr>
-
     <tr><td>Sackett</td><td>Pleasanton</td><td>SA</td><td>IND</td><td>ENG</td><td>NZ</td><td></td></tr>
-
     <tr><td>Sahana</td><td>Seattle</td><td>IND</td><td>SA</td><td>NZ</td><td>PAK</td><td></td></tr>
-
     <tr><td>Shajman</td><td>Houston</td><td>IND</td><td>SA</td><td>SL</td><td>ENG</td><td></td></tr>
-
-    <tr><td>Shiv Iyer</td><td>US</td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
-
+    <tr><td>Shiv Iyer</td><td></td><td>IND</td><td>SA</td><td>NZ</td><td>ENG</td><td></td></tr>
     <tr><td>Shriya</td><td>Seattle</td><td>IND</td><td>WI</td><td>PAK</td><td>ENG</td><td></td></tr>
-
     <tr><td>Siva Kantamneni</td><td>Seminole</td><td>IND</td><td>ZIM</td><td>SL</td><td>ENG</td><td></td></tr>
-
     <tr><td>Sreenivas G</td><td>Cupertino</td><td>IND</td><td>SA</td><td>ENG</td><td>SL</td><td></td></tr>
-
-    <tr><td>Sri Ouer</td><td>Philadelphia</td><td>IND</td><td>WI</td><td>NZ</td><td>SL</td><td></td></tr>
-
+    <tr><td>Sri Iyer</td><td>Philadelphia</td><td>IND</td><td>WI</td><td>NZ</td><td>SL</td><td></td></tr>
     <tr><td>Subbu Mahadevan</td><td>Palo Alto</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>Tees</td><td>Seattle</td><td>IND</td><td>WI</td><td>NZ</td><td>SL</td><td></td></tr>
-
     <tr><td>The Kasher</td><td>Los Angeles</td><td>IND</td><td>SA</td><td>NZ</td><td>PAK</td><td></td></tr>
-
     <tr><td>V 'CV' C</td><td></td><td>SA</td><td>IND</td><td>SL</td><td>NZ</td><td></td></tr>
-
-    <tr><td>vivek</td><td>Harare</td><td>IND</td><td>SA</td><td>PAK</td><td>NZ</td><td></td></tr>
-
     <tr><td>Vivek</td><td>Redwood City</td><td>SA</td><td>IND</td><td>NZ</td><td>SL</td><td></td></tr>
-
+    <tr><td>vivek</td><td>Harare</td><td>IND</td><td>SA</td><td>PAK</td><td>NZ</td><td></td></tr>
     <tr><td>Vivek Jaiswal</td><td>Richmond, VA</td><td>IND</td><td>SA</td><td>NZ</td><td>SL</td><td></td></tr>
   </tbody>
 </table>
@@ -283,7 +215,7 @@ $(document).ready(function() {
     <tr><td>Atul Agarwal</td><td>Colorado Springs</td><td>IND</td><td>WI</td><td>SA</td><td>IND</td><td>SA</td><td>IND</td><td>PAK</td><td>SL</td><td>ENG</td><td>NZ</td><td>ENG</td><td>PAK</td></tr>
     <tr><td>bala</td><td>oakland</td><td>IND</td><td>WI</td><td>SA</td><td>IND</td><td>SA</td><td>IND</td><td>NZ</td><td>ENG</td><td>ENG</td><td>SL</td><td>ENG</td><td>SL</td></tr>
     <tr><td>Bhargavi</td><td>India</td><td>IND</td><td>WI</td><td>SA</td><td>IND</td><td>SA</td><td>IND</td><td>NZ</td><td>ENG</td><td>ENG</td><td>NZ</td><td>ENG</td><td>SL</td></tr>
-    <tr><td>Bharath Sridharan</td><td>Dallas, US</td><td>IND</td><td>WI</td><td>WI</td><td>IND</td><td>SA</td><td>IND</td><td>NZ</td><td>SL</td><td>ENG</td><td>NZ</td><td>NZ</td><td>SL</td></tr>
+    <tr><td>Bharath Sridharan</td><td>Dallas</td><td>IND</td><td>WI</td><td>WI</td><td>IND</td><td>SA</td><td>IND</td><td>NZ</td><td>SL</td><td>ENG</td><td>NZ</td><td>NZ</td><td>SL</td></tr>
     <tr><td>Bharathkirishnan S R</td><td>Bengaluru</td><td>IND</td><td>WI</td><td>SA</td><td>IND</td><td>SA</td><td>IND</td><td>NZ</td><td>SL</td><td>ENG</td><td>NZ</td><td>NZ</td><td>SL</td></tr>
     <tr><td>Chayan Chakrabarti</td><td>Oakland</td><td>SA</td><td>ZIM</td><td>WI</td><td>ZIM</td><td>ZIM</td><td>WI</td><td>PAK</td><td>SL</td><td>PAK</td><td>SL</td><td>NZ</td><td>PAK</td></tr>
     <tr><td>Gokul</td><td>Los Gatos</td><td>IND</td><td>WI</td><td>SA</td><td>IND</td><td>SA</td><td>WI</td><td>NZ</td><td>SL</td><td>ENG</td><td>NZ</td><td>NZ</td><td>SL</td></tr>
