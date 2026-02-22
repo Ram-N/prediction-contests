@@ -6,8 +6,6 @@ date: 2026-02-22 12:00:00
 background: '/img/cricket/bg_cricket.jpg'
 ---
 
-The Super 8 stage kicks off tomorrow, and before revealing everyone's predictions, here is a little experiment that was run.
-
 Four of the world's top AI models — **ChatGPT** (deep research), **Claude Opus 4.6**, **Gemini** (deep research), and **Perplexity** (GPT-5.1) — were asked to predict the Super 8 qualifiers. Each was given the same prompt, with full access to the internet. No restrictions. Go figure it out.
 
 The results? Fascinating. They agreed almost instantly on one group — and couldn't agree at all on the other.
@@ -20,18 +18,16 @@ Group 1 is the group that got the dramatic nickname before a single ball was bow
 
 And yet, every single AI landed on the same two teams advancing.
 
-| AI Model | 1st | 2nd | Confidence |
-|---|---|---|---|
+| AI Model             | 1st        | 2nd          | Confidence |
+|----------------------|------------|--------------|------------|
 | ChatGPT (Deep Research) | **India** | **South Africa** | 63% |
-| Claude Opus 4.6 | **India** | **South Africa** | 55% |
+| Claude Opus 4.6      | **India**  | **South Africa** | 55% |
 | Gemini (Deep Research) | **India** | **South Africa** | 88% |
-| Perplexity (GPT-5.1) | **India** | **South Africa** | 72% |
+| Perplexity (GPT-5.1) | **India**  | **South Africa** | 72% |
 
 Four models. Four identical picks. Zero drama.
 
 **Why the unanimity?** The reasoning is remarkably consistent across all four reports. India's +2.500 NRR is the best argument for dominance in a three-match sprint, and their home advantage — playing across Indian venues they know intimately — is a structural edge. South Africa's all-round depth (Ngidi and Nortje's pace, Maharaj's control spin, and a batting order with genuine "closers") makes them the clear second pick.
-
-All four AIs even agree on *what* they're worried about. West Indies have the power-hitting to flip a single high-scoring game at Wankhede. Zimbabwe — the tournament's great underdog story, having knocked out Australia — lack the bowling depth to sustain pressure across three consecutive matches against elite opposition. In a round-robin of just three games, one Zimbabwe upset could create chaos. But all four models bet it won't be enough.
 
 Gemini was the most bullish (88% confidence). Claude was the most hesitant (55%). But the call was the same.
 
@@ -43,18 +39,59 @@ Now here's where things get interesting. **Pakistan, England, Sri Lanka, New Zea
 
 The AIs took one look at this group and scattered in four different directions.
 
-| AI Model | 1st | 2nd | Confidence |
-|---|---|---|---|
+| AI Model             | 1st           | 2nd          | Confidence |
+|----------------------|---------------|--------------|------------|
 | ChatGPT (Deep Research) | **New Zealand** | **Pakistan** | 56% |
-| Claude Opus 4.6 | **England** | **Sri Lanka** | 30% |
-| Gemini (Deep Research) | **Pakistan** | **England** | 72% |
-| Perplexity (GPT-5.1) | **England** | **Pakistan** | 60% |
+| Claude Opus 4.6      | **England**   | **Sri Lanka** | 30% |
+| Gemini (Deep Research) | **Pakistan** | **England**  | 72% |
+| Perplexity (GPT-5.1) | **England**   | **Pakistan** | 60% |
 
 Every team except Sri Lanka appears as someone's *first* pick. Sri Lanka is someone's *second* pick (Claude). No two models agree on the complete top-two pairing.
 
 This is genuinely remarkable. These are not simple chatbots giving gut reactions — they're large language models with real-time internet access, crunching match data, injury reports, betting odds, and venue statistics. And they arrived at four completely different answers.
 
-**Why such disagreement?**
+---
+
+## Human vs. AI: 12 Matches to Decide It
+
+The AIs have spoken — sort of. They're unified on India and South Africa. On Group 2, they're a mess.
+
+All 69 participants in the prediction contest have also submitted their Super 8 picks (65 humans + 4 AI models — the entry deadline has passed — no peeking at the AI predictions first!). Over the next 12 matches, it'll become clear who got it right.
+
+<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-split.png" alt="Who advances? Group 1 vs Group 2" style="width:80%; display:block; margin:1.5em auto;">
+
+**Group 1 is where the AIs will likely sink or swim together.** If West Indies or Zimbabwe pull off an upset, it'll hurt all four models equally.
+
+<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-g2-leader.png" alt="Group 2 leader picks: humans vs AIs" style="width:70%; display:block; margin:1.5em auto;">
+
+**Group 2 is where reputations will be made.** With four different top-two predictions among four models, at least three AIs are going to be wrong. The question is whether any human does better.
+
+---
+
+The leaderboard will be updated frequently. The Super 8 stage runs from **February 21 through March 1**. Semi-finals follow on March 4-5, with the Final in Ahmedabad on March 8.
+
+Let the games begin. 🏏
+
+[See the full leaderboard]({{ site.baseurl }}/t20-2026/leaderboard) | [Contest Rules]({{ site.baseurl }}/t20-2026/rules)
+
+---
+
+### Go deeper: Read the full AI reports
+
+Each model had one insight that didn't make the main summary — here's a taste:
+
+> **ChatGPT** noticed something most previews glossed over: West Indies aren't the West Indies of old. Nicholas Pooran and Andre Russell have both retired from internationals, and Alzarri Joseph missed the squad entirely through injury. The power that made them dangerous is structurally diminished — which is a big part of why ChatGPT felt comfortable picking South Africa for second despite the "Group of Death" label.
+
+> **Claude** zeroed in on the NRR gap as a tell. England's group-stage NRR was a modest +0.201 — barely scraping through. Sri Lanka's was +3.125, the best in the entire tournament. Claude argued that NRR reflects *how* convincingly a team is winning, not just whether they qualify. That's what made the contrarian Sri Lanka pick feel defensible, even at 30% confidence.
+
+> **Gemini** introduced a concept it called the "Points Reset Fallacy." Yes, all teams start the Super 8 at zero — but Gemini argued that India, South Africa, and West Indies have "forgotten how to lose" in this tournament cycle. That psychological momentum, it said, leads to fearless powerplay decision-making that points-reset teams can't manufacture overnight.
+
+> **Perplexity** was the only model to explicitly factor in IPL franchise experience as a venue edge. Players like Suryakumar Yadav (Wankhede), Aiden Markram (Ahmedabad), and Jos Buttler (Rajasthan Royals circuit) have hundreds of innings of "venue memory" at these specific grounds. In a three-match sprint, knowing *exactly* how a pitch behaves at 8pm might be worth a run or two an over.
+
+<details>
+<summary><strong>Why such disagreement? (Click to expand)</strong></summary>
+
+<br>
 
 ### The Sri Lanka Injury Problem
 
@@ -78,43 +115,9 @@ The bear case: England's spin bowling is paper-thin. If pitches in Kandy and Col
 
 ChatGPT, which excluded England from its top two entirely, pointed to England's modest group-stage NRR (+0.201) as a red flag in a tiebreaker-sensitive round-robin.
 
----
+</details>
 
-## Human vs. AI: 12 Matches to Decide It
-
-The AIs have spoken — sort of. They're unified on India and South Africa. On Group 2, they're a mess.
-
-All 69 participants in the prediction contest have also submitted their Super 8 picks (65 humans + 4 AI models — the entry deadline has passed — no peeking at the AI predictions first!). Over the next 12 matches, it'll become clear who got it right.
-
-<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-split.png" alt="Who advances? Group 1 vs Group 2" style="width:80%; display:block; margin:1.5em auto;">
-
-**Group 1 is where the AIs will likely sink or swim together.** If West Indies or Zimbabwe pull off an upset, it'll hurt all four models equally.
-
-<img src="{{ site.baseurl }}/img/cricket/t20-2026-super8-g2-leader.png" alt="Group 2 leader picks: humans vs AIs" style="width:70%; display:block; margin:1.5em auto;">
-
-**Group 2 is where reputations will be made.** With four different top-two predictions among four models, at least three AIs are going to be wrong. The question is whether any human does better.
-
----
-
-The leaderboard will be updated after each match. The Super 8 stage runs from **February 21 through March 1**. Semi-finals follow on March 4-5, with the Final in Ahmedabad on March 8.
-
-Let the games begin. 🏏
-
-[See the full leaderboard]({{ site.baseurl }}/t20-2026/leaderboard) | [Contest Rules]({{ site.baseurl }}/t20-2026/rules)
-
----
-
-### Go deeper: Read the full AI reports
-
-Each model had one insight that didn't make the main summary — here's a taste:
-
-> **ChatGPT** noticed something most previews glossed over: West Indies aren't the West Indies of old. Nicholas Pooran and Andre Russell have both retired from internationals, and Alzarri Joseph missed the squad entirely through injury. The power that made them dangerous is structurally diminished — which is a big part of why ChatGPT felt comfortable picking South Africa for second despite the "Group of Death" label.
-
-> **Claude** zeroed in on the NRR gap as a tell. England's group-stage NRR was a modest +0.201 — barely scraping through. Sri Lanka's was +3.125, the best in the entire tournament. Claude argued that NRR reflects *how* convincingly a team is winning, not just whether they qualify. That's what made the contrarian Sri Lanka pick feel defensible, even at 30% confidence.
-
-> **Gemini** introduced a concept it called the "Points Reset Fallacy." Yes, all teams start the Super 8 at zero — but Gemini argued that India, South Africa, and West Indies have "forgotten how to lose" in this tournament cycle. That psychological momentum, it said, leads to fearless powerplay decision-making that points-reset teams can't manufacture overnight.
-
-> **Perplexity** was the only model to explicitly factor in IPL franchise experience as a venue edge. Players like Suryakumar Yadav (Wankhede), Aiden Markram (Ahmedabad), and Jos Buttler (Rajasthan Royals circuit) have hundreds of innings of "venue memory" at these specific grounds. In a three-match sprint, knowing *exactly* how a pitch behaves at 8pm might be worth a run or two an over.
+<br>
 
 Curious how each model reasoned through its picks? Here's everything, unedited:
 
