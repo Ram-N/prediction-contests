@@ -6,7 +6,7 @@ background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/ub"
 ---
 
-*Last updated: 2026-02-19 08:49*
+*Last updated: 2026-02-20 15:40*
 
 ## UB Group Standings
 
@@ -18,11 +18,10 @@ Higher scores are better! Maximum possible score: **16 points**.
 | T-1 | Ashish | Los Altos, USA |  | 12 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | **NZ (2)** |
 | T-1 | D. Sivakumar | Cupertino, CA |  | 12 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | **NZ (2)** |
 | T-1 | Alok | USA |  | 12 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | **NZ (2)** |
-| 4 | Goutham Ekollu | Saratoga |  | 11 | **IND (2)** | **PAK (2)** | SL (1) | AUS | ENG (1) | WI (1) | **SA (2)** | **NZ (2)** |
-| T-5 | Ranga | Buffalo |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | AFG |
-| T-5 | Ram | Orlando, FL |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | NZ (1) | SA (1) |
-| T-5 | Sreenivas G | Cupertino |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | NZ (1) | SA (1) |
-| T-5 | Rupal | US |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | AFG |
+| T-4 | Ranga | Buffalo |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | AFG |
+| T-4 | Ram | Orlando, FL |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | NZ (1) | SA (1) |
+| T-4 | Sreenivas G | Cupertino |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | NZ (1) | SA (1) |
+| T-4 | Rupal | US |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | AFG |
 
 ---
 
