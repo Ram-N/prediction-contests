@@ -2,7 +2,7 @@
 layout: post
 title: "Super 8 Predictions - Can Four Top AI Models Beat the Humans?"
 subtitle: "Four top AI models predict the Super 8. Humans will judge."
-date: 2026-02-20 20:00:00
+date: 2026-02-22 12:00:00
 background: '/img/cricket/bg_cricket.jpg'
 ---
 
