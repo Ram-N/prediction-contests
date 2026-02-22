@@ -6,6 +6,14 @@ background: '/img/cricket/bg_t20.webp'
 permalink: "/t20-2026/predictions"
 ---
 
+## Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+---
+
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css">
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
