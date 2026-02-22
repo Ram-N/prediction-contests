@@ -264,7 +264,7 @@ $(document).ready(function() {
 
 ---
 
-## T20 World Cup 2026 - Group Stage Predictions
+## Group Stage Predictions
 
 <table id="predictionsTable" class="table table-striped table-bordered table-sm table-hover">
   <thead class="thead-dark">

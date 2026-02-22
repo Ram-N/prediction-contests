@@ -6,7 +6,7 @@ background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/ai"
 ---
 
-*Last updated: 2026-02-19 08:49*
+*Last updated: 2026-02-20 15:40*
 
 ## AI Group Standings
 
