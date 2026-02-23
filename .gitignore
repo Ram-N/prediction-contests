@@ -10,5 +10,9 @@ data/
 # Claude Code local files
 .claude/
 
+# Python virtual environments
+.venv/
+__pycache__/
+
 # Windows/WSL zone identifier files
 *:Zone.Identifier
