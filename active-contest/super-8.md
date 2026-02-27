@@ -33,7 +33,7 @@ permalink: "/t20-2026/super-8"
 
 ## Match by Match Leaderboard
 
-*8 of 12 matches played. Correct predictions are **bolded**. NZvPAK (washout): all participants receive 1 point.*
+*9 of 12 matches played. Correct predictions are **bolded**. NZvPAK (washout): all participants receive 1 point.*
 
 <table id="super8MBMTable" class="table table-striped table-bordered table-sm table-hover">
   <thead class="thead-dark">
@@ -41,7 +41,7 @@ permalink: "/t20-2026/super-8"
       <th>Rank</th>
       <th>Name</th>
       <th>Location</th>
-      <th>Total / 8</th>
+      <th>Total / 9</th>
       <th>NZvPAK<br><small>Washout</small></th>
       <th>ENGvSL<br><small>✓ ENG</small></th>
       <th>INDvSA<br><small>✓ SA</small></th>
@@ -50,7 +50,7 @@ permalink: "/t20-2026/super-8"
       <th>NZvSL<br><small>✓ NZ</small></th>
       <th>SAvWI<br><small>✓ SA</small></th>
       <th>INDvZIM<br><small>✓ IND</small></th>
-      <th>NZvENG</th>
+      <th>NZvENG<br><small>✓ NZ</small></th>
       <th>PAKvSL</th>
       <th>ZIMvSA</th>
       <th>INDvWI</th>
@@ -59,9 +59,27 @@ permalink: "/t20-2026/super-8"
   <tbody>
     <tr>
       <td>T-1</td>
+      <td>Rajesh</td>
+      <td>Chennai</td>
+      <td><strong>7/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td><strong>SA</strong></td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>WI</td>
+      <td><strong>IND</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-1</td>
       <td>Rankanathan v s</td>
       <td>Chennai</td>
-      <td><strong>7/8</strong></td>
+      <td><strong>7/9</strong></td>
       <td><strong>NZ</strong></td>
       <td><strong>ENG</strong></td>
       <td>IND</td>
@@ -71,6 +89,60 @@ permalink: "/t20-2026/super-8"
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
       <td>ENG</td>
+      <td>SL</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-1</td>
+      <td>Bharathkirishnan S R</td>
+      <td>Bengaluru</td>
+      <td><strong>7/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-1</td>
+      <td>S V Madhavan</td>
+      <td>India</td>
+      <td><strong>7/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td>PAK</td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>PAK</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-1</td>
+      <td>R. Santhanam</td>
+      <td>Chennai</td>
+      <td><strong>7/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>SA</td>
       <td>IND</td>
@@ -79,7 +151,7 @@ permalink: "/t20-2026/super-8"
       <td>T-1</td>
       <td>Ram</td>
       <td>Orlando</td>
-      <td><strong>7/8</strong></td>
+      <td><strong>7/9</strong></td>
       <td><strong>PAK</strong></td>
       <td><strong>ENG</strong></td>
       <td>IND</td>
@@ -89,6 +161,24 @@ permalink: "/t20-2026/super-8"
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
       <td>ENG</td>
+      <td>PAK</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-1</td>
+      <td>Alex</td>
+      <td>Seattle</td>
+      <td><strong>7/9</strong></td>
+      <td><strong>PAK</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td>PAK</td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td><strong>NZ</strong></td>
       <td>PAK</td>
       <td>SA</td>
       <td>IND</td>
@@ -97,7 +187,7 @@ permalink: "/t20-2026/super-8"
       <td>T-1</td>
       <td>Bhargavi</td>
       <td>India</td>
-      <td><strong>7/8</strong></td>
+      <td><strong>7/9</strong></td>
       <td><strong>NZ</strong></td>
       <td><strong>ENG</strong></td>
       <td>IND</td>
@@ -113,99 +203,9 @@ permalink: "/t20-2026/super-8"
     </tr>
     <tr>
       <td>T-1</td>
-      <td>Kshitij</td>
-      <td>Richmond</td>
-      <td><strong>7/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td><strong>ENG</strong></td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>ENG</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-5</td>
-      <td>R. Santhanam</td>
-      <td>Chennai</td>
-      <td><strong>6/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>NZ</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-5</td>
-      <td>S V Madhavan</td>
-      <td>India</td>
-      <td><strong>6/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td><strong>ENG</strong></td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td>PAK</td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>NZ</td>
-      <td>PAK</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-5</td>
-      <td>Bharathkirishnan S R</td>
-      <td>Bengaluru</td>
-      <td><strong>6/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>NZ</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-5</td>
-      <td>Alex</td>
-      <td>Seattle</td>
-      <td><strong>6/8</strong></td>
-      <td><strong>PAK</strong></td>
-      <td><strong>ENG</strong></td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td>PAK</td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>NZ</td>
-      <td>PAK</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-5</td>
       <td>Gokul</td>
       <td>Los Gatos</td>
-      <td><strong>6/8</strong></td>
+      <td><strong>7/9</strong></td>
       <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>IND</td>
@@ -214,16 +214,16 @@ permalink: "/t20-2026/super-8"
       <td><strong>NZ</strong></td>
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>SA</td>
       <td>WI</td>
     </tr>
     <tr>
-      <td>T-5</td>
+      <td>T-1</td>
       <td>Sri Iyer</td>
       <td>Philadelphia</td>
-      <td><strong>6/8</strong></td>
+      <td><strong>7/9</strong></td>
       <td><strong>NZ</strong></td>
       <td><strong>ENG</strong></td>
       <td>IND</td>
@@ -232,16 +232,34 @@ permalink: "/t20-2026/super-8"
       <td><strong>NZ</strong></td>
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>PAK</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-5</td>
+      <td>T-1</td>
+      <td>Kshitij</td>
+      <td>Richmond</td>
+      <td><strong>7/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td>ENG</td>
+      <td>SL</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-1</td>
       <td>Keshav Narasimhan</td>
       <td>College Park, USA</td>
-      <td><strong>6/8</strong></td>
+      <td><strong>7/9</strong></td>
       <td><strong>NZ</strong></td>
       <td>SL</td>
       <td><strong>SA</strong></td>
@@ -250,52 +268,16 @@ permalink: "/t20-2026/super-8"
       <td>SL</td>
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>SA</td>
       <td>WI</td>
     </tr>
     <tr>
-      <td>T-5</td>
-      <td>Atul Agarwal</td>
-      <td>Colorado Springs USA</td>
-      <td><strong>6/8</strong></td>
-      <td><strong>PAK</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>ENG</td>
-      <td>PAK</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-5</td>
-      <td>Rajesh</td>
-      <td>Chennai</td>
-      <td><strong>6/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td><strong>SA</strong></td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>WI</td>
-      <td><strong>IND</strong></td>
-      <td>NZ</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-5</td>
+      <td>T-13</td>
       <td>bala</td>
       <td>oakland</td>
-      <td><strong>6/8</strong></td>
+      <td><strong>6/9</strong></td>
       <td><strong>NZ</strong></td>
       <td><strong>ENG</strong></td>
       <td>IND</td>
@@ -310,46 +292,10 @@ permalink: "/t20-2026/super-8"
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-15</td>
-      <td>Bharath Sridharan</td>
-      <td>Dallas, US</td>
-      <td><strong>5/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>WI</td>
-      <td><strong>IND</strong></td>
-      <td>NZ</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-15</td>
-      <td>Subha</td>
-      <td>Seattle</td>
-      <td><strong>5/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td>SL</td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>ENG</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-15</td>
+      <td>T-13</td>
       <td>Niraj Mishra</td>
       <td>Tampa</td>
-      <td><strong>5/8</strong></td>
+      <td><strong>6/9</strong></td>
       <td><strong>PAK</strong></td>
       <td><strong>ENG</strong></td>
       <td>IND</td>
@@ -358,106 +304,34 @@ permalink: "/t20-2026/super-8"
       <td><strong>NZ</strong></td>
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>PAK</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-15</td>
-      <td>vivek</td>
-      <td>Harare - Zimbabwe</td>
-      <td><strong>5/8</strong></td>
-      <td><strong>PAK</strong></td>
-      <td><strong>ENG</strong></td>
+      <td>T-13</td>
+      <td>Bharath Sridharan</td>
+      <td>Dallas, US</td>
+      <td><strong>6/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
       <td>IND</td>
       <td><strong>WI</strong></td>
-      <td>PAK</td>
+      <td><strong>ENG</strong></td>
       <td><strong>NZ</strong></td>
       <td>WI</td>
       <td><strong>IND</strong></td>
-      <td>ENG</td>
-      <td>PAK</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-15</td>
-      <td>Ranga</td>
-      <td>Buffalo</td>
-      <td><strong>5/8</strong></td>
       <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td>ZIM</td>
-      <td><strong>ENG</strong></td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>ENG</td>
       <td>SL</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-15</td>
-      <td>237 Narmada</td>
-      <td>Santa clara</td>
-      <td><strong>5/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td>SL</td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>ENG</td>
-      <td>PAK</td>
-      <td>ZIM</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-15</td>
-      <td>Rupal</td>
-      <td>US</td>
-      <td><strong>5/8</strong></td>
-      <td><strong>PAK</strong></td>
-      <td>SL</td>
-      <td>IND</td>
-      <td><strong>WI</strong></td>
-      <td><strong>ENG</strong></td>
-      <td>SL</td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>ENG</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-15</td>
-      <td>Mukund N.</td>
-      <td>Pittsburgh, PA</td>
-      <td><strong>5/8</strong></td>
-      <td><strong>NZ</strong></td>
-      <td>SL</td>
-      <td><strong>SA</strong></td>
-      <td>ZIM</td>
-      <td>PAK</td>
-      <td><strong>NZ</strong></td>
-      <td><strong>SA</strong></td>
-      <td><strong>IND</strong></td>
-      <td>NZ</td>
-      <td>SL</td>
-      <td>SA</td>
-      <td>IND</td>
-    </tr>
-    <tr>
-      <td>T-15</td>
+      <td>T-13</td>
       <td>Shajman</td>
       <td>Houston</td>
-      <td><strong>5/8</strong></td>
+      <td><strong>6/9</strong></td>
       <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>IND</td>
@@ -466,16 +340,34 @@ permalink: "/t20-2026/super-8"
       <td>SL</td>
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-15</td>
+      <td>T-13</td>
+      <td>Atul Agarwal</td>
+      <td>Colorado Springs USA</td>
+      <td><strong>6/9</strong></td>
+      <td><strong>PAK</strong></td>
+      <td>SL</td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td>ENG</td>
+      <td>PAK</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-13</td>
       <td>KAUSALYA</td>
       <td>Chennai/ India</td>
-      <td><strong>5/8</strong></td>
+      <td><strong>6/9</strong></td>
       <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>IND</td>
@@ -484,16 +376,34 @@ permalink: "/t20-2026/super-8"
       <td><strong>NZ</strong></td>
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>PAK</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-15</td>
+      <td>T-13</td>
+      <td>Mukund N.</td>
+      <td>Pittsburgh, PA</td>
+      <td><strong>6/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td><strong>SA</strong></td>
+      <td>ZIM</td>
+      <td>PAK</td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-13</td>
       <td>The Kasher</td>
       <td>Los Angeles, CA, USA</td>
-      <td><strong>5/8</strong></td>
+      <td><strong>6/9</strong></td>
       <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>IND</td>
@@ -502,23 +412,23 @@ permalink: "/t20-2026/super-8"
       <td><strong>NZ</strong></td>
       <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-26</td>
-      <td>Goutham Ekollu</td>
-      <td>Saratoga, CA</td>
-      <td><strong>4/8</strong></td>
+      <td>T-21</td>
+      <td>Ranga</td>
+      <td>Buffalo</td>
+      <td><strong>5/9</strong></td>
       <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>IND</td>
-      <td><strong>WI</strong></td>
+      <td>ZIM</td>
       <td><strong>ENG</strong></td>
-      <td>SL</td>
-      <td>WI</td>
+      <td><strong>NZ</strong></td>
+      <td><strong>SA</strong></td>
       <td><strong>IND</strong></td>
       <td>ENG</td>
       <td>SL</td>
@@ -526,10 +436,28 @@ permalink: "/t20-2026/super-8"
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-26</td>
+      <td>T-21</td>
+      <td>237 Narmada</td>
+      <td>Santa clara</td>
+      <td><strong>5/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>SL</td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td>ENG</td>
+      <td>PAK</td>
+      <td>ZIM</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-21</td>
       <td>Tees</td>
       <td>Seattle</td>
-      <td><strong>4/8</strong></td>
+      <td><strong>5/9</strong></td>
       <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>IND</td>
@@ -538,16 +466,70 @@ permalink: "/t20-2026/super-8"
       <td><strong>NZ</strong></td>
       <td>WI</td>
       <td><strong>IND</strong></td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>SL</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
     <tr>
-      <td>T-26</td>
+      <td>T-21</td>
+      <td>Subha</td>
+      <td>Seattle</td>
+      <td><strong>5/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>SL</td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td>ENG</td>
+      <td>SL</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-21</td>
+      <td>vivek</td>
+      <td>Harare - Zimbabwe</td>
+      <td><strong>5/9</strong></td>
+      <td><strong>PAK</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td>PAK</td>
+      <td><strong>NZ</strong></td>
+      <td>WI</td>
+      <td><strong>IND</strong></td>
+      <td>ENG</td>
+      <td>PAK</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-21</td>
+      <td>Rupal</td>
+      <td>US</td>
+      <td><strong>5/9</strong></td>
+      <td><strong>PAK</strong></td>
+      <td>SL</td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>SL</td>
+      <td><strong>SA</strong></td>
+      <td><strong>IND</strong></td>
+      <td>ENG</td>
+      <td>SL</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-27</td>
       <td>Harsh</td>
       <td>United States</td>
-      <td><strong>4/8</strong></td>
+      <td><strong>4/9</strong></td>
       <td><strong>PAK</strong></td>
       <td><strong>ENG</strong></td>
       <td>IND</td>
@@ -558,6 +540,24 @@ permalink: "/t20-2026/super-8"
       <td><strong>IND</strong></td>
       <td>ENG</td>
       <td>PAK</td>
+      <td>SA</td>
+      <td>IND</td>
+    </tr>
+    <tr>
+      <td>T-27</td>
+      <td>Goutham Ekollu</td>
+      <td>Saratoga, CA</td>
+      <td><strong>4/9</strong></td>
+      <td><strong>NZ</strong></td>
+      <td>SL</td>
+      <td>IND</td>
+      <td><strong>WI</strong></td>
+      <td><strong>ENG</strong></td>
+      <td>SL</td>
+      <td>WI</td>
+      <td><strong>IND</strong></td>
+      <td>ENG</td>
+      <td>SL</td>
       <td>SA</td>
       <td>IND</td>
     </tr>
@@ -565,7 +565,7 @@ permalink: "/t20-2026/super-8"
       <td>T-29</td>
       <td>Chayan Chakrabarti</td>
       <td>Oakland</td>
-      <td><strong>2/8</strong></td>
+      <td><strong>3/9</strong></td>
       <td><strong>PAK</strong></td>
       <td>SL</td>
       <td><strong>SA</strong></td>
@@ -574,16 +574,16 @@ permalink: "/t20-2026/super-8"
       <td>SL</td>
       <td>WI</td>
       <td>ZIM</td>
-      <td>NZ</td>
+      <td><strong>NZ</strong></td>
       <td>PAK</td>
       <td>ZIM</td>
       <td>WI</td>
     </tr>
     <tr>
-      <td>T-29</td>
+      <td>T-30</td>
       <td>Hauroon</td>
       <td>Malaysia</td>
-      <td><strong>2/8</strong></td>
+      <td><strong>2/9</strong></td>
       <td><strong>PAK</strong></td>
       <td>SL</td>
       <td>IND</td>
@@ -617,7 +617,7 @@ $(document).ready(function() {
 
 *Correct picks made by fewer than 25% of participants (7 or fewer of 30).*
 
-- **M43 SA win** — picked by only 4 of 30 (13%): **Keshav Narasimhan**, **Rajesh**, **Mukund N.**, **Chayan Chakrabarti**
+- **M43 SA win** — picked by only 4 of 30 (13%): **Rajesh**, **Keshav Narasimhan**, **Mukund N.**, **Chayan Chakrabarti**
 
 ---
 
