@@ -69,6 +69,7 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>T-37</td><td>R Santhanam</td><td>Chennai/India</td><td>10</td><td>6</td><td>-</td><td>16</td></tr>
     <tr><td>T-37</td><td>Bharathkirishnan S R</td><td>Bengaluru</td><td>10</td><td>6</td><td>-</td><td>16</td></tr>
     <tr><td>T-37</td><td>Pradeep</td><td>Tampa</td><td>10</td><td>6</td><td>-</td><td>16</td></tr>
+    <tr><td>T-37</td><td>Rajesh</td><td>Chennai</td><td>10</td><td>6</td><td>-</td><td>16</td></tr>
     <tr><td>T-40</td><td>Atul Agarwal</td><td>Colorado Springs, USA</td><td>10</td><td>5</td><td>-</td><td>15</td></tr>
     <tr><td>T-40</td><td>S V Madhavan</td><td>India</td><td>10</td><td>5</td><td>-</td><td>15</td></tr>
     <tr><td>T-40</td><td>237 Narmada</td><td>Santa Clara</td><td>7</td><td>8</td><td>-</td><td>15</td></tr>
@@ -89,7 +90,6 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>T-58</td><td>Bhargavi</td><td>India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
     <tr><td>T-58</td><td>Kausalya</td><td>Chennai, India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
     <tr><td>T-58</td><td>Gokul</td><td>Los Gatos</td><td>10</td><td>0</td><td>-</td><td>10</td></tr>
-    <tr><td>T-58</td><td>RP</td><td>Chennai</td><td>10</td><td>0</td><td>-</td><td>10</td></tr>
     <tr><td>T-58</td><td>#</td><td>DC</td><td>10</td><td>0</td><td>-</td><td>10</td></tr>
     <tr class="ai-row"><td>T-63</td><td>Claude Opus 4.6 🤖</td><td>SF</td><td>0</td><td>9</td><td>-</td><td>9</td></tr>
     <tr><td>T-63</td><td>Rishi Baveja</td><td>Allentown/United States</td><td>9</td><td>0</td><td>-</td><td>9</td></tr>
@@ -102,7 +102,6 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>T-72</td><td>Rahul Santhanam</td><td>UK</td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
     <tr><td>T-72</td><td>Chandran Dharmarajan</td><td>India</td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
     <tr><td>T-72</td><td>Harish Natarajan</td><td>India</td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
-    <tr><td>T-72</td><td>Rajesh</td><td>Chennai</td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
     <tr><td>T-72</td><td>Subha</td><td>Seattle</td><td>6</td><td>0</td><td>-</td><td>6</td></tr>
     <tr><td>T-72</td><td>Rama</td><td></td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
     <tr><td>78</td><td>Kaushik</td><td>Wesley Chapel</td><td>0</td><td>5</td><td>-</td><td>5</td></tr>
