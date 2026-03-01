@@ -1,32 +1,138 @@
 ---
 layout: page
-title: "Group Leaderboard - UB"
+title: UB Group Leaderboard
 description: T20 2026 - UB Group Standings
 background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/ub"
 ---
 
-*Last updated: 2026-02-20 15:40*
+*Last updated: 2026-03-01*
 
-## UB Group Standings
+<style>
+  tr.ai-row { background-color: #e8e8e8 !important; color: #555; }
+</style>
 
-Higher scores are better! Maximum possible score: **16 points**.
+## Contents
+{:.no_toc}
 
-{:.thead-dark .table-striped .table-bordered .table-sm }
-| Rank | Name | Location | AI | Score | A1 |  A2 |  B1 |  B2 |  C1 |  C2 |  D1 |  D2 |
-| :---: | :--- | :--- | :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| T-1 | Ashish | Los Altos, USA |  | 12 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | **NZ (2)** |
-| T-1 | D. Sivakumar | Cupertino, CA |  | 12 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | **NZ (2)** |
-| T-1 | Alok | USA |  | 12 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | **NZ (2)** |
-| T-4 | Ranga | Buffalo |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | AFG |
-| T-4 | Ram | Orlando, FL |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | NZ (1) | SA (1) |
-| T-4 | Sreenivas G | Cupertino |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | NZ (1) | SA (1) |
-| T-4 | Rupal | US |  | 10 | **IND (2)** | **PAK (2)** | AUS | **SL (2)** | ENG (1) | WI (1) | **SA (2)** | AFG |
+* TOC
+{:toc}
 
 ---
 
-### Group Stage Results
+## Overall Standings
 
-**A1**: India | **A2**: Pakistan | **B1**: Zimbabwe | **B2**: Sri Lanka | **C1**: West Indies | **C2**: England | **D1**: South Africa | **D2**: New Zealand
+*Combined score across Group Stage + Super 8. KO & Finals not yet played.*
 
-**Key:** **Team (2)** = correct team & rank | Team (1) = correct team, wrong rank | Team = incorrect (0 pts)
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th style="text-align:right">Group Stage</th>
+      <th style="text-align:right">Super 8</th>
+      <th style="text-align:right">KO &amp; Finals</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Ashish</td><td>12</td><td>11</td><td>-</td><td><strong>23</strong></td></tr>
+    <tr><td>2</td><td>D. Sivakumar</td><td>12</td><td>10</td><td>-</td><td><strong>22</strong></td></tr>
+    <tr><td>3</td><td>Ranga</td><td>10</td><td>11</td><td>-</td><td><strong>21</strong></td></tr>
+    <tr><td>4</td><td>Sreenivas G</td><td>10</td><td>9</td><td>-</td><td><strong>19</strong></td></tr>
+    <tr><td>5</td><td>Rupal</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
+    <tr><td>T-6</td><td>Ram</td><td>10</td><td>7</td><td>-</td><td><strong>17</strong></td></tr>
+    <tr><td>T-6</td><td>Alok</td><td>12</td><td>5</td><td>-</td><td><strong>17</strong></td></tr>
+    <tr><td>8</td><td>vivek</td><td>DNP</td><td>7</td><td>-</td><td><strong>7</strong></td></tr>
+  </tbody>
+</table>
+
+---
+
+## Super 8
+
+*Group 1: Winner = **SA**, Runner-up = **IND**. Group 2: Winner = **ENG**, Runner-up = **NZ**.*
+
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th>G1 Pick (W/R)</th>
+      <th>G2 Pick (W/R)</th>
+      <th style="text-align:right">G1</th>
+      <th style="text-align:right">G2</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>T-1</td><td>Ashish</td><td>IND / SA</td><td>ENG / NZ</td><td>5</td><td>6</td><td><strong>11</strong></td></tr>
+    <tr><td>T-1</td><td>Ranga</td><td>IND / SA</td><td>ENG / NZ</td><td>5</td><td>6</td><td><strong>11</strong></td></tr>
+    <tr><td>3</td><td>D. Sivakumar</td><td>IND / SA</td><td>NZ / ENG</td><td>5</td><td>5</td><td><strong>10</strong></td></tr>
+    <tr><td>4</td><td>Sreenivas G</td><td>IND / SA</td><td>ENG / SL</td><td>5</td><td>4</td><td><strong>9</strong></td></tr>
+    <tr><td>5</td><td>Rupal</td><td>IND / SA</td><td>SL / ENG</td><td>5</td><td>3</td><td><strong>8</strong></td></tr>
+    <tr><td>T-6</td><td>Ram</td><td>IND / SA</td><td>SL / NZ</td><td>5</td><td>2</td><td><strong>7</strong></td></tr>
+    <tr><td>T-6</td><td>vivek</td><td>IND / SA</td><td>PAK / NZ</td><td>5</td><td>2</td><td><strong>7</strong></td></tr>
+    <tr><td>8</td><td>Alok</td><td>IND / SA</td><td>SL / PAK</td><td>5</td><td>0</td><td><strong>5</strong></td></tr>
+  </tbody>
+</table>
+
+---
+
+## Match by Match
+
+*Only members who entered the MBM contest are shown. All 12 matches played.*
+
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th style="text-align:right">Score / 12</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Ram</td><td><strong>11</strong></td></tr>
+    <tr><td>2</td><td>vivek</td><td><strong>9</strong></td></tr>
+    <tr><td>T-3</td><td>Ranga</td><td><strong>8</strong></td></tr>
+    <tr><td>T-3</td><td>Rupal</td><td><strong>8</strong></td></tr>
+  </tbody>
+</table>
+
+---
+
+## Group Stage
+
+*Actual results: Grp A: IND / PAK · Grp B: ZIM / SL · Grp C: WI / ENG · Grp D: SA / NZ*
+
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th>Grp A (W/R)</th>
+      <th style="text-align:right">A</th>
+      <th>Grp B (W/R)</th>
+      <th style="text-align:right">B</th>
+      <th>Grp C (W/R)</th>
+      <th style="text-align:right">C</th>
+      <th>Grp D (W/R)</th>
+      <th style="text-align:right">D</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>T-1</td><td>Ashish</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>SA / NZ</td><td>4</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>D. Sivakumar</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>SA / NZ</td><td>4</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>Alok</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>SA / NZ</td><td>4</td><td><strong>12</strong></td></tr>
+    <tr><td>T-4</td><td>Ranga</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>SA / AFG</td><td>2</td><td><strong>10</strong></td></tr>
+    <tr><td>T-4</td><td>Rupal</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>SA / AFG</td><td>2</td><td><strong>10</strong></td></tr>
+    <tr><td>T-4</td><td>Sreenivas G</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / SA</td><td>2</td><td><strong>10</strong></td></tr>
+    <tr><td>T-4</td><td>Ram</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / SA</td><td>2</td><td><strong>10</strong></td></tr>
+    <tr><td>-</td><td>vivek</td><td colspan="8" style="text-align:center">DNP</td><td></td></tr>
+  </tbody>
+</table>
+
+---
+
+[Overall Leaderboard]({{ site.baseurl }}/t20-2026/leaderboard) | [Super 8]({{ site.baseurl }}/t20-2026/super-8) | [Group Stage]({{ site.baseurl }}/t20-2026/group-stage)
