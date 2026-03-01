@@ -84,27 +84,27 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>50</td><td>Shriya Sateesh</td><td>Seattle, WA</td><td>9</td><td>4</td><td>-</td><td>13</td></tr>
     <tr><td>T-51</td><td>Sri Iyer</td><td>Philadelphia</td><td>10</td><td>2</td><td>-</td><td>12</td></tr>
     <tr><td>T-51</td><td>Bharath Sridharan</td><td>Dallas, USA</td><td>10</td><td>2</td><td>-</td><td>12</td></tr>
-    <tr><td>T-51</td><td>Sriram Venkatesh</td><td>Austin, USA</td><td>12</td><td>0</td><td>-</td><td>12</td></tr>
+    <tr><td>T-51</td><td>Sriram Venkatesh</td><td>Austin, USA</td><td>12</td><td>DNP</td><td>-</td><td>12</td></tr>
     <tr><td>T-55</td><td>Hauroon</td><td>Malaysia</td><td>10</td><td>1</td><td>-</td><td>11</td></tr>
-    <tr><td>T-55</td><td>Ramana Kadari</td><td>Riverview, FL</td><td>0</td><td>11</td><td>-</td><td>11</td></tr>
+    <tr><td>T-55</td><td>Ramana Kadari</td><td>Riverview, FL</td><td>DNP</td><td>11</td><td>-</td><td>11</td></tr>
     <tr><td>T-55</td><td>Harsh</td><td>DC</td><td>10</td><td>1</td><td>-</td><td>11</td></tr>
-    <tr><td>T-58</td><td>Bhargavi</td><td>India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
-    <tr><td>T-58</td><td>Kausalya</td><td>Chennai, India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
-    <tr><td>T-58</td><td>Gokul</td><td>Los Gatos</td><td>10</td><td>0</td><td>-</td><td>10</td></tr>
-    <tr><td>T-63</td><td>Rishi Baveja</td><td>Allentown/United States</td><td>9</td><td>0</td><td>-</td><td>9</td></tr>
-    <tr><td>T-65</td><td>Alamuru Krishna</td><td>Sunnyvale, CA</td><td>0</td><td>8</td><td>-</td><td>8</td></tr>
-    <tr><td>T-65</td><td>Cheen</td><td>Dubai</td><td>8</td><td>0</td><td>-</td><td>8</td></tr>
-    <tr><td>T-65</td><td>Subbu</td><td>Chennai</td><td>8</td><td>0</td><td>-</td><td>8</td></tr>
-    <tr><td>T-69</td><td>vivek</td><td>Harare, Zimbabwe</td><td>0</td><td>7</td><td>-</td><td>7</td></tr>
-    <tr><td>T-69</td><td>ALEX</td><td>Seattle, USA</td><td>0</td><td>7</td><td>-</td><td>7</td></tr>
-    <tr><td>T-69</td><td>Aditya Madhavan</td><td>Bangalore</td><td>7</td><td>0</td><td>-</td><td>7</td></tr>
-    <tr><td>T-72</td><td>Rahul Santhanam</td><td>UK</td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
-    <tr><td>T-72</td><td>Chandran Dharmarajan</td><td>India</td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
-    <tr><td>T-72</td><td>Harish Natarajan</td><td>India</td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
-    <tr><td>T-72</td><td>Subha</td><td>Seattle</td><td>6</td><td>0</td><td>-</td><td>6</td></tr>
-    <tr><td>T-72</td><td>Rama</td><td></td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
-    <tr><td>78</td><td>Kaushik</td><td>Wesley Chapel</td><td>0</td><td>5</td><td>-</td><td>5</td></tr>
-    <tr><td>79</td><td>Nitin Khanna</td><td>United States</td><td>0</td><td>2</td><td>-</td><td>2</td></tr>
+    <tr><td>T-58</td><td>Bhargavi</td><td>India</td><td>DNP</td><td>10</td><td>-</td><td>10</td></tr>
+    <tr><td>T-58</td><td>Kausalya</td><td>Chennai, India</td><td>DNP</td><td>10</td><td>-</td><td>10</td></tr>
+    <tr><td>T-58</td><td>Gokul</td><td>Los Gatos</td><td>10</td><td>DNP</td><td>-</td><td>10</td></tr>
+    <tr><td>T-63</td><td>Rishi Baveja</td><td>Allentown/United States</td><td>9</td><td>DNP</td><td>-</td><td>9</td></tr>
+    <tr><td>T-65</td><td>Alamuru Krishna</td><td>Sunnyvale, CA</td><td>DNP</td><td>8</td><td>-</td><td>8</td></tr>
+    <tr><td>T-65</td><td>Cheen</td><td>Dubai</td><td>8</td><td>DNP</td><td>-</td><td>8</td></tr>
+    <tr><td>T-65</td><td>Subbu</td><td>Chennai</td><td>8</td><td>DNP</td><td>-</td><td>8</td></tr>
+    <tr><td>T-69</td><td>vivek</td><td>Harare, Zimbabwe</td><td>DNP</td><td>7</td><td>-</td><td>7</td></tr>
+    <tr><td>T-69</td><td>ALEX</td><td>Seattle, USA</td><td>DNP</td><td>7</td><td>-</td><td>7</td></tr>
+    <tr><td>T-69</td><td>Aditya Madhavan</td><td>Bangalore</td><td>7</td><td>DNP</td><td>-</td><td>7</td></tr>
+    <tr><td>T-72</td><td>Rahul Santhanam</td><td>UK</td><td>DNP</td><td>6</td><td>-</td><td>6</td></tr>
+    <tr><td>T-72</td><td>Chandran Dharmarajan</td><td>India</td><td>DNP</td><td>6</td><td>-</td><td>6</td></tr>
+    <tr><td>T-72</td><td>Harish Natarajan</td><td>India</td><td>DNP</td><td>6</td><td>-</td><td>6</td></tr>
+    <tr><td>T-72</td><td>Subha</td><td>Seattle</td><td>6</td><td>DNP</td><td>-</td><td>6</td></tr>
+    <tr><td>T-72</td><td>Rama</td><td></td><td>DNP</td><td>6</td><td>-</td><td>6</td></tr>
+    <tr><td>78</td><td>Kaushik</td><td>Wesley Chapel</td><td>DNP</td><td>5</td><td>-</td><td>5</td></tr>
+    <tr><td>79</td><td>Nitin Khanna</td><td>United States</td><td>DNP</td><td>2</td><td>-</td><td>2</td></tr>
   </tbody>
 </table>
 
