@@ -87,10 +87,10 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>T-51</td><td>Sriram Venkatesh</td><td>Austin, USA</td><td>12</td><td>0</td><td>-</td><td>12</td></tr>
     <tr><td>T-55</td><td>Hauroon</td><td>Malaysia</td><td>10</td><td>1</td><td>-</td><td>11</td></tr>
     <tr><td>T-55</td><td>Ramana Kadari</td><td>Riverview, FL</td><td>0</td><td>11</td><td>-</td><td>11</td></tr>
+    <tr><td>T-55</td><td>Harsh</td><td>DC</td><td>10</td><td>1</td><td>-</td><td>11</td></tr>
     <tr><td>T-58</td><td>Bhargavi</td><td>India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
     <tr><td>T-58</td><td>Kausalya</td><td>Chennai, India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
     <tr><td>T-58</td><td>Gokul</td><td>Los Gatos</td><td>10</td><td>0</td><td>-</td><td>10</td></tr>
-    <tr><td>T-58</td><td>#</td><td>DC</td><td>10</td><td>0</td><td>-</td><td>10</td></tr>
     <tr class="ai-row"><td>T-63</td><td>Claude Opus 4.6 🤖</td><td>SF</td><td>0</td><td>9</td><td>-</td><td>9</td></tr>
     <tr><td>T-63</td><td>Rishi Baveja</td><td>Allentown/United States</td><td>9</td><td>0</td><td>-</td><td>9</td></tr>
     <tr><td>T-65</td><td>Alamuru Krishna</td><td>Sunnyvale, CA</td><td>0</td><td>8</td><td>-</td><td>8</td></tr>
@@ -106,7 +106,6 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>T-72</td><td>Rama</td><td></td><td>0</td><td>6</td><td>-</td><td>6</td></tr>
     <tr><td>78</td><td>Kaushik</td><td>Wesley Chapel</td><td>0</td><td>5</td><td>-</td><td>5</td></tr>
     <tr><td>79</td><td>Nitin Khanna</td><td>United States</td><td>0</td><td>2</td><td>-</td><td>2</td></tr>
-    <tr><td>80</td><td>Harsh</td><td>United States</td><td>0</td><td>1</td><td>-</td><td>1</td></tr>
   </tbody>
 </table>
 
