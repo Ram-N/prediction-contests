@@ -68,7 +68,7 @@ permalink: "/t20-2026/super-8"
     <tr><td>T-8</td><td>Ramesh Srinivasan</td><td>India</td><td>IND / SA</td><td>NZ / ENG</td><td>5</td><td>5</td><td><strong>10</strong></td></tr>
     <tr><td>T-17</td><td>Sreenivas G</td><td>Cupertino, USA</td><td>IND / SA</td><td>ENG / SL</td><td>5</td><td>4</td><td><strong>9</strong></td></tr>
     <tr><td>T-17</td><td>Dhanush Ekollu</td><td>Saratoga, CA</td><td>IND / SA</td><td>ENG / SL</td><td>5</td><td>4</td><td><strong>9</strong></td></tr>
-    <tr class="ai-row"><td>T-17</td><td>Claude Opus 4.6 🤖</td><td>SF</td><td>IND / SA</td><td>ENG / SL</td><td>5</td><td>4</td><td><strong>9</strong></td></tr>
+    <tr class="ai-row"><td>T-17</td><td>Claude 🤖</td><td>SF</td><td>IND / SA</td><td>ENG / SL</td><td>5</td><td>4</td><td><strong>9</strong></td></tr>
     <tr class="ai-row"><td>T-17</td><td>Perplexity 🤖</td><td>SF</td><td>IND / SA</td><td>ENG / PAK</td><td>5</td><td>4</td><td><strong>9</strong></td></tr>
     <tr><td>T-21</td><td>Narmada 237</td><td>Santa Clara</td><td>IND / SA</td><td>SL / ENG</td><td>5</td><td>3</td><td><strong>8</strong></td></tr>
     <tr><td>T-21</td><td>Shajman</td><td>Houston</td><td>IND / SA</td><td>SL / ENG</td><td>5</td><td>3</td><td><strong>8</strong></td></tr>

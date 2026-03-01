@@ -37,6 +37,7 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>T-6</td><td>Chayan</td><td>Oakland CA</td><td>11</td><td>10</td><td>-</td><td>21</td></tr>
     <tr><td>T-6</td><td>Ranga</td><td>Buffalo</td><td>10</td><td>11</td><td>-</td><td>21</td></tr>
     <tr class="ai-row"><td>T-6</td><td>Perplexity 🤖</td><td>San Francisco, CA</td><td>12</td><td>9</td><td>-</td><td>21</td></tr>
+    <tr class="ai-row"><td>T-6</td><td>Claude 🤖</td><td>SF</td><td>12</td><td>9</td><td>-</td><td>21</td></tr>
     <tr><td>T-9</td><td>Sahana</td><td>Seattle</td><td>14</td><td>6</td><td>-</td><td>20</td></tr>
     <tr><td>T-9</td><td>Niraj</td><td>Tampa</td><td>12</td><td>8</td><td>-</td><td>20</td></tr>
     <tr><td>T-9</td><td>Mukund N.</td><td>Pittsburgh, PA</td><td>12</td><td>8</td><td>-</td><td>20</td></tr>
@@ -83,7 +84,6 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>50</td><td>Shriya Sateesh</td><td>Seattle, WA</td><td>9</td><td>4</td><td>-</td><td>13</td></tr>
     <tr><td>T-51</td><td>Sri Iyer</td><td>Philadelphia</td><td>10</td><td>2</td><td>-</td><td>12</td></tr>
     <tr><td>T-51</td><td>Bharath Sridharan</td><td>Dallas, USA</td><td>10</td><td>2</td><td>-</td><td>12</td></tr>
-    <tr class="ai-row"><td>T-51</td><td>Claude (Sonnet 4.5) 🤖</td><td>SF</td><td>12</td><td>0</td><td>-</td><td>12</td></tr>
     <tr><td>T-51</td><td>Sriram Venkatesh</td><td>Austin, USA</td><td>12</td><td>0</td><td>-</td><td>12</td></tr>
     <tr><td>T-55</td><td>Hauroon</td><td>Malaysia</td><td>10</td><td>1</td><td>-</td><td>11</td></tr>
     <tr><td>T-55</td><td>Ramana Kadari</td><td>Riverview, FL</td><td>0</td><td>11</td><td>-</td><td>11</td></tr>
@@ -91,7 +91,6 @@ Higher scores are better. Rounds not yet played show **-**.
     <tr><td>T-58</td><td>Bhargavi</td><td>India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
     <tr><td>T-58</td><td>Kausalya</td><td>Chennai, India</td><td>0</td><td>10</td><td>-</td><td>10</td></tr>
     <tr><td>T-58</td><td>Gokul</td><td>Los Gatos</td><td>10</td><td>0</td><td>-</td><td>10</td></tr>
-    <tr class="ai-row"><td>T-63</td><td>Claude Opus 4.6 🤖</td><td>SF</td><td>0</td><td>9</td><td>-</td><td>9</td></tr>
     <tr><td>T-63</td><td>Rishi Baveja</td><td>Allentown/United States</td><td>9</td><td>0</td><td>-</td><td>9</td></tr>
     <tr><td>T-65</td><td>Alamuru Krishna</td><td>Sunnyvale, CA</td><td>0</td><td>8</td><td>-</td><td>8</td></tr>
     <tr><td>T-65</td><td>Cheen</td><td>Dubai</td><td>8</td><td>0</td><td>-</td><td>8</td></tr>
