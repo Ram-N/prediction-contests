@@ -51,6 +51,17 @@ You pick two teams per group, and for each one, you predict whether it will be t
 - The maximum possible score in the Group Stage is **16 points**. (2+2) x 4 groups
 
 
+### Knockout & Finals Scoring
+
+You predict the winner of each semi-final and the final.
+
+| Points | Condition |
+|--------|-----------|
+| **4** | Correct semi-final winner (per semi-final, 2 semi-finals = up to 8 pts) |
+| **8** | Correct final winner |
+
+- Maximum possible points in the KO + Finals stage = **16 points** (4 + 4 + 8)
+
 ### Leaderboard
 The leaderboard is updated regularly and can be found [here](https://ram-n.github.io/prediction-contests/t20-2026/leaderboard)
 
