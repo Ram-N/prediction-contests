@@ -11,6 +11,8 @@ Win a contest to get your name up here.
 {:.thead-dark .table-striped .table-bordered .table-sm }
 |Year	|Contest	|Winners|
 |---|---|---|
+|2026|	T20 2026 WC Super-8	|Sackett and Keshav Venkatesh|
+|2026|	T20 2026 Super8 Match by Match Contest	|Ram Narasimhan|
 |2026|	T20 2026 WC Group Stage	|Aditya and Sahana|
 |2025|	NFL 2025 Playoffs Main Contest	|Chink (1st), Go Seahawks! Tees (2nd), Chayan Chakrabarti (3rd)|
 |2024|	T20 2024 WC Overall Contest	|Ishaan|
