@@ -93,7 +93,8 @@ Who's going against the grain?
 
 - **Tees & Radhika Santhanam** — NZ beats SA, England beats India, **New Zealand wins the Cup**.
 - **Guru Bhat & Rsjesh** — NZ beats SA and goes all the way to win it. Four people total picked NZ as champions.
-- **Alex, Dodo, Shriya, Sreenivas** — SA \| England \| **England wins**. England believers unite.
+- **Alex, Dodo, Shriya, Sreenivas** — SA | England | **England wins**. England believers unite.
+
 ---
 
 ## By the Numbers
