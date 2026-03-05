@@ -36,87 +36,87 @@ permalink: "/t20-2026/ko-finals"
 
 ## KO & Finals Leaderboard
 
-**SF1 result: New Zealand** ✓ | SF2: TBD | Final: TBD
+**SF1 result: New Zealand** ✓ | **SF2 result: India** ✓ | Final: TBD
 
 *Scores update as results come in. SF1: 4pts, SF2: 4pts, Final: 8pts.*
 
 [Overall Leaderboard]({{ site.baseurl }}/t20-2026/leaderboard)
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
-| Name | Location | SF1 (NZ✓) | SF2 | Final | KO Total |
-|------|----------|-----------|-----|-------|----------|
-| Aakarsh Ekollu | Saratoga | NZ ✓ **4** | India | India | **4** |
-| Dhanush Ekollu | Saratoga, CA | NZ ✓ **4** | India | India | **4** |
-| Gokul | | NZ ✓ **4** | India | India | **4** |
-| Goutham Ekollu | Saratoga, CA | NZ ✓ **4** | India | India | **4** |
-| Guru Bhat | Bangalore, India | NZ ✓ **4** | India | New Zealand | **4** |
-| Mahesh | Tampa/USA | NZ ✓ **4** | India | India | **4** |
-| Radhika Santhanam | Mumbai | NZ ✓ **4** | England | New Zealand | **4** |
-| Ramesh Srinivasan | India | NZ ✓ **4** | India | India | **4** |
-| Rankanathan v s | Chennai | NZ ✓ **4** | India | India | **4** |
-| Rsjesh | Chennai | NZ ✓ **4** | India | New Zealand | **4** |
-| Sahana | Seattle | NZ ✓ **4** | India | South Africa | **4** |
-| Shiv | | NZ ✓ **4** | India | India | **4** |
-| Subha | Seattle | NZ ✓ **4** | India | India | **4** |
-| Tees | Seattle | NZ ✓ **4** | England | New Zealand | **4** |
-| vivek | USA | NZ ✓ **4** | India | India | **4** |
-| Vivek | Redwood City | NZ ✓ **4** | India | India | **4** |
-| Abhinav | Milpitas | SA ✗ 0 | India | India | **0** |
-| Aditya | | SA ✗ 0 | India | India | **0** |
-| Alex | Seattle/USA | SA ✗ 0 | England | England | **0** |
-| Alok | US | SA ✗ 0 | India | India | **0** |
-| Amritha | Bangalore | SA ✗ 0 | India | South Africa | **0** |
-| Anand Jain | Tampa, FL USA | SA ✗ 0 | India | South Africa | **0** |
-| Ashish Naik | LOS ALTOS, USA | SA ✗ 0 | India | India | **0** |
-| bala | oakland | SA ✗ 0 | England | South Africa | **0** |
-| Bharath Sridharan | Dallas | SA ✗ 0 | England | South Africa | **0** |
-| BHARATHKIRISHNAN S R | Bengaluru | SA ✗ 0 | India | India | **0** |
-| Chandran Dharmarajan | India | SA ✗ 0 | India | South Africa | **0** |
-| Chayan Chakrabarti | Oakland CA | SA ✗ 0 | England | South Africa | **0** |
-| Chink | Bay Area CA | SA ✗ 0 | India | India | **0** |
-| D. Sivakumar | Cupertino, CA | SA ✗ 0 | India | South Africa | **0** |
-| Dodo | Boston, USA | SA ✗ 0 | England | England | **0** |
-| Harish | India | SA ✗ 0 | India | India | **0** |
-| Harsh | United States | SA ✗ 0 | India | India | **0** |
-| Hauroon | Malaysia | SA ✗ 0 | India | South Africa | **0** |
-| Ishaan | Oakland | SA ✗ 0 | India | India | **0** |
-| Kausalya | Chennai/India | SA ✗ 0 | India | India | **0** |
-| Keshav Narasimhan | College Park, USA | SA ✗ 0 | India | South Africa | **0** |
-| Keshav Venkatesh | USA | SA ✗ 0 | India | India | **0** |
-| Kripa | | SA ✗ 0 | India | India | **0** |
-| Krishnaveni Kumbaji | Saratoga, CA | SA ✗ 0 | England | India | **0** |
-| Kshitij | Richmond | SA ✗ 0 | India | India | **0** |
-| Kunal Soni | | SA ✗ 0 | England | South Africa | **0** |
-| Manish | Orlando | SA ✗ 0 | India | India | **0** |
-| Manoj S | Knoxville, TN | SA ✗ 0 | India | India | **0** |
-| Manoj Shah | Saint Cloud, FL | SA ✗ 0 | India | India | **0** |
-| Mukund N. | Pittsburgh, PA | SA ✗ 0 | India | South Africa | **0** |
-| Narmada 237 | Santa clara | SA ✗ 0 | India | India | **0** |
-| Niraj Mishra | Tampa, Florida | SA ✗ 0 | India | South Africa | **0** |
-| Nitin Khanna | United States | SA ✗ 0 | India | India | **0** |
-| Parethasarathy | Chennai | SA ✗ 0 | India | India | **0** |
-| Pradeep | Tampa | SA ✗ 0 | India | India | **0** |
-| R. Santhanam | Chennai | SA ✗ 0 | India | India | **0** |
-| Rahul Santhanam | Oxford | SA ✗ 0 | England | South Africa | **0** |
-| Ram | Orlando | SA ✗ 0 | India | India | **0** |
-| Ramana Kadari | Tampa/US | SA ✗ 0 | India | India | **0** |
-| Ranga | Buffalo | SA ✗ 0 | India | India | **0** |
-| Rupal | Orlando, US | SA ✗ 0 | India | India | **0** |
-| S V Madhavan | India | SA ✗ 0 | India | India | **0** |
-| Sackett | Pleasanton | SA ✗ 0 | India | India | **0** |
-| Shajman | Houston/USA | SA ✗ 0 | India | India | **0** |
-| Shriya | Seattle | SA ✗ 0 | England | England | **0** |
-| Siva Kantamneni | Seminole | SA ✗ 0 | India | India | **0** |
-| Sreenivas Gollapudi | Cupertino, USA | SA ✗ 0 | England | England | **0** |
-| Sri Iyer | Philadelphia | SA ✗ 0 | India | India | **0** |
-| Subbu Mahadevan | Palo Alto, USA | SA ✗ 0 | India | South Africa | **0** |
-| The Kasher | Los Angeles, USA | SA ✗ 0 | India | India | **0** |
-| Vishal Goyal | Austin | SA ✗ 0 | India | India | **0** |
-| Vivek Jaiswal | Richmond | SA ✗ 0 | India | India | **0** |
-| *ChatGPT* 🤖 | SF | SA ✗ 0 | India | India | **0** |
-| *Claude* 🤖 | SF | SA ✗ 0 | India | South Africa | **0** |
-| *Gemini* 🤖 | Mountain View | SA ✗ 0 | India | India | **0** |
-| *Perplexity* 🤖 | SF | SA ✗ 0 | India | India | **0** |
+| Name | Location | SF1 (NZ✓) | SF2 (IND✓) | Final | KO Total |
+|------|----------|-----------|------------|-------|----------|
+| Aakarsh Ekollu | Saratoga | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Dhanush Ekollu | Saratoga, CA | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Gokul | | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Goutham Ekollu | Saratoga, CA | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Guru Bhat | Bangalore, India | NZ ✓ **4** | IND ✓ **4** | New Zealand | **8** |
+| Mahesh | Tampa/USA | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Ramesh Srinivasan | India | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Rankanathan v s | Chennai | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Rsjesh | Chennai | NZ ✓ **4** | IND ✓ **4** | New Zealand | **8** |
+| Sahana | Seattle | NZ ✓ **4** | IND ✓ **4** | South Africa | **8** |
+| Shiv | | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Subha | Seattle | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| vivek | USA | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Vivek | Redwood City | NZ ✓ **4** | IND ✓ **4** | India | **8** |
+| Radhika Santhanam | Mumbai | NZ ✓ **4** | ENG ✗ 0 | New Zealand | **4** |
+| Tees | Seattle | NZ ✓ **4** | ENG ✗ 0 | New Zealand | **4** |
+| Abhinav | Milpitas | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Aditya | | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Alok | US | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Amritha | Bangalore | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Anand Jain | Tampa, FL USA | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Ashish Naik | LOS ALTOS, USA | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| BHARATHKIRISHNAN S R | Bengaluru | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Chandran Dharmarajan | India | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Chink | Bay Area CA | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| D. Sivakumar | Cupertino, CA | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Harish | India | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Harsh | United States | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Hauroon | Malaysia | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Ishaan | Oakland | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Kausalya | Chennai/India | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Keshav Narasimhan | College Park, USA | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Keshav Venkatesh | USA | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Kripa | | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Kshitij | Richmond | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Manish | Orlando | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Manoj S | Knoxville, TN | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Manoj Shah | Saint Cloud, FL | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Mukund N. | Pittsburgh, PA | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Narmada 237 | Santa clara | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Niraj Mishra | Tampa, Florida | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| Nitin Khanna | United States | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Parethasarathy | Chennai | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Pradeep | Tampa | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| R. Santhanam | Chennai | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Ram | Orlando | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Ramana Kadari | Tampa/US | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Ranga | Buffalo | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Rupal | Orlando, US | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| S V Madhavan | India | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Sackett | Pleasanton | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Shajman | Houston/USA | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Siva Kantamneni | Seminole | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Sri Iyer | Philadelphia | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Subbu Mahadevan | Palo Alto, USA | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| The Kasher | Los Angeles, USA | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Vishal Goyal | Austin | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Vivek Jaiswal | Richmond | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| *ChatGPT* 🤖 | SF | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| *Claude* 🤖 | SF | SA ✗ 0 | IND ✓ **4** | South Africa | **4** |
+| *Gemini* 🤖 | Mountain View | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| *Perplexity* 🤖 | SF | SA ✗ 0 | IND ✓ **4** | India | **4** |
+| Alex | Seattle/USA | SA ✗ 0 | ENG ✗ 0 | England | **0** |
+| bala | oakland | SA ✗ 0 | ENG ✗ 0 | South Africa | **0** |
+| Bharath Sridharan | Dallas | SA ✗ 0 | ENG ✗ 0 | South Africa | **0** |
+| Chayan Chakrabarti | Oakland CA | SA ✗ 0 | ENG ✗ 0 | South Africa | **0** |
+| Dodo | Boston, USA | SA ✗ 0 | ENG ✗ 0 | England | **0** |
+| Krishnaveni Kumbaji | Saratoga, CA | SA ✗ 0 | ENG ✗ 0 | India | **0** |
+| Kunal Soni | | SA ✗ 0 | ENG ✗ 0 | South Africa | **0** |
+| Rahul Santhanam | Oxford | SA ✗ 0 | ENG ✗ 0 | South Africa | **0** |
+| Shriya | Seattle | SA ✗ 0 | ENG ✗ 0 | England | **0** |
+| Sreenivas Gollapudi | Cupertino, USA | SA ✗ 0 | ENG ✗ 0 | England | **0** |
 
 ---
 
