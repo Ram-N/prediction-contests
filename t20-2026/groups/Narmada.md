@@ -37,7 +37,7 @@ permalink: "/t20-2026/groups/narmada"
   </thead>
   <tbody>
     <tr><td>1</td><td>Sackett</td><td>11</td><td>12</td><td>12</td><td><strong>35</strong></td></tr>
-    <tr><td>2</td><td>Vivek</td><td>10</td><td>7</td><td>16</td><td><strong>33</strong></td></tr>
+    <tr><td>T-2</td><td>Vivek</td><td>10</td><td>7</td><td>16</td><td><strong>33</strong></td></tr>
     <tr><td>3</td><td>Chink</td><td>10</td><td>8</td><td>12</td><td><strong>30</strong></td></tr>
     <tr><td>4</td><td>Ram</td><td>10</td><td>7</td><td>12</td><td><strong>29</strong></td></tr>
     <tr><td>5</td><td>Sahana</td><td>14</td><td>6</td><td>8</td><td><strong>28</strong></td></tr>
@@ -73,14 +73,15 @@ permalink: "/t20-2026/groups/narmada"
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Vivek</td><td>NZ ✓ 4</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>16</strong></td></tr>
-    <tr><td>T-2</td><td>Sackett</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
-    <tr><td>T-2</td><td>Chink</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
-    <tr><td>T-2</td><td>Ram</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
-    <tr><td>T-2</td><td>Shajman</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
-    <tr><td>T-2</td><td>Ishaan</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
-    <tr><td>T-2</td><td>Sri Iyer</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
-    <tr><td>T-2</td><td>Harsh</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>Gokul</td><td>NZ ✓ 4</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>16</strong></td></tr>
+    <tr><td>T-1</td><td>Vivek</td><td>NZ ✓ 4</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>16</strong></td></tr>
+    <tr><td>T-3</td><td>Sackett</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-3</td><td>Chink</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-3</td><td>Ram</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-3</td><td>Shajman</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-3</td><td>Ishaan</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-3</td><td>Sri Iyer</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-3</td><td>Harsh</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
     <tr><td>T-9</td><td>Sahana</td><td>NZ ✓ 4</td><td>IND ✓ 4</td><td>SA ✗ 0</td><td><strong>8</strong></td></tr>
     <tr><td>T-9</td><td>Rajesh</td><td>NZ ✓ 4</td><td>IND ✓ 4</td><td>NZ ✗ 0</td><td><strong>8</strong></td></tr>
     <tr><td>T-11</td><td>Subbu Mahadevan</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>SA ✗ 0</td><td><strong>4</strong></td></tr>
@@ -195,6 +196,7 @@ permalink: "/t20-2026/groups/narmada"
     <tr><td>T-5</td><td>Ram</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / SA</td><td>2</td><td><strong>10</strong></td></tr>
     <tr><td>T-5</td><td>Sri Iyer</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / SA</td><td>2</td><td><strong>10</strong></td></tr>
     <tr><td>T-5</td><td>V CV C</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / SA</td><td>2</td><td><strong>10</strong></td></tr>
+    <tr><td>T-5</td><td>Gokul</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / SA</td><td>2</td><td><strong>10</strong></td></tr>
     <tr><td>T-5</td><td>Vivek</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / SA</td><td>2</td><td><strong>10</strong></td></tr>
     <tr><td>T-15</td><td>Ishaan</td><td>IND / USA</td><td>2</td><td>AUS / ZIM</td><td>1</td><td>ENG / WI</td><td>2</td><td>SA / NZ</td><td>4</td><td><strong>9</strong></td></tr>
     <tr><td>T-15</td><td>Shriya</td><td>IND / PAK</td><td>4</td><td>AUS / SL</td><td>2</td><td>ENG / WI</td><td>2</td><td>NZ / AFG</td><td>1</td><td><strong>9</strong></td></tr>
