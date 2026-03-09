@@ -6,7 +6,7 @@ background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/ekollu"
 ---
 
-*Last updated: 2026-03-01*
+*Last updated: 2026-03-08*
 
 <style>
   tr.ai-row { background-color: #e8e8e8 !important; color: #555; }
@@ -22,7 +22,7 @@ permalink: "/t20-2026/groups/ekollu"
 
 ## Overall Standings
 
-*Combined score across Group Stage + Super 8. KO & Finals not yet played.*
+*Final result: IND beat NZ. All stages complete.*
 
 <table class="table thead-dark table-striped table-bordered table-sm">
   <thead class="thead-dark">
@@ -36,10 +36,10 @@ permalink: "/t20-2026/groups/ekollu"
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Krishnaveni Kumbaji</td><td>10</td><td>10</td><td>-</td><td><strong>20</strong></td></tr>
-    <tr><td>2</td><td>Dhanush Ekollu</td><td>10</td><td>9</td><td>-</td><td><strong>19</strong></td></tr>
-    <tr><td>T-3</td><td>Aakarsh Ekollu</td><td>7</td><td>7</td><td>-</td><td><strong>14</strong></td></tr>
-    <tr><td>T-3</td><td>Goutham Ekollu</td><td>11</td><td>3</td><td>-</td><td><strong>14</strong></td></tr>
+    <tr><td>1</td><td>Dhanush Ekollu</td><td>10</td><td>9</td><td>16</td><td><strong>35</strong></td></tr>
+    <tr><td>T-2</td><td>Aakarsh Ekollu</td><td>7</td><td>7</td><td>16</td><td><strong>30</strong></td></tr>
+    <tr><td>T-2</td><td>Goutham Ekollu</td><td>11</td><td>3</td><td>16</td><td><strong>30</strong></td></tr>
+    <tr><td>4</td><td>Krishnaveni Kumbaji</td><td>10</td><td>10</td><td>8</td><td><strong>28</strong></td></tr>
   </tbody>
 </table>
 

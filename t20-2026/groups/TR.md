@@ -6,7 +6,7 @@ background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/tr"
 ---
 
-*Last updated: 2026-03-01*
+*Last updated: 2026-03-08*
 
 <style>
   tr.ai-row { background-color: #e8e8e8 !important; color: #555; }
@@ -22,7 +22,7 @@ permalink: "/t20-2026/groups/tr"
 
 ## Overall Standings
 
-*Combined score across Group Stage + Super 8. KO & Finals not yet played.*
+*Final result: IND beat NZ. All stages complete.*
 
 <table class="table thead-dark table-striped table-bordered table-sm">
   <thead class="thead-dark">
@@ -36,20 +36,20 @@ permalink: "/t20-2026/groups/tr"
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Aditya</td><td>14</td><td>11</td><td>-</td><td><strong>25</strong></td></tr>
-    <tr><td>2</td><td>Keshav Venkatesh</td><td>12</td><td>12</td><td>-</td><td><strong>24</strong></td></tr>
-    <tr><td>T-3</td><td>Mukund N.</td><td>12</td><td>8</td><td>-</td><td><strong>20</strong></td></tr>
-    <tr><td>T-3</td><td>Radhika Santhanam</td><td>9</td><td>11</td><td>-</td><td><strong>20</strong></td></tr>
-    <tr><td>T-5</td><td>Rupal</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-5</td><td>P Amritha</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-5</td><td>S Parthasarathy</td><td>12</td><td>6</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-8</td><td>Ram</td><td>10</td><td>7</td><td>-</td><td><strong>17</strong></td></tr>
-    <tr><td>T-8</td><td>Keshav Narasimhan</td><td>11</td><td>6</td><td>-</td><td><strong>17</strong></td></tr>
-    <tr><td>10</td><td>R. Santhanam</td><td>10</td><td>6</td><td>-</td><td><strong>16</strong></td></tr>
-    <tr><td>11</td><td>S V Madhavan</td><td>10</td><td>5</td><td>-</td><td><strong>15</strong></td></tr>
-    <tr><td>12</td><td>Bharath Sridharan</td><td>10</td><td>2</td><td>-</td><td><strong>12</strong></td></tr>
-    <tr><td>13</td><td>Kausalya</td><td>DNP</td><td>10</td><td>-</td><td><strong>10</strong></td></tr>
-    <tr><td>14</td><td>Rahul Santhanam</td><td>DNP</td><td>6</td><td>-</td><td><strong>6</strong></td></tr>
+    <tr><td>1</td><td>Aditya</td><td>14</td><td>11</td><td>12</td><td><strong>37</strong></td></tr>
+    <tr><td>2</td><td>Keshav Venkatesh</td><td>12</td><td>12</td><td>12</td><td><strong>36</strong></td></tr>
+    <tr><td>T-3</td><td>Rupal</td><td>10</td><td>8</td><td>12</td><td><strong>30</strong></td></tr>
+    <tr><td>T-3</td><td>S Parthasarathy</td><td>12</td><td>6</td><td>12</td><td><strong>30</strong></td></tr>
+    <tr><td>5</td><td>Ram</td><td>10</td><td>7</td><td>12</td><td><strong>29</strong></td></tr>
+    <tr><td>6</td><td>R. Santhanam</td><td>10</td><td>6</td><td>12</td><td><strong>28</strong></td></tr>
+    <tr><td>7</td><td>S V Madhavan</td><td>10</td><td>5</td><td>12</td><td><strong>27</strong></td></tr>
+    <tr><td>T-8</td><td>Mukund N.</td><td>12</td><td>8</td><td>4</td><td><strong>24</strong></td></tr>
+    <tr><td>T-8</td><td>Radhika Santhanam</td><td>9</td><td>11</td><td>4</td><td><strong>24</strong></td></tr>
+    <tr><td>10</td><td>P Amritha</td><td>10</td><td>8</td><td>4</td><td><strong>22</strong></td></tr>
+    <tr><td>11</td><td>Keshav Narasimhan</td><td>11</td><td>6</td><td>4</td><td><strong>21</strong></td></tr>
+    <tr><td>12</td><td>Bharath Sridharan</td><td>10</td><td>2</td><td>0</td><td><strong>12</strong></td></tr>
+    <tr><td>-</td><td>Kausalya</td><td>DNP</td><td>10</td><td>12</td><td>-</td></tr>
+    <tr><td>-</td><td>Rahul Santhanam</td><td>DNP</td><td>6</td><td>0</td><td>-</td></tr>
   </tbody>
 </table>
 

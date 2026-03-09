@@ -6,7 +6,7 @@ background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/narmada"
 ---
 
-*Last updated: 2026-03-01*
+*Last updated: 2026-03-08*
 
 <style>
   tr.ai-row { background-color: #e8e8e8 !important; color: #555; }
@@ -22,7 +22,7 @@ permalink: "/t20-2026/groups/narmada"
 
 ## Overall Standings
 
-*Combined score across Group Stage + Super 8. KO & Finals not yet played.*
+*Final result: IND beat NZ. All stages complete.*
 
 <table class="table thead-dark table-striped table-bordered table-sm">
   <thead class="thead-dark">
@@ -36,25 +36,24 @@ permalink: "/t20-2026/groups/narmada"
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Sackett</td><td>11</td><td>12</td><td>-</td><td><strong>23</strong></td></tr>
-    <tr><td>2</td><td>Sahana</td><td>14</td><td>6</td><td>-</td><td><strong>20</strong></td></tr>
-    <tr><td>T-3</td><td>Subbu Mahadevan</td><td>12</td><td>6</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-3</td><td>bala</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-3</td><td>Chink</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-3</td><td>Dodo</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-3</td><td>V CV C</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-8</td><td>Ram</td><td>10</td><td>7</td><td>-</td><td><strong>17</strong></td></tr>
-    <tr><td>T-8</td><td>Vivek</td><td>10</td><td>7</td><td>-</td><td><strong>17</strong></td></tr>
-    <tr><td>10</td><td>Rajesh</td><td>10</td><td>6</td><td>-</td><td><strong>16</strong></td></tr>
-    <tr><td>11</td><td>Shajman</td><td>7</td><td>8</td><td>-</td><td><strong>15</strong></td></tr>
-    <tr><td>T-12</td><td>Tees</td><td>12</td><td>2</td><td>-</td><td><strong>14</strong></td></tr>
-    <tr><td>T-12</td><td>Ishaan</td><td>9</td><td>5</td><td>-</td><td><strong>14</strong></td></tr>
-    <tr><td>14</td><td>Shriya</td><td>9</td><td>4</td><td>-</td><td><strong>13</strong></td></tr>
-    <tr><td>15</td><td>Sri Iyer</td><td>10</td><td>2</td><td>-</td><td><strong>12</strong></td></tr>
-    <tr><td>T-16</td><td>Harsh</td><td>10</td><td>1</td><td>-</td><td><strong>11</strong></td></tr>
-    <tr><td>T-16</td><td>Hauroon</td><td>10</td><td>1</td><td>-</td><td><strong>11</strong></td></tr>
-    <tr><td>T-18</td><td>Chandran Dharmarajan</td><td>DNP</td><td>6</td><td>-</td><td><strong>6</strong></td></tr>
-    <tr><td>T-18</td><td>Harish Natarajan</td><td>DNP</td><td>6</td><td>-</td><td><strong>6</strong></td></tr>
+    <tr><td>1</td><td>Sackett</td><td>11</td><td>12</td><td>12</td><td><strong>35</strong></td></tr>
+    <tr><td>2</td><td>Vivek</td><td>10</td><td>7</td><td>16</td><td><strong>33</strong></td></tr>
+    <tr><td>3</td><td>Chink</td><td>10</td><td>8</td><td>12</td><td><strong>30</strong></td></tr>
+    <tr><td>4</td><td>Ram</td><td>10</td><td>7</td><td>12</td><td><strong>29</strong></td></tr>
+    <tr><td>5</td><td>Sahana</td><td>14</td><td>6</td><td>8</td><td><strong>28</strong></td></tr>
+    <tr><td>6</td><td>Shajman</td><td>7</td><td>8</td><td>12</td><td><strong>27</strong></td></tr>
+    <tr><td>7</td><td>Ishaan</td><td>9</td><td>5</td><td>12</td><td><strong>26</strong></td></tr>
+    <tr><td>T-8</td><td>Rajesh</td><td>10</td><td>6</td><td>8</td><td><strong>24</strong></td></tr>
+    <tr><td>T-8</td><td>Sri Iyer</td><td>10</td><td>2</td><td>12</td><td><strong>24</strong></td></tr>
+    <tr><td>10</td><td>Harsh</td><td>10</td><td>1</td><td>12</td><td><strong>23</strong></td></tr>
+    <tr><td>11</td><td>Subbu Mahadevan</td><td>12</td><td>6</td><td>4</td><td><strong>22</strong></td></tr>
+    <tr><td>T-12</td><td>bala</td><td>10</td><td>8</td><td>0</td><td><strong>18</strong></td></tr>
+    <tr><td>T-12</td><td>Dodo</td><td>10</td><td>8</td><td>0</td><td><strong>18</strong></td></tr>
+    <tr><td>T-12</td><td>Tees</td><td>12</td><td>2</td><td>4</td><td><strong>18</strong></td></tr>
+    <tr><td>15</td><td>Hauroon</td><td>10</td><td>1</td><td>4</td><td><strong>15</strong></td></tr>
+    <tr><td>16</td><td>Shriya</td><td>9</td><td>4</td><td>0</td><td><strong>13</strong></td></tr>
+    <tr><td>-</td><td>Chandran Dharmarajan</td><td>DNP</td><td>6</td><td>4</td><td>-</td></tr>
+    <tr><td>-</td><td>Harish Natarajan</td><td>DNP</td><td>6</td><td>12</td><td>-</td></tr>
   </tbody>
 </table>
 

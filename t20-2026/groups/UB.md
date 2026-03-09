@@ -6,7 +6,7 @@ background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/ub"
 ---
 
-*Last updated: 2026-03-01*
+*Last updated: 2026-03-08*
 
 <style>
   tr.ai-row { background-color: #e8e8e8 !important; color: #555; }
@@ -22,7 +22,7 @@ permalink: "/t20-2026/groups/ub"
 
 ## Overall Standings
 
-*Combined score across Group Stage + Super 8. KO & Finals not yet played.*
+*Final result: IND beat NZ. All stages complete.*
 
 <table class="table thead-dark table-striped table-bordered table-sm">
   <thead class="thead-dark">
@@ -36,14 +36,14 @@ permalink: "/t20-2026/groups/ub"
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Ashish</td><td>12</td><td>11</td><td>-</td><td><strong>23</strong></td></tr>
-    <tr><td>2</td><td>D. Sivakumar</td><td>12</td><td>10</td><td>-</td><td><strong>22</strong></td></tr>
-    <tr><td>3</td><td>Ranga</td><td>10</td><td>11</td><td>-</td><td><strong>21</strong></td></tr>
-    <tr><td>4</td><td>Sreenivas G</td><td>10</td><td>9</td><td>-</td><td><strong>19</strong></td></tr>
-    <tr><td>5</td><td>Rupal</td><td>10</td><td>8</td><td>-</td><td><strong>18</strong></td></tr>
-    <tr><td>T-6</td><td>Ram</td><td>10</td><td>7</td><td>-</td><td><strong>17</strong></td></tr>
-    <tr><td>T-6</td><td>Alok</td><td>12</td><td>5</td><td>-</td><td><strong>17</strong></td></tr>
-    <tr><td>8</td><td>vivek</td><td>DNP</td><td>7</td><td>-</td><td><strong>7</strong></td></tr>
+    <tr><td>1</td><td>Ashish</td><td>12</td><td>11</td><td>12</td><td><strong>35</strong></td></tr>
+    <tr><td>2</td><td>Ranga</td><td>10</td><td>11</td><td>12</td><td><strong>33</strong></td></tr>
+    <tr><td>3</td><td>Rupal</td><td>10</td><td>8</td><td>12</td><td><strong>30</strong></td></tr>
+    <tr><td>T-4</td><td>Ram</td><td>10</td><td>7</td><td>12</td><td><strong>29</strong></td></tr>
+    <tr><td>T-4</td><td>Alok</td><td>12</td><td>5</td><td>12</td><td><strong>29</strong></td></tr>
+    <tr><td>6</td><td>D. Sivakumar</td><td>12</td><td>10</td><td>4</td><td><strong>26</strong></td></tr>
+    <tr><td>T-7</td><td>Sreenivas G</td><td>10</td><td>9</td><td>0</td><td><strong>19</strong></td></tr>
+    <tr><td>T-7</td><td>vivek</td><td>DNP</td><td>7</td><td>12</td><td><strong>19</strong></td></tr>
   </tbody>
 </table>
 

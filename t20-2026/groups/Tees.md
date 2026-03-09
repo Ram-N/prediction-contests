@@ -6,7 +6,7 @@ background: '/img/cricket/bg_cricket.jpg'
 permalink: "/t20-2026/groups/tees"
 ---
 
-*Last updated: 2026-03-01*
+*Last updated: 2026-03-08*
 
 <style>
   tr.ai-row { background-color: #e8e8e8 !important; color: #555; }
@@ -22,7 +22,7 @@ permalink: "/t20-2026/groups/tees"
 
 ## Overall Standings
 
-*Combined score across Group Stage + Super 8. KO & Finals not yet played.*
+*Final result: IND beat NZ. All stages complete.*
 
 <table class="table thead-dark table-striped table-bordered table-sm">
   <thead class="thead-dark">
@@ -36,9 +36,9 @@ permalink: "/t20-2026/groups/tees"
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Sahana</td><td>14</td><td>6</td><td>-</td><td><strong>20</strong></td></tr>
-    <tr><td>2</td><td>Tees</td><td>12</td><td>2</td><td>-</td><td><strong>14</strong></td></tr>
-    <tr><td>3</td><td>Shriya</td><td>9</td><td>4</td><td>-</td><td><strong>13</strong></td></tr>
+    <tr><td>1</td><td>Sahana</td><td>14</td><td>6</td><td>8</td><td><strong>28</strong></td></tr>
+    <tr><td>2</td><td>Tees</td><td>12</td><td>2</td><td>4</td><td><strong>18</strong></td></tr>
+    <tr><td>3</td><td>Shriya</td><td>9</td><td>4</td><td>0</td><td><strong>13</strong></td></tr>
   </tbody>
 </table>
 
