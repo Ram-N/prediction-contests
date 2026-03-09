@@ -57,7 +57,7 @@ permalink: "/t20-2026/ko-finals"
 | T-1 | vivek | USA | NZ ✓ **4** | IND ✓ **4** | IND ✓ **8** | **16** |
 | T-1 | Vivek | Redwood City | NZ ✓ **4** | IND ✓ **4** | IND ✓ **8** | **16** |
 | T-12 | Abhinav | Milpitas | SA ✗ 0 | IND ✓ **4** | IND ✓ **8** | **12** |
-| T-12 | Aditya | | SA ✗ 0 | IND ✓ **4** | IND ✓ **8** | **12** |
+| T-12 | Aditya Iyengar | | SA ✗ 0 | IND ✓ **4** | IND ✓ **8** | **12** |
 | T-12 | Alok | US | SA ✗ 0 | IND ✓ **4** | IND ✓ **8** | **12** |
 | T-12 | Ashish Naik | LOS ALTOS, USA | SA ✗ 0 | IND ✓ **4** | IND ✓ **8** | **12** |
 | T-12 | BHARATHKIRISHNAN S R | Bengaluru | SA ✗ 0 | IND ✓ **4** | IND ✓ **8** | **12** |
@@ -142,7 +142,7 @@ permalink: "/t20-2026/ko-finals"
     <tr><td>Perplexity</td><td>SF</td><td>South Africa</td><td>India</td><td>India</td><td>✓</td></tr>
     <tr><td>Aakarsh Ekollu</td><td>Saratoga</td><td>New Zealand</td><td>India</td><td>India</td><td></td></tr>
     <tr><td>Abhinav</td><td>Milpitas</td><td>South Africa</td><td>India</td><td>India</td><td></td></tr>
-    <tr><td>Aditya</td><td></td><td>South Africa</td><td>India</td><td>India</td><td></td></tr>
+    <tr><td>Aditya Iyengar</td><td></td><td>South Africa</td><td>India</td><td>India</td><td></td></tr>
     <tr><td>Alex</td><td>Seattle/USA</td><td>South Africa</td><td>England</td><td>England</td><td></td></tr>
     <tr><td>Alok</td><td>US</td><td>South Africa</td><td>India</td><td>India</td><td></td></tr>
     <tr><td>Amritha</td><td>Bangalore</td><td>South Africa</td><td>India</td><td>South Africa</td><td></td></tr>

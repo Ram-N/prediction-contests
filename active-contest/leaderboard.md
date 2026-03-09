@@ -29,7 +29,7 @@ Higher scores are better. Rounds not yet played show **-**.
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Aditya</td><td></td><td>14</td><td>11</td><td>12</td><td>37</td></tr>
+    <tr><td>1</td><td>Aditya Iyengar</td><td></td><td>14</td><td>11</td><td>12</td><td>37</td></tr>
     <tr><td>T-2</td><td>Keshav Venkatesh</td><td>USA</td><td>12</td><td>12</td><td>12</td><td>36</td></tr>
     <tr><td>T-2</td><td>Ramesh Srinivasan</td><td>Chennai</td><td>10</td><td>10</td><td>16</td><td>36</td></tr>
     <tr><td>T-4</td><td>Ashish</td><td>Los Altos, USA</td><td>12</td><td>11</td><td>12</td><td>35</td></tr>
