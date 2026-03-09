@@ -48,8 +48,39 @@ permalink: "/t20-2026/groups/tr"
     <tr><td>10</td><td>P Amritha</td><td>10</td><td>8</td><td>4</td><td><strong>22</strong></td></tr>
     <tr><td>11</td><td>Keshav Narasimhan</td><td>11</td><td>6</td><td>4</td><td><strong>21</strong></td></tr>
     <tr><td>12</td><td>Bharath Sridharan</td><td>10</td><td>2</td><td>0</td><td><strong>12</strong></td></tr>
-    <tr><td>-</td><td>Kausalya</td><td>DNP</td><td>10</td><td>12</td><td>-</td></tr>
-    <tr><td>-</td><td>Rahul Santhanam</td><td>DNP</td><td>6</td><td>0</td><td>-</td></tr>
+  </tbody>
+</table>
+
+---
+
+## KO &amp; Finals
+
+*SF1 result: **NZ**. SF2 result: **IND**. Final result: **IND**. SF1/SF2: 4pts each, Final: 8pts.*
+
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th>SF1 (NZ✓)</th>
+      <th>SF2 (IND✓)</th>
+      <th>Final (IND✓)</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>T-1</td><td>Aditya</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>Keshav Venkatesh</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>Rupal</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>S Parthasarathy</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>Ram</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>R. Santhanam</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>S V Madhavan</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-8</td><td>Radhika Santhanam</td><td>NZ ✓ 4</td><td>ENG ✗ 0</td><td>NZ ✗ 0</td><td><strong>4</strong></td></tr>
+    <tr><td>T-8</td><td>Mukund N.</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>SA ✗ 0</td><td><strong>4</strong></td></tr>
+    <tr><td>T-8</td><td>P Amritha</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>SA ✗ 0</td><td><strong>4</strong></td></tr>
+    <tr><td>T-8</td><td>Keshav Narasimhan</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>SA ✗ 0</td><td><strong>4</strong></td></tr>
+    <tr><td>12</td><td>Bharath Sridharan</td><td>SA ✗ 0</td><td>ENG ✗ 0</td><td>SA ✗ 0</td><td><strong>0</strong></td></tr>
   </tbody>
 </table>
 

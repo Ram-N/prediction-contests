@@ -39,8 +39,30 @@ permalink: "/t20-2026/groups/rs"
     <tr><td>1</td><td>Aditya</td><td>14</td><td>11</td><td>12</td><td><strong>37</strong></td></tr>
     <tr><td>2</td><td>R. Santhanam</td><td>10</td><td>6</td><td>12</td><td><strong>28</strong></td></tr>
     <tr><td>3</td><td>Radhika Santhanam</td><td>9</td><td>11</td><td>4</td><td><strong>24</strong></td></tr>
-    <tr><td>-</td><td>Kausalya</td><td>DNP</td><td>10</td><td>12</td><td>-</td></tr>
-    <tr><td>-</td><td>Rahul Santhanam</td><td>DNP</td><td>6</td><td>0</td><td>-</td></tr>
+  </tbody>
+</table>
+
+---
+
+## KO &amp; Finals
+
+*SF1 result: **NZ**. SF2 result: **IND**. Final result: **IND**. SF1/SF2: 4pts each, Final: 8pts.*
+
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th>SF1 (NZ✓)</th>
+      <th>SF2 (IND✓)</th>
+      <th>Final (IND✓)</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>T-1</td><td>Aditya</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-1</td><td>R. Santhanam</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>3</td><td>Radhika Santhanam</td><td>NZ ✓ 4</td><td>ENG ✗ 0</td><td>NZ ✗ 0</td><td><strong>4</strong></td></tr>
   </tbody>
 </table>
 

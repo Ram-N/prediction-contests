@@ -44,6 +44,30 @@ permalink: "/t20-2026/groups/tees"
 
 ---
 
+## KO &amp; Finals
+
+*SF1 result: **NZ**. SF2 result: **IND**. Final result: **IND**. SF1/SF2: 4pts each, Final: 8pts.*
+
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th>SF1 (NZ✓)</th>
+      <th>SF2 (IND✓)</th>
+      <th>Final (IND✓)</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sahana</td><td>NZ ✓ 4</td><td>IND ✓ 4</td><td>SA ✗ 0</td><td><strong>8</strong></td></tr>
+    <tr><td>2</td><td>Tees</td><td>NZ ✓ 4</td><td>ENG ✗ 0</td><td>NZ ✗ 0</td><td><strong>4</strong></td></tr>
+    <tr><td>3</td><td>Shriya</td><td>SA ✗ 0</td><td>ENG ✗ 0</td><td>ENG ✗ 0</td><td><strong>0</strong></td></tr>
+  </tbody>
+</table>
+
+---
+
 ## Super 8
 
 *Group 1: Winner = **SA**, Runner-up = **IND**. Group 2: Winner = **ENG**, Runner-up = **NZ**.*

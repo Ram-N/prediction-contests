@@ -42,8 +42,36 @@ permalink: "/t20-2026/groups/ub"
     <tr><td>T-4</td><td>Ram</td><td>10</td><td>7</td><td>12</td><td><strong>29</strong></td></tr>
     <tr><td>T-4</td><td>Alok</td><td>12</td><td>5</td><td>12</td><td><strong>29</strong></td></tr>
     <tr><td>6</td><td>D. Sivakumar</td><td>12</td><td>10</td><td>4</td><td><strong>26</strong></td></tr>
-    <tr><td>T-7</td><td>Sreenivas G</td><td>10</td><td>9</td><td>0</td><td><strong>19</strong></td></tr>
-    <tr><td>T-7</td><td>vivek</td><td>DNP</td><td>7</td><td>12</td><td><strong>19</strong></td></tr>
+    <tr><td>7</td><td>Sreenivas G</td><td>10</td><td>9</td><td>0</td><td><strong>19</strong></td></tr>
+  </tbody>
+</table>
+
+---
+
+## KO &amp; Finals
+
+*SF1 result: **NZ**. SF2 result: **IND**. Final result: **IND**. SF1/SF2: 4pts each, Final: 8pts.*
+
+<table class="table thead-dark table-striped table-bordered table-sm">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th>Name</th>
+      <th>SF1 (NZ✓)</th>
+      <th>SF2 (IND✓)</th>
+      <th>Final (IND✓)</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>vivek</td><td>NZ ✓ 4</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>16</strong></td></tr>
+    <tr><td>T-2</td><td>Ashish</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-2</td><td>Ranga</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-2</td><td>Rupal</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-2</td><td>Ram</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>T-2</td><td>Alok</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>IND ✓ 8</td><td><strong>12</strong></td></tr>
+    <tr><td>7</td><td>D. Sivakumar</td><td>SA ✗ 0</td><td>IND ✓ 4</td><td>SA ✗ 0</td><td><strong>4</strong></td></tr>
+    <tr><td>8</td><td>Sreenivas G</td><td>SA ✗ 0</td><td>ENG ✗ 0</td><td>ENG ✗ 0</td><td><strong>0</strong></td></tr>
   </tbody>
 </table>
 
