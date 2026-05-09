@@ -713,4 +713,4 @@ $(document).ready(function() {
 
 ---
 
-[Overall Leaderboard]({{ site.baseurl }}/t20-2026/leaderboard) | [Group Stage]({{ site.baseurl }}/t20-2026/group-stage)
+[Overall Leaderboard](/prediction-contests/t20-2026/leaderboard) | [Group Stage](/prediction-contests/t20-2026/group-stage)

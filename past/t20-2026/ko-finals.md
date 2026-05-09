@@ -40,7 +40,7 @@ permalink: "/t20-2026/ko-finals"
 
 *Scores update as results come in. SF1: 4pts, SF2: 4pts, Final: 8pts.*
 
-[Overall Leaderboard]({{ site.baseurl }}/t20-2026/leaderboard)
+[Overall Leaderboard](/prediction-contests/t20-2026/leaderboard)
 
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | Rank | Name | Location | SF1 (NZ✓) | SF2 (IND✓) | Final (IND✓) | KO Total |

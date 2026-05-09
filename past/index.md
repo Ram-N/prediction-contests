@@ -10,7 +10,8 @@ header:
 
 ## Past Contests
 
-- [NFL 2025 Playoffs](/prediction-contests/past/nfl-2025/) - Winner: TBD (Super Bowl LIX not yet played)
+- [T20 World Cup 2026](/prediction-contests/past/t20-2026/) - Winner: Aditya Iyengar
+- [NFL 2025 Playoffs](/prediction-contests/past/nfl-2025/) - Winner: Chink
 - [T20 World Cup 2024](/prediction-contests/past/t20-2024/) - Winner: Ishaan
 - [NFL 2023](/prediction-contests/past/nfl2023/) - Winner: Ankit Agrawal
 - [ICC World Cup 2023](/prediction-contests/past/icc2023/) - Winner: Keshav Narasimhan

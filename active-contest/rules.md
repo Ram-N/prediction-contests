@@ -1,84 +1,62 @@
 ---
 layout: page
-title: Rules - 2026 ICC WC Contest
-meta_title: "Rules for this Prediction Contest"
-teaser: "Can you correctly predict the World Cup Qaulifiers, Super 8 and the Knock-out?"
-background: '/img/ahmedabad.gif'
-permalink: "/t20-2026/rules"
+title: "Rules - FIFA 2026"
+description: "Contest rules and scoring system"
+background: '/img/bg_fifa.webp'
+permalink: "/fifa-2026/rules"
 ---
 
+# FIFA World Cup 2026 Prediction Contest Rules
 
-# T20 Men's WC Prediction Contest Rules and Guidelines
+## Overview
 
-### The Contest has 3 stages -- Group, Super-8 and Knockouts
+Predict the outcomes of the FIFA World Cup 2026 knockout stage matches — from the Round of 16 through the Final.
 
-- This contest is open to all.
-- One entry per person please (Honor system)
-- You are competing for glory. The winner will be the undisputed **T20 Worldcup Prediction Champion** until the next T20 World cup.
-- The winner of each stage will make it to the [Prediction Hall of Fame](/prediction-contests/hof)
+## Contest Format
 
+The contest covers the knockout stage:
+- **Round of 16** (TBD games)
+- **Quarterfinals** (TBD games)
+- **Semifinals** (2 games)
+- **Final** (1 game)
 
+**Total: TBD games**
 
-## Scoring Rules for the Prediction Contest
+## Scoring System
 
-All predictions are due before the 1st match of the round starts. So please don't wait!
+Scoring is based on the accuracy of your predictions using a logarithmic scoring system that rewards confident correct predictions and penalizes overconfident wrong predictions.
 
-### Super 8 Group Scoring
+For each game, you predict:
+- The winning team
+- Your confidence level (probability between 0.51 and 1.0)
 
-In each group, let **W** = actual group winner and **R** = actual runner-up.
+### Scoring Formula
 
-| Points | Condition |
-|--------|-----------|
-| **6** | You picked both W and R to advance, and correctly picked W as the group winner. |
-| **5** | You picked both W and R to advance, but incorrectly picked R to win the group. |
-| **4** | You picked W to advance and correctly as group winner, but did not pick R to advance. |
-| **3** | You picked W to advance, but as runner-up, and did not pick R. |
-| **2** | You picked R to advance as runner-up, but did not pick W. |
-| **1** | You picked R to advance and as group winner, but did not pick W. |
-| **0** | You picked neither W nor R to advance. |
+- **Correct prediction**: Score = -log₂(confidence)
+- **Incorrect prediction**: Score = -log₂(1 - confidence)
 
-- Maximum possible points per group = 6
-- Maximum possible points across all Super 8 groups = **12** (2 groups × 6 points)
+**Lower total score is better!**
 
-### Group Stage
+### Examples
 
-You pick two teams per group, and for each one, you predict whether it will be the Group winner or the Group runner-up.  For each team you picked, you get 2 points if they advance from the group stage by landing in the exact position (winner/runner-up) you picked. You get 1 point if they advance to the next stage, but in the other position (winner/runner-up). You get 0 points if they don't advance from the group stage.
+- Predict team A with 0.6 confidence → Team A wins → Score: 0.74
+- Predict team A with 0.9 confidence → Team A wins → Score: 0.15
+- Predict team A with 0.9 confidence → Team B wins → Score: 3.32
 
-**Summary**
-- 2 Points if you get the team and its position exactly correct.
-- 1 point if you get the team right, but the rank is off. (Ex. You predicted Afghanistan will finish 2nd, but if Afghanistan finishes 1st - you get only one point.)
-- 0 points if you pick a team that does not qualify in either of the top 2 spots
-- The maximum possible score in the Group Stage is **16 points**. (2+2) x 4 groups
+## Rules
 
+- One entry per person (honor system)
+- Predictions must be submitted before the Round of 16 begins
+- You are competing for glory and a spot in the [Prediction Hall of Fame](/prediction-contests/hof)
+- The winner will be declared after the Final
 
-### Knockout & Finals Scoring
+## Deadlines
 
-You predict the winner of each semi-final and the final.
+- **Predictions close**: TBD (before Round of 16)
+- **All predictions must be in by**: TBD
 
-| Points | Condition |
-|--------|-----------|
-| **4** | Correct semi-final winner (per semi-final, 2 semi-finals = up to 8 pts) |
-| **8** | Correct final winner |
+## Entry
 
-- Maximum possible points in the KO + Finals stage = **16 points** (4 + 4 + 8)
-
-### Leaderboard
-The leaderboard is updated regularly and can be found [here](https://ram-n.github.io/prediction-contests/t20-2026/leaderboard)
-
-The **Overall Prediction Champion** will be the person with the maximum points after combining the scores of the Group stage, The Super 8 stage and the Knock-outs (until the final match).
-
-The **overall champion** will be declared on March 8th, 2026.
-
-If you have friends or relatives who are cricket lovers, invite them to try. 
-It takes less than a minute to make the predictions.
-
+Submit your predictions using the [entry form]({{ site.contest.entry_form }}).
 
 Good luck!
-
-
-## T20 World Cup Format ([Wikipedia](https://en.wikipedia.org/wiki/2026_Men%27s_T20_World_Cup#Group_stage))
-
-- 20 national teams will be playing in the Group stage. There are a total of 4 groups of 5 countries each.
-- The top 2 teams from each Group Stage proceed to the *Super 8* stage.
-
-**Deadline: The Group stage prediction close on Feb 7th, before the first match**

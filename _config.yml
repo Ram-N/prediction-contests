@@ -1,4 +1,4 @@
-title: T20 2026 Prediction Contest
+title: FIFA 2026 Prediction Contest
 email: your-email@example.com
 description: Predict the outcomes of major sporting events
 author: Ram Narasimhan
@@ -7,16 +7,11 @@ url: "https://ram-n.github.io"
 
 # Active Contest Configuration
 contest:
-  slug: "t20-2026"
-  name: "T20 2026"
-  full_title: "T20 World Cup 2026 Prediction Contest"
-  background: "/img/bg_t20.webp"
-  entry_form: "https://forms.gle/JmsZVXwQ83SAojv97"
-  # T20 background images for blog posts (will cycle through automatically)
-  t20_backgrounds:
-    - "/img/bg_t20.webp"
-    - "/img/bg_t20_1.jpg"
-    - "/img/bg_t20_2.jpg"
+  slug: "fifa-2026"
+  name: "FIFA 2026"
+  full_title: "FIFA World Cup 2026 Prediction Contest"
+  background: "/img/bg_fifa.webp"
+  entry_form: "https://placeholder.example.com"
 
 # Social Profiles
 

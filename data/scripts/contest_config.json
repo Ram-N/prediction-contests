@@ -1,28 +1,16 @@
 {
-  "contest_name": "T20 2026",
-  "contest_slug": "t20-2026",
-  "predictions_file": "../T20-2026-Predictions-Clean.csv",
-  "results_file": "../results/T20-2026-group-results.csv",
+  "contest_name": "FIFA 2026",
+  "contest_slug": "fifa-2026",
+  "predictions_file": "../FIFA-2026-Predictions-Clean.csv",
+  "results_file": "../FIFA-2026-results.csv",
   "leaderboard_file": "../../active-contest/leaderboard.md",
   "blog_post_dir": "../../_posts/",
-  "background_images": {
-    "leaderboard": "/img/cricket/bg_cricket.jpg",
-    "predictions": "/img/cricket/2024T20PC.png",
-    "rules": "/img/cricket/bg_icc2023.jpg",
-    "blog_posts": [
-      "/img/cricket/bg_cricket.jpg",
-      "/img/cricket/bg_icc2023.jpg",
-      "/img/cricket/barbados.webp"
-    ]
-  },
-  "total_games": 9,
-  "total_group_stage_games": 40,
+  "background_image": "/img/bg_fifa.webp",
+  "total_games": 7,
   "round_names": {
-    "4": "super-8",
-    "7": "semifinals",
-    "9": "final"
+    "4": "round-of-16",
+    "6": "quarterfinals",
+    "7": "final"
   },
-  "team_code_map": {},
-  "groups_file": "../T20-2026-groups.csv",
-  "groups_dir": "../../t20-2026/groups"
+  "team_code_map": {}
 }
