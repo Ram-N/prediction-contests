@@ -2,7 +2,7 @@
 layout: page
 title: "FIFA World Cup 2026"
 description: "Predict the knockout stage winners of the FIFA World Cup 2026"
-background: '/img/bg_fifa.webp'
+background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/"
 ---
 

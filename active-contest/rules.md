@@ -2,7 +2,7 @@
 layout: page
 title: "Rules - FIFA 2026"
 description: "Contest rules and scoring system"
-background: '/img/bg_fifa.webp'
+background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/rules"
 ---
 

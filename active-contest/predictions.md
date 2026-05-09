@@ -2,7 +2,7 @@
 layout: page
 title: "Predictions - FIFA 2026"
 description: "All submitted predictions"
-background: '/img/bg_fifa.webp'
+background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/predictions"
 ---
 

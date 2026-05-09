@@ -2,7 +2,7 @@
 layout: page
 title: "Round of 16 - FIFA 2026"
 description: "FIFA World Cup 2026 Round of 16 results"
-background: '/img/bg_fifa.webp'
+background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/round-of-16"
 ---
 

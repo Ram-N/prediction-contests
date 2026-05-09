@@ -2,7 +2,7 @@
 layout: page
 title: "Entry Form - FIFA 2026"
 description: "Submit your predictions"
-background: '/img/bg_fifa.webp'
+background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/entry"
 ---
 

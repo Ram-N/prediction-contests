@@ -2,7 +2,7 @@
 layout: page
 title: "Group Stage - FIFA 2026"
 description: "FIFA World Cup 2026 Group Stage results"
-background: '/img/bg_fifa.webp'
+background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/group-stage"
 ---
 
