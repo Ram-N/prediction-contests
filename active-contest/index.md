@@ -14,21 +14,19 @@ Predict the winners of the knockout stage matches in the FIFA World Cup 2026. Te
 
 ## 🏆 Enter Now
 
-**[Submit Your Predictions]({{ site.contest.entry_form }})**
+Entry form coming soon.
 
 Deadline: TBD (before Round of 16)
 
 ## Contest Information
 
 - [Contest Rules](/prediction-contests/fifa-2026/rules)
-- [Entry Form]({{ site.contest.entry_form }})
 - [Current Leaderboard](/prediction-contests/fifa-2026/leaderboard)
 - [All Predictions](/prediction-contests/fifa-2026/predictions)
 
 ## How to Participate
 
 1. Read the [rules](/prediction-contests/fifa-2026/rules) carefully
-2. Submit your predictions using the [entry form]({{ site.contest.entry_form }})
+2. Submit your predictions using the entry form (link coming soon)
 3. Track your progress on the [leaderboard](/prediction-contests/fifa-2026/leaderboard)
-
 Good luck!

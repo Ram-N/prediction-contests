@@ -48,11 +48,10 @@ echo "✅ Moved to past/$SLUG/"
 # 4. Prompt for new contest details
 echo ""
 echo "Step 3: Setting up new contest..."
-read -p "New contest slug (e.g., fifa-2026): " NEW_SLUG
-read -p "New contest short name (e.g., FIFA 2026): " NEW_NAME
-read -p "New contest full title (e.g., FIFA World Cup 2026 Prediction Contest): " NEW_FULL_TITLE
-read -p "Background image path (e.g., /img/bg_fifa.webp): " NEW_BG
-read -p "Entry form URL: " NEW_FORM_URL
+read -p "New contest slug (e.g., wc-2030): " NEW_SLUG
+read -p "New contest short name (e.g., WC 2030): " NEW_NAME
+read -p "New contest full title (e.g., World Cup 2030 Prediction Contest): " NEW_FULL_TITLE
+read -p "Background image path (e.g., /img/bg_wc2030.webp): " NEW_BG
 
 # 5. Update _config.yml
 echo ""
@@ -62,7 +61,6 @@ sed -i \
   -e "s|name: \".*\"|name: \"$NEW_NAME\"|" \
   -e "s|full_title: \".*\"|full_title: \"$NEW_FULL_TITLE\"|" \
   -e "s|background: \".*\"|background: \"$NEW_BG\"|" \
-  -e "s|entry_form: \".*\"|entry_form: \"$NEW_FORM_URL\"|" \
   _config.yml
 echo "✅ Updated _config.yml"
 

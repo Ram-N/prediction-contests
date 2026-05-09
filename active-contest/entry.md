@@ -8,21 +8,13 @@ permalink: "/fifa-2026/entry"
 
 # Submit Your Predictions
 
-The FIFA 2026 World Cup Prediction Contest is now open for entries!
+Entry form coming soon. Check back before the Round of 16 begins.
 
 ## Before You Submit
 
 1. Read the [contest rules](/prediction-contests/fifa-2026/rules) carefully
 2. Understand the [scoring system](/prediction-contests/fifa-2026/rules#scoring-system)
 3. Make your predictions before the Round of 16 begins
-
----
-
-## Enter the Contest
-
-**[Click here to submit your predictions]({{ site.contest.entry_form }})**
-
-Or use this link: `{{ site.contest.entry_form }}`
 
 ---
 

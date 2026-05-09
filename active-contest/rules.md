@@ -57,6 +57,6 @@ For each game, you predict:
 
 ## Entry
 
-Submit your predictions using the [entry form]({{ site.contest.entry_form }}).
+Submit your predictions using the entry form (link coming soon).
 
 Good luck!
