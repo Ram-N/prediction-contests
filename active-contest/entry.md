@@ -53,6 +53,11 @@ Read the [contest rules](/prediction-contests/fifa-2026/rules) before submitting
   <input type="text" class="form-control" id="entry-name" placeholder="Your name" maxlength="50">
 </div>
 <div class="form-group">
+  <label for="entry-email"><strong>Email</strong></label>
+  <input type="email" class="form-control" id="entry-email" placeholder="your@email.com" maxlength="100">
+  <small class="form-text text-muted">We'll send you a copy of your picks and contest updates.</small>
+</div>
+<div class="form-group">
   <label for="entry-location"><strong>Location</strong></label>
   <input type="text" class="form-control" id="entry-location" placeholder="City or country" maxlength="50">
 </div>

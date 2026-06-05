@@ -194,9 +194,12 @@
   function validateAll() {
     var issues = [];
     var name = document.getElementById('entry-name').value.trim();
+    var email = document.getElementById('entry-email').value.trim();
     var location = document.getElementById('entry-location').value.trim();
 
     if (!name) issues.push('Enter your name');
+    if (!email) issues.push('Enter your email');
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) issues.push('Enter a valid email address');
     if (!location) issues.push('Enter your location');
 
     var r32 = getR32Selections();
@@ -235,6 +238,7 @@
   function saveState() {
     var state = {
       name: document.getElementById('entry-name').value,
+      email: document.getElementById('entry-email').value,
       location: document.getElementById('entry-location').value,
       r32: getR32Selections(),
       thirdPlace: getThirdPlaceSelections()
@@ -251,6 +255,7 @@
       var state = JSON.parse(raw);
 
       if (state.name) document.getElementById('entry-name').value = state.name;
+      if (state.email) document.getElementById('entry-email').value = state.email;
       if (state.location) document.getElementById('entry-location').value = state.location;
 
       if (state.r32) {
@@ -293,6 +298,7 @@
 
     var payload = {
       name: document.getElementById('entry-name').value.trim(),
+      email: document.getElementById('entry-email').value.trim(),
       location: document.getElementById('entry-location').value.trim(),
       r32: getR32Selections(),
       thirdPlace: getThirdPlaceSelections()
@@ -335,8 +341,12 @@
       });
     });
 
-    // Name/location listeners
+    // Name/email/location listeners
     document.getElementById('entry-name').addEventListener('input', function () {
+      validateAll();
+      saveState();
+    });
+    document.getElementById('entry-email').addEventListener('input', function () {
       validateAll();
       saveState();
     });
