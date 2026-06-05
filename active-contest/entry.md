@@ -19,8 +19,9 @@ permalink: "/fifa-2026/entry"
   #third-place-section { display: none; margin-top: 2rem; padding: 1.5rem; border: 2px solid #007bff; border-radius: 8px; background: #f8f9ff; }
   #third-place-section.visible { display: block; }
   #third-place-grid { display: flex; flex-direction: column; gap: 0.4rem; }
-  .third-place-row { display: flex; align-items: center; gap: 1.5rem; padding: 0.3rem 0; border-bottom: 1px solid #dee2e6; }
+  .third-place-row { display: flex; align-items: center; gap: 1.5rem; padding: 0.5rem 0; border-bottom: 2px solid #adb5bd; }
   .third-place-row:last-child { border-bottom: none; }
+  .third-place-row:first-child { padding-top: 0; }
   .third-place-group-label { font-weight: 700; min-width: 5rem; }
 
   #validation-panel { margin-top: 1.5rem; padding: 1rem; border-radius: 8px; background: #fff3cd; border: 1px solid #ffc107; }
