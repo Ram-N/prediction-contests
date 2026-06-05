@@ -122,15 +122,22 @@
       var remaining = GROUPS[g].filter(function (t) {
         return r32[g].indexOf(t) === -1;
       });
+      var row = document.createElement('div');
+      row.className = 'third-place-row';
+      var label = document.createElement('span');
+      label.className = 'third-place-group-label';
+      label.textContent = 'Group ' + g;
+      row.appendChild(label);
       remaining.forEach(function (team) {
-        var div = document.createElement('div');
-        div.className = 'third-place-item';
+        var span = document.createElement('span');
+        span.className = 'third-place-item';
         var id = 'tp-' + g + '-' + team.replace(/[^a-zA-Z0-9]/g, '_');
         var wasChecked = existingTeams.indexOf(team) !== -1;
-        div.innerHTML = '<input type="checkbox" data-group="' + g + '" data-team="' + team + '" id="' + id + '"' +
-          (wasChecked ? ' checked' : '') + '> <label for="' + id + '"><strong>Group ' + g + ':</strong> ' + team + '</label>';
-        grid.appendChild(div);
+        span.innerHTML = '<input type="checkbox" data-group="' + g + '" data-team="' + team + '" id="' + id + '"' +
+          (wasChecked ? ' checked' : '') + '> <label for="' + id + '">' + team + '</label>';
+        row.appendChild(span);
       });
+      grid.appendChild(row);
     });
 
     // Attach listeners
