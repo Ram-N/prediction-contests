@@ -2,7 +2,7 @@
 layout: page
 title: "Entry Form - FIFA 2026 Group Stage"
 description: "Submit your Group Stage predictions"
-background: '/img/soccer/bg_fifa.webp'
+background: '/img/soccer/group_stage_banner.jpg'
 permalink: "/fifa-2026/entry"
 ---
 
