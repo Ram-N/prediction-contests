@@ -28,9 +28,16 @@ permalink: "/fifa-2026/421-entry"
 
   #semi-counter { font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
 
-  #validation-panel { margin-top: 1.5rem; padding: 1rem; border-radius: 8px; background: #fff3cd; border: 1px solid #ffc107; }
-  #validation-panel.valid { background: #d4edda; border-color: #28a745; }
+  #validation-panel { margin-top: 1.5rem; padding: 1rem; border-radius: 8px; background: #fde8e8; border: 2px solid #dc3545; color: #721c24; }
+  #validation-panel.valid { background: #d4edda; border-color: #28a745; color: #155724; }
   #validation-panel ul { margin-bottom: 0; padding-left: 1.2rem; }
+
+  #summary-section { display: none; margin-top: 1.5rem; }
+  #summary-section.visible { display: block; }
+  #summary-table { width: 100%; }
+  #summary-table th { background: #343a40; color: #fff; padding: 0.5rem 0.75rem; }
+  #summary-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; font-size: 1.05rem; }
+  #summary-table tr:nth-child(even) { background: #f8f9fa; }
 
   #submit-btn { margin-top: 1rem; }
   #submit-btn:disabled { opacity: 0.5; }
@@ -206,8 +213,16 @@ Select **exactly 4 teams** from any groups.
   <div id="winner-picks"></div>
 </div>
 
+<div id="summary-section">
+  <h3>Your Picks</h3>
+  <table class="table" id="summary-table">
+    <thead><tr><th>Round</th><th>Your Picks</th></tr></thead>
+    <tbody id="summary-body"></tbody>
+  </table>
+</div>
+
 <div id="validation-panel">
-  <strong>Checklist</strong>
+  <strong id="validation-heading">Missing Info</strong>
   <ul id="validation-list"></ul>
 </div>
 

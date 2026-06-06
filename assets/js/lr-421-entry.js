@@ -185,18 +185,50 @@
     }
 
     var panel = document.getElementById('validation-panel');
+    var heading = document.getElementById('validation-heading');
     var list = document.getElementById('validation-list');
     var btn = document.getElementById('submit-btn');
 
     if (issues.length === 0) {
       panel.classList.add('valid');
+      heading.textContent = 'Ready';
       list.innerHTML = '<li>All good — ready to submit!</li>';
       btn.disabled = false;
     } else {
       panel.classList.remove('valid');
+      heading.textContent = 'Missing Info';
       list.innerHTML = issues.map(function (i) { return '<li>' + i + '</li>'; }).join('');
       btn.disabled = true;
     }
+
+    updateSummary(semis, finals, winner);
+  }
+
+  // ---- Summary Table ----
+
+  function updateSummary(semis, finals, winner) {
+    var section = document.getElementById('summary-section');
+    var body = document.getElementById('summary-body');
+
+    if (semis.length === 0 && finals.length === 0 && !winner) {
+      section.classList.remove('visible');
+      return;
+    }
+
+    section.classList.add('visible');
+    var rows = '';
+
+    if (semis.length > 0) {
+      rows += '<tr><td><strong>Semifinalists</strong></td><td>' + semis.join(', ') + '</td></tr>';
+    }
+    if (finals.length > 0) {
+      rows += '<tr><td><strong>Finalists</strong></td><td>' + finals.join(', ') + '</td></tr>';
+    }
+    if (winner) {
+      rows += '<tr><td><strong>Winner</strong></td><td>' + winner + '</td></tr>';
+    }
+
+    body.innerHTML = rows;
   }
 
   // ---- localStorage ----
