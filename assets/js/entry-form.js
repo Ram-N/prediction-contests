@@ -7,7 +7,7 @@
 
   var GROUPS = {
     A: ['Mexico', 'South Africa', 'Korea Republic', 'Czechia'],
-    B: ['Canada', 'Switzerland', 'Qatar', 'Bosnia &amp; Herz.'],
+    B: ['Canada', 'Switzerland', 'Qatar', 'Bosnia & Herz.'],
     C: ['Brazil', 'Morocco', 'Haiti', 'Scotland'],
     D: ['USA', 'Paraguay', 'Australia', 'Türkiye'],
     E: ['Germany', 'Ecuador', "Côte d'Ivoire", 'Curaçao'],
