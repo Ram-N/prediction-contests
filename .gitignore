@@ -16,3 +16,24 @@ __pycache__/
 
 # Windows/WSL zone identifier files
 *:Zone.Identifier
+
+# Calendar files
+*.ics
+
+# Encrypted/binary blobs
+*.enc
+
+# Form response CSVs (private data)
+active-contest/*Responses*.csv
+
+# Schedule CSVs (working data)
+active-contest/FIFA2026_schedule.csv
+
+# Large source PNGs (use .webp versions instead)
+img/soccer/bg_fifa.png
+img/soccer/bg_fifa1.png
+img/soccer/bg_fifa2.png
+img/soccer/bg_fifa3.png
+img/soccer/R16-banner.png
+img/soccer/R32-banner.png
+img/soccer/FIFA2026 PC Banner.png
