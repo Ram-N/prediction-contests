@@ -1,6 +1,9 @@
 {:.thead-dark .table-striped .table-bordered .table-sm }
 | # | Name | Location | A | B | C | D | E | F | G | H | I | J | K | L | 3rd Place Teams |
 |---|------|----------|---|---|---|---|---|---|---|---|---|---|---|---|-----------------|
+| 🤖 | ChatGPT (AI) | AI | MEX, KOR | SUI, CAN | BRA, MAR | USA, TUR | GER, ECU | NED, JPN | BEL, IRN | ESP, URU | FRA, NOR | ARG, AUT | POR, COL | ENG, CRO | I: Senegal, F: Sweden, J: Algeria, D: Paraguay, E: Ivory Coast, G: Egypt, H: Saudi Arabia, B: Bosnia & Herz. |
+| 🤖 | Claude (AI) | AI | MEX, KOR | CAN, SUI | BRA, MAR | USA, TUR | GER, ECU | NED, JPN | BEL, EGY | ESP, URU | FRA, SEN | ARG, ALG | POR, COL | ENG, CRO | I: Norway, E: Ivory Coast, J: Austria, F: Sweden, G: Iran, A: Czechia, D: Paraguay, C: Scotland |
+| 🤖 | Gemini (AI) | AI | MEX, CZE | SUI, CAN | BRA, MAR | USA, TUR | GER, ECU | NED, JPN | BEL, EGY | ESP, URU | FRA, SEN | ARG, AUT | POR, COL | ENG, CRO | F: Sweden, I: Norway, D: Australia, A: South Korea, E: Ivory Coast, C: Scotland, J: Algeria, H: Saudi Arabia |
 | 1 | Aarush | Los Gatos | MEX, KOR | CAN, SUI | BRA, MAR | USA, TUR | GER, CIV | NED, JPN | BEL, IRN | ESP, URU | FRA, NOR | ARG, AUT | POR, COL | ENG, CRO | A: Czechia, B: Bosnia and Herzegovina, D: Australia, E: Ecuador, F: Sweden, I: Senegal, J: Algeria, L: Ghana |
 | 2 | Alex | Seattle | MEX, KOR | CAN, SUI | BRA, MAR | USA, TUR | GER, CIV | NED, JPN | BEL, EGY | ESP, URU | FRA, NOR | ARG, AUT | POR, COL | ENG, CRO | B: Bosnia and Herzegovina, F: Sweden, J: Algeria, L: Ghana, I: Senegal, D: Australia, C: Scotland, E: Ecuador |
 | 3 | Alok | US | MEX, CZE | CAN, SUI | BRA, MAR | USA, PAR | GER, ECU | NED, SWE | BEL, IRN | ESP, URU | FRA, NOR | ARG, ALG | POR, COL | ENG, CRO | A: Korea Republic, C: Scotland, D: Australia, F: Japan, G: New Zealand, I: Senegal, J: Austria, L: Ghana |
