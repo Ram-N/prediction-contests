@@ -10,7 +10,7 @@ permalink: "/fifa-2026/predictions"
 
 All submitted predictions for the **Group Stage** contest are shown below. Participants picked 2 teams per group (A–L) to advance to the Round of 32, plus 8 best third-place teams.
 
-**Total Entries:** 49 participants (46 humans + 3 AI models)
+**Total Entries:** 54 participants (51 humans + 3 AI models)
 
 ---
 
