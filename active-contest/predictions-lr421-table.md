@@ -27,29 +27,32 @@
 | 21 | ishaan | oakland | Germany | Spain | France | England | Spain | England | **Spain** |
 | 22 | Keshav Narasimhan | San Diego | Spain | France | Argentina | England | Spain | France | **Spain** |
 | 23 | KK | USA | Brazil | Germany | Spain | England | Brazil | England | **Brazil** |
-| 24 | Kunal Soni | Orlando | Netherlands | Spain | France | Argentina | Spain | Argentina | **Spain** |
-| 25 | Manish Bhatt | Orlando | Brazil | Spain | France | Argentina | Spain | Argentina | **Spain** |
-| 26 | MK | Miami | Brazil | Spain | France | England | Spain | France | **France** |
-| 27 | Mukund N | Pittsburgh, PA | Germany | Spain | France | Portugal | Germany | France | **Germany** |
-| 28 | Neeraj Mendiratta | Palm Beach County,FL | Brazil | Germany | Spain | Portugal | Brazil | Germany | **Germany** |
-| 29 | Nitin Khanna | San Jose | Argentina | France | Brazil | Portugal | France | Brazil | **Brazil** |
-| 30 | R. Santhanam | India | Brazil | Spain | France | Argentina | France | Argentina | **France** |
-| 31 | Rahul Santhanam | UK | Brazil | Spain | England | Portugal | England | Spain | **England** |
-| 32 | Rajesh | Chennai | Brazil | Spain | Argentina | Portugal | Spain | Argentina | **Spain** |
-| 33 | Ram N | MCO | Brazil | Spain | France | Argentina | Spain | France | **Spain** |
-| 34 | Rama Vudutala | Tampa | Brazil | Germany | France | England | Brazil | England | **England** |
-| 35 | Ranga Setlur | Buffalo NY | Brazil | Spain | France | Argentina | Spain | France | **France** |
-| 36 | Rupal | Florida | Spain | France | Argentina | England | Spain | France | **Spain** |
-| 37 | S Mahesh | Tampa | Netherlands | Spain | France | Argentina | Spain | France | **France** |
-| 38 | Sackett | Pleasanton | Brazil | Germany | Spain | Argentina | Brazil | Spain | **Brazil** |
-| 39 | Samrudhi Acharya | USA | Brazil | Germany | France | Argentina | Brazil | France | **France** |
-| 40 | Sanjay Chandran | Boca Raton, Florida | Brazil | Spain | France | England | Spain | France | **Spain** |
-| 41 | Sanjeev | Doral | Brazil | Germany | Spain | Argentina | Brazil | Spain | **Brazil** |
-| 42 | Shaj | Houston, USA | Spain | France | Argentina | England | Spain | Argentina | **Spain** |
-| 43 | Sri Iyer | Blue Bell, PA | Spain | France | England | Argentina | Spain | France | **Spain** |
-| 44 | Subbu | India | Brazil | Spain | France | Argentina | Spain | Argentina | **Spain** |
-| 45 | Subbu Mahadevan | Palo Alto | Brazil | Spain | France | England | Spain | France | **Spain** |
-| 46 | Tees | Seattle, WA | Morocco | Spain | France | Argentina | Spain | Argentina | **Spain** |
-| 47 | Vishal Goyal | Austin | Brazil | Spain | France | Argentina | Spain | Argentina | **Spain** |
-| 48 | Vivek | Redwood City | Brazil | Spain | France | Argentina | Brazil | Spain | **Spain** |
-| 49 | Vivek | Tandoor Loin | Brazil | Germany | Argentina | Portugal | Brazil | Portugal | **Brazil** |
+| 24 | Kshitij | USA | Brazil | Spain | Portugal | England | Brazil | Spain | **Spain** |
+| 25 | Kunal Soni | Orlando | Netherlands | Spain | France | Argentina | Spain | Argentina | **Spain** |
+| 26 | Manish Bhatt | Orlando | Brazil | Spain | France | Argentina | Spain | Argentina | **Spain** |
+| 27 | MK | Miami | Brazil | Spain | France | England | Spain | France | **France** |
+| 28 | Mukund N | Pittsburgh, PA | Germany | Spain | France | Portugal | Germany | France | **Germany** |
+| 29 | Neeraj Mendiratta | Palm Beach County,FL | Brazil | Germany | Spain | Portugal | Brazil | Germany | **Germany** |
+| 30 | Nitin Khanna | San Jose | Argentina | France | Brazil | Portugal | France | Brazil | **Brazil** |
+| 31 | R. Santhanam | India | Brazil | Spain | France | Argentina | France | Argentina | **France** |
+| 32 | Radhika Santhanam | Mumbai | Germany | Spain | France | Argentina | France | Argentina | **Argentina** |
+| 33 | Rahul Santhanam | UK | Brazil | Spain | England | Portugal | England | Spain | **England** |
+| 34 | Rajesh | Chennai | Brazil | Spain | Argentina | Portugal | Spain | Argentina | **Spain** |
+| 35 | Ram N | MCO | Brazil | Spain | France | Argentina | Spain | France | **Spain** |
+| 36 | Rama Vudutala | Tampa | Brazil | Germany | France | England | Brazil | England | **England** |
+| 37 | Ranga Setlur | Buffalo NY | Brazil | Spain | France | Argentina | Spain | France | **France** |
+| 38 | Rupal | Florida | Spain | France | Argentina | England | Spain | France | **Spain** |
+| 39 | S Mahesh | Tampa | Netherlands | Spain | France | Argentina | Spain | France | **France** |
+| 40 | Sackett | Pleasanton | Brazil | Germany | Spain | Argentina | Brazil | Spain | **Brazil** |
+| 41 | Samrudhi Acharya | USA | Brazil | Germany | France | Argentina | Brazil | France | **France** |
+| 42 | Sanjay Chandran | Boca Raton, Florida | Brazil | Spain | France | England | Spain | France | **Spain** |
+| 43 | Sanjeev | Doral | Brazil | Germany | Spain | Argentina | Brazil | Spain | **Brazil** |
+| 44 | Shaj | Houston, USA | Spain | France | Argentina | England | Spain | Argentina | **Spain** |
+| 45 | Sri Iyer | Blue Bell, PA | Spain | France | England | Argentina | Spain | France | **Spain** |
+| 46 | Subbu | India | Brazil | Spain | France | Argentina | Spain | Argentina | **Spain** |
+| 47 | Subbu Mahadevan | Palo Alto | Brazil | Spain | France | England | Spain | France | **Spain** |
+| 48 | Tees | Seattle, WA | Morocco | Spain | France | Argentina | Spain | Argentina | **Spain** |
+| 49 | Vikram | USA | France | Argentina | Portugal | England | France | Portugal | **France** |
+| 50 | Vishal Goyal | Austin | Brazil | Spain | France | Argentina | Spain | Argentina | **Spain** |
+| 51 | Vivek | Redwood City | Brazil | Spain | France | Argentina | Brazil | Spain | **Spain** |
+| 52 | Vivek | Tandoor Loin | Brazil | Germany | Argentina | Portugal | Brazil | Portugal | **Brazil** |

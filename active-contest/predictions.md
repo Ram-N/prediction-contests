@@ -22,7 +22,7 @@ All submitted predictions for the **Group Stage** contest are shown below. Parti
 
 All submitted predictions for the **4-2-1 Long Range** contest are shown below. Participants picked 4 semifinalists (1 pt each), 2 finalists (2 pts each), and 1 winner (4 pts).
 
-**Total Entries:** 52 participants (49 humans + 3 AI models)
+**Total Entries:** 55 participants (52 humans + 3 AI models)
 
 ---
 
