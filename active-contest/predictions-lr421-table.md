@@ -1,4 +1,4 @@
-{:.thead-dark .table-striped .table-bordered .table-sm }
+{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | # | Name | Location | Semi 1 | Semi 2 | Semi 3 | Semi 4 | Finalist 1 | Finalist 2 | Winner |
 |---|------|----------|--------|--------|--------|--------|------------|------------|--------|
 | 🤖 | ChatGPT (AI) | AI | Spain | France | Brazil | Argentina | Spain | France | **Spain** |
