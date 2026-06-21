@@ -8,6 +8,78 @@ permalink: "/fifa-2026/leaderboard"
 
 *Last updated: June 21, 2026, 11:30 PM EDT*
 
+## Overall Leaderboard
+
+The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is determined by the grand total across all rounds.
+
+| Round | Contest | Status |
+|-------|---------|--------|
+| GS | Group Stage (pick top 2 + 3rd from each group) | ✅ In progress |
+| R32 | Round of 32 (pick winners) | ⏳ Coming soon |
+| R16 | Round of 16 (pick winners) | ⏳ Coming soon |
+| ST-421 | Quarterfinals → Semifinals → Final (pick all in one shot) | ⏳ Coming soon |
+
+{:.thead-dark .table-striped .table-bordered .table-sm }
+| # | Name | GS | R32 | R16 | ST-421 | Total |
+|---|------|:---:|:---:|:---:|:---:|:---:|
+| 🌐 | WOTC | 3 | - | - | - | 3 |
+| 🤖 | ChatGPT (AI) | 3 | - | - | - | 3 |
+| 🤖 | Claude (AI) | 3 | - | - | - | 3 |
+| 🤖 | Gemini (AI) | 3 | - | - | - | 3 |
+| 1 | Aarush | 3 | - | - | - | 3 |
+| 2 | Alex | 3 | - | - | - | 3 |
+| 3 | Alok | 3 | - | - | - | 3 |
+| 4 | Amit Baranwal | 3 | - | - | - | 3 |
+| 5 | Aravind Sivakumar | 3 | - | - | - | 3 |
+| 6 | Arvind Narayanan | 3 | - | - | - | 3 |
+| 7 | Ashish Kumar | 3 | - | - | - | 3 |
+| 8 | Ashish Naik | 3 | - | - | - | 3 |
+| 9 | bala varadarajan | 3 | - | - | - | 3 |
+| 10 | Bharathkirishnan S R | 3 | - | - | - | 3 |
+| 11 | Chandran Dharmarajan | 3 | - | - | - | 3 |
+| 13 | Cheen | 3 | - | - | - | 3 |
+| 14 | D. Sivakumar | 3 | - | - | - | 3 |
+| 15 | Daniel | 3 | - | - | - | 3 |
+| 17 | Gokul Krishnan | 3 | - | - | - | 3 |
+| 18 | Goutham Ekollu | 3 | - | - | - | 3 |
+| 20 | Harsh | 3 | - | - | - | 3 |
+| 21 | Ishaan | 3 | - | - | - | 3 |
+| 22 | Joydeep Dey | 3 | - | - | - | 3 |
+| 23 | Keshav Narasimhan | 3 | - | - | - | 3 |
+| 24 | Keshav Venkatesh | 3 | - | - | - | 3 |
+| 25 | Kshitij | 3 | - | - | - | 3 |
+| 26 | Kunal Soni | 3 | - | - | - | 3 |
+| 27 | Manish Bhatt | 3 | - | - | - | 3 |
+| 28 | Manoj s | 3 | - | - | - | 3 |
+| 29 | MK | 3 | - | - | - | 3 |
+| 30 | Mukund N. | 3 | - | - | - | 3 |
+| 32 | R. Santhanam | 3 | - | - | - | 3 |
+| 34 | Rahul Santhanam | 3 | - | - | - | 3 |
+| 35 | Rajesh | 3 | - | - | - | 3 |
+| 36 | Ram N | 3 | - | - | - | 3 |
+| 37 | Ranga Setlur | 3 | - | - | - | 3 |
+| 38 | Rupal | 3 | - | - | - | 3 |
+| 39 | S Mahesh | 3 | - | - | - | 3 |
+| 40 | Sackett | 3 | - | - | - | 3 |
+| 41 | Sanjeev | 3 | - | - | - | 3 |
+| 42 | Shaj | 3 | - | - | - | 3 |
+| 44 | Sri Iyer | 3 | - | - | - | 3 |
+| 45 | Subbu | 3 | - | - | - | 3 |
+| 46 | Subbu Mahadevan | 3 | - | - | - | 3 |
+| 47 | Tees | 3 | - | - | - | 3 |
+| 48 | Vikram | 3 | - | - | - | 3 |
+| 50 | vivek | 3 | - | - | - | 3 |
+| 51 | Vivek | 3 | - | - | - | 3 |
+| 12 | Chayan Chakrabarti | 2 | - | - | - | 2 |
+| 19 | Guru Bhat | 2 | - | - | - | 2 |
+| 31 | Neeraj Mendiratta | 2 | - | - | - | 2 |
+| 33 | Radhika Santhanam | 2 | - | - | - | 2 |
+| 43 | Shriya Sateesh | 2 | - | - | - | 2 |
+| 49 | Vishal Goyal | 2 | - | - | - | 2 |
+| 16 | Dodo | 1 | - | - | - | 1 |
+
+---
+
 ## Group Stage Leaderboard
 
 **6 of 96 group stage results decided** — MEX 🇲🇽, USA 🇺🇸, GER 🇩🇪 qualified; TUR 🇹🇷, TUN 🇹🇳, HAI 🇭🇹 eliminated.
