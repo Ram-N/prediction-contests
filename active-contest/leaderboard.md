@@ -19,7 +19,9 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | R16 | Round of 16 (pick winners) | ⏳ Coming soon |
 | ST-421 | Quarterfinals → Semifinals → Final (pick all in one shot) | ⏳ Coming soon |
 
-{:.thead-dark .table-striped .table-bordered .table-sm }
+[Jump to Group Stage Leaderboard ↓](#group-stage-leaderboard)
+
+{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | # | Name | GS | R32 | R16 | ST-421 | Total |
 |---|------|:---:|:---:|:---:|:---:|:---:|
 | 🌐 | WOTC | 5 | - | - | - | 5 |
