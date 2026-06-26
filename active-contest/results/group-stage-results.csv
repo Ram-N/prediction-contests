@@ -1,25 +1,36 @@
 MEX, +1
 RSA, +1
 CZE, -1
+
 SUI, +1
 CAN, +1
 BIH, +3
+QAT, -1
+
 BRA, +1
 MAR, +1
+HAI, -1
+
 USA, +1
 AUS, +1
 PAR, +3
+TUR, -1
+
+
 GER, +1
 CIV, +1
 ECU, +3
+CUW, -1
+
 NED, +1
 JPN, +1
 SWE, +3
-ARG, +1
+TUN, -1
+
 FRA, +1
 NOR, +1
-COL, +1
-TUN, -1
-TUR, -1
-HAI, -1
+
+ARG, +1
 JOR, -1
+
+COL, +1

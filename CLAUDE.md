@@ -69,6 +69,16 @@ Leaderboard markdown files use custom table styling:
 | Name | Location | Score |
 ```
 
+**Leaderboard table rules (MUST follow every time you update a leaderboard):**
+
+1. **No index column**: Never include a `#` or index column. The first column should be `Name`.
+2. **Column order**: Always put `Name`, `Location`, `Pts` (or `Total`) as the first columns, then remaining columns after.
+   - Group-stage table: `Name | Location | Pts | A | B | C | ... | L | WOTC%`
+   - Overall leaderboard: `Name | GS | R32 | R16 | ST-421 | Total`
+3. **Timestamp format**: Every leaderboard must have a `*Last updated: ...*` line. Use the format:
+   `*Last updated: June 26, 2026 — 02:15 PM EDT*` (Month DD, YYYY — HH:MM AM/PM EDT/EST).
+   Update this timestamp every time you modify the file.
+
 ## Jekyll Configuration
 
 ### Front Matter Requirements
@@ -121,40 +131,46 @@ subtitle: Post subtitle
 
 ## Scoring and Updates
 
-### Running the Scoring Script
+### FIFA 2026 Group Stage Scoring
 
-The scoring script is located at `data/scripts/score_active_contest_predictions.py`.
+The group stage scoring script is at `data/scripts/score_fifa_group_stage.py`.
 
-**Always use `uv` to run Python scripts:**
+```bash
+cd data/scripts
+uv run python score_fifa_group_stage.py
+```
+
+**Workflow:**
+1. User updates `active-contest/results/group-stage-results.csv` with new results
+2. Run the script — it reads predictions + results, scores everything, generates output
+3. Review the updated files and commit
+
+**Input files:**
+- `data/FIFA-2026/GroupStage-Predictions-Clean.csv` — participant predictions
+- `active-contest/results/group-stage-results.csv` — results (`TEAM, +1/+3/-1`)
+
+**Output files:**
+- `active-contest/group-stage.md` — full color-coded predictions table
+- `active-contest/leaderboard.md` — updates GS column, Total, and GS detail section
+
+**Results CSV format:** Each line is `TEAM_ABBREV, RESULT` where result is `+1` (qualified top-2), `+3` (3rd place), or `-1` (eliminated). Blank lines separate groups (cosmetic only).
+
+**Scoring:** +1 for each correct top-2 pick, +1 for each correct 3rd-place pick.
+
+### General Scoring Script (NFL etc.)
+
+The general scoring script is at `data/scripts/score_active_contest_predictions.py`.
 
 ```bash
 cd data/scripts
 uv run python score_active_contest_predictions.py --generate-blog
 ```
 
-This will automatically update:
-- Main leaderboard (`active-contest/leaderboard.md`)
-- Group leaderboards (`active-contest/groups/*.md`) - if groups are configured
-- Blog post announcing the update (`_posts/*.md`) - only with --generate-blog flag
-
 **Files Updated:**
 - `active-contest/leaderboard.md` - Overall contest standings
 - `active-contest/groups/UB.md` - UB group standings (if configured)
 - `active-contest/groups/Narmada.md` - NARMADA group standings (if configured)
 - `_posts/YYYY-MM-DD-nfl-2025-after-X-games.md` - Blog post (if --generate-blog used)
-
-### Important: Column Order in Leaderboards
-
-**Game columns in leaderboards MUST match the order in the results.csv file.**
-
-The script preserves the row order from `data/NFL-2025-results.csv`:
-- If results.csv has: BUF-DEN, SF-SEA, HOU-NE, LAR-CHI, NE-DEN
-- Then leaderboard columns appear in the same order (not alphabetically sorted)
-
-This ensures that:
-- The visual progression matches the chronological game order
-- It's easier to track which games happened when
-- The leaderboard reads naturally from left to right
 
 ### Blog Post Guidelines
 
