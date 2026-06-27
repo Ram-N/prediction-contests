@@ -24,7 +24,8 @@ permalink: "/fifa-2026/round-of-32"
   #summary-table th { background: #343a40; color: #fff; padding: 0.5rem 0.75rem; }
   #summary-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; font-size: 1.05rem; }
   #summary-table tr:nth-child(even) { background: #f8f9fa; }
-  .pick-highlight { font-weight: 700; color: #155724; }
+  .pick-highlight { font-weight: 700; color: #155724; border: 2px solid #28a745; border-radius: 4px; padding: 0.25rem 0.5rem; background: #d4edda; }
+  .pick-not { color: #999; }
 
   #submit-btn { margin-top: 1rem; }
   #submit-btn:disabled { opacity: 0.5; }
@@ -80,7 +81,7 @@ Pick the **winner** of each of the 16 knockout matches.
 <div id="summary-section">
   <h3>Your Picks</h3>
   <table class="table" id="summary-table">
-    <thead><tr><th>#</th><th>Team A</th><th>Team B</th><th>Your Pick</th></tr></thead>
+    <thead><tr><th>#</th><th>Team A</th><th>Team B</th></tr></thead>
     <tbody id="summary-body"></tbody>
   </table>
 </div>

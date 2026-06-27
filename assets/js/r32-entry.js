@@ -156,13 +156,14 @@
     MATCHES.forEach(function (m) {
       var key = 'Match ' + m.num;
       var pick = picks[key] || '';
-      var t1Class = pick === m.team1 ? ' class="pick-highlight"' : '';
-      var t2Class = pick === m.team2 ? ' class="pick-highlight"' : '';
+      var t1Display = displayName(m.team1, m.slot1);
+      var t2Display = displayName(m.team2, m.slot2);
+      var t1Class = pick === m.team1 ? 'pick-highlight' : (pick ? 'pick-not' : '');
+      var t2Class = pick === m.team2 ? 'pick-highlight' : (pick ? 'pick-not' : '');
       rows += '<tr>' +
         '<td>' + m.num + '</td>' +
-        '<td' + t1Class + '>' + escapeHtml(m.team1) + '</td>' +
-        '<td' + t2Class + '>' + escapeHtml(m.team2) + '</td>' +
-        '<td><strong>' + (pick ? escapeHtml(pick) : '—') + '</strong></td>' +
+        '<td class="' + t1Class + '">' + escapeHtml(t1Display) + '</td>' +
+        '<td class="' + t2Class + '">' + escapeHtml(t2Display) + '</td>' +
         '</tr>';
     });
     body.innerHTML = rows;
