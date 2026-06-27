@@ -7,30 +7,26 @@
   var STORAGE_KEY = 'fifa2026_r32_entry';
 
   // 16 R32 matches (FIFA match numbers 73–88)
-  // -------------------------------------------------------
-  // HOW TO UPDATE: Edit data/FIFA-2026/r32-matches.csv with
-  // the real team names once the group stage finishes.
-  // Then copy the team names into this array below.
-  // -------------------------------------------------------
-  // Teams from data/FIFA-2026/r32-matches.csv
-  // Use real team name if known, otherwise fall back to bracket slot description.
+  // Auto-generated from data/FIFA-2026/r32-matches.csv
+  // To update: edit the CSV, then run:
+  //   cd data/scripts && uv run python update_r32_entry.py
   var MATCHES = [
-    { num: 73, team1: 'RSA', team2: 'CAN', slot1: 'Runner-up Group A', slot2: 'Runner-up Group B' },
-    { num: 74, team1: 'GER', team2: '?',   slot1: 'Winner Group E', slot2: 'Best 3rd A/B/C/D/F' },
-    { num: 75, team1: 'NED', team2: '?',   slot1: 'Winner Group F', slot2: 'Runner-up Group C' },
-    { num: 76, team1: 'BRA', team2: 'JPN', slot1: 'Winner Group C', slot2: 'Runner-up Group F' },
-    { num: 77, team1: 'FRA', team2: '?',   slot1: 'Winner Group I', slot2: 'Best 3rd C/D/F/G/H' },
-    { num: 78, team1: '?',   team2: '?',   slot1: 'Runner-up Group E', slot2: 'Runner-up Group I' },
-    { num: 79, team1: 'MEX', team2: '?',   slot1: 'Winner Group A', slot2: 'Best 3rd C/E/F/H/I' },
-    { num: 80, team1: '?',   team2: '?',   slot1: 'Winner Group L', slot2: 'Best 3rd E/H/I/J/K' },
-    { num: 81, team1: 'USA', team2: 'BIH', slot1: 'Winner Group D', slot2: 'Best 3rd B/E/F/I/J' },
-    { num: 82, team1: '?',   team2: '?',   slot1: 'Winner Group G', slot2: 'Best 3rd A/E/H/I/J' },
-    { num: 83, team1: '?',   team2: '?',   slot1: 'Runner-up Group K', slot2: 'Runner-up Group L' },
-    { num: 84, team1: '?',   team2: '?',   slot1: 'Winner Group H', slot2: 'Runner-up Group J' },
-    { num: 85, team1: 'SUI', team2: '?',   slot1: 'Winner Group B', slot2: 'Best 3rd E/F/G/I/J' },
-    { num: 86, team1: 'ARG', team2: '?',   slot1: 'Winner Group J', slot2: 'Runner-up Group H' },
-    { num: 87, team1: '?',   team2: '?',   slot1: 'Winner Group K', slot2: 'Best 3rd D/E/I/J/L' },
-    { num: 88, team1: 'AUS', team2: '?',   slot1: 'Runner-up Group D', slot2: 'Runner-up Group G' }
+    { num: 73, team1: 'South Africa', team2: 'Canada', slot1: 'Runner-up Group A', slot2: 'Runner-up Group B' },
+    { num: 74, team1: 'Germany', team2: 'Paraguay', slot1: 'Winner Group E', slot2: 'Best 3rd A/B/C/D/F' },
+    { num: 75, team1: 'Netherlands', team2: 'Morocco', slot1: 'Winner Group F', slot2: 'Runner-up Group C' },
+    { num: 76, team1: 'Brazil', team2: 'Japan', slot1: 'Winner Group C', slot2: 'Runner-up Group F' },
+    { num: 77, team1: 'France', team2: 'Sweden', slot1: 'Winner Group I', slot2: 'Best 3rd C/D/F/G/H' },
+    { num: 78, team1: 'Ivory Coast', team2: 'Norway', slot1: 'Runner-up Group E', slot2: 'Runner-up Group I' },
+    { num: 79, team1: 'Mexico', team2: '?', slot1: 'Winner Group A', slot2: 'Best 3rd C/E/F/H/I' },
+    { num: 80, team1: '?', team2: '?', slot1: 'Winner Group L', slot2: 'Best 3rd E/H/I/J/K' },
+    { num: 81, team1: 'United States', team2: 'Bosnia & Herzegovina', slot1: 'Winner Group D', slot2: 'Best 3rd B/E/F/I/J' },
+    { num: 82, team1: '?', team2: '?', slot1: 'Winner Group G', slot2: 'Best 3rd A/E/H/I/J' },
+    { num: 83, team1: '?', team2: '?', slot1: 'Runner-up Group K', slot2: 'Runner-up Group L' },
+    { num: 84, team1: 'Spain', team2: '?', slot1: 'Winner Group H', slot2: 'Runner-up Group J' },
+    { num: 85, team1: 'Switzerland', team2: '?', slot1: 'Winner Group B', slot2: 'Best 3rd E/F/G/I/J' },
+    { num: 86, team1: 'Argentina', team2: 'Cape Verde', slot1: 'Winner Group J', slot2: 'Runner-up Group H' },
+    { num: 87, team1: '?', team2: '?', slot1: 'Winner Group K', slot2: 'Best 3rd D/E/I/J/L' },
+    { num: 88, team1: 'Australia', team2: '?', slot1: 'Runner-up Group D', slot2: 'Runner-up Group G' }
   ];
 
   // ---- Build Match Cards ----
