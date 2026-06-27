@@ -257,12 +257,17 @@
     btn.textContent = 'Submitting...';
     result.innerHTML = '';
 
+    var picks = getSelections();
     var payload = {
       name: document.getElementById('entry-name').value.trim(),
       email: document.getElementById('entry-email').value.trim(),
-      location: document.getElementById('entry-location').value.trim(),
-      picks: getSelections()
+      location: document.getElementById('entry-location').value.trim()
     };
+    for (var key in picks) {
+      if (picks.hasOwnProperty(key)) {
+        payload[key] = picks[key];
+      }
+    }
 
     fetch(APPS_SCRIPT_URL, {
       method: 'POST',
