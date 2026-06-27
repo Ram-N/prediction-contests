@@ -16,7 +16,6 @@ AUS, +1
 PAR, +3
 TUR, -1
 
-
 GER, +1
 CIV, +1
 ECU, +3
@@ -27,8 +26,18 @@ JPN, +1
 SWE, +3
 TUN, -1
 
+EGY, +1
+
+
+SPA, +1
+CPV, +1
+URU, -1
+KSA, -1
+
 FRA, +1
 NOR, +1
+SEN, +3
+IRQ, -1
 
 ARG, +1
 JOR, -1

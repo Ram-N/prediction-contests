@@ -28,7 +28,7 @@ Pick the **2 teams from each group** that advance to the Round of 32, plus **8 b
 
 The Round of 32 prediction contest is now open! Pick the winner of each knockout match.
 
-**[Submit your Round of 32 predictions here →](/prediction-contests/fifa-2026/r32-entry)**
+**[Submit your Round of 32 predictions here →](/prediction-contests/fifa-2026/round-of-32)**
 
 ---
 
