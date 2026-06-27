@@ -38,7 +38,7 @@ permalink: "/fifa-2026/round-of-32"
 
 ## FIFA World Cup 2026 — Round of 32 Predictions
 
-Pick the **winner** of each of the 16 knockout matches.
+Pick the **winner** of each of the 16 knockout matches. Each correct pick is worth **2 points**!
 
 <div class="resubmit-note">
   You can re-submit at any time — only your latest entry counts.
