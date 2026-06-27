@@ -248,6 +248,32 @@
     } catch (e) { /* ignore corrupt data */ }
   }
 
+  // ---- Clear Selections ----
+
+  function clearSelections() {
+    // Uncheck all radio buttons
+    document.querySelectorAll('#r32-matches input[type="radio"]').forEach(function (rb) {
+      rb.checked = false;
+    });
+
+    // Reset card styling and badges
+    MATCHES.forEach(function (m) {
+      var card = document.getElementById('card-' + m.num);
+      var badge = document.getElementById('badge-' + m.num);
+      if (card) card.classList.remove('complete');
+      if (badge) {
+        var bothKnown = isKnown(m.team1) && isKnown(m.team2);
+        badge.textContent = bothKnown ? 'Pick' : 'TBD';
+        badge.className = bothKnown ? 'badge badge-secondary' : 'badge badge-warning';
+      }
+    });
+
+    updateProgress();
+    updateSummary();
+    validateAll();
+    saveState();
+  }
+
   // ---- Submission ----
 
   function submitForm() {
@@ -278,9 +304,12 @@
     .then(function () {
       // Check if this is a re-submission
       var isResubmit = btn.getAttribute('data-submitted') === 'true';
+      var now = new Date();
+      var timestamp = now.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) +
+        ' at ' + now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
       var msg = isResubmit
-        ? '<div class="alert alert-success"><strong>Predictions updated!</strong> Thanks, ' + escapeHtml(payload.name) + '. Your latest R32 picks have been recorded.</div>'
-        : '<div class="alert alert-success"><strong>Predictions submitted!</strong> Thanks, ' + escapeHtml(payload.name) + '. Your R32 picks have been recorded.</div>';
+        ? '<div class="alert alert-success"><strong>Predictions updated!</strong> Thanks, ' + escapeHtml(payload.name) + '. Your latest R32 picks have been recorded.<br><small>Submitted ' + timestamp + '</small></div>'
+        : '<div class="alert alert-success"><strong>Predictions submitted!</strong> Thanks, ' + escapeHtml(payload.name) + '. Your R32 picks have been recorded.<br><small>Submitted ' + timestamp + '</small></div>';
       result.innerHTML = msg;
       btn.textContent = 'Re-submit Predictions';
       btn.setAttribute('data-submitted', 'true');
@@ -313,6 +342,16 @@
 
     // Submit button
     document.getElementById('submit-btn').addEventListener('click', submitForm);
+
+    // Clear button
+    var clearBtn = document.getElementById('clear-btn');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', function () {
+        if (confirm('Clear all match selections? (Name, email, and location will be kept.)')) {
+          clearSelections();
+        }
+      });
+    }
 
     // beforeunload warning
     window.addEventListener('beforeunload', function (e) {

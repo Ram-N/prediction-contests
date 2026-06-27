@@ -92,6 +92,7 @@ Pick the **winner** of each of the 16 knockout matches. Each correct pick is wor
 </div>
 
 <button class="btn btn-lg btn-success btn-block" id="submit-btn" disabled>Submit Predictions</button>
+<button class="btn btn-outline-secondary btn-sm" id="clear-btn" style="margin-top: 0.5rem;">Clear Selections</button>
 
 <div id="submission-result"></div>
 
