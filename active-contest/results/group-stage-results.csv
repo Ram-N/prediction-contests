@@ -31,6 +31,7 @@ TUN, -1
 BEL, +1
 EGY, +1
 NZL, -1
+IRN, -1
 
 SPA, +1
 CPV, +1
@@ -43,6 +44,8 @@ SEN, +3
 IRQ, -1
 
 ARG, +1
+AUT, +1
+ALG, +3
 JOR, -1
 
 COL, +1

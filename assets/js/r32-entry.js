@@ -22,8 +22,8 @@
     { num: 81, team1: 'United States', team2: 'Bosnia & Herzegovina', slot1: 'Winner Group D', slot2: 'Best 3rd B/E/F/I/J' },
     { num: 82, team1: 'Belgium', team2: 'Senegal', slot1: 'Winner Group G', slot2: 'Best 3rd A/E/H/I/J' },
     { num: 83, team1: 'Croatia', team2: 'Portugal', slot1: 'Runner-up Group K', slot2: 'Runner-up Group L' },
-    { num: 84, team1: 'Spain', team2: '?', slot1: 'Winner Group H', slot2: 'Runner-up Group J' },
-    { num: 85, team1: 'Switzerland', team2: '?', slot1: 'Winner Group B', slot2: 'Best 3rd E/F/G/I/J' },
+    { num: 84, team1: 'Spain', team2: 'Austria', slot1: 'Winner Group H', slot2: 'Runner-up Group J' },
+    { num: 85, team1: 'Switzerland', team2: 'Algeria', slot1: 'Winner Group B', slot2: 'Best 3rd E/F/G/I/J' },
     { num: 86, team1: 'Argentina', team2: 'Cape Verde', slot1: 'Winner Group J', slot2: 'Runner-up Group H' },
     { num: 87, team1: 'Ghana', team2: 'Colombia', slot1: 'Winner Group K', slot2: 'Best 3rd D/E/I/J/L' },
     { num: 88, team1: 'Australia', team2: 'Egypt', slot1: 'Runner-up Group D', slot2: 'Runner-up Group G' }
