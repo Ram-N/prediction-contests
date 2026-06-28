@@ -24,7 +24,7 @@ permalink: "/fifa-2026/group-stage"
 
 ## Prediction Leaderboard
 
-*Last updated: June 27, 2026 — 08:54 PM EDT*
+*Last updated: June 27, 2026 — 09:28 PM EDT*
 
 **38 of 48 group stage results decided** — MEX 🇲🇽, RSA 🇿🇦, SUI 🇨🇭, CAN 🇨🇦, BRA 🇧🇷, MAR 🇲🇦, USA 🇺🇸, AUS 🇦🇺, GER 🇩🇪, CIV 🇨🇮, NED 🇳🇱, JPN 🇯🇵, BEL 🇧🇪, EGY 🇪🇬, ESP 🇪🇸, CPV 🇨🇻, FRA 🇫🇷, NOR 🇳🇴, ARG 🇦🇷, COL 🇨🇴, POR 🇵🇹 qualified; BIH 🇧🇦, PAR 🇵🇾, ECU 🇪🇨, SWE 🇸🇪, SEN 🇸🇳 3rd place; CZE 🇨🇿, QAT 🇶🇦, SCO 🏴󠁧󠁢󠁳󠁣󠁴󠁿, HAI 🇭🇹, TUR 🇹🇷, CUR 🇨🇼, TUN 🇹🇳, NZL 🇳🇿, URU 🇺🇾, KSA 🇸🇦, IRQ 🇮🇶, JOR 🇯🇴 eliminated.
 

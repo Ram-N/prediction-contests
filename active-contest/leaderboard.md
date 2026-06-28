@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: June 27, 2026 — 08:54 PM EDT*
+*Last updated: June 27, 2026 — 09:28 PM EDT*
 
 ## Overall Leaderboard
 
@@ -89,14 +89,17 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 
 
 
+
 ## Group Stage Leaderboard
 
 **38 of 48 group stage results decided** — MEX 🇲🇽, RSA 🇿🇦, SUI 🇨🇭, CAN 🇨🇦, BRA 🇧🇷, MAR 🇲🇦, USA 🇺🇸, AUS 🇦🇺, GER 🇩🇪, CIV 🇨🇮, NED 🇳🇱, JPN 🇯🇵, BEL 🇧🇪, EGY 🇪🇬, ESP 🇪🇸, CPV 🇨🇻, FRA 🇫🇷, NOR 🇳🇴, ARG 🇦🇷, COL 🇨🇴, POR 🇵🇹 qualified; BIH 🇧🇦, PAR 🇵🇾, ECU 🇪🇨, SWE 🇸🇪, SEN 🇸🇳 3rd place; CZE 🇨🇿, QAT 🇶🇦, SCO 🏴󠁧󠁢󠁳󠁣󠁴󠁿, HAI 🇭🇹, TUR 🇹🇷, CUR 🇨🇼, TUN 🇹🇳, NZL 🇳🇿, URU 🇺🇾, KSA 🇸🇦, IRQ 🇮🇶, JOR 🇯🇴 eliminated.
 
 **Color coding:**
 - <span style="color:green"><b>Green/Bold</b></span> = Correct top-2 pick (team qualified ✓)
+- <span style="color:#2563EB"><b>Blue/Bold</b></span> = Correct 3rd place pick ✓
+- <span style="color:#D97706">Orange</span> = Team advanced, but in wrong slot (e.g., picked top-2 but finished 3rd)
 - <span style="color:red"><s>Red/Strikethrough</s></span> = Wrong pick (team eliminated ✗)
-- <span style="color:#2563EB">Blue</span> = 3rd place pick; <span style="color:#2563EB"><b>Blue/Bold</b></span> = Correct 3rd place pick ✓
+- Plain text = Result pending
 
 **Scoring:** +1 point for each correct top-2 pick, +1 for each correct 3rd-place pick. Max possible so far: 26.
 

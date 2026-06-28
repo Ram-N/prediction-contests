@@ -514,14 +514,18 @@ def update_overall_leaderboard(leaderboard_path, gs_scores, scored_rows, results
                 "Correct top-2 pick (team qualified \u2713)"
             )
             new_lines.append(
+                '- <span style="color:#2563EB"><b>Blue/Bold</b></span> = '
+                "Correct 3rd place pick \u2713"
+            )
+            new_lines.append(
+                '- <span style="color:#D97706">Orange</span> = '
+                "Team advanced, but in wrong slot (e.g., picked top-2 but finished 3rd)"
+            )
+            new_lines.append(
                 '- <span style="color:red"><s>Red/Strikethrough</s></span> = '
                 "Wrong pick (team eliminated \u2717)"
             )
-            new_lines.append(
-                '- <span style="color:#2563EB">Blue</span> = 3rd place pick; '
-                '<span style="color:#2563EB"><b>Blue/Bold</b></span> = '
-                "Correct 3rd place pick \u2713"
-            )
+            new_lines.append("- Plain text = Result pending")
             new_lines.append("")
             new_lines.append(build_scoring_line(results))
             new_lines.append("")
