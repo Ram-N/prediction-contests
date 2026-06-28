@@ -9,6 +9,7 @@ permalink: "/fifa-2026/round-of-32"
 <style>
   .match-card { border: 2px solid #dee2e6; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; transition: border-color 0.2s; }
   .match-card.complete { border-color: #28a745; }
+  .match-card.needs-pick { border-color: #dc3545; }
   .match-card h5 { margin-bottom: 0.75rem; display: flex; justify-content: space-between; align-items: center; }
   .match-pick { padding: 0.35rem 0; font-size: 1.05rem; }
   .match-pick label { cursor: pointer; margin-left: 0.4rem; }
@@ -66,6 +67,8 @@ Pick the **winner** of each of the 16 knockout matches. Each correct pick is wor
 
 ### Round of 32 Matches
 
+<button class="btn btn-outline-secondary btn-sm clear-btn" style="margin-bottom: 0.75rem;">Clear Selections</button>
+
 <div id="progress-bar" style="margin-bottom: 1.5rem;">
   <div class="progress">
     <div class="progress-bar bg-success" role="progressbar" style="width: 0%">0 / 16 matches</div>
@@ -92,7 +95,7 @@ Pick the **winner** of each of the 16 knockout matches. Each correct pick is wor
 </div>
 
 <button class="btn btn-lg btn-success btn-block" id="submit-btn" disabled>Submit Predictions</button>
-<button class="btn btn-outline-secondary btn-sm" id="clear-btn" style="margin-top: 0.5rem;">Clear Selections</button>
+<button class="btn btn-outline-secondary btn-sm clear-btn" style="margin-top: 0.5rem;">Clear Selections</button>
 
 <div id="submission-result"></div>
 

@@ -17,15 +17,15 @@
     { num: 76, team1: 'Brazil', team2: 'Japan', slot1: 'Winner Group C', slot2: 'Runner-up Group F' },
     { num: 77, team1: 'France', team2: 'Sweden', slot1: 'Winner Group I', slot2: 'Best 3rd C/D/F/G/H' },
     { num: 78, team1: 'Ivory Coast', team2: 'Norway', slot1: 'Runner-up Group E', slot2: 'Runner-up Group I' },
-    { num: 79, team1: 'Mexico', team2: '?', slot1: 'Winner Group A', slot2: 'Best 3rd C/E/F/H/I' },
-    { num: 80, team1: '?', team2: 'YYY', slot1: 'Winner Group L', slot2: 'Best 3rd E/H/I/J/K' },
+    { num: 79, team1: 'Mexico', team2: 'Ecuador', slot1: 'Winner Group A', slot2: 'Best 3rd C/E/F/H/I' },
+    { num: 80, team1: 'England', team2: 'YYY', slot1: 'Winner Group L', slot2: 'Best 3rd E/H/I/J/K' },
     { num: 81, team1: 'United States', team2: 'Bosnia & Herzegovina', slot1: 'Winner Group D', slot2: 'Best 3rd B/E/F/I/J' },
     { num: 82, team1: 'Belgium', team2: '?', slot1: 'Winner Group G', slot2: 'Best 3rd A/E/H/I/J' },
-    { num: 83, team1: '?', team2: '?', slot1: 'Runner-up Group K', slot2: 'Runner-up Group L' },
+    { num: 83, team1: 'Croatia', team2: '?', slot1: 'Runner-up Group K', slot2: 'Runner-up Group L' },
     { num: 84, team1: 'Spain', team2: '?', slot1: 'Winner Group H', slot2: 'Runner-up Group J' },
     { num: 85, team1: 'Switzerland', team2: '?', slot1: 'Winner Group B', slot2: 'Best 3rd E/F/G/I/J' },
     { num: 86, team1: 'Argentina', team2: 'Cape Verde', slot1: 'Winner Group J', slot2: 'Runner-up Group H' },
-    { num: 87, team1: '?', team2: 'YYY', slot1: 'Winner Group K', slot2: 'Best 3rd D/E/I/J/L' },
+    { num: 87, team1: 'Ghana', team2: 'YYY', slot1: 'Winner Group K', slot2: 'Best 3rd D/E/I/J/L' },
     { num: 88, team1: 'Australia', team2: 'Egypt', slot1: 'Runner-up Group D', slot2: 'Runner-up Group G' }
   ];
 
@@ -129,8 +129,14 @@
     var pickable = countPickableMatches();
     var done = 0;
     MATCHES.forEach(function (m) {
-      if (document.querySelector('input[name="match-' + m.num + '"]:checked')) {
+      var picked = !!document.querySelector('input[name="match-' + m.num + '"]:checked');
+      var bothKnown = isKnown(m.team1) && isKnown(m.team2);
+      var card = document.getElementById('card-' + m.num);
+      if (picked) {
         done++;
+        if (card) card.classList.remove('needs-pick');
+      } else if (bothKnown && card) {
+        card.classList.add('needs-pick');
       }
     });
     var pct = pickable > 0 ? Math.round((done / pickable) * 100) : 0;
@@ -343,15 +349,14 @@
     // Submit button
     document.getElementById('submit-btn').addEventListener('click', submitForm);
 
-    // Clear button
-    var clearBtn = document.getElementById('clear-btn');
-    if (clearBtn) {
-      clearBtn.addEventListener('click', function () {
+    // Clear buttons
+    document.querySelectorAll('.clear-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
         if (confirm('Clear all match selections? (Name, email, and location will be kept.)')) {
           clearSelections();
         }
       });
-    }
+    });
 
     // beforeunload warning
     window.addEventListener('beforeunload', function (e) {
