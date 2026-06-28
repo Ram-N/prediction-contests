@@ -6,6 +6,18 @@ background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/predictions"
 ---
 
+# Round of 32 Predictions
+
+All submitted predictions for the **Round of 32** knockout stage. Participants picked the winner of each of the 16 matches. Each correct pick is worth **2 points**.
+
+**Total Entries:** 65 participants (62 humans + 3 AI models)
+
+---
+
+{% include_relative predictions-r32-table.md %}
+
+---
+
 # Group Stage Predictions
 
 All submitted predictions for the **Group Stage** contest are shown below. Participants picked 2 teams per group (A–L) to advance to the Round of 32, plus 8 best third-place teams.

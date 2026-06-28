@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: June 28, 2026 — 12:04 AM EDT*
+*Last updated: June 28, 2026 — 07:51 PM EDT*
 
 ## Overall Leaderboard
 
@@ -16,67 +16,67 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | Round | Contest | Status |
 |-------|---------|--------|
 | GS | [Group Stage (pick top 2 + 3rd from each group) ↓](#group-stage-leaderboard) | ✅ In progress |
-| R32 | [Round of 32 (pick winners) →](/prediction-contests/fifa-2026/round-of-32) | 📝 Open for entries |
+| R32 | [Round of 32 (pick winners) →](/prediction-contests/fifa-2026/round-of-32) | ✅ In progress (1/16) |
 | R16 | Round of 16 (pick winners) | ⏳ Coming soon |
 | ST-421 | Quarterfinals → Semifinals → Final (pick all in one shot) | ⏳ Coming soon |
 
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | GS | R32 | R16 | ST-421 | Total |
 |------|:---:|:---:|:---:|:---:|:---:|
-| Alex | 27 | - | - | - | 27 |
-| Aarush | 26 | - | - | - | 26 |
+| Alex | 27 | 2 | - | - | 29 |
+| Aarush | 26 | 2 | - | - | 28 |
+| Rahul Santhanam | 25 | 2 | - | - | 27 |
+| Subbu | 25 | 2 | - | - | 27 |
+| ChatGPT (AI) | 24 | 2 | - | - | 26 |
+| Daniel | 24 | 2 | - | - | 26 |
+| Keshav Narasimhan | 24 | 2 | - | - | 26 |
+| Tees | 24 | 2 | - | - | 26 |
 | Amit Baranwal | 25 | - | - | - | 25 |
-| Rahul Santhanam | 25 | - | - | - | 25 |
-| Subbu | 25 | - | - | - | 25 |
-| ChatGPT (AI) | 24 | - | - | - | 24 |
-| Daniel | 24 | - | - | - | 24 |
-| Keshav Narasimhan | 24 | - | - | - | 24 |
-| Tees | 24 | - | - | - | 24 |
+| S Mahesh | 22 | 2 | - | - | 24 |
+| Aravind Sivakumar | 21 | 2 | - | - | 23 |
+| Gemini (AI) | 21 | 2 | - | - | 23 |
 | Gokul Krishnan | 23 | - | - | - | 23 |
 | Ishaan | 23 | - | - | - | 23 |
 | Joydeep Dey | 23 | - | - | - | 23 |
-| Sri Iyer | 23 | - | - | - | 23 |
+| Keshav Venkatesh | 21 | 2 | - | - | 23 |
+| Neeraj Mendiratta | 21 | 2 | - | - | 23 |
+| Ranga Setlur | 21 | 2 | - | - | 23 |
+| Rupal | 21 | 2 | - | - | 23 |
+| Sri Iyer | 23 | 0 | - | - | 23 |
 | bala varadarajan | 22 | - | - | - | 22 |
-| Chayan Chakrabarti | 22 | - | - | - | 22 |
-| Cheen | 22 | - | - | - | 22 |
-| S Mahesh | 22 | - | - | - | 22 |
+| Chayan Chakrabarti | 22 | 0 | - | - | 22 |
+| Cheen | 22 | 0 | - | - | 22 |
+| Claude (AI) | 20 | 2 | - | - | 22 |
+| Goutham Ekollu | 20 | 2 | - | - | 22 |
 | Vikram | 22 | - | - | - | 22 |
 | WOTC | 22 | - | - | - | 22 |
-| Aravind Sivakumar | 21 | - | - | - | 21 |
+| Alok | 19 | 2 | - | - | 21 |
 | Arvind Narayanan | 21 | - | - | - | 21 |
-| Gemini (AI) | 21 | - | - | - | 21 |
-| Keshav Venkatesh | 21 | - | - | - | 21 |
+| Kshitij | 19 | 2 | - | - | 21 |
 | Kunal Soni | 21 | - | - | - | 21 |
 | Manoj s | 21 | - | - | - | 21 |
-| Neeraj Mendiratta | 21 | - | - | - | 21 |
-| Rajesh | 21 | - | - | - | 21 |
-| Ranga Setlur | 21 | - | - | - | 21 |
-| Rupal | 21 | - | - | - | 21 |
+| Rajesh | 21 | 0 | - | - | 21 |
 | Shaj | 21 | - | - | - | 21 |
-| Claude (AI) | 20 | - | - | - | 20 |
-| Goutham Ekollu | 20 | - | - | - | 20 |
+| Subbu Mahadevan | 19 | 2 | - | - | 21 |
+| Harsh | 18 | 2 | - | - | 20 |
 | MK | 20 | - | - | - | 20 |
-| Alok | 19 | - | - | - | 19 |
-| Bharathkirishnan S R | 19 | - | - | - | 19 |
-| Kshitij | 19 | - | - | - | 19 |
+| Sanjeev | 18 | 2 | - | - | 20 |
+| Vivek | 18 | 2 | - | - | 20 |
+| Bharathkirishnan S R | 19 | 0 | - | - | 19 |
+| D. Sivakumar | 17 | 2 | - | - | 19 |
 | Manish Bhatt | 19 | - | - | - | 19 |
-| Sackett | 19 | - | - | - | 19 |
-| Subbu Mahadevan | 19 | - | - | - | 19 |
+| R. Santhanam | 17 | 2 | - | - | 19 |
+| Ram N | 17 | 2 | - | - | 19 |
+| Sackett | 19 | 0 | - | - | 19 |
 | Ashish Kumar | 18 | - | - | - | 18 |
 | Ashish Naik | 18 | - | - | - | 18 |
 | Dodo | 18 | - | - | - | 18 |
-| Harsh | 18 | - | - | - | 18 |
-| Radhika Santhanam | 18 | - | - | - | 18 |
-| Sanjeev | 18 | - | - | - | 18 |
-| Vivek | 18 | - | - | - | 18 |
-| D. Sivakumar | 17 | - | - | - | 17 |
-| R. Santhanam | 17 | - | - | - | 17 |
-| Ram N | 17 | - | - | - | 17 |
+| Mukund N. | 16 | 2 | - | - | 18 |
+| Radhika Santhanam | 18 | 0 | - | - | 18 |
 | Vishal Goyal | 17 | - | - | - | 17 |
 | Guru Bhat | 16 | - | - | - | 16 |
-| Mukund N. | 16 | - | - | - | 16 |
-| vivek | 16 | - | - | - | 16 |
-| Chandran Dharmarajan | 15 | - | - | - | 15 |
+| vivek | 16 | 0 | - | - | 16 |
+| Chandran Dharmarajan | 15 | 0 | - | - | 15 |
 | Shriya Sateesh | 13 | - | - | - | 13 |
 
 ---
@@ -92,6 +92,90 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 
 
 
+
+## Round of 32 Leaderboard
+
+**1 of 16 matches decided.** Each correct pick = 2 points. Max possible so far: 2.
+
+Results: **CAN** beat RSA.
+
+**Color coding:**
+- <span style="color:green"><b>Green/Bold</b></span> = Correct pick
+- <span style="color:red"><s>Red/Strikethrough</s></span> = Wrong pick
+- Plain text = Result pending
+
+---
+
+{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
+| Name | Location | Pts | RSA v CAN | GER v PAR | NED v MAR | BRA v JPN | FRA v SWE | CIV v NOR | MEX v ECU | ENG v DRC | USA v BIH | BEL v SEN | CRO v POR | ESP v AUT | SUI v ALG | ARG v CPV | GHA v COL | AUS v EGY |
+|------|----------|:---:|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Aarush | Los Gatos | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Ajai Singh | Tampa | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | EGY |
+| Alex | Seattle | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | COL | EGY |
+| Alok | US | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | DRC | USA | BEL | POR | ESP | SUI | CPV | GHA | EGY |
+| Aman Behal | Orlando | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Aravind Sivakumar | NYC | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | CRO | ESP | SUI | ARG | COL | EGY |
+| Ashish | Los Altos | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | ALG | ARG | COL | AUS |
+| bala | oakland | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | COL | EGY |
+| ChatGPT (AI) | Orlando, FL | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Claude (AI) | AI | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| D. Sivakumar | Cupertino, CA, USA | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | CIV | ECU | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Daniel | Boston | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | EGY |
+| Gemini (AI) | Orlando, FL | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Gokul | US | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Goutham Ekollu | Saratoga, CA | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | BIH | BEL | POR | ESP | SUI | ARG | GHA | EGY |
+| Harsh | United States | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| ishaan | oakland | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | CRO | ESP | ALG | ARG | COL | EGY |
+| Keshav Narasimhan | San Diego, California | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | EGY |
+| Keshav Venkatesh | Fremont | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Kshitij | USA | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Manish | Orlando | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | ECU | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | EGY |
+| Mukund N. | Pittsburgh, PA | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | GHA | EGY |
+| Neeraj Mendiratta | United States | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Nishant | Boca Raton FL | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Nita Kalkar | USA | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | GHA | EGY |
+| R. Santhanam | India | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | GHA | AUS |
+| Rahul Santhanam | UK | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | COL | EGY |
+| Ram N | Orlando, FL | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Ranga Setlur | Buffalo, NY | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Rishi Baveja | USA | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | ECU | ENG | USA | BEL | POR | ESP | SUI | ARG | GHA | AUS |
+| Rupal | Florida | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | AUS |
+| Rupender Dahiya | United States | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | DRC | USA | SEN | POR | ESP | SUI | ARG | COL | EGY |
+| S Mahesh | Tampa | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Samrudhi Acharya | USA | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | JPN | FRA | NOR | MEX | ENG | BIH | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Sanjeev | Doral | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Shaji | Houston | 2 | <span style="color:green"><b>CAN</b></span> | PAR | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| shriya | seattle | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | ALG | CPV | COL | EGY |
+| Srini | Kalispell | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | CRO | AUT | ALG | ARG | COL | AUS |
+| Subbu | India | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | GHA | EGY |
+| Subbu Mahadevan | Palo Alto | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | JPN | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | ALG | ARG | COL | EGY |
+| Subha | Seattle | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | CIV | MEX | ENG | USA | SEN | CRO | ESP | ALG | ARG | COL | EGY |
+| Tees | Seattle | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | EGY |
+| The Kasher | Los Angeles, USA | 2 | <span style="color:green"><b>CAN</b></span> | PAR | MAR | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | AUS |
+| Vivek | Redwood City | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | GHA | EGY |
+| Arvind | Santa clara | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | NOR | MEX | DRC | USA | SEN | CRO | ESP | ALG | ARG | COL | EGY |
+| Bakul Kamani | USA | 0 | <span style="color:red"><s>RSA</s></span> | PAR | MAR | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | ALG | ARG | COL | EGY |
+| Bharat Mulchandani | Sarasota | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Bharathkirishnan S R | Bengaluru | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | AUS |
+| Chandran Dharmarajan | India | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | CIV | ECU | DRC | USA | SEN | CRO | ESP | ALG | ARG | COL | AUS |
+| Chayan Chakrabarti | Oakland CA | 0 | <span style="color:red"><s>RSA</s></span> | PAR | MAR | JPN | SWE | CIV | ECU | DRC | BIH | SEN | CRO | AUT | ALG | CPV | GHA | EGY |
+| Cheen | Dubai | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | BIH | BEL | POR | ESP | ALG | ARG | COL | AUS |
+| Harish | India | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | ALG | ARG | GHA | EGY |
+| JR | USA | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | ALG | ARG | COL | AUS |
+| Niraj Mishra | Tampa, Florida | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | ECU | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Prasad R | United States | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | JPN | FRA | NOR | MEX | ENG | BIH | SEN | CRO | ESP | SUI | ARG | COL | EGY |
+| Pratyush | USA | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Radhika Santhanam | Mumbai | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | NOR | ECU | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | EGY |
+| Rajesh | Chennai | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | ECU | DRC | USA | BEL | CRO | ESP | ALG | ARG | COL | EGY |
+| Sackett | Pleasanton | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | ALG | ARG | GHA | EGY |
+| Sahana | Seattle | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | BIH | BEL | POR | ESP | ALG | ARG | COL | AUS |
+| Sarvapriya M Tripathi | United States | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | CIV | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | AUS |
+| Siva Kantamneni | Largo | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Sreenivas G | Cupertino, USA | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | CRO | ESP | ALG | ARG | COL | EGY |
+| Sri Iyer | Philadelphia | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | ALG | ARG | COL | EGY |
+| vivek | tandoor loin | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | ALG | ARG | GHA | AUS |
+
+---
 
 ## Group Stage Leaderboard
 

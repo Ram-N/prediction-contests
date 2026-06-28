@@ -287,21 +287,21 @@ def generate_leaderboard_table(scored_df):
     # Get column names (exclude Name and Total)
     matchup_cols = [col for col in scored_df.columns if col not in ['Name', 'Total']]
 
-    # Build table header with Rank as first column
-    header_cols = ['Rank', 'Name', 'Total'] + matchup_cols
+    # Build table header: Name, Total first, then matchup columns (no index/#/Rank column)
+    header_cols = ['Name', 'Total'] + matchup_cols
 
     table_md = "{:.thead-dark .table-striped .table-bordered .table-sm }\n"
 
     # Build table header row
     table_md += "| " + " | ".join(header_cols) + " |\n"
 
-    # Build alignment row (Rank is centered, rest are right-aligned except Name)
-    alignments = [":--------:", ":------------"] + ["---------:" for _ in range(len(header_cols) - 2)]
+    # Build alignment row (Name left-aligned, rest right-aligned)
+    alignments = [":------------"] + ["---------:" for _ in range(len(header_cols) - 1)]
     table_md += "| " + " | ".join(alignments) + " |\n"
 
     # Build data rows
     for idx, (_, row) in enumerate(scored_df.iterrows()):
-        row_values = [ranks[idx], str(row['Name']), str(row['Total'])] + [str(row[col]) for col in matchup_cols]
+        row_values = [str(row['Name']), str(row['Total'])] + [str(row[col]) for col in matchup_cols]
         table_md += "| " + " | ".join(row_values) + " |\n"
 
     return table_md
