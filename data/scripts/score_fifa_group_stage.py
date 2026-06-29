@@ -545,9 +545,17 @@ def update_overall_leaderboard(leaderboard_path, gs_scores, scored_rows, results
     return "\n".join(new_lines)
 
 
-def rebuild_overall_table(table_rows, gs_scores):
-    """Parse overall table rows, update GS/Total, re-sort by Total desc."""
+def rebuild_overall_table(table_rows, gs_scores, rename_map=None):
+    """Parse overall table rows, update GS/Total, re-sort by Total desc.
+
+    - Renames participants whose canonical name changed (via rename_map)
+    - Adds GS participants not already in the table
+    """
+    if rename_map is None:
+        rename_map = {}
+
     parsed = []
+    seen_names = set()
     for row in table_rows:
         cells = [c.strip() for c in row.split("|")]
         # cells: ['', 'Name', 'GS', 'R32', 'R16', 'ST-421', 'Total', '']
@@ -557,6 +565,13 @@ def rebuild_overall_table(table_rows, gs_scores):
         r32 = cells[3]
         r16 = cells[4]
         st421 = cells[5]
+
+        # Apply name rename if needed
+        name = rename_map.get(name, name)
+
+        # Skip if we already have this name (duplicate from rename)
+        if name in seen_names:
+            continue
 
         # Update GS from computed scores
         gs = gs_scores.get(name, cells[2])
@@ -572,6 +587,15 @@ def rebuild_overall_table(table_rows, gs_scores):
                     pass
 
         parsed.append((name, gs_str, r32, r16, st421, str(total), total))
+        seen_names.add(name)
+
+    # Add GS participants not already in the table
+    for name, gs_pts in gs_scores.items():
+        if name not in seen_names:
+            gs_str = str(gs_pts)
+            total = gs_pts
+            parsed.append((name, gs_str, "-", "-", "-", str(total), total))
+            seen_names.add(name)
 
     # Sort by total desc, then name asc
     parsed.sort(key=lambda x: (-x[6], x[0].lower()))

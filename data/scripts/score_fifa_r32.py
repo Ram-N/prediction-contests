@@ -36,6 +36,12 @@ RESULTS_CSV = os.path.join(
 LEADERBOARD_MD = os.path.join(PROJECT_ROOT, "active-contest", "leaderboard.md")
 R32_TABLE_MD = os.path.join(PROJECT_ROOT, "active-contest", "predictions-r32-table.md")
 R32_PAGE_MD = os.path.join(PROJECT_ROOT, "active-contest", "r32-entry.md")
+CANONICAL_NAMES_CSV = os.path.join(
+    PROJECT_ROOT, "data", "FIFA-2026", "canonical-names.csv"
+)
+EMAIL_RECON_CSV = os.path.join(
+    PROJECT_ROOT, "data", "FIFA-2026", "email-reconciliation.csv"
+)
 
 # R32 matches (73-88) with team matchups
 MATCHES = [
@@ -95,6 +101,68 @@ ABBREV = {
     "Australia": "AUS",
     "Egypt": "EGY",
 }
+
+
+# ---------------------------------------------------------------------------
+# Canonical names
+# ---------------------------------------------------------------------------
+
+
+def load_canonical_names():
+    """Load canonical names CSV. Returns dict: canonical_email -> canonical_name."""
+    mapping = {}
+    if os.path.exists(CANONICAL_NAMES_CSV):
+        with open(CANONICAL_NAMES_CSV, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                email = row["canonical_email"].strip().lower()
+                name = row["canonical_name"].strip()
+                if email:
+                    mapping[email] = name
+    return mapping
+
+
+def load_email_recon():
+    """Load email reconciliation. Returns dict: alternate_email -> canonical_email."""
+    mapping = {}
+    if os.path.exists(EMAIL_RECON_CSV):
+        with open(EMAIL_RECON_CSV, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                alt = row["alternate_email"].strip().lower()
+                canon = row["canonical_email"].strip().lower()
+                mapping[alt] = canon
+    return mapping
+
+
+def build_name_rename_map(canonical_names, email_recon, predictions_csv):
+    """Build old_name -> canonical_name mapping for participants whose names
+    changed between contest rounds.
+
+    Scans the GS contacts and R32 predictions to find all names used per email,
+    then maps any non-canonical name to the canonical one.
+    """
+    # Collect all names ever used per canonical email
+    email_to_names = {}
+    gs_contacts_csv = os.path.join(
+        PROJECT_ROOT, "data", "FIFA-2026", "GroupStage-Contacts.csv"
+    )
+    if os.path.exists(gs_contacts_csv):
+        with open(gs_contacts_csv, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                email = row["Email"].strip().lower()
+                name = row["Name"].strip()
+                if email:
+                    resolved = email_recon.get(email, email)
+                    email_to_names.setdefault(resolved, set()).add(name)
+
+    rename_map = {}
+    for email, names in email_to_names.items():
+        canon = canonical_names.get(email)
+        if canon:
+            for name in names:
+                if name != canon:
+                    rename_map[name] = canon
+
+    return rename_map
 
 
 # ---------------------------------------------------------------------------
@@ -289,7 +357,7 @@ def generate_r32_page(entries, results, timestamp):
 # ---------------------------------------------------------------------------
 
 
-def update_leaderboard(leaderboard_path, r32_scores, entries, results, timestamp):
+def update_leaderboard(leaderboard_path, r32_scores, entries, results, timestamp, rename_map=None):
     """Update leaderboard.md: overall table R32/Total + R32 detail section."""
     with open(leaderboard_path, "r") as f:
         content = f.read()
@@ -335,7 +403,7 @@ def update_leaderboard(leaderboard_path, r32_scores, entries, results, timestamp
             while i < len(lines) and lines[i].startswith("|"):
                 table_rows.append(lines[i])
                 i += 1
-            new_lines.extend(rebuild_overall_table(table_rows, r32_scores))
+            new_lines.extend(rebuild_overall_table(table_rows, r32_scores, rename_map))
             continue
 
         # Replace or insert R32 section
@@ -361,9 +429,17 @@ def update_leaderboard(leaderboard_path, r32_scores, entries, results, timestamp
     return "\n".join(new_lines)
 
 
-def rebuild_overall_table(table_rows, r32_scores):
-    """Parse overall table rows, update R32/Total, re-sort by Total desc."""
+def rebuild_overall_table(table_rows, r32_scores, rename_map=None):
+    """Parse overall table rows, update R32/Total, re-sort by Total desc.
+
+    - Renames participants whose canonical name changed (via rename_map)
+    - Adds R32-only participants not already in the table
+    """
+    if rename_map is None:
+        rename_map = {}
+
     parsed = []
+    seen_names = set()
     for row in table_rows:
         cells = [c.strip() for c in row.split("|")]
         # cells: ['', 'Name', 'GS', 'R32', 'R16', 'ST-421', 'Total', '']
@@ -373,6 +449,9 @@ def rebuild_overall_table(table_rows, r32_scores):
         gs = cells[2]
         r16 = cells[4]
         st421 = cells[5]
+
+        # Apply name rename if needed
+        name = rename_map.get(name, name)
 
         # Update R32 from computed scores
         if name in r32_scores:
@@ -390,6 +469,15 @@ def rebuild_overall_table(table_rows, r32_scores):
                     pass
 
         parsed.append((name, gs, r32, r16, st421, str(total), total))
+        seen_names.add(name)
+
+    # Add R32-only participants not already in the table
+    for name, r32_pts in r32_scores.items():
+        if name not in seen_names:
+            r32 = str(r32_pts)
+            total = r32_pts
+            parsed.append((name, "-", r32, "-", "-", str(total), total))
+            seen_names.add(name)
 
     # Sort by total desc, then name asc
     parsed.sort(key=lambda x: (-x[6], x[0].lower()))
@@ -461,6 +549,16 @@ def build_r32_leaderboard_section(entries, results, timestamp):
 
 
 def main():
+    # Load canonical name mappings
+    print("Loading canonical names...")
+    canonical_names = load_canonical_names()
+    email_recon = load_email_recon()
+    rename_map = build_name_rename_map(canonical_names, email_recon, PREDICTIONS_CSV)
+    if rename_map:
+        print(f"  Name renames: {rename_map}")
+    else:
+        print("  No renames needed")
+
     print("Reading R32 predictions...")
     entries = load_predictions(PREDICTIONS_CSV)
     ai_count = sum(1 for e in entries if "(AI)" in e["Name"])
@@ -509,7 +607,9 @@ def main():
 
     # Update leaderboard
     print(f"Updating {LEADERBOARD_MD}...")
-    lb_content = update_leaderboard(LEADERBOARD_MD, r32_scores, entries, results, timestamp)
+    lb_content = update_leaderboard(
+        LEADERBOARD_MD, r32_scores, entries, results, timestamp, rename_map
+    )
     with open(LEADERBOARD_MD, "w") as f:
         f.write(lb_content)
     print("  Done")
