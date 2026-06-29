@@ -14,9 +14,9 @@ permalink: "/fifa-2026/round-of-32"
 
 ## All R32 Predictions
 
-*Last updated: June 28, 2026 — 08:19 PM EDT*
+*Last updated: June 29, 2026 — 08:35 AM EDT*
 
-**65 participants** (62 humans + 3 AI models) picked the winner of each of the 16 knockout matches. Each correct pick is worth **2 points**.
+**66 participants** (63 humans + 3 AI models) picked the winner of each of the 16 knockout matches. Each correct pick is worth **2 points**.
 
 **1 of 16 matches decided.** 
 **CAN** beat RSA.

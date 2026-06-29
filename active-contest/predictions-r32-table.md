@@ -4,6 +4,7 @@
 | ChatGPT (AI) | 🤖 AI | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
 | Claude (AI) | 🤖 AI | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Gemini (AI) | 🤖 AI | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| WOTC | 👥 Crowd | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Aarush | Los Gatos | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Ajai Singh | Tampa | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | EGY |
 | Alex | Seattle | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | COL | EGY |

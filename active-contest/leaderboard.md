@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: June 28, 2026 — 08:19 PM EDT*
+*Last updated: June 29, 2026 — 08:35 AM EDT*
 
 ## Overall Leaderboard
 
@@ -16,7 +16,7 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | Round | Contest | Status |
 |-------|---------|--------|
 | GS | [Group Stage (pick top 2 + 3rd from each group) ↓](#group-stage-leaderboard) | ✅ Completed |
-| R32 | [Round of 32 (pick winners) ↓](#round-of-32-leaderboard) | ✅ In progress (1/16) |
+| R32 | [Round of 32 (pick winners) →](/prediction-contests/fifa-2026/round-of-32) | ✅ In progress (1/16) |
 | R16 | Round of 16 (pick winners) | ⏳ Starts July 4 |
 | ST-421 | Quarterfinals → Semifinals → Final (pick all in one shot) | ⏳ Coming soon |
 
@@ -36,6 +36,7 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | Ishaan | 23 | 2 | - | - | 25 |
 | bala varadarajan | 22 | 2 | - | - | 24 |
 | S Mahesh | 22 | 2 | - | - | 24 |
+| WOTC | 22 | 2 | - | - | 24 |
 | Aravind Sivakumar | 21 | 2 | - | - | 23 |
 | Gemini (AI) | 21 | 2 | - | - | 23 |
 | Joydeep Dey | 23 | - | - | - | 23 |
@@ -50,7 +51,6 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | Claude (AI) | 20 | 2 | - | - | 22 |
 | Goutham Ekollu | 20 | 2 | - | - | 22 |
 | Vikram | 22 | - | - | - | 22 |
-| WOTC | 22 | - | - | - | 22 |
 | Alok | 19 | 2 | - | - | 21 |
 | Arvind Narayanan | 21 | 0 | - | - | 21 |
 | Kshitij | 19 | 2 | - | - | 21 |
@@ -137,11 +137,11 @@ Results: **CAN** beat RSA.
 | Aravind Sivakumar | NYC | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | CRO | ESP | SUI | ARG | COL | EGY |
 | Ashish Naik | Los Altos | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | ALG | ARG | COL | AUS |
 | bala varadarajan | oakland | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | COL | EGY |
-| ChatGPT (AI) | Orlando, FL | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
-| Claude (AI) | AI | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| ChatGPT (AI) | 🤖 AI | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Claude (AI) | 🤖 AI | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | D. Sivakumar | Cupertino, CA, USA | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | CIV | ECU | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Daniel | Boston | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | EGY |
-| Gemini (AI) | Orlando, FL | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Gemini (AI) | 🤖 AI | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Gokul Krishnan | US | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Goutham Ekollu | Saratoga, CA | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | BIH | BEL | POR | ESP | SUI | ARG | GHA | EGY |
 | Harsh | United States | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
@@ -173,6 +173,7 @@ Results: **CAN** beat RSA.
 | Tees | Seattle | 2 | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | EGY |
 | The Kasher | Los Angeles, USA | 2 | <span style="color:green"><b>CAN</b></span> | PAR | MAR | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | AUS |
 | Vivek Shenoy | Redwood City | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | GHA | EGY |
+| WOTC | 👥 Crowd | 2 | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Arvind Narayanan | Santa clara | 0 | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | NOR | MEX | DRC | USA | SEN | CRO | ESP | ALG | ARG | COL | EGY |
 | Bakul Kamani | USA | 0 | <span style="color:red"><s>RSA</s></span> | PAR | MAR | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | ALG | ARG | COL | EGY |
 | Bharat Mulchandani | Sarasota | 0 | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |

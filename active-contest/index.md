@@ -8,15 +8,17 @@ permalink: "/fifa-2026/"
 
 # FIFA World Cup 2026 Prediction Contest
 
-The Group Stage is underway! We have **two contests** running with predictions locked in from **54 participants** — 51 humans and 3 AI models.
+The knockout rounds are underway! We have **three contests** running across **65+ participants** — humans and 3 AI models.
 
 ---
 
 ## Active Contests
 
-### Contest 1: Group Stage Predictions
+### Contest 1: Round of 32 — In Progress
 
-Pick the **2 teams from each group** that advance to the Round of 32, plus **8 best third-place teams**. Entries are closed — results will be scored as the group stage wraps up.
+Pick the **winner of each Round of 32 match** (16 matches). **65 participants** have submitted their picks. Results are being scored as matches are played.
+
+**[View Round of 32 predictions →](/prediction-contests/fifa-2026/round-of-32)**
 
 ### Contest 2: 4-2-1 Long Range Predictions
 
@@ -24,19 +26,19 @@ Pick the **2 teams from each group** that advance to the Round of 32, plus **8 b
 
 ---
 
-## Round of 32 Contest — Entries Closed
+## Completed Rounds
 
-The Round of 32 matches have begun! **65 participants** submitted their picks.
+### Group Stage — Completed
 
-**[View all Round of 32 predictions →](/prediction-contests/fifa-2026/round-of-32)**
+Pick the 2 teams from each group that advance to the Round of 32, plus 8 best third-place teams. **Alex leads with 27 points** out of 32. [Read the wrap-up →](/prediction-contests/2026/06/28/fifa-2026-group-stage-wrap-up.html)
 
 ---
 
 ## Contest Information
 
-- [All Predictions](/prediction-contests/fifa-2026/predictions)
 - [Current Leaderboard](/prediction-contests/fifa-2026/leaderboard)
+- [All Predictions](/prediction-contests/fifa-2026/predictions)
+- [Group Stage Results](/prediction-contests/fifa-2026/group-stage)
 - [Contest Rules](/prediction-contests/fifa-2026/rules)
-- [Group Stage Schedule](/prediction-contests/fifa-2026/group-stage)
 
 Good luck to all participants!

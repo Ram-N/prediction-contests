@@ -208,8 +208,15 @@ def load_predictions(filepath):
         seen[email] = row
 
     entries = list(seen.values())
-    # Sort AI entries first, then humans alphabetically
-    entries.sort(key=lambda r: (0 if "(AI)" in r["Name"] else 1, r["Name"].strip().lower()))
+    # Sort AI entries first, then WOTC, then humans alphabetically
+    def sort_key(r):
+        name = r["Name"].strip()
+        if "(AI)" in name:
+            return (0, name.lower())
+        if name == "WOTC":
+            return (1, name.lower())
+        return (2, name.lower())
+    entries.sort(key=sort_key)
     return entries
 
 
