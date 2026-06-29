@@ -1,6 +1,9 @@
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | RSA v CAN | GER v PAR | NED v MAR | BRA v JPN | FRA v SWE | CIV v NOR | MEX v ECU | ENG v DRC | USA v BIH | BEL v SEN | CRO v POR | ESP v AUT | SUI v ALG | ARG v CPV | GHA v COL | AUS v EGY |
 |------|----------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ChatGPT (AI) | 🤖 AI | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
+| Claude (AI) | 🤖 AI | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
+| Gemini (AI) | 🤖 AI | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Aarush | Los Gatos | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Ajai Singh | Tampa | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | EGY |
 | Alex | Seattle | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | ALG | ARG | COL | EGY |
@@ -14,13 +17,10 @@
 | Bharat Mulchandani | Sarasota | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Bharathkirishnan S R | Bengaluru | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | CRO | ESP | SUI | ARG | COL | AUS |
 | Chandran Dharmarajan | India | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | CIV | ECU | DRC | USA | SEN | CRO | ESP | ALG | ARG | COL | AUS |
-| ChatGPT (AI) | Orlando, FL | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | AUS |
 | Chayan Chakrabarti | Oakland CA | <span style="color:red"><s>RSA</s></span> | PAR | MAR | JPN | SWE | CIV | ECU | DRC | BIH | SEN | CRO | AUT | ALG | CPV | GHA | EGY |
 | Cheen | Dubai | <span style="color:red"><s>RSA</s></span> | GER | NED | BRA | FRA | CIV | MEX | ENG | BIH | BEL | POR | ESP | ALG | ARG | COL | AUS |
-| Claude (AI) | AI | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | D. Sivakumar | Cupertino, CA, USA | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | CIV | ECU | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Daniel | Boston | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | SEN | POR | ESP | SUI | ARG | COL | EGY |
-| Gemini (AI) | Orlando, FL | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Gokul Krishnan | US | <span style="color:green"><b>CAN</b></span> | GER | NED | BRA | FRA | NOR | MEX | ENG | USA | BEL | POR | ESP | SUI | ARG | COL | EGY |
 | Goutham Ekollu | Saratoga, CA | <span style="color:green"><b>CAN</b></span> | GER | MAR | BRA | FRA | NOR | MEX | ENG | BIH | BEL | POR | ESP | SUI | ARG | GHA | EGY |
 | Harish | India | <span style="color:red"><s>RSA</s></span> | GER | MAR | BRA | FRA | CIV | MEX | ENG | USA | SEN | POR | ESP | ALG | ARG | GHA | EGY |
