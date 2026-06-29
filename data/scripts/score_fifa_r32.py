@@ -173,22 +173,31 @@ def build_name_rename_map(canonical_names, email_recon, predictions_csv):
 def parse_results(filepath):
     """Parse r32-results.csv. Format: one winner abbreviation per line.
 
+    Matches are NOT played in numerical order, so the script looks up which
+    match each winning team belongs to (each team appears in exactly one R32 match).
+
     Returns dict: match_number -> winner_abbrev
     """
+    # Build reverse lookup: team_abbrev -> match_number
+    team_to_match = {}
+    for match_num, t1, t2 in MATCHES:
+        team_to_match[t1] = match_num
+        team_to_match[t2] = match_num
+
     results = {}
     with open(filepath, "r") as f:
         lines = f.readlines()
 
     # Skip header line
-    match_idx = 0
     for line in lines[1:]:
-        line = line.strip()
-        if not line:
-            continue
         winner = line.strip()
-        match_num = MATCHES[match_idx][0]
+        if not winner:
+            continue
+        if winner not in team_to_match:
+            print(f"  WARNING: Unknown team '{winner}' in results — skipping")
+            continue
+        match_num = team_to_match[winner]
         results[match_num] = winner
-        match_idx += 1
 
     return results
 
@@ -394,7 +403,7 @@ def update_leaderboard(leaderboard_path, r32_scores, entries, results, timestamp
             else:
                 status = f"✅ In progress ({num_decided}/16)"
             new_lines.append(
-                f"| R32 | [Round of 32 (pick winners) →](/prediction-contests/fifa-2026/round-of-32) | {status} |"
+                f"| R32 | [Round of 32 (pick winners) ↓](#round-of-32-leaderboard) | {status} |"
             )
             i += 1
             continue
