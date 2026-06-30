@@ -24,6 +24,8 @@ Pick the **winner of each Round of 32 match** (16 matches). **65 participants** 
 
 **4 Semifinalists**, **2 Finalists**, and the **World Cup Winner**. Entries are closed — this one plays out over the entire tournament.
 
+**[View 4-2-1 Long Range Predictions →](/prediction-contests/fifa-2026/421)**
+
 ---
 
 ## Completed Rounds
@@ -37,6 +39,7 @@ Pick the 2 teams from each group that advance to the Round of 32, plus 8 best th
 ## Contest Information
 
 - [Current Leaderboard](/prediction-contests/fifa-2026/leaderboard)
+- [4-2-1 Long Range Predictions](/prediction-contests/fifa-2026/421)
 - [All Predictions](/prediction-contests/fifa-2026/predictions)
 - [Group Stage Results](/prediction-contests/fifa-2026/group-stage)
 - [Contest Rules](/prediction-contests/fifa-2026/rules)
