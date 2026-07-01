@@ -9,13 +9,13 @@ permalink: "/fifa-2026/lr-421"
 
 # FIFA World Cup 2026 — 4-2-1 Long Range
 
-*Last updated: June 30, 2026 — 11:16 PM EDT*
+*Last updated: July 1, 2026 — 02:40 PM EDT*
 
 Predict the **4 Semifinalists**, **2 Finalists**, and the **World Cup Winner** before the tournament begins.
 
 **Scoring:** Correct Semifinalist = 1 pt, Correct Finalist = 2 pts, Correct Winner = 4 pts. **Max: 12 points.**
 
-**Eliminated teams:** CIV, ECU, GER, JPN, NED, RSA, SWE
+**Eliminated teams:** CIV, COD, ECU, GER, JPN, NED, RSA, SWE
 
 Teams shown in <span style="color:red"><s>red strikethrough</s></span> have been eliminated from the tournament.
 
