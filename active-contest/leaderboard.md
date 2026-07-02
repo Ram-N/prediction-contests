@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 2, 2026 — 05:55 PM EDT*
+*Last updated: July 2, 2026 — 06:05 PM EDT*
 
 ## Overall Leaderboard
 
@@ -68,36 +68,7 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | Prasad R | Newton | 18 | 10 | - | - | 28 |
 | vivek | Tandoor Loin | 16 | 12 | - | - | 28 |
 | Chayan Chakrabarti | Oakland, CA | 22 | 4 | - | - | 26 |
-| Amit Baranwal | United States | 25 | - | - | - | 25 |
 | Chandran Dharmarajan | India | 15 | 8 | - | - | 23 |
-| Joydeep Dey | London, UK | 23 | - | - | - | 23 |
-| Vikram | USA | 22 | - | - | - | 22 |
-| Kunal Soni | Orlando | 21 | - | - | - | 21 |
-| Manoj s | TN | 21 | - | - | - | 21 |
-| MK | Miami | 20 | - | - | - | 20 |
-| Aman Behal | Orlando | - | 18 | - | - | 18 |
-| Ashish Kumar | Davie, FL | 18 | - | - | - | 18 |
-| Bakul Kamani | USA | - | 18 | - | - | 18 |
-| Bharat Mulchandani | Sarasota | - | 18 | - | - | 18 |
-| Nishant | Boca Raton, FL | - | 18 | - | - | 18 |
-| Nita Kalkar | USA | - | 18 | - | - | 18 |
-| Siva Kantamneni | Largo | - | 18 | - | - | 18 |
-| Srini | Kalispell | - | 18 | - | - | 18 |
-| The Kasher | Los Angeles, CA | - | 18 | - | - | 18 |
-| Vishal Goyal | Austin | 17 | - | - | - | 17 |
-| Guru Bhat | Bangalore | 16 | - | - | - | 16 |
-| JR | USA | - | 16 | - | - | 16 |
-| Niraj Mishra | Tampa, FL | - | 16 | - | - | 16 |
-| Rishi Baveja | USA | - | 16 | - | - | 16 |
-| Rupender Dahiya | United States | - | 16 | - | - | 16 |
-| Samrudhi Acharya | USA | - | 16 | - | - | 16 |
-| Subha | Seattle | - | 16 | - | - | 16 |
-| Ajai Singh | Tampa | - | 14 | - | - | 14 |
-| Harish | India | - | 14 | - | - | 14 |
-| Pratyush | USA | - | 14 | - | - | 14 |
-| Sahana | Seattle | - | 14 | - | - | 14 |
-| Sarvapriya M Tripathi | United States | - | 14 | - | - | 14 |
-| Sreenivas G | Cupertino, CA | - | 14 | - | - | 14 |
 
 ---
 

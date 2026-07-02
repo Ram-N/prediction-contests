@@ -636,6 +636,19 @@ def rebuild_overall_table(table_rows, gs_scores, rename_map=None, location_map=N
             parsed.append((name, location, gs_str, "-", "-", "-", str(total), total))
             seen_names.add(name)
 
+    # Filter to participants who entered all active rounds.
+    # A round is "active" if any participant has a non-"-" value for it.
+    round_indices = {"GS": 2, "R32": 3, "R16": 4, "ST-421": 5}
+    active_rounds = []
+    for label, idx in round_indices.items():
+        if any(row[idx] != "-" for row in parsed):
+            active_rounds.append(idx)
+
+    parsed = [
+        row for row in parsed
+        if all(row[idx] != "-" for idx in active_rounds)
+    ]
+
     # Sort by total desc, then name asc
     parsed.sort(key=lambda x: (-x[7], x[0].lower()))
 
