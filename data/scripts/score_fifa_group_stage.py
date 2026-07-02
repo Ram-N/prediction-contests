@@ -46,6 +46,9 @@ RESULTS_CSV = os.path.join(
 )
 GROUP_STAGE_MD = os.path.join(PROJECT_ROOT, "active-contest", "group-stage.md")
 LEADERBOARD_MD = os.path.join(PROJECT_ROOT, "active-contest", "leaderboard.md")
+CANONICAL_LOCATIONS_CSV = os.path.join(
+    PROJECT_ROOT, "data", "FIFA-2026", "canonical-locations.csv"
+)
 
 # Map results file abbreviations to prediction abbreviations where they differ
 RESULTS_ABBREV_NORMALIZE = {
@@ -105,6 +108,19 @@ TEAM_FLAGS = {
     "GHA": "\U0001f1ec\U0001f1ed",
     "PAN": "\U0001f1f5\U0001f1e6",
 }
+
+
+def load_canonical_locations():
+    """Load canonical locations CSV. Returns dict: name -> location."""
+    mapping = {}
+    if os.path.exists(CANONICAL_LOCATIONS_CSV):
+        with open(CANONICAL_LOCATIONS_CSV, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                name = row["Name"].strip()
+                location = row["Location"].strip()
+                if name:
+                    mapping[name] = location
+    return mapping
 
 
 # ---------------------------------------------------------------------------
@@ -454,8 +470,10 @@ def build_gs_table(scored_rows):
 # ---------------------------------------------------------------------------
 
 
-def update_overall_leaderboard(leaderboard_path, gs_scores, scored_rows, results, timestamp):
+def update_overall_leaderboard(leaderboard_path, gs_scores, scored_rows, results, timestamp, location_map=None):
     """Update leaderboard.md: overall table GS/Total + GS detail section."""
+    if location_map is None:
+        location_map = {}
     with open(leaderboard_path, "r") as f:
         content = f.read()
 
@@ -478,23 +496,24 @@ def update_overall_leaderboard(leaderboard_path, gs_scores, scored_rows, results
             i += 1
             continue
 
-        # Detect overall leaderboard table header
-        if "| Name | GS | R32 |" in line:
+        # Detect overall leaderboard table header (with or without Location column)
+        if "| Name |" in line and "| GS |" in line and "| R32 |" in line:
             in_overall_table = True
-            overall_header_lines.append(line)
+            has_location = "| Location |" in line
+            # Write new header with Location column
+            new_lines.append("| Name | Location | GS | R32 | R16 | ST-421 | Total |")
             i += 1
             # Next line is separator
             if i < len(lines) and lines[i].startswith("|") and "---" in lines[i]:
-                overall_header_lines.append(lines[i])
+                new_lines.append("|------|----------|:---:|:---:|:---:|:---:|:---:|")
                 i += 1
             # Collect table rows
             while i < len(lines) and lines[i].startswith("|"):
                 overall_table_rows.append(lines[i])
                 i += 1
             # Process and re-sort the overall table
-            new_lines.extend(overall_header_lines)
             new_lines.extend(
-                rebuild_overall_table(overall_table_rows, gs_scores)
+                rebuild_overall_table(overall_table_rows, gs_scores, location_map=location_map, has_location=has_location)
             )
             in_overall_table = False
             continue
@@ -545,26 +564,42 @@ def update_overall_leaderboard(leaderboard_path, gs_scores, scored_rows, results
     return "\n".join(new_lines)
 
 
-def rebuild_overall_table(table_rows, gs_scores, rename_map=None):
+def rebuild_overall_table(table_rows, gs_scores, rename_map=None, location_map=None, has_location=False):
     """Parse overall table rows, update GS/Total, re-sort by Total desc.
 
     - Renames participants whose canonical name changed (via rename_map)
     - Adds GS participants not already in the table
+    - Includes Location column from location_map
     """
     if rename_map is None:
         rename_map = {}
+    if location_map is None:
+        location_map = {}
 
     parsed = []
     seen_names = set()
     for row in table_rows:
         cells = [c.strip() for c in row.split("|")]
-        # cells: ['', 'Name', 'GS', 'R32', 'R16', 'ST-421', 'Total', '']
-        if len(cells) < 7:
-            continue
-        name = cells[1]
-        r32 = cells[3]
-        r16 = cells[4]
-        st421 = cells[5]
+        if has_location:
+            # cells: ['', 'Name', 'Location', 'GS', 'R32', 'R16', 'ST-421', 'Total', '']
+            if len(cells) < 8:
+                continue
+            name = cells[1]
+            location = cells[2]
+            gs_cell = cells[3]
+            r32 = cells[4]
+            r16 = cells[5]
+            st421 = cells[6]
+        else:
+            # cells: ['', 'Name', 'GS', 'R32', 'R16', 'ST-421', 'Total', '']
+            if len(cells) < 7:
+                continue
+            name = cells[1]
+            location = ""
+            gs_cell = cells[2]
+            r32 = cells[3]
+            r16 = cells[4]
+            st421 = cells[5]
 
         # Apply name rename if needed
         name = rename_map.get(name, name)
@@ -573,8 +608,11 @@ def rebuild_overall_table(table_rows, gs_scores, rename_map=None):
         if name in seen_names:
             continue
 
+        # Look up location from canonical map (prefer it over existing)
+        location = location_map.get(name, location)
+
         # Update GS from computed scores
-        gs = gs_scores.get(name, cells[2])
+        gs = gs_scores.get(name, gs_cell)
         gs_str = str(gs)
 
         # Compute total
@@ -586,7 +624,7 @@ def rebuild_overall_table(table_rows, gs_scores, rename_map=None):
                 except ValueError:
                     pass
 
-        parsed.append((name, gs_str, r32, r16, st421, str(total), total))
+        parsed.append((name, location, gs_str, r32, r16, st421, str(total), total))
         seen_names.add(name)
 
     # Add GS participants not already in the table
@@ -594,16 +632,17 @@ def rebuild_overall_table(table_rows, gs_scores, rename_map=None):
         if name not in seen_names:
             gs_str = str(gs_pts)
             total = gs_pts
-            parsed.append((name, gs_str, "-", "-", "-", str(total), total))
+            location = location_map.get(name, "")
+            parsed.append((name, location, gs_str, "-", "-", "-", str(total), total))
             seen_names.add(name)
 
     # Sort by total desc, then name asc
-    parsed.sort(key=lambda x: (-x[6], x[0].lower()))
+    parsed.sort(key=lambda x: (-x[7], x[0].lower()))
 
     result_lines = []
-    for name, gs, r32, r16, st421, total_str, _ in parsed:
+    for name, location, gs, r32, r16, st421, total_str, _ in parsed:
         result_lines.append(
-            f"| {name} | {gs} | {r32} | {r16} | {st421} | {total_str} |"
+            f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {total_str} |"
         )
     return result_lines
 
@@ -614,6 +653,10 @@ def rebuild_overall_table(table_rows, gs_scores, rename_map=None):
 
 
 def main():
+    print("Loading canonical locations...")
+    location_map = load_canonical_locations()
+    print(f"  {len(location_map)} locations loaded")
+
     print("Reading predictions...")
     df = pd.read_csv(PREDICTIONS_CSV)
     print(f"  {len(df)} participants loaded")
@@ -657,7 +700,7 @@ def main():
     # Update leaderboard.md
     print(f"\nUpdating {LEADERBOARD_MD}...")
     lb_content = update_overall_leaderboard(
-        LEADERBOARD_MD, gs_scores, scored_rows, results, timestamp
+        LEADERBOARD_MD, gs_scores, scored_rows, results, timestamp, location_map
     )
     with open(LEADERBOARD_MD, "w") as f:
         f.write(lb_content)
