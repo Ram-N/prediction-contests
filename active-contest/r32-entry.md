@@ -14,12 +14,12 @@ permalink: "/fifa-2026/round-of-32"
 
 ## All R32 Predictions
 
-*Last updated: July 3, 2026 — 09:15 AM EDT*
+*Last updated: July 3, 2026 — 05:13 PM EDT*
 
 **66 participants** (63 humans + 3 AI models) picked the winner of each of the 16 knockout matches. Each correct pick is worth **2 points**.
 
-**13 of 16 matches decided.** 
-**CAN** beat RSA, **PAR** beat GER, **MAR** beat NED, **BRA** beat JPN, **FRA** beat SWE, **NOR** beat CIV, **MEX** beat ECU, **ENG** beat DRC, **USA** beat BIH, **BEL** beat SEN, **POR** beat CRO, **ESP** beat AUT, **SUI** beat ALG.
+**14 of 16 matches decided.** 
+**CAN** beat RSA, **PAR** beat GER, **MAR** beat NED, **BRA** beat JPN, **FRA** beat SWE, **NOR** beat CIV, **MEX** beat ECU, **ENG** beat DRC, **USA** beat BIH, **BEL** beat SEN, **POR** beat CRO, **ESP** beat AUT, **SUI** beat ALG, **EGY** beat AUS.
 
 **Color coding:**
 - <span style="color:green"><b>Green/Bold</b></span> = Correct pick (winner guessed right)
