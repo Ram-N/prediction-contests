@@ -6,6 +6,8 @@ background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/round-of-16"
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/7.5.0/css/flag-icons.min.css">
+
 <style>
   .match-card { border: 2px solid #dee2e6; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; transition: border-color 0.2s; }
   .match-card.complete { border-color: #28a745; }

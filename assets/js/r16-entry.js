@@ -19,10 +19,32 @@
     { num: 8, team1: 'Switzerland', team2: '?', slot2: 'W(ARG v CPV)', col: 'Match 8' }
   ];
 
+  // ISO country codes for flag-icons CSS library
+  var COUNTRY_CODES = {
+    'Canada': 'ca', 'Morocco': 'ma', 'Paraguay': 'py', 'France': 'fr',
+    'Brazil': 'br', 'Norway': 'no', 'Mexico': 'mx', 'England': 'gb-eng',
+    'Spain': 'es', 'Portugal': 'pt', 'United States': 'us', 'Belgium': 'be',
+    'Egypt': 'eg', 'Switzerland': 'ch', 'Argentina': 'ar', 'Cape Verde': 'cv',
+    'Ghana': 'gh', 'Colombia': 'co'
+  };
+
+  function flagHtml(team) {
+    var code = COUNTRY_CODES[team];
+    if (!code) return '';
+    return '<span class="fi fi-' + code + '" style="margin-right:0.4em;"></span>';
+  }
+
   // ---- Build Match Cards ----
 
   function displayName(team, slot) {
     return (team && team !== '?') ? team : (slot || 'TBD');
+  }
+
+  function displayNameWithFlag(team, slot) {
+    if (team && team !== '?') {
+      return flagHtml(team) + escapeHtml(team);
+    }
+    return escapeHtml(slot || 'TBD');
   }
 
   function isKnown(team) {
@@ -59,11 +81,11 @@
             ' <span class="' + badgeClass + '" id="badge-' + m.num + '">' + badgeText + '</span></h5>' +
           '<div class="match-pick">' +
             '<input type="radio" name="' + radioName + '" data-match="' + m.num + '" data-team="' + escapeAttr(dataTeam1) + '" id="' + id1 + '"' + disabledAttr + '> ' +
-            '<label for="' + id1 + '">' + escapeHtml(t1) + '</label>' +
+            '<label for="' + id1 + '">' + displayNameWithFlag(m.team1, m.slot1) + '</label>' +
           '</div>' +
           '<div class="match-pick">' +
             '<input type="radio" name="' + radioName + '" data-match="' + m.num + '" data-team="' + escapeAttr(dataTeam2) + '" id="' + id2 + '"' + disabledAttr + '> ' +
-            '<label for="' + id2 + '">' + escapeHtml(t2) + '</label>' +
+            '<label for="' + id2 + '">' + displayNameWithFlag(m.team2, m.slot2) + '</label>' +
           '</div>' +
         '</div>';
 
@@ -165,14 +187,14 @@
     MATCHES.forEach(function (m) {
       var key = m.col;
       var pick = picks[key] || '';
-      var t1Display = displayName(m.team1, m.slot1);
-      var t2Display = displayName(m.team2, m.slot2);
+      var t1Flag = displayNameWithFlag(m.team1, m.slot1);
+      var t2Flag = displayNameWithFlag(m.team2, m.slot2);
       var t1Class = pick === m.team1 ? 'pick-highlight' : (pick ? 'pick-not' : '');
       var t2Class = pick === m.team2 ? 'pick-highlight' : (pick ? 'pick-not' : '');
       rows += '<tr>' +
         '<td>' + m.num + '</td>' +
-        '<td class="' + t1Class + '">' + escapeHtml(t1Display) + '</td>' +
-        '<td class="' + t2Class + '">' + escapeHtml(t2Display) + '</td>' +
+        '<td class="' + t1Class + '">' + t1Flag + '</td>' +
+        '<td class="' + t2Class + '">' + t2Flag + '</td>' +
         '</tr>';
     });
     body.innerHTML = rows;
