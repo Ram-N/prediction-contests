@@ -13,16 +13,41 @@
     { num: 2, team1: 'Paraguay', team2: 'France', col: 'PAR v FRA' },
     { num: 3, team1: 'Brazil', team2: 'Norway', col: 'BRA v NOR' },
     { num: 4, team1: 'Mexico', team2: 'England', col: 'MEX v ENG' },
-    { num: 5, team1: '?', team2: '?', slot1: 'TBD', slot2: 'TBD', col: 'Match 5' },
+    { num: 5, team1: 'Spain', team2: 'Portugal', col: 'ESP v POR' },
     { num: 6, team1: 'United States', team2: 'Belgium', col: 'USA v BEL' },
-    { num: 7, team1: '?', team2: '?', slot1: 'TBD', slot2: 'TBD', col: 'Match 7' },
-    { num: 8, team1: '?', team2: '?', slot1: 'TBD', slot2: 'TBD', col: 'Match 8' }
+    { num: 7, team1: 'Egypt', team2: '?', slot2: 'W(GHA v COL)', col: 'Match 7' },
+    { num: 8, team1: 'Switzerland', team2: '?', slot2: 'W(ARG v CPV)', col: 'Match 8' }
   ];
+
+  var FLAGS = {
+    'Canada': '\u{1F1E8}\u{1F1E6}',
+    'Morocco': '\u{1F1F2}\u{1F1E6}',
+    'Paraguay': '\u{1F1F5}\u{1F1FE}',
+    'France': '\u{1F1EB}\u{1F1F7}',
+    'Brazil': '\u{1F1E7}\u{1F1F7}',
+    'Norway': '\u{1F1F3}\u{1F1F4}',
+    'Mexico': '\u{1F1F2}\u{1F1FD}',
+    'England': '\u{1F3F4}\u{E0067}\u{E0062}\u{E0065}\u{E006E}\u{E0067}\u{E007F}',
+    'Spain': '\u{1F1EA}\u{1F1F8}',
+    'Portugal': '\u{1F1F5}\u{1F1F9}',
+    'United States': '\u{1F1FA}\u{1F1F8}',
+    'Belgium': '\u{1F1E7}\u{1F1EA}',
+    'Egypt': '\u{1F1EA}\u{1F1EC}',
+    'Switzerland': '\u{1F1E8}\u{1F1ED}',
+    'Argentina': '\u{1F1E6}\u{1F1F7}',
+    'Cape Verde': '\u{1F1E8}\u{1F1FB}',
+    'Ghana': '\u{1F1EC}\u{1F1ED}',
+    'Colombia': '\u{1F1E8}\u{1F1F4}'
+  };
 
   // ---- Build Match Cards ----
 
   function displayName(team, slot) {
-    return (team && team !== '?') ? team : (slot || 'TBD');
+    if (team && team !== '?') {
+      var flag = FLAGS[team] || '';
+      return flag ? flag + ' ' + team : team;
+    }
+    return slot || 'TBD';
   }
 
   function isKnown(team) {
