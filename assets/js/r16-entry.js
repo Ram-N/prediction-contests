@@ -19,35 +19,10 @@
     { num: 8, team1: 'Switzerland', team2: '?', slot2: 'W(ARG v CPV)', col: 'Match 8' }
   ];
 
-  var FLAGS = {
-    'Canada': '🇨🇦',
-    'Morocco': '🇲🇦',
-    'Paraguay': '🇵🇾',
-    'France': '🇫🇷',
-    'Brazil': '🇧🇷',
-    'Norway': '🇳🇴',
-    'Mexico': '🇲🇽',
-    'England': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-    'Spain': '🇪🇸',
-    'Portugal': '🇵🇹',
-    'United States': '🇺🇸',
-    'Belgium': '🇧🇪',
-    'Egypt': '🇪🇬',
-    'Switzerland': '🇨🇭',
-    'Argentina': '🇦🇷',
-    'Cape Verde': '🇨🇻',
-    'Ghana': '🇬🇭',
-    'Colombia': '🇨🇴'
-  };
-
   // ---- Build Match Cards ----
 
   function displayName(team, slot) {
-    if (team && team !== '?') {
-      var flag = FLAGS[team] || '';
-      return flag ? flag + ' ' + team : team;
-    }
-    return slot || 'TBD';
+    return (team && team !== '?') ? team : (slot || 'TBD');
   }
 
   function isKnown(team) {
