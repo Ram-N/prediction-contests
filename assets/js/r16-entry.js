@@ -20,24 +20,24 @@
   ];
 
   var FLAGS = {
-    'Canada': '\u{1F1E8}\u{1F1E6}',
-    'Morocco': '\u{1F1F2}\u{1F1E6}',
-    'Paraguay': '\u{1F1F5}\u{1F1FE}',
-    'France': '\u{1F1EB}\u{1F1F7}',
-    'Brazil': '\u{1F1E7}\u{1F1F7}',
-    'Norway': '\u{1F1F3}\u{1F1F4}',
-    'Mexico': '\u{1F1F2}\u{1F1FD}',
-    'England': '\u{1F3F4}\u{E0067}\u{E0062}\u{E0065}\u{E006E}\u{E0067}\u{E007F}',
-    'Spain': '\u{1F1EA}\u{1F1F8}',
-    'Portugal': '\u{1F1F5}\u{1F1F9}',
-    'United States': '\u{1F1FA}\u{1F1F8}',
-    'Belgium': '\u{1F1E7}\u{1F1EA}',
-    'Egypt': '\u{1F1EA}\u{1F1EC}',
-    'Switzerland': '\u{1F1E8}\u{1F1ED}',
-    'Argentina': '\u{1F1E6}\u{1F1F7}',
-    'Cape Verde': '\u{1F1E8}\u{1F1FB}',
-    'Ghana': '\u{1F1EC}\u{1F1ED}',
-    'Colombia': '\u{1F1E8}\u{1F1F4}'
+    'Canada': '🇨🇦',
+    'Morocco': '🇲🇦',
+    'Paraguay': '🇵🇾',
+    'France': '🇫🇷',
+    'Brazil': '🇧🇷',
+    'Norway': '🇳🇴',
+    'Mexico': '🇲🇽',
+    'England': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    'Spain': '🇪🇸',
+    'Portugal': '🇵🇹',
+    'United States': '🇺🇸',
+    'Belgium': '🇧🇪',
+    'Egypt': '🇪🇬',
+    'Switzerland': '🇨🇭',
+    'Argentina': '🇦🇷',
+    'Cape Verde': '🇨🇻',
+    'Ghana': '🇬🇭',
+    'Colombia': '🇨🇴'
   };
 
   // ---- Build Match Cards ----
