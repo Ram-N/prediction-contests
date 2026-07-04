@@ -6,6 +6,18 @@ background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/predictions"
 ---
 
+# Round of 16 Predictions
+
+All submitted predictions for the **Round of 16** knockout stage. Participants picked the winner of each of the 8 matches. Each correct pick is worth **4 points**.
+
+**Total Entries:** 67 participants (63 humans + 3 AI models + WOTC)
+
+---
+
+{% include_relative predictions-r16-table.md %}
+
+---
+
 # Round of 32 Predictions
 
 All submitted predictions for the **Round of 32** knockout stage. Participants picked the winner of each of the 16 matches. Each correct pick is worth **2 points**.
