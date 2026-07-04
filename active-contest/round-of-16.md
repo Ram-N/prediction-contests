@@ -1,21 +1,25 @@
 ---
 layout: page
 title: "Round of 16 Predictions"
-description: "All submitted predictions for the R16 knockout matches"
+description: "All R16 predictions — entries are now closed"
 background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/round-of-16"
 ---
 
 ## FIFA World Cup 2026 — Round of 16 Predictions
 
-All submitted predictions for the **Round of 16** knockout stage. Participants picked the winner of each of the 8 matches. Each correct pick is worth **4 points**.
+*Last updated: July 4, 2026 — 03:30 PM EDT*
 
-**Total Entries:** 67 participants (63 humans + 3 AI models + WOTC)
+**67 participants** (63 humans + 3 AI models + WOTC) picked the winner of each of the 8 knockout matches. Each correct pick is worth **4 points**.
+
+**1 of 8 matches decided.** 
+**MAR** beat CAN.
+
+**Color coding:**
+- <span style="color:green"><b>Green/Bold</b></span> = Correct pick (winner guessed right)
+- <span style="color:red"><s>Red/Strikethrough</s></span> = Wrong pick
+- Plain text = Result pending
 
 ---
 
 {% include_relative predictions-r16-table.md %}
-
----
-
-*Last updated: July 4, 2026 — 06:00 PM EDT*

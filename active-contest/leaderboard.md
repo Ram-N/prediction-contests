@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 3, 2026 — 10:44 PM EDT*
+*Last updated: July 4, 2026 — 03:30 PM EDT*
 
 ## Overall Leaderboard
 
@@ -17,58 +17,54 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 |-------|---------|--------|
 | GS | [Group Stage (pick top 2 + 3rd from each group) ↓](#group-stage-leaderboard) | ✅ Completed |
 | R32 | [Round of 32 (pick winners) ↓](#round-of-32-leaderboard) | ✅ Complete |
-| R16 | Round of 16 (pick winners) | ⏳ Starts July 4 |
+| R16 | [Round of 16 (pick winners) ↓](#round-of-16-leaderboard) | ✅ In progress (1/8) |
 | ST-421 | Quarterfinals → Semifinals → Final (pick all in one shot) | ⏳ Coming soon |
 
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | GS | R32 | R16 | ST-421 | Total |
 |------|----------|:---:|:---:|:---:|:---:|:---:|
-| Aarush | Los Gatos | 26 | 28 | - | - | 54 |
-| Alex | Seattle | 27 | 24 | - | - | 51 |
-| Gokul Krishnan | Los Gatos | 23 | 28 | - | - | 51 |
-| Ranga Setlur | Buffalo, NY | 21 | 30 | - | - | 51 |
-| Subbu | India | 25 | 26 | - | - | 51 |
-| Daniel | Boston | 24 | 26 | - | - | 50 |
-| S Mahesh | Tampa | 22 | 28 | - | - | 50 |
-| Tees | Seattle, WA | 24 | 26 | - | - | 50 |
-| WOTC | Crowd | 22 | 28 | - | - | 50 |
-| Gemini (AI) | AI | 21 | 28 | - | - | 49 |
-| Ishaan | Oakland | 23 | 26 | - | - | 49 |
-| Keshav Venkatesh | Fremont | 21 | 28 | - | - | 49 |
-| Rahul Santhanam | UK | 25 | 24 | - | - | 49 |
-| Shaji | Houston, TX | 21 | 28 | - | - | 49 |
-| bala varadarajan | Oakland | 22 | 26 | - | - | 48 |
-| ChatGPT (AI) | AI | 24 | 24 | - | - | 48 |
-| Claude (AI) | AI | 20 | 28 | - | - | 48 |
-| Keshav Narasimhan | San Diego | 24 | 24 | - | - | 48 |
-| Aravind Sivakumar | NYC | 21 | 26 | - | - | 47 |
-| Kshitij | USA | 19 | 28 | - | - | 47 |
-| Neeraj Mendiratta | Palm Beach County, FL | 21 | 26 | - | - | 47 |
-| Goutham Ekollu | Saratoga, CA | 20 | 26 | - | - | 46 |
-| Sanjeev | Doral | 18 | 28 | - | - | 46 |
-| Rupal | Florida | 21 | 24 | - | - | 45 |
-| Harsh | United States | 18 | 26 | - | - | 44 |
-| Alok | US | 19 | 24 | - | - | 43 |
-| D. Sivakumar | Cupertino, CA | 17 | 26 | - | - | 43 |
-| Ram N | Orlando | 17 | 26 | - | - | 43 |
-| Sri Iyer | Blue Bell, PA | 23 | 20 | - | - | 43 |
-| Mukund N. | Pittsburgh | 16 | 26 | - | - | 42 |
-| Manish Bhatt | Orlando | 19 | 22 | - | - | 41 |
-| Rajesh | Chennai | 21 | 20 | - | - | 41 |
-| Sackett | Pleasanton | 19 | 22 | - | - | 41 |
-| Cheen | Dubai | 22 | 18 | - | - | 40 |
-| Vivek Shenoy | Redwood City | 18 | 22 | - | - | 40 |
-| Arvind Narayanan | Santa Clara | 21 | 18 | - | - | 39 |
-| Bharathkirishnan S R | Bangalore | 19 | 20 | - | - | 39 |
-| Shriya Sateesh | Seattle | 13 | 26 | - | - | 39 |
-| Subbu Mahadevan | Palo Alto | 19 | 20 | - | - | 39 |
-| Ashish Naik | Los Altos | 18 | 20 | - | - | 38 |
-| Radhika Santhanam | Mumbai | 18 | 20 | - | - | 38 |
-| R. Santhanam | India | 17 | 20 | - | - | 37 |
-| Prasad R | Newton | 18 | 18 | - | - | 36 |
-| vivek | Tandoor Loin | 16 | 16 | - | - | 32 |
-| Chayan Chakrabarti | Oakland, CA | 22 | 6 | - | - | 28 |
-| Chandran Dharmarajan | India | 15 | 12 | - | - | 27 |
+| Aarush | Los Gatos | 26 | 28 | 4 | - | 58 |
+| Alex | Seattle | 27 | 24 | 4 | - | 55 |
+| Gokul Krishnan | Los Gatos | 23 | 28 | 4 | - | 55 |
+| Ranga Setlur | Buffalo, NY | 21 | 30 | 4 | - | 55 |
+| Subbu | India | 25 | 26 | 4 | - | 55 |
+| Daniel | Boston | 24 | 26 | 4 | - | 54 |
+| S Mahesh | Tampa | 22 | 28 | 4 | - | 54 |
+| Tees | Seattle, WA | 24 | 26 | 4 | - | 54 |
+| WOTC | Crowd | 22 | 28 | 4 | - | 54 |
+| Gemini (AI) | AI | 21 | 28 | 4 | - | 53 |
+| Keshav Venkatesh | Fremont | 21 | 28 | 4 | - | 53 |
+| Rahul Santhanam | UK | 25 | 24 | 4 | - | 53 |
+| Shaji | Houston, TX | 21 | 28 | 4 | - | 53 |
+| bala varadarajan | Oakland | 22 | 26 | 4 | - | 52 |
+| ChatGPT (AI) | AI | 24 | 24 | 4 | - | 52 |
+| Claude (AI) | AI | 20 | 28 | 4 | - | 52 |
+| Keshav Narasimhan | San Diego | 24 | 24 | 4 | - | 52 |
+| Aravind Sivakumar | NYC | 21 | 26 | 4 | - | 51 |
+| Goutham Ekollu | Saratoga, CA | 20 | 26 | 4 | - | 50 |
+| Sanjeev | Doral | 18 | 28 | 4 | - | 50 |
+| Rupal | Florida | 21 | 24 | 4 | - | 49 |
+| Harsh | United States | 18 | 26 | 4 | - | 48 |
+| Alok | US | 19 | 24 | 4 | - | 47 |
+| D. Sivakumar | Cupertino, CA | 17 | 26 | 4 | - | 47 |
+| Neeraj Mendiratta | Palm Beach County, FL | 21 | 26 | 0 | - | 47 |
+| Ram N | Orlando | 17 | 26 | 4 | - | 47 |
+| Sri Iyer | Blue Bell, PA | 23 | 20 | 4 | - | 47 |
+| Mukund N. | Pittsburgh | 16 | 26 | 4 | - | 46 |
+| Rajesh | Chennai | 21 | 20 | 4 | - | 45 |
+| Sackett | Pleasanton | 19 | 22 | 4 | - | 45 |
+| Cheen | Dubai | 22 | 18 | 4 | - | 44 |
+| Vivek Shenoy | Redwood City | 18 | 22 | 4 | - | 44 |
+| Arvind Narayanan | Santa Clara | 21 | 18 | 4 | - | 43 |
+| Shriya Sateesh | Seattle | 13 | 26 | 4 | - | 43 |
+| Subbu Mahadevan | Palo Alto | 19 | 20 | 4 | - | 43 |
+| Ashish Naik | Los Altos | 18 | 20 | 4 | - | 42 |
+| Radhika Santhanam | Mumbai | 18 | 20 | 4 | - | 42 |
+| R. Santhanam | India | 17 | 20 | 4 | - | 41 |
+| Prasad R | Newton | 18 | 18 | 4 | - | 40 |
+| Bharathkirishnan S R | Bangalore | 19 | 20 | 0 | - | 39 |
+| Chandran Dharmarajan | India | 15 | 12 | 4 | - | 31 |
+| Chayan Chakrabarti | Oakland, CA | 22 | 6 | 0 | - | 28 |
 
 ---
 
@@ -83,6 +79,92 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 
 
 
+
+## Round of 16 Leaderboard
+
+**1 of 8 matches decided.** Each correct pick = 4 points. Max possible so far: 4.
+
+Results: **MAR** beat CAN.
+
+**Color coding:**
+- <span style="color:green"><b>Green/Bold</b></span> = Correct pick
+- <span style="color:red"><s>Red/Strikethrough</s></span> = Wrong pick
+- Plain text = Result pending
+
+---
+
+{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
+| Name | Location | Pts | CAN v MAR | PAR v FRA | BRA v NOR | MEX v ENG | ESP v POR | USA v BEL | EGY v ARG | SUI v COL |
+|------|----------|:---:|---|---|---|---|---|---|---|---|
+| Aarush | Los Gatos | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | POR | USA | ARG | SUI |
+| Ajai Singh | Tampa | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Alex | Seattle | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Alok | US | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Alok Kumar | USA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Aravind Sivakumar | NYC | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Arvind Narayanan | Santa Clara | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Ashish Naik | Los Altos | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Bakul Kamani | USA | 4 | <span style="color:green"><b>MAR</b></span> | PAR | BRA | MEX | ESP | BEL | ARG | COL |
+| bala varadarajan | Oakland | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Bharath Sridharan | Dallas | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | SUI |
+| Chandran Dharmarajan | India | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | BEL | ARG | COL |
+| ChatGPT (AI) | 🤖 AI | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | BEL | ARG | COL |
+| Cheen | Dubai | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | POR | USA | ARG | COL |
+| Claude (AI) | 🤖 AI | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | BEL | ARG | COL |
+| D. Sivakumar | Cupertino, CA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | POR | BEL | ARG | COL |
+| Daniel | Boston | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | SUI |
+| GAUTAM | India | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | POR | BEL | ARG | COL |
+| Gautam grover | Chicago | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | BEL | ARG | COL |
+| Gemini (AI) | 🤖 AI | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Gokul Krishnan | Los Gatos | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Goutham Ekollu | Saratoga, CA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | BEL | ARG | COL |
+| Guru Bhat | Bangalore | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | BEL | ARG | COL |
+| Harish | India | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Harsh | United States | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | POR | USA | ARG | COL |
+| JR | USA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | BEL | ARG | COL |
+| Keshav Narasimhan | San Diego | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | SUI |
+| Keshav Venkatesh | Fremont | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | USA | ARG | COL |
+| Kunal Soni | Orlando | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | POR | USA | ARG | SUI |
+| Manav | Miami | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| MK | Miami | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | USA | ARG | COL |
+| Mukund N. | Pittsburgh | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | SUI |
+| Niraj Mishra | Tampa, FL | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Nishant | Boca Raton, FL | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | BEL | ARG | COL |
+| Nita Kalkar | USA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | POR | USA | ARG | COL |
+| Prasad R | Newton | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | BEL | ARG | SUI |
+| R. Santhanam | India | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Radhika Santhanam | Mumbai | 4 | <span style="color:green"><b>MAR</b></span> | PAR | BRA | ENG | ESP | USA | ARG | COL |
+| Rahul Santhanam | UK | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Rajesh | Chennai | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | BEL | ARG | COL |
+| Ram N | Orlando | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | BEL | ARG | COL |
+| Ranga Setlur | Buffalo, NY | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Rishi Baveja | USA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | ENG | POR | USA | ARG | COL |
+| Rupal | Florida | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Rupender Dahiya | United States | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | USA | ARG | SUI |
+| S Mahesh | Tampa | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Sackett | Pleasanton | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Sahana | Seattle | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Sanjeev | Doral | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Sarvapriya M Tripathi | United States | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Shaji | Houston, TX | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | BEL | ARG | COL |
+| Shriya Sateesh | Seattle | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | USA | ARG | COL |
+| Siva Kantamneni | Largo | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Sreenivas G | Cupertino, CA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | ENG | ESP | USA | ARG | COL |
+| Sri Iyer | Blue Bell, PA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | BEL | ARG | COL |
+| Subbu | India | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | SUI |
+| Subbu Mahadevan | Palo Alto | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Subha | Seattle | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | ESP | USA | ARG | COL |
+| Sury Kaja | Orlando | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | ENG | POR | USA | ARG | COL |
+| Tees | Seattle, WA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | BEL | ARG | SUI |
+| The Kasher | Los Angeles, CA | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Vivek Shenoy | Redwood City | 4 | <span style="color:green"><b>MAR</b></span> | FRA | NOR | MEX | ESP | BEL | ARG | COL |
+| WOTC | 👥 Crowd | 4 | <span style="color:green"><b>MAR</b></span> | FRA | BRA | MEX | ESP | USA | ARG | COL |
+| Bharathkirishnan S R | Bangalore | 0 | <span style="color:red"><s>CAN</s></span> | FRA | BRA | ENG | ESP | USA | ARG | SUI |
+| Chayan Chakrabarti | Oakland, CA | 0 | <span style="color:red"><s>CAN</s></span> | PAR | NOR | MEX | POR | USA | EGY | SUI |
+| Neeraj Mendiratta | Palm Beach County, FL | 0 | <span style="color:red"><s>CAN</s></span> | FRA | BRA | ENG | POR | USA | ARG | COL |
+| Vishal Goyal | Austin | 0 | <span style="color:red"><s>CAN</s></span> | FRA | BRA | ENG | ESP | USA | ARG | SUI |
+
+---
 
 ## Round of 32 Leaderboard
 
