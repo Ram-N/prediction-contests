@@ -28,6 +28,67 @@ bundle exec jekyll build
 - **Important**: All internal links and asset paths must respect the baseurl setting in `_config.yml`
 - Jekyll pagination is set to 5 posts per page
 
+## Folder Structure
+
+```
+prediction-contests/
+├── active-contest/                    # JEKYLL PAGES + CONTEST WORKING DATA
+│   ├── *.md                           # Served pages (index, rules, leaderboard, etc.)
+│   ├── predictions-*-table.md         # Generated tables (must stay here for include_relative)
+│   ├── groups/                        # Private group leaderboards
+│   ├── results/                       # Hand-edited results CSVs (no PII)
+│   └── data/                          # Non-PII contest working data (committed)
+│       ├── predictions/               # Clean prediction CSVs (Email column stripped)
+│       ├── matches/                   # Match structure (r16-matches.csv, r32-matches.csv)
+│       ├── schedule/                  # Tournament schedules
+│       ├── ai-predictions/            # AI model prediction docs
+│       ├── plots/                     # Generated visualizations (PNGs)
+│       ├── prompts/                   # AI prompt documents
+│       └── canonical-locations.csv    # Name→Location mapping (no emails)
+│
+├── scripts/                           # ALL PROCESSING SCRIPTS (committed)
+│   ├── score_fifa_*.py                # Scoring scripts
+│   ├── generate_*.py                  # Table/plot generators
+│   ├── process_*.py                   # Data processing
+│   ├── apps-script/                   # Google Apps Scripts (.gs files)
+│   ├── contest_config.json            # Config files
+│   └── archive/                       # Older/superseded scripts
+│
+├── pii-data/                          # PII DATA — NEVER COMMITTED (gitignored)
+│   ├── FIFA-2026/
+│   │   ├── contacts/                  # GroupStage-Contacts.csv, LR-421-Contacts.csv
+│   │   ├── form-responses/            # Raw Google Form exports (.csv, .xlsx)
+│   │   ├── raw-predictions/           # Prediction CSVs WITH Email column
+│   │   ├── canonical-names.csv        # Has emails — PII
+│   │   └── email-reconciliation.csv   # Has emails — PII
+│   ├── NFL-2025/                      # Same pattern per contest
+│   ├── T20-2026/                      # Same pattern per contest
+│   └── contacts/                      # Cross-contest Google Contacts exports
+│
+├── past/                              # Archived completed contests (committed)
+├── _posts/                            # Blog posts
+├── img/                               # Images by sport
+├── bin/                               # Shell utilities
+├── templates/                         # New contest templates
+├── docs/                              # Operational documentation
+└── _config.yml
+```
+
+## Decision Rules — Where Does This File Go?
+
+| Question | Answer |
+|----------|--------|
+| Has email addresses or phone numbers? | → `pii-data/` |
+| Jekyll page with front matter? | → `active-contest/` root |
+| Generated table used by `include_relative`? | → `active-contest/` root |
+| Results CSV (team codes, no PII)? | → `active-contest/results/` |
+| Clean predictions (no Email column)? | → `active-contest/data/predictions/` |
+| Match structure, schedule, reference data? | → `active-contest/data/` |
+| Generated plots/charts? | → `active-contest/data/plots/` |
+| Python script? | → `scripts/` |
+| Raw form response from Google? | → `pii-data/CONTEST/form-responses/` |
+| Contact list with emails? | → `pii-data/CONTEST/contacts/` |
+
 ## Content Architecture
 
 ### Current Contest Workflow
@@ -39,17 +100,6 @@ bundle exec jekyll build
 4. Archived contests in `past/` remain accessible for historical reference
 
 See `docs/archive-current-contest.md` for the complete archival process.
-
-### Directory Structure
-
-- `_posts/` - Blog posts announcing contest updates and results
-- `t20-2024/` - Current active contest pages (example - varies by event)
-- `past/` - Historical completed contests (ICC 2019, ICC 2023, FIFA 2022, NFL 2023, etc.)
-- `_layouts/` - Jekyll templates (home, post, page, default)
-- `_includes/` - Reusable components (scripts, analytics, read time)
-- `_sass/` - SCSS styling
-- `assets/` - Static assets
-- `img/` - Images and backgrounds
 
 ### Contest Page Types
 
@@ -133,10 +183,10 @@ subtitle: Post subtitle
 
 ### FIFA 2026 Group Stage Scoring
 
-The group stage scoring script is at `data/scripts/score_fifa_group_stage.py`.
+The group stage scoring script is at `scripts/score_fifa_group_stage.py`.
 
 ```bash
-cd data/scripts
+cd scripts
 uv run python score_fifa_group_stage.py
 ```
 
@@ -146,7 +196,7 @@ uv run python score_fifa_group_stage.py
 3. Review the updated files and commit
 
 **Input files:**
-- `data/FIFA-2026/GroupStage-Predictions-Clean.csv` — participant predictions
+- `active-contest/data/predictions/GroupStage-Predictions-Clean.csv` — participant predictions
 - `active-contest/results/group-stage-results.csv` — results (`TEAM, +1/+3/-1`)
 
 **Output files:**
@@ -159,10 +209,10 @@ uv run python score_fifa_group_stage.py
 
 ### General Scoring Script (NFL etc.)
 
-The general scoring script is at `data/scripts/score_active_contest_predictions.py`.
+The general scoring script is at `scripts/score_active_contest_predictions.py`.
 
 ```bash
-cd data/scripts
+cd scripts
 uv run python score_active_contest_predictions.py --generate-blog
 ```
 
@@ -175,10 +225,10 @@ uv run python score_active_contest_predictions.py --generate-blog
 ### Blog Post Guidelines
 
 **Blog post titles should be fun and engaging**, not technical:
-- ✅ GOOD: "Chink leads after the Divisional Round"
-- ✅ GOOD: "Go Seahawks! Tees takes the lead after 5 games"
-- ❌ BAD: "Chink leads with a penalty of 2.6"
-- ❌ BAD: "Updated standings - 5 games completed"
+- GOOD: "Chink leads after the Divisional Round"
+- GOOD: "Go Seahawks! Tees takes the lead after 5 games"
+- BAD: "Chink leads with a penalty of 2.6"
+- BAD: "Updated standings - 5 games completed"
 
 The title should mention:
 1. Who is leading (by name)

@@ -19,9 +19,9 @@ import os
 
 # Paths relative to this script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PREDICTIONS_FILE = os.path.join(SCRIPT_DIR, "../data/Match by Match T20 2026 Super8 Predictions.csv")
-RESULTS_FILE = os.path.join(SCRIPT_DIR, "../data/T20-2026-Super8-match-by-match-results.csv")
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "../active-contest/super-8.md")
+PREDICTIONS_FILE = os.path.join(SCRIPT_DIR, "../Match by Match T20 2026 Super8 Predictions.csv")
+RESULTS_FILE = os.path.join(SCRIPT_DIR, "../T20-2026-Super8-match-by-match-results.csv")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "../../active-contest/super-8.md")
 
 
 def load_results(filepath):

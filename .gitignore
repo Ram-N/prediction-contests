@@ -4,8 +4,8 @@ node_modules
 Gemfile.lock
 *.gem
 
-# Local data directory
-data/
+# PII data — never committed
+pii-data/
 
 # Claude Code local files
 .claude/
@@ -23,11 +23,8 @@ __pycache__/
 # Encrypted/binary blobs
 *.enc
 
-# Form response CSVs (private data)
+# Form response CSVs (safety net)
 active-contest/*Responses*.csv
-
-# Schedule CSVs (working data)
-active-contest/FIFA2026_schedule.csv
 
 # Large source PNGs (use .webp versions instead)
 img/soccer/bg_fifa.png

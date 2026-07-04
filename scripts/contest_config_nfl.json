@@ -1,0 +1,28 @@
+{
+  "contest_name": "NFL 2025 Playoffs",
+  "contest_slug": "nfl-2025",
+  "predictions_file": "../pii-data/NFL-2025/NFL-2025-Predictions-Clean.csv",
+  "results_file": "../pii-data/NFL-2025/NFL-2025-results.csv",
+  "leaderboard_file": "../past/nfl-2025/leaderboard.md",
+  "blog_post_dir": "../_posts/",
+  "background_images": {
+    "leaderboard": "/img/nfl/bg_nfl1.webp",
+    "predictions": "/img/nfl/2025_NFL.png",
+    "rules": "/img/nfl/bg_nfl2.jpg",
+    "blog_posts": [
+      "/img/nfl/bg_nfl.webp",
+      "/img/nfl/bg_nfl1.webp",
+      "/img/nfl/bg_nfl2.jpg"
+    ]
+  },
+  "total_games": 7,
+  "round_names": {
+    "7": "super-bowl"
+  },
+  "team_code_map": {
+    "SFO": "SF",
+    "LA": "LAR"
+  },
+  "groups_file": "../pii-data/NFL-2025/NFL-2025-groups.csv",
+  "groups_dir": "../past/nfl-2025/groups"
+}

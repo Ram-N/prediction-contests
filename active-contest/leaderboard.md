@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 4, 2026 — 03:30 PM EDT*
+*Last updated: July 4, 2026 — 04:13 PM EDT*
 
 ## Overall Leaderboard
 
@@ -165,7 +165,6 @@ Results: **MAR** beat CAN.
 | Vishal Goyal | Austin | 0 | <span style="color:red"><s>CAN</s></span> | FRA | BRA | ENG | ESP | USA | ARG | SUI |
 
 ---
-
 ## Round of 32 Leaderboard
 
 **16 of 16 matches decided.** Each correct pick = 2 points. Max possible so far: 32.

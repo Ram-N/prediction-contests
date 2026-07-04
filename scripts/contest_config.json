@@ -1,0 +1,16 @@
+{
+  "contest_name": "FIFA 2026",
+  "contest_slug": "fifa-2026",
+  "predictions_file": "../active-contest/data/predictions/FIFA-2026-Predictions-Clean.csv",
+  "results_file": "../active-contest/data/predictions/FIFA-2026-results.csv",
+  "leaderboard_file": "../active-contest/leaderboard.md",
+  "blog_post_dir": "../_posts/",
+  "background_image": "/img/bg_fifa.webp",
+  "total_games": 7,
+  "round_names": {
+    "4": "round-of-16",
+    "6": "quarterfinals",
+    "7": "final"
+  },
+  "team_code_map": {}
+}

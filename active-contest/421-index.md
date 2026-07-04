@@ -9,7 +9,7 @@ permalink: "/fifa-2026/lr-421"
 
 # FIFA World Cup 2026 — 4-2-1 Long Range
 
-*Last updated: July 4, 2026 — 03:30 PM EDT*
+*Last updated: July 4, 2026 — 04:12 PM EDT*
 
 Predict the **4 Semifinalists**, **2 Finalists**, and the **World Cup Winner** before the tournament begins.
 

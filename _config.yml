@@ -28,8 +28,10 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
-# Exclude templates and bin directories from build
+# Exclude non-site directories from build
 exclude:
   - templates/
   - bin/
-  - data/
+  - scripts/
+  - pii-data/
+  - docs/
