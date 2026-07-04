@@ -36,11 +36,11 @@ $(function () {
 
       $rows.each(function () {
         var $cells = $(this).find('td, th');
-        // Name is in the 2nd column (index 1)
-        var name = $cells.eq(1).text().toLowerCase();
-        // Also check the # column for emoji markers (WOTC/AI rows)
-        var marker = $cells.eq(0).text().trim();
-        var isSpecialRow = (marker === '\uD83C\uDF10' || marker === '\uD83E\uDD16');
+        // Name is in the 1st column (index 0)
+        var name = $cells.eq(0).text().toLowerCase();
+        // Check Location column (index 1) for emoji markers (WOTC/AI rows)
+        var marker = $cells.eq(1).text().trim();
+        var isSpecialRow = (marker.indexOf('\uD83D\uDC65') !== -1 || marker.indexOf('\uD83E\uDD16') !== -1);
 
         if (isSpecialRow || name.indexOf(query) !== -1) {
           $(this).show();
