@@ -15,8 +15,8 @@
     { num: 4, team1: 'Mexico', team2: 'England', col: 'MEX v ENG' },
     { num: 5, team1: 'Spain', team2: 'Portugal', col: 'ESP v POR' },
     { num: 6, team1: 'United States', team2: 'Belgium', col: 'USA v BEL' },
-    { num: 7, team1: 'Egypt', team2: '?', slot2: 'W(GHA v COL)', col: 'Match 7' },
-    { num: 8, team1: 'Switzerland', team2: '?', slot2: 'W(ARG v CPV)', col: 'Match 8' }
+    { num: 7, team1: 'Egypt', team2: 'Argentina', col: 'EGY v ARG' },
+    { num: 8, team1: 'Switzerland', team2: '?', slot2: 'W(GHA v COL)', col: 'Match 8' }
   ];
 
   // ISO country codes for flag-icons CSS library
