@@ -235,3 +235,11 @@ The title should mention:
 2. After which round/game milestone
 
 Keep it fun and personalized - readers should immediately know who's winning and at what stage of the contest.
+
+### Identifying New Participants
+
+The canonical contact list is at `pii-data/FIFA-2026/fifa-all.csv`. This contains all known participants across all rounds.
+
+**When a new round opens**, compare the new round's predictions (which include emails) against `fifa-all.csv` to identify genuinely new participants. Use fuzzy/substring name matching (not just exact match) since people often submit with shorter or longer versions of their name between rounds.
+
+New contacts identified this way should be added to `fifa-all.csv` so the canonical list grows over time.

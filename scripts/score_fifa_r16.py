@@ -94,6 +94,61 @@ EMAIL_ALIASES = {
 
 POINTS_PER_CORRECT = 4  # R16 correct pick is worth 4 points
 
+# Plot paths (relative to site baseurl)
+PLOT_BASE_URL = "/prediction-contests/active-contest/data/plots/r16"
+
+
+def match_header_html(label):
+    """Convert match label to a clickable link that shows the prediction split plot."""
+    filename = f"r16_{label.replace(' ', '_')}.png"
+    img_url = f"{PLOT_BASE_URL}/{filename}"
+    return f'<a href="#" class="r16-plot-link" data-plot="{img_url}">{label}</a>'
+
+
+R16_PLOT_CSS_JS = """
+<style>
+.r16-plot-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.r16-plot-overlay.active { display: flex; }
+.r16-plot-overlay img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  background: #fff;
+}
+a.r16-plot-link {
+  text-decoration: underline dotted;
+  cursor: pointer;
+  color: inherit;
+}
+</style>
+
+<div class="r16-plot-overlay" id="plotOverlay" onclick="this.classList.remove('active')">
+  <img id="plotImg" src="" alt="R16 prediction split">
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.r16-plot-link').forEach(function(a) {
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.getElementById('plotImg').src = this.dataset.plot;
+      document.getElementById('plotOverlay').classList.add('active');
+    });
+  });
+});
+</script>
+"""
+
 
 # ---------------------------------------------------------------------------
 # Canonical names
@@ -305,7 +360,8 @@ def generate_r16_table(entries, results):
 
     lines = []
     lines.append("{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }")
-    header = "| Name | Location | " + " | ".join(match_cols) + " |"
+    match_headers = [match_header_html(label) for label in match_cols]
+    header = "| Name | Location | " + " | ".join(match_headers) + " |"
     sep = "|------|----------|" + "|".join(["---"] * len(match_cols)) + "|"
     lines.append(header)
     lines.append(sep)
@@ -368,6 +424,8 @@ def generate_r16_page(entries, results, timestamp):
     lines.append("---")
     lines.append("")
     lines.append("{% include_relative predictions-r16-table.md %}")
+    lines.append("")
+    lines.append(R16_PLOT_CSS_JS)
 
     return "\n".join(lines) + "\n"
 
@@ -564,7 +622,8 @@ def build_r16_leaderboard_section(entries, results, timestamp):
     scored.sort(key=lambda x: (-x[0], x[1].lower()))
 
     lines.append("{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }")
-    lines.append("| Name | Location | Pts | " + " | ".join(match_cols) + " |")
+    match_headers = [match_header_html(label) for label in match_cols]
+    lines.append("| Name | Location | Pts | " + " | ".join(match_headers) + " |")
     lines.append("|------|----------|:---:|" + "|".join(["---"] * len(match_cols)) + "|")
 
     for points, name, location, styled_picks in scored:
@@ -573,6 +632,8 @@ def build_r16_leaderboard_section(entries, results, timestamp):
 
     lines.append("")
     lines.append("---")
+    lines.append("")
+    lines.append(R16_PLOT_CSS_JS)
 
     return "\n".join(lines)
 
