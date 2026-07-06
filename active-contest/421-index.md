@@ -9,13 +9,13 @@ permalink: "/fifa-2026/lr-421"
 
 # FIFA World Cup 2026 — 4-2-1 Long Range
 
-*Last updated: July 5, 2026 — 06:31 PM EDT*
+*Last updated: July 5, 2026 — 11:52 PM EDT*
 
 Predict the **4 Semifinalists**, **2 Finalists**, and the **World Cup Winner** before the tournament begins.
 
 **Scoring:** Correct Semifinalist = 1 pt, Correct Finalist = 2 pts, Correct Winner = 4 pts. **Max: 12 points.**
 
-**Eliminated teams:** ALG, AUS, AUT, BIH, BRA, CAN, CIV, COD, CPV, CRO, ECU, GER, GHA, JPN, NED, PAR, RSA, SEN, SWE
+**Eliminated teams:** ALG, AUS, AUT, BIH, BRA, CAN, CIV, COD, CPV, CRO, ECU, GER, GHA, JPN, MEX, NED, PAR, RSA, SEN, SWE
 
 Teams shown in <span style="color:red"><s>red strikethrough</s></span> have been eliminated from the tournament.
 
@@ -66,13 +66,13 @@ Teams shown in <span style="color:red"><s>red strikethrough</s></span> have been
 | Bharathkirishnan S R | Bangalore | <span style="color:red"><s>Brazil</s></span> | Spain | France | Argentina | <span style="color:red"><s>Brazil</s></span> | France | <span style="color:red"><s>**Brazil**</s></span> | 0 | 4/7 | 3/7 |
 | Cheen | Dubai | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | Argentina | <span style="color:red"><s>Brazil</s></span> | Argentina | **Argentina** | 0 | 4/7 | 3/7 |
 | Dodo | Boston | <span style="color:red"><s>Brazil</s></span> | Spain | Colombia | England | <span style="color:red"><s>Brazil</s></span> | Spain | <span style="color:red"><s>**Brazil**</s></span> | 0 | 4/7 | 3/7 |
-| Harsh | United States | Mexico | <span style="color:red"><s>Brazil</s></span> | Argentina | Portugal | <span style="color:red"><s>Brazil</s></span> | Argentina | <span style="color:red"><s>**Brazil**</s></span> | 0 | 4/7 | 3/7 |
 | Mukund N | Pittsburgh, PA | <span style="color:red"><s>Germany</s></span> | Spain | France | Portugal | <span style="color:red"><s>Germany</s></span> | France | <span style="color:red"><s>**Germany**</s></span> | 0 | 4/7 | 3/7 |
 | Nitin Khanna | San Jose | Argentina | France | <span style="color:red"><s>Brazil</s></span> | Portugal | France | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>**Brazil**</s></span> | 0 | 4/7 | 3/7 |
 | Rama Vudutala | Tampa | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | France | England | <span style="color:red"><s>Brazil</s></span> | England | **England** | 0 | 4/7 | 3/7 |
 | Samrudhi Acharya | USA | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | France | Argentina | <span style="color:red"><s>Brazil</s></span> | France | **France** | 0 | 4/7 | 3/7 |
 | Arvind 237 Narmada | Santa Clara | Argentina | <span style="color:red"><s>Germany</s></span> | France | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Brazil</s></span> | France | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |
 | Ashish Naik | California | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Netherlands</s></span> | France | Argentina | <span style="color:red"><s>Netherlands</s></span> | Argentina | <span style="color:red"><s>**Netherlands**</s></span> | 0 | 3/7 | 4/7 |
+| Harsh | United States | <span style="color:red"><s>Mexico</s></span> | <span style="color:red"><s>Brazil</s></span> | Argentina | Portugal | <span style="color:red"><s>Brazil</s></span> | Argentina | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |
 | KK | USA | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | England | <span style="color:red"><s>Brazil</s></span> | England | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |
 | Sackett | Pleasanton | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | Argentina | <span style="color:red"><s>Brazil</s></span> | Spain | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |
 | Sanjeev | Doral | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | Argentina | <span style="color:red"><s>Brazil</s></span> | Spain | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |

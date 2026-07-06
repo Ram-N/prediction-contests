@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 5, 2026 — 06:31 PM EDT*
+*Last updated: July 5, 2026 — 11:52 PM EDT*
 
 ## Overall Leaderboard
 
@@ -17,52 +17,52 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 |-------|---------|--------|
 | GS | [Group Stage (pick top 2 + 3rd from each group) ↓](#group-stage-leaderboard) | ✅ Completed |
 | R32 | [Round of 32 (pick winners) ↓](#round-of-32-leaderboard) | ✅ Complete |
-| R16 | [Round of 16 (pick winners) ↓](#round-of-16-leaderboard) | ✅ In progress (3/8) |
+| R16 | [Round of 16 (pick winners) ↓](#round-of-16-leaderboard) | ✅ In progress (4/8) |
 | ST-421 | Quarterfinals → Semifinals → Final (pick all in one shot) | ⏳ Coming soon |
 
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | GS | R32 | R16 | ST-421 | Total |
 |------|----------|:---:|:---:|:---:|:---:|:---:|
-| Aarush | Los Gatos | 26 | 28 | 8 | - | 62 |
+| Aarush | Los Gatos | 26 | 28 | 12 | - | 66 |
+| Alex | Seattle | 27 | 24 | 12 | - | 63 |
+| Ranga Setlur | Buffalo, NY | 21 | 30 | 12 | - | 63 |
+| Subbu | India | 25 | 26 | 12 | - | 63 |
+| Daniel | Boston | 24 | 26 | 12 | - | 62 |
 | Tees | Seattle, WA | 24 | 26 | 12 | - | 62 |
 | Keshav Venkatesh | Fremont | 21 | 28 | 12 | - | 61 |
-| Alex | Seattle | 27 | 24 | 8 | - | 59 |
+| Rahul Santhanam | UK | 25 | 24 | 12 | - | 61 |
+| bala varadarajan | Oakland | 22 | 26 | 12 | - | 60 |
+| ChatGPT (AI) | AI | 24 | 24 | 12 | - | 60 |
+| Claude (AI) | AI | 20 | 28 | 12 | - | 60 |
 | Gokul Krishnan | Los Gatos | 23 | 28 | 8 | - | 59 |
-| Ranga Setlur | Buffalo, NY | 21 | 30 | 8 | - | 59 |
-| Subbu | India | 25 | 26 | 8 | - | 59 |
-| Daniel | Boston | 24 | 26 | 8 | - | 58 |
+| Goutham Ekollu | Saratoga, CA | 20 | 26 | 12 | - | 58 |
 | S Mahesh | Tampa | 22 | 28 | 8 | - | 58 |
 | WOTC | Crowd | 22 | 28 | 8 | - | 58 |
 | Gemini (AI) | AI | 21 | 28 | 8 | - | 57 |
-| Rahul Santhanam | UK | 25 | 24 | 8 | - | 57 |
 | Shaji | Houston, TX | 21 | 28 | 8 | - | 57 |
-| bala varadarajan | Oakland | 22 | 26 | 8 | - | 56 |
-| ChatGPT (AI) | AI | 24 | 24 | 8 | - | 56 |
-| Claude (AI) | AI | 20 | 28 | 8 | - | 56 |
 | Keshav Narasimhan | San Diego | 24 | 24 | 8 | - | 56 |
 | Aravind Sivakumar | NYC | 21 | 26 | 8 | - | 55 |
-| Goutham Ekollu | Saratoga, CA | 20 | 26 | 8 | - | 54 |
+| D. Sivakumar | Cupertino, CA | 17 | 26 | 12 | - | 55 |
+| Neeraj Mendiratta | Palm Beach County, FL | 21 | 26 | 8 | - | 55 |
+| Sri Iyer | Blue Bell, PA | 23 | 20 | 12 | - | 55 |
 | Sanjeev | Doral | 18 | 28 | 8 | - | 54 |
 | Rupal | Florida | 21 | 24 | 8 | - | 53 |
+| Cheen | Dubai | 22 | 18 | 12 | - | 52 |
 | Harsh | United States | 18 | 26 | 8 | - | 52 |
 | Vivek Shenoy | Redwood City | 18 | 22 | 12 | - | 52 |
 | Alok | US | 19 | 24 | 8 | - | 51 |
-| D. Sivakumar | Cupertino, CA | 17 | 26 | 8 | - | 51 |
-| Neeraj Mendiratta | Palm Beach County, FL | 21 | 26 | 4 | - | 51 |
 | Ram N | Orlando | 17 | 26 | 8 | - | 51 |
 | Shriya Sateesh | Seattle | 13 | 26 | 12 | - | 51 |
-| Sri Iyer | Blue Bell, PA | 23 | 20 | 8 | - | 51 |
 | Mukund N. | Pittsburgh | 16 | 26 | 8 | - | 50 |
+| R. Santhanam | India | 17 | 20 | 12 | - | 49 |
 | Rajesh | Chennai | 21 | 20 | 8 | - | 49 |
 | Sackett | Pleasanton | 19 | 22 | 8 | - | 49 |
-| Cheen | Dubai | 22 | 18 | 8 | - | 48 |
 | Prasad R | Newton | 18 | 18 | 12 | - | 48 |
 | Arvind Narayanan | Santa Clara | 21 | 18 | 8 | - | 47 |
+| Bharathkirishnan S R | Bangalore | 19 | 20 | 8 | - | 47 |
 | Subbu Mahadevan | Palo Alto | 19 | 20 | 8 | - | 47 |
 | Ashish Naik | Los Altos | 18 | 20 | 8 | - | 46 |
-| R. Santhanam | India | 17 | 20 | 8 | - | 45 |
-| Bharathkirishnan S R | Bangalore | 19 | 20 | 4 | - | 43 |
-| Radhika Santhanam | Mumbai | 18 | 20 | 4 | - | 42 |
+| Radhika Santhanam | Mumbai | 18 | 20 | 8 | - | 46 |
 | Chandran Dharmarajan | India | 15 | 12 | 8 | - | 35 |
 | Chayan Chakrabarti | Oakland, CA | 22 | 6 | 4 | - | 32 |
 
@@ -82,9 +82,9 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 
 ## Round of 16 Leaderboard
 
-**3 of 8 matches decided.** Each correct pick = 4 points. Max possible so far: 12.
+**4 of 8 matches decided.** Each correct pick = 4 points. Max possible so far: 16.
 
-Results: **MAR** beat CAN, **FRA** beat PAR, **NOR** beat BRA.
+Results: **MAR** beat CAN, **FRA** beat PAR, **NOR** beat BRA, **ENG** beat MEX.
 
 **Color coding:**
 - <span style="color:green"><b>Green/Bold</b></span> = Correct pick
@@ -96,73 +96,73 @@ Results: **MAR** beat CAN, **FRA** beat PAR, **NOR** beat BRA.
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | Pts | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_CAN_v_MAR.png">CAN v MAR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_PAR_v_FRA.png">PAR v FRA</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_BRA_v_NOR.png">BRA v NOR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_MEX_v_ENG.png">MEX v ENG</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_ESP_v_POR.png">ESP v POR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_USA_v_BEL.png">USA v BEL</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_EGY_v_ARG.png">EGY v ARG</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/r16/r16_SUI_v_COL.png">SUI v COL</a> |
 |------|----------|:---:|---|---|---|---|---|---|---|---|
-| Gautam grover | Chicago | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | BEL | ARG | COL |
-| Keshav Venkatesh | Fremont | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | USA | ARG | COL |
-| Kunal Soni | Orlando | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | POR | USA | ARG | SUI |
-| MK | Miami | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | USA | ARG | COL |
-| Prasad R | Newton | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | BEL | ARG | SUI |
-| Rishi Baveja | USA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | ENG | POR | USA | ARG | COL |
-| Rupender Dahiya | United States | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | USA | ARG | SUI |
-| Shriya Sateesh | Seattle | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | USA | ARG | COL |
-| Sreenivas G | Cupertino, CA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | ENG | ESP | USA | ARG | COL |
-| Tees | Seattle, WA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | BEL | ARG | SUI |
-| Vivek Shenoy | Redwood City | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | MEX | ESP | BEL | ARG | COL |
-| Aarush | Los Gatos | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | POR | USA | ARG | SUI |
-| Ajai Singh | Tampa | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Alex | Seattle | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Alok | US | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Alok Kumar | USA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Aravind Sivakumar | NYC | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Arvind Narayanan | Santa Clara | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Ashish Naik | Los Altos | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| bala varadarajan | Oakland | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Bharath Sridharan | Dallas | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | SUI |
-| Chandran Dharmarajan | India | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | BEL | ARG | COL |
-| ChatGPT (AI) | 🤖 AI | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | BEL | ARG | COL |
-| Cheen | Dubai | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | POR | USA | ARG | COL |
-| Claude (AI) | 🤖 AI | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | BEL | ARG | COL |
-| D. Sivakumar | Cupertino, CA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | POR | BEL | ARG | COL |
-| Daniel | Boston | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | SUI |
-| GAUTAM | India | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | POR | BEL | ARG | COL |
-| Gemini (AI) | 🤖 AI | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Gokul Krishnan | Los Gatos | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Goutham Ekollu | Saratoga, CA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | BEL | ARG | COL |
-| Guru Bhat | Bangalore | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | BEL | ARG | COL |
-| Harish | India | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Harsh | United States | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | POR | USA | ARG | COL |
-| JR | USA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | BEL | ARG | COL |
-| Keshav Narasimhan | San Diego | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | SUI |
-| Manav | Miami | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Mukund N. | Pittsburgh | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | SUI |
-| Niraj Mishra | Tampa, FL | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Nishant | Boca Raton, FL | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | BEL | ARG | COL |
-| Nita Kalkar | USA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | POR | USA | ARG | COL |
-| R. Santhanam | India | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Rahul Santhanam | UK | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Rajesh | Chennai | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | BEL | ARG | COL |
-| Ram N | Orlando | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | BEL | ARG | COL |
-| Ranga Setlur | Buffalo, NY | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Rupal | Florida | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| S Mahesh | Tampa | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Sackett | Pleasanton | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Sahana | Seattle | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Sanjeev | Doral | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Sarvapriya M Tripathi | United States | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Shaji | Houston, TX | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | BEL | ARG | COL |
-| Siva Kantamneni | Largo | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Sri Iyer | Blue Bell, PA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | BEL | ARG | COL |
-| Subbu | India | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | SUI |
-| Subbu Mahadevan | Palo Alto | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Subha | Seattle | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Sury Kaja | Orlando | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | POR | USA | ARG | COL |
-| The Kasher | Los Angeles, CA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| WOTC | 👥 Crowd | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | USA | ARG | COL |
-| Bakul Kamani | USA | 4 | <span style="color:green"><b>MAR</b></span> | <span style="color:red"><s>PAR</s></span> | <span style="color:red"><s>BRA</s></span> | MEX | ESP | BEL | ARG | COL |
-| Bharathkirishnan S R | Bangalore | 4 | <span style="color:red"><s>CAN</s></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | SUI |
-| Chayan Chakrabarti | Oakland, CA | 4 | <span style="color:red"><s>CAN</s></span> | <span style="color:red"><s>PAR</s></span> | <span style="color:green"><b>NOR</b></span> | MEX | POR | USA | EGY | SUI |
-| Neeraj Mendiratta | Palm Beach County, FL | 4 | <span style="color:red"><s>CAN</s></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | POR | USA | ARG | COL |
-| Radhika Santhanam | Mumbai | 4 | <span style="color:green"><b>MAR</b></span> | <span style="color:red"><s>PAR</s></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | COL |
-| Vishal Goyal | Austin | 4 | <span style="color:red"><s>CAN</s></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | ENG | ESP | USA | ARG | SUI |
+| Rishi Baveja | USA | 16 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:green"><b>ENG</b></span> | POR | USA | ARG | COL |
+| Sreenivas G | Cupertino, CA | 16 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Aarush | Los Gatos | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | POR | USA | ARG | SUI |
+| Ajai Singh | Tampa | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Alex | Seattle | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| bala varadarajan | Oakland | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| ChatGPT (AI) | 🤖 AI | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | BEL | ARG | COL |
+| Cheen | Dubai | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | POR | USA | ARG | COL |
+| Claude (AI) | 🤖 AI | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | BEL | ARG | COL |
+| D. Sivakumar | Cupertino, CA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | POR | BEL | ARG | COL |
+| Daniel | Boston | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | SUI |
+| GAUTAM | India | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | POR | BEL | ARG | COL |
+| Gautam grover | Chicago | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Goutham Ekollu | Saratoga, CA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | BEL | ARG | COL |
+| Harish | India | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| JR | USA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | BEL | ARG | COL |
+| Keshav Venkatesh | Fremont | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Kunal Soni | Orlando | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | POR | USA | ARG | SUI |
+| MK | Miami | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Niraj Mishra | Tampa, FL | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Prasad R | Newton | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | SUI |
+| R. Santhanam | India | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Rahul Santhanam | UK | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Ranga Setlur | Buffalo, NY | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Rupender Dahiya | United States | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | SUI |
+| Shriya Sateesh | Seattle | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Sri Iyer | Blue Bell, PA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | BEL | ARG | COL |
+| Subbu | India | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | SUI |
+| Subha | Seattle | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Sury Kaja | Orlando | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | POR | USA | ARG | COL |
+| Tees | Seattle, WA | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | SUI |
+| Vivek Shenoy | Redwood City | 12 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Alok | US | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Alok Kumar | USA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Aravind Sivakumar | NYC | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Arvind Narayanan | Santa Clara | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Ashish Naik | Los Altos | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Bharath Sridharan | Dallas | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | SUI |
+| Bharathkirishnan S R | Bangalore | 8 | <span style="color:red"><s>CAN</s></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | SUI |
+| Chandran Dharmarajan | India | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Gemini (AI) | 🤖 AI | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Gokul Krishnan | Los Gatos | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Guru Bhat | Bangalore | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Harsh | United States | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | POR | USA | ARG | COL |
+| Keshav Narasimhan | San Diego | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | SUI |
+| Manav | Miami | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Mukund N. | Pittsburgh | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | SUI |
+| Neeraj Mendiratta | Palm Beach County, FL | 8 | <span style="color:red"><s>CAN</s></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | POR | USA | ARG | COL |
+| Nishant | Boca Raton, FL | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Nita Kalkar | USA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | POR | USA | ARG | COL |
+| Radhika Santhanam | Mumbai | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:red"><s>PAR</s></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | COL |
+| Rajesh | Chennai | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Ram N | Orlando | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Rupal | Florida | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| S Mahesh | Tampa | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Sackett | Pleasanton | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Sahana | Seattle | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Sanjeev | Doral | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Sarvapriya M Tripathi | United States | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Shaji | Houston, TX | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Siva Kantamneni | Largo | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Subbu Mahadevan | Palo Alto | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| The Kasher | Los Angeles, CA | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Vishal Goyal | Austin | 8 | <span style="color:red"><s>CAN</s></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:green"><b>ENG</b></span> | ESP | USA | ARG | SUI |
+| WOTC | 👥 Crowd | 8 | <span style="color:green"><b>MAR</b></span> | <span style="color:green"><b>FRA</b></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | USA | ARG | COL |
+| Bakul Kamani | USA | 4 | <span style="color:green"><b>MAR</b></span> | <span style="color:red"><s>PAR</s></span> | <span style="color:red"><s>BRA</s></span> | <span style="color:red"><s>MEX</s></span> | ESP | BEL | ARG | COL |
+| Chayan Chakrabarti | Oakland, CA | 4 | <span style="color:red"><s>CAN</s></span> | <span style="color:red"><s>PAR</s></span> | <span style="color:green"><b>NOR</b></span> | <span style="color:red"><s>MEX</s></span> | POR | USA | EGY | SUI |
 
 ---
 
