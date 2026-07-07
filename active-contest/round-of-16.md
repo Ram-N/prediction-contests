@@ -8,12 +8,12 @@ permalink: "/fifa-2026/round-of-16"
 
 ## FIFA World Cup 2026 — Round of 16 Predictions
 
-*Last updated: July 6, 2026 — 10:32 PM EDT*
+*Last updated: July 7, 2026 — 07:00 PM EDT*
 
 **67 participants** (63 humans + 3 AI models + WOTC) picked the winner of each of the 8 knockout matches. Each correct pick is worth **4 points**.
 
-**6 of 8 matches decided.** 
-**MAR** beat CAN, **FRA** beat PAR, **NOR** beat BRA, **ENG** beat MEX, **ESP** beat POR, **BEL** beat USA.
+**8 of 8 matches decided.** 
+**MAR** beat CAN, **FRA** beat PAR, **NOR** beat BRA, **ENG** beat MEX, **ESP** beat POR, **BEL** beat USA, **ARG** beat EGY, **SUI** beat COL.
 
 **Color coding:**
 - <span style="color:green"><b>Green/Bold</b></span> = Correct pick (winner guessed right)

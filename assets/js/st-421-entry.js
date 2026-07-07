@@ -12,7 +12,7 @@
     { num: 1, team1: 'France', team2: 'Morocco' },
     { num: 2, team1: 'Spain', team2: 'Belgium' },
     { num: 3, team1: 'England', team2: 'Norway' },
-    { num: 4, team1: '?', team2: '?', slot1: 'W(QF3)', slot2: 'W(QF4)' }
+    { num: 4, team1: 'Argentina', team2: 'Switzerland' }
   ];
 
   // SF bracket: SF1 = QF1 winner vs QF2 winner, SF2 = QF3 winner vs QF4 winner

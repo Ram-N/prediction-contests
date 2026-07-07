@@ -49,7 +49,7 @@ permalink: "/fifa-2026/st-421-entry"
 
 ## FIFA World Cup 2026 — Short-Term 4-2-1 Predictions
 
-The tournament is down to the **Quarterfinals**! Pick winners through the bracket to the Final.
+The tournament is down to the **Quarterfinals**! All four QF matchups are set — pick your winners through the bracket to the Final.
 
 <div class="resubmit-note">
   You can re-submit at any time — only your latest entry counts.
