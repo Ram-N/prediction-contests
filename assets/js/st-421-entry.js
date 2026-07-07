@@ -10,7 +10,7 @@
   // SF pairings: QF1 winner vs QF2 winner, QF3 winner vs QF4 winner
   var QF_MATCHES = [
     { num: 1, team1: 'France', team2: 'Morocco' },
-    { num: 2, team1: '?', team2: '?', slot1: 'W(QF1)', slot2: 'W(QF2)' },
+    { num: 2, team1: 'Spain', team2: 'Belgium' },
     { num: 3, team1: 'England', team2: 'Norway' },
     { num: 4, team1: '?', team2: '?', slot1: 'W(QF3)', slot2: 'W(QF4)' }
   ];
