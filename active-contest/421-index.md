@@ -9,13 +9,13 @@ permalink: "/fifa-2026/lr-421"
 
 # FIFA World Cup 2026 — 4-2-1 Long Range
 
-*Last updated: July 6, 2026 — 05:14 PM EDT*
+*Last updated: July 6, 2026 — 10:32 PM EDT*
 
 Predict the **4 Semifinalists**, **2 Finalists**, and the **World Cup Winner** before the tournament begins.
 
 **Scoring:** Correct Semifinalist = 1 pt, Correct Finalist = 2 pts, Correct Winner = 4 pts. **Max: 12 points.**
 
-**Eliminated teams:** ALG, AUS, AUT, BIH, BRA, CAN, CIV, COD, CPV, CRO, ECU, GER, GHA, JPN, MEX, NED, PAR, POR, RSA, SEN, SWE
+**Eliminated teams:** ALG, AUS, AUT, BIH, BRA, CAN, CIV, COD, CPV, CRO, ECU, GER, GHA, JPN, MEX, NED, PAR, POR, RSA, SEN, SWE, USA
 
 Teams shown in <span style="color:red"><s>red strikethrough</s></span> have been eliminated from the tournament.
 
@@ -75,8 +75,8 @@ Teams shown in <span style="color:red"><s>red strikethrough</s></span> have been
 | Nitin Khanna | San Jose | Argentina | France | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Portugal</s></span> | France | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |
 | Sackett | Pleasanton | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | Argentina | <span style="color:red"><s>Brazil</s></span> | Spain | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |
 | Sanjeev | Doral | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | Argentina | <span style="color:red"><s>Brazil</s></span> | Spain | <span style="color:red"><s>**Brazil**</s></span> | 0 | 3/7 | 4/7 |
-| Ashish Kumar | Davie, FL | <span style="color:red"><s>Brazil</s></span> | USA | <span style="color:red"><s>Germany</s></span> | Spain | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | <span style="color:red"><s>**Brazil**</s></span> | 0 | 2/7 | 5/7 |
 | Harsh | United States | <span style="color:red"><s>Mexico</s></span> | <span style="color:red"><s>Brazil</s></span> | Argentina | <span style="color:red"><s>Portugal</s></span> | <span style="color:red"><s>Brazil</s></span> | Argentina | <span style="color:red"><s>**Brazil**</s></span> | 0 | 2/7 | 5/7 |
+| Ashish Kumar | Davie, FL | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>USA</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | <span style="color:red"><s>**Brazil**</s></span> | 0 | 1/7 | 6/7 |
 | Neeraj Mendiratta | Palm Beach County,FL | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Spain | <span style="color:red"><s>Portugal</s></span> | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | <span style="color:red"><s>**Germany**</s></span> | 0 | 1/7 | 6/7 |
 | Vivek | Tandoor Loin | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Germany</s></span> | Argentina | <span style="color:red"><s>Portugal</s></span> | <span style="color:red"><s>Brazil</s></span> | <span style="color:red"><s>Portugal</s></span> | <span style="color:red"><s>**Brazil**</s></span> | 0 | 1/7 | 6/7 |
 
