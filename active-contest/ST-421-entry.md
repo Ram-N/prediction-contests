@@ -314,7 +314,7 @@ The tournament is down to the **Quarterfinals**! Click a team to pick the winner
 ---
 
 <div id="summary-section">
-  <h3>Your Bracket</h3>
+  <h3>Your Predictions</h3>
   <table class="table" id="summary-table">
     <thead><tr><th>Stage</th><th>Your Picks</th></tr></thead>
     <tbody id="summary-body"></tbody>
