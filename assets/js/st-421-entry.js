@@ -54,31 +54,31 @@
     // ── Bracket Half 1: QF1 + QF2 → SF1 ──
     html += '<div class="bracket-half" id="bracket-half-1">';
     html += '<div class="bracket-half-header">Semifinal 1 Bracket</div>';
-    html += '<div class="bracket-tap-hint">\u261D Tap a team to pick the QF winner</div>';
+    html += '<div class="bracket-tap-hint">Tap one to pick the QF winner</div>';
     html += '<div class="bracket-half-grid">';
     html += matchSlotHtml('qf1', 'QF1 \u00B7 4 pts', QF_MATCHES[0]);
     html += matchSlotHtml('qf2', 'QF2 \u00B7 4 pts', QF_MATCHES[1]);
     html += '<div class="bracket-half-arrows">\u25BC \u25BC</div>';
-    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">\u261D Winners appear here \u2014 tap to pick the semifinalist</div>';
+    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">Tap one to pick the semifinalist</div>';
     html += matchSlotHtml('sf1', 'SF1 \u00B7 4 pts', null);
     html += '</div></div>';
 
     // ── Bracket Half 2: QF3 + QF4 → SF2 ──
     html += '<div class="bracket-half" id="bracket-half-2">';
     html += '<div class="bracket-half-header">Semifinal 2 Bracket</div>';
-    html += '<div class="bracket-tap-hint">\u261D Tap a team to pick the QF winner</div>';
+    html += '<div class="bracket-tap-hint">Tap one to pick the QF winner</div>';
     html += '<div class="bracket-half-grid">';
     html += matchSlotHtml('qf3', 'QF3 \u00B7 4 pts', QF_MATCHES[2]);
     html += matchSlotHtml('qf4', 'QF4 \u00B7 4 pts', QF_MATCHES[3]);
     html += '<div class="bracket-half-arrows">\u25BC \u25BC</div>';
-    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">\u261D Winners appear here \u2014 tap to pick the semifinalist</div>';
+    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">Tap one to pick the semifinalist</div>';
     html += matchSlotHtml('sf2', 'SF2 \u00B7 4 pts', null);
     html += '</div></div>';
 
     // ── Final ──
     html += '<div class="bracket-finals">';
     html += '<div class="bracket-half-header">Final</div>';
-    html += '<div class="bracket-tap-hint">\u261D SF winners appear here \u2014 tap to pick the champion</div>';
+    html += '<div class="bracket-tap-hint">Tap one to pick the champion</div>';
     html += matchSlotHtml('final', 'Final \u00B7 8 pts', null);
     html += '<div id="champion-display"><span class="champion-prompt">\uD83C\uDFC6 Pick the World Cup Winner</span></div>';
     html += '</div>';

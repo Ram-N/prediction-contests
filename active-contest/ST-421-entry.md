@@ -305,7 +305,7 @@ The tournament is down to the **Quarterfinals**! Click a team to pick the winner
 ### Pick Your Bracket
 
 <p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 0.5rem;">Click a team to pick the winner. Click again to change your mind. <a href="#" id="clear-selections" style="color: #dc3545; font-size: 0.85rem; margin-left: 0.5rem;">Clear all selections</a></p>
-<p class="tap-hint" style="display:none; background: #e8f4fd; border: 1px solid #b8daff; border-radius: 6px; padding: 0.6rem 0.9rem; color: #004085; font-size: 0.9rem; margin-bottom: 0.75rem;">👆 <strong>Tap a team name</strong> to select the winner of each match. Your picks flow through the bracket automatically.</p>
+<p class="tap-hint" style="display:none; background: #e8f4fd; border: 1px solid #b8daff; border-radius: 6px; padding: 0.6rem 0.9rem; color: #004085; font-size: 0.9rem; margin-bottom: 0.75rem;"><strong>Tap a team</strong> to pick the winner — your picks flow through the bracket automatically.</p>
 
 <div id="bracket">
   <!-- Built by st-421-entry.js -->
