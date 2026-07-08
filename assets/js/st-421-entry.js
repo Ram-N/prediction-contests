@@ -59,7 +59,7 @@
     html += matchSlotHtml('qf1', 'QF1 \u00B7 4 pts', QF_MATCHES[0]);
     html += matchSlotHtml('qf2', 'QF2 \u00B7 4 pts', QF_MATCHES[1]);
     html += '<div class="bracket-half-arrows">\u25BC \u25BC</div>';
-    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">Tap one to pick the semifinalist</div>';
+    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">Tap one to pick the finalist</div>';
     html += matchSlotHtml('sf1', 'SF1 \u00B7 4 pts', null);
     html += '</div></div>';
 
@@ -71,7 +71,7 @@
     html += matchSlotHtml('qf3', 'QF3 \u00B7 4 pts', QF_MATCHES[2]);
     html += matchSlotHtml('qf4', 'QF4 \u00B7 4 pts', QF_MATCHES[3]);
     html += '<div class="bracket-half-arrows">\u25BC \u25BC</div>';
-    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">Tap one to pick the semifinalist</div>';
+    html += '<div class="bracket-tap-hint" style="grid-column:1/-1">Tap one to pick the finalist</div>';
     html += matchSlotHtml('sf2', 'SF2 \u00B7 4 pts', null);
     html += '</div></div>';
 
