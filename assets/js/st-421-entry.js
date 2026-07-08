@@ -54,7 +54,7 @@
     // ── Bracket Half 1: QF1 + QF2 → SF1 ──
     html += '<div class="bracket-half" id="bracket-half-1">';
     html += '<div class="bracket-half-header">Semifinal 1 Bracket</div>';
-    html += '<div class="bracket-tap-hint">Tap one to pick the QF winner</div>';
+    html += '<div class="bracket-tap-hint">Tap one from each QF to select winner</div>';
     html += '<div class="bracket-half-grid">';
     html += matchSlotHtml('qf1', 'QF1 \u00B7 4 pts', QF_MATCHES[0]);
     html += matchSlotHtml('qf2', 'QF2 \u00B7 4 pts', QF_MATCHES[1]);
@@ -66,7 +66,7 @@
     // ── Bracket Half 2: QF3 + QF4 → SF2 ──
     html += '<div class="bracket-half" id="bracket-half-2">';
     html += '<div class="bracket-half-header">Semifinal 2 Bracket</div>';
-    html += '<div class="bracket-tap-hint">Tap one to pick the QF winner</div>';
+    html += '<div class="bracket-tap-hint">Tap one from each QF to select winner</div>';
     html += '<div class="bracket-half-grid">';
     html += matchSlotHtml('qf3', 'QF3 \u00B7 4 pts', QF_MATCHES[2]);
     html += matchSlotHtml('qf4', 'QF4 \u00B7 4 pts', QF_MATCHES[3]);
