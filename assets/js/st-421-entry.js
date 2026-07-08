@@ -519,6 +519,7 @@
     btn.classList.remove('btn-secondary');
     btn.classList.add('btn-success');
     btn.disabled = false;
+    document.getElementById('validation-panel').style.display = '';
   }
 
   // ---- Submission ----
@@ -559,6 +560,7 @@
     btn.setAttribute('data-submitted', 'true');
     btn.classList.remove('btn-success');
     btn.classList.add('btn-secondary');
+    document.getElementById('validation-panel').style.display = 'none';
 
     fetch(APPS_SCRIPT_URL, {
       method: 'POST',
