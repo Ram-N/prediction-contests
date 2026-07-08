@@ -3,7 +3,7 @@
 (function () {
   'use strict';
 
-  var APPS_SCRIPT_URL = 'PASTE_YOUR_ST421_APPS_SCRIPT_URL_HERE';
+  var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz0ooX4IA2NoKJlqNTuohNb_L9U4dVSYQuean-2JLCbxDtHOEL1bn2gl6IHpxmPKJI/exec';
   var STORAGE_KEY = 'fifa2026_st421_entry';
 
   var QF_MATCHES = [
@@ -132,6 +132,7 @@
       pick(slot, team);
     }
 
+    handlePostSubmitChange();
     validateAll();
     saveState();
   }
@@ -509,6 +510,22 @@
     } catch (e) { /* ignore corrupt data */ }
   }
 
+  // ---- Post-Submit Change Detection ----
+
+  function handlePostSubmitChange() {
+    var btn = document.getElementById('submit-btn');
+    if (btn.getAttribute('data-submitted') !== 'true') return;
+
+    if (!confirm('Do you wish to re-submit your updated entries?')) return;
+
+    // Re-activate the submit button
+    btn.removeAttribute('data-submitted');
+    btn.textContent = 'Submit Predictions';
+    btn.classList.remove('btn-secondary');
+    btn.classList.add('btn-success');
+    btn.disabled = false;
+  }
+
   // ---- Submission ----
 
   function submitForm() {
@@ -575,9 +592,23 @@
     document.getElementById('bracket').addEventListener('click', onBracketClick);
 
     // Name/email/location listeners
-    document.getElementById('entry-name').addEventListener('input', function () { validateAll(); saveState(); });
-    document.getElementById('entry-email').addEventListener('input', function () { validateAll(); saveState(); });
-    document.getElementById('entry-location').addEventListener('input', function () { validateAll(); saveState(); });
+    document.getElementById('entry-name').addEventListener('input', function () { handlePostSubmitChange(); validateAll(); saveState(); });
+    document.getElementById('entry-email').addEventListener('input', function () { handlePostSubmitChange(); validateAll(); saveState(); });
+    document.getElementById('entry-location').addEventListener('input', function () { handlePostSubmitChange(); validateAll(); saveState(); });
+
+    // Clear selections
+    document.getElementById('clear-selections').addEventListener('click', function (e) {
+      e.preventDefault();
+      if (!confirm('Clear all bracket selections and start fresh?')) return;
+      // Reset all QF picks (clears downstream via unpick)
+      QF_MATCHES.forEach(function (m) {
+        var team = getQFPick(m.num);
+        if (team) unpick('qf' + m.num, team);
+      });
+      handlePostSubmitChange();
+      validateAll();
+      saveState();
+    });
 
     // Submit button
     document.getElementById('submit-btn').addEventListener('click', submitForm);

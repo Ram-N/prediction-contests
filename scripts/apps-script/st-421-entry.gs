@@ -4,7 +4,7 @@
  * Deployed as: Web App (Execute as me, Anyone can access)
  *
  * Sheet columns (in order):
- *   Timestamp | Name | Email | Location | QF1 | QF2 | QF3 | QF4 | SF1 | SF2 | Winner
+ *   Timestamp | Name | Email | Location | FRA v MAR | ESP v BEL | ENG v NOR | ARG v SUI | SF1 | SF2 | Winner
  */
 
 var SHEET_NAME = 'ST-421 Entries';
@@ -18,7 +18,7 @@ function doPost(e) {
   if (!sheet) {
     sheet = ss.insertSheet(SHEET_NAME);
     var headers = ['Timestamp', 'Name', 'Email', 'Location',
-                   'QF1', 'QF2', 'QF3', 'QF4',
+                   'FRA v MAR', 'ESP v BEL', 'ENG v NOR', 'ARG v SUI',
                    'SF1', 'SF2', 'Winner'];
     sheet.appendRow(headers);
   }

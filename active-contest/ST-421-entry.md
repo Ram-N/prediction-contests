@@ -87,7 +87,7 @@ permalink: "/fifa-2026/st-421-entry"
 
   .bracket-slot.waiting {
     border-style: dashed;
-    border-color: #ccc;
+    border-color: #dc3545;
   }
 
   /* Champion box — always visible as a call-to-action */
@@ -258,7 +258,7 @@ The tournament is down to the **Quarterfinals**! Click a team to pick the winner
 
 ### Pick Your Bracket
 
-<p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 0.5rem;">Click a team to pick the winner. Click again to change your mind.</p>
+<p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 0.5rem;">Click a team to pick the winner. Click again to change your mind. <a href="#" id="clear-selections" style="color: #dc3545; font-size: 0.85rem; margin-left: 0.5rem;">Clear all selections</a></p>
 
 <div id="bracket">
   <!-- Built by st-421-entry.js -->
