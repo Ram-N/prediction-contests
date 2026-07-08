@@ -178,6 +178,12 @@ permalink: "/fifa-2026/st-421-entry"
     .bracket-slot::after {
       display: none !important;
     }
+    /* Reset desktop grid placement so mobile grid works */
+    .bracket-slot[data-slot] {
+      grid-column: auto !important;
+      grid-row: auto !important;
+      align-self: auto !important;
+    }
 
     .bracket-half {
       margin-bottom: 1.25rem;
@@ -220,8 +226,13 @@ permalink: "/fifa-2026/st-421-entry"
     }
 
     /* Tap hint styling */
-    .tap-hint {
+    .tap-hint, .bracket-tap-hint {
       display: block !important;
+    }
+
+    /* Show more of the banner on mobile */
+    header.masthead .page-heading {
+      padding: 60px 0 40px;
     }
   }
 
@@ -251,6 +262,16 @@ permalink: "/fifa-2026/st-421-entry"
   #submission-result { margin-top: 1rem; }
 
   .resubmit-note { background: #e8f4fd; border: 1px solid #b8daff; border-radius: 6px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; color: #004085; font-size: 0.95rem; }
+
+  /* Per-level tap hints (mobile only) */
+  .bracket-tap-hint {
+    display: none;
+    color: #6c757d;
+    font-size: 0.82rem;
+    font-style: italic;
+    margin: 0.25rem 0 0.4rem;
+    padding: 0;
+  }
 </style>
 
 ## FIFA World Cup 2026 — Short-Term 4-2-1 Predictions
