@@ -51,42 +51,32 @@
     var container = document.getElementById('bracket');
     var html = '';
 
-    // Mobile header: Left bracket
-    html += '<div class="mobile-header">Left Bracket</div>';
-
-    // QF1
+    // ── Bracket Half 1: QF1 + QF2 → SF1 ──
+    html += '<div class="bracket-half" id="bracket-half-1">';
+    html += '<div class="bracket-half-header">Semifinal 1 Bracket</div>';
+    html += '<div class="bracket-half-grid">';
     html += matchSlotHtml('qf1', 'QF1 \u00B7 4 pts', QF_MATCHES[0]);
-    html += '<div class="mobile-arrow">\u25BC</div>';
-
-    // QF2
     html += matchSlotHtml('qf2', 'QF2 \u00B7 4 pts', QF_MATCHES[1]);
-    html += '<div class="mobile-arrow">\u25BC</div>';
-
-    // SF1 (TBD initially)
+    html += '<div class="bracket-half-arrows">\u25BC \u25BC</div>';
     html += matchSlotHtml('sf1', 'SF1 \u00B7 4 pts', null);
+    html += '</div></div>';
 
-    // Mobile header: Right bracket
-    html += '<div class="mobile-header">Right Bracket</div>';
-
-    // QF3
+    // ── Bracket Half 2: QF3 + QF4 → SF2 ──
+    html += '<div class="bracket-half" id="bracket-half-2">';
+    html += '<div class="bracket-half-header">Semifinal 2 Bracket</div>';
+    html += '<div class="bracket-half-grid">';
     html += matchSlotHtml('qf3', 'QF3 \u00B7 4 pts', QF_MATCHES[2]);
-    html += '<div class="mobile-arrow">\u25BC</div>';
-
-    // QF4
     html += matchSlotHtml('qf4', 'QF4 \u00B7 4 pts', QF_MATCHES[3]);
-    html += '<div class="mobile-arrow">\u25BC</div>';
-
-    // SF2 (TBD initially)
+    html += '<div class="bracket-half-arrows">\u25BC \u25BC</div>';
     html += matchSlotHtml('sf2', 'SF2 \u00B7 4 pts', null);
+    html += '</div></div>';
 
-    // Mobile header: Final
-    html += '<div class="mobile-header">Final</div>';
-
-    // Final (TBD initially)
+    // ── Final ──
+    html += '<div class="bracket-finals">';
+    html += '<div class="bracket-half-header">Final</div>';
     html += matchSlotHtml('final', 'Final \u00B7 8 pts', null);
-
-    // Champion display — always visible as a prompt
     html += '<div id="champion-display"><span class="champion-prompt">\uD83C\uDFC6 Pick the World Cup Winner</span></div>';
+    html += '</div>';
 
     container.innerHTML = html;
   }

@@ -166,46 +166,71 @@ permalink: "/fifa-2026/st-421-entry"
     background: #adb5bd;
   }
 
-  /* ── Mobile: Vertical Stack ── */
+  /* ── Mobile: Bracket-half grid layout ── */
   @media (max-width: 767px) {
     #bracket {
       display: flex;
       flex-direction: column;
       gap: 0;
     }
-    .mobile-header {
-      display: block !important;
-      font-weight: 700;
-      font-size: 1rem;
-      margin: 1.25rem 0 0.5rem;
-      padding-bottom: 0.25rem;
-      border-bottom: 2px solid #dee2e6;
-      color: #343a40;
-    }
-    .mobile-header:first-of-type { margin-top: 0; }
-    .bracket-slot {
-      margin-bottom: 0.5rem;
-    }
     /* Hide connector lines on mobile */
     .bracket-slot::before,
     .bracket-slot::after {
       display: none !important;
     }
-    .mobile-arrow {
+
+    .bracket-half {
+      margin-bottom: 1.25rem;
+    }
+    .bracket-half-header {
       display: block !important;
-      text-align: center;
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid #dee2e6;
+      color: #343a40;
+    }
+    .bracket-half-grid {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+    }
+    .bracket-half-arrows {
+      display: flex !important;
+      grid-column: 1 / -1;
+      justify-content: space-around;
       color: #adb5bd;
       font-size: 1.3rem;
-      margin: 0.25rem 0;
+      padding: 0.15rem 0;
+      letter-spacing: 0.5em;
+    }
+    /* SF slot spans full width under the two QFs */
+    .bracket-half-grid .bracket-slot[data-slot="sf1"],
+    .bracket-half-grid .bracket-slot[data-slot="sf2"] {
+      grid-column: 1 / -1;
+    }
+
+    .bracket-finals .bracket-half-header {
+      display: block !important;
+      margin-top: 0.25rem;
     }
     #champion-display {
       margin-top: 0.5rem;
     }
+
+    /* Tap hint styling */
+    .tap-hint {
+      display: block !important;
+    }
   }
 
-  /* Hide mobile elements on desktop */
+  /* Hide mobile-only elements on desktop */
   @media (min-width: 768px) {
-    .mobile-header, .mobile-arrow { display: none !important; }
+    .bracket-half-header, .bracket-half-arrows { display: none !important; }
+    .bracket-half, .bracket-finals { display: contents; }
+    .bracket-half-grid { display: contents; }
+    .tap-hint { display: none !important; }
   }
 
   /* ── Validation, Summary, Form (unchanged) ── */
@@ -259,6 +284,7 @@ The tournament is down to the **Quarterfinals**! Click a team to pick the winner
 ### Pick Your Bracket
 
 <p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 0.5rem;">Click a team to pick the winner. Click again to change your mind. <a href="#" id="clear-selections" style="color: #dc3545; font-size: 0.85rem; margin-left: 0.5rem;">Clear all selections</a></p>
+<p class="tap-hint" style="display:none; background: #e8f4fd; border: 1px solid #b8daff; border-radius: 6px; padding: 0.6rem 0.9rem; color: #004085; font-size: 0.9rem; margin-bottom: 0.75rem;">👆 <strong>Tap a team name</strong> to select the winner of each match. Your picks flow through the bracket automatically.</p>
 
 <div id="bracket">
   <!-- Built by st-421-entry.js -->
