@@ -5,7 +5,9 @@
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
 <script src="{{"/assets/js/table-search.js" | relative_url }}"></script>
 
-{% if page.url contains '421-entry' %}
+{% if page.url contains 'st-421-entry' %}
+  {%- comment -%} ST-421 script loaded inline in the page {%- endcomment -%}
+{% elsif page.url contains '421-entry' %}
   <script src="{{"/assets/js/lr-421-entry.js" | relative_url }}"></script>
 {% elsif page.url contains 'entry' %}
   <script src="{{"/assets/js/entry-form.js" | relative_url }}"></script>

@@ -1,4 +1,4 @@
-// FIFA 2026 — Short-Term 4-2-1 Entry Form Logic
+// FIFA 2026 — Short-Term 4-2-1 Entry Form Logic (Bracket UI)
 
 (function () {
   'use strict';
@@ -6,8 +6,6 @@
   var APPS_SCRIPT_URL = 'PASTE_YOUR_ST421_APPS_SCRIPT_URL_HERE';
   var STORAGE_KEY = 'fifa2026_st421_entry';
 
-  // Quarterfinal matches — update team names as they become known
-  // SF pairings: QF1 winner vs QF2 winner, QF3 winner vs QF4 winner
   var QF_MATCHES = [
     { num: 1, team1: 'France', team2: 'Morocco' },
     { num: 2, team1: 'Spain', team2: 'Belgium' },
@@ -15,7 +13,6 @@
     { num: 4, team1: 'Argentina', team2: 'Switzerland' }
   ];
 
-  // SF bracket: SF1 = QF1 winner vs QF2 winner, SF2 = QF3 winner vs QF4 winner
   var SF_PAIRINGS = [
     { num: 1, qfA: 1, qfB: 2 },
     { num: 2, qfA: 3, qfB: 4 }
@@ -29,6 +26,8 @@
     'Germany': 'de', 'Netherlands': 'nl', 'Japan': 'jp', 'Croatia': 'hr',
     'Uruguay': 'uy', 'Senegal': 'sn', 'South Africa': 'za', 'Ecuador': 'ec'
   };
+
+  // ---- Utilities (unchanged) ----
 
   function flagHtml(team) {
     var code = COUNTRY_CODES[team];
@@ -46,280 +45,312 @@
     return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
-  function isKnown(team) {
-    return team && team !== '?';
+  // ---- Build Bracket ----
+
+  function buildBracket() {
+    var container = document.getElementById('bracket');
+    var html = '';
+
+    // Mobile header: Left bracket
+    html += '<div class="mobile-header">Left Bracket</div>';
+
+    // QF1
+    html += matchSlotHtml('qf1', 'QF1 \u00B7 4 pts', QF_MATCHES[0]);
+    html += '<div class="mobile-arrow">\u25BC</div>';
+
+    // QF2
+    html += matchSlotHtml('qf2', 'QF2 \u00B7 4 pts', QF_MATCHES[1]);
+    html += '<div class="mobile-arrow">\u25BC</div>';
+
+    // SF1 (TBD initially)
+    html += matchSlotHtml('sf1', 'SF1 \u00B7 4 pts', null);
+
+    // Mobile header: Right bracket
+    html += '<div class="mobile-header">Right Bracket</div>';
+
+    // QF3
+    html += matchSlotHtml('qf3', 'QF3 \u00B7 4 pts', QF_MATCHES[2]);
+    html += '<div class="mobile-arrow">\u25BC</div>';
+
+    // QF4
+    html += matchSlotHtml('qf4', 'QF4 \u00B7 4 pts', QF_MATCHES[3]);
+    html += '<div class="mobile-arrow">\u25BC</div>';
+
+    // SF2 (TBD initially)
+    html += matchSlotHtml('sf2', 'SF2 \u00B7 4 pts', null);
+
+    // Mobile header: Final
+    html += '<div class="mobile-header">Final</div>';
+
+    // Final (TBD initially)
+    html += matchSlotHtml('final', 'Final \u00B7 8 pts', null);
+
+    // Champion display — always visible as a prompt
+    html += '<div id="champion-display"><span class="champion-prompt">\uD83C\uDFC6 Pick the World Cup Winner</span></div>';
+
+    container.innerHTML = html;
   }
 
-  function displayName(team, slot) {
-    return (team && team !== '?') ? team : (slot || 'TBD');
-  }
+  function matchSlotHtml(slot, label, match) {
+    var waiting = match ? '' : ' waiting';
+    var html = '<div class="bracket-slot' + waiting + '" data-slot="' + slot + '">';
+    html += '<div class="slot-header">' + escapeHtml(label) + '</div>';
 
-  function displayNameWithFlag(team, slot) {
-    if (team && team !== '?') {
-      return flagHtml(team) + escapeHtml(team);
+    if (match) {
+      html += teamDivHtml(slot, match.team1);
+      html += teamDivHtml(slot, match.team2);
+    } else {
+      html += '<div class="bracket-team tbd" data-slot="' + slot + '">TBD</div>';
+      html += '<div class="bracket-team tbd" data-slot="' + slot + '">TBD</div>';
     }
-    return escapeHtml(slot || 'TBD');
+
+    html += '</div>';
+    return html;
   }
 
-  // ---- Build QF Match Cards ----
+  function teamDivHtml(slot, team) {
+    return '<div class="bracket-team" data-slot="' + slot + '" data-team="' + escapeAttr(team) + '">' +
+      flagHtml(team) + escapeHtml(team) +
+    '</div>';
+  }
 
-  function buildQFCards() {
-    var container = document.getElementById('qf-matches');
-    QF_MATCHES.forEach(function (m) {
-      var col = document.createElement('div');
-      col.className = 'col-md-6';
+  // ---- Click Handler (single delegation) ----
 
-      var t1 = displayName(m.team1, m.slot1);
-      var t2 = displayName(m.team2, m.slot2);
-      var bothKnown = isKnown(m.team1) && isKnown(m.team2);
-      var disabledAttr = bothKnown ? '' : ' disabled';
-      var cardClass = bothKnown ? 'match-card' : 'match-card disabled-match';
+  function onBracketClick(e) {
+    var el = e.target.closest('.bracket-team');
+    if (!el) return;
+    if (el.classList.contains('tbd')) return;
 
-      var safe1 = t1.replace(/[^a-zA-Z0-9]/g, '_');
-      var safe2 = t2.replace(/[^a-zA-Z0-9]/g, '_');
-      var id1 = 'qf' + m.num + '-' + safe1;
-      var id2 = 'qf' + m.num + '-' + safe2;
-      var radioName = 'qf-' + m.num;
+    var slot = el.getAttribute('data-slot');
+    var team = el.getAttribute('data-team');
 
-      var badgeText = bothKnown ? 'Pick' : 'TBD';
-      var badgeClass = bothKnown ? 'badge badge-secondary' : 'badge badge-warning';
+    if (el.classList.contains('picked')) {
+      // Toggle off — unpick and clear downstream
+      unpick(slot, team);
+    } else {
+      // Pick this team
+      pick(slot, team);
+    }
 
-      var dataTeam1 = isKnown(m.team1) ? m.team1 : t1;
-      var dataTeam2 = isKnown(m.team2) ? m.team2 : t2;
+    validateAll();
+    saveState();
+  }
 
-      // Bracket hint
-      var hint = '';
-      if (m.num === 1 || m.num === 2) {
-        hint = '<div class="bracket-hint">SF1 bracket</div>';
+  function pick(slot, team) {
+    var slotEl = document.querySelector('.bracket-slot[data-slot="' + slot + '"]');
+    var teams = slotEl.querySelectorAll('.bracket-team:not(.tbd)');
+
+    teams.forEach(function (t) {
+      if (t.getAttribute('data-team') === team) {
+        t.classList.add('picked');
+        t.classList.remove('eliminated');
       } else {
-        hint = '<div class="bracket-hint">SF2 bracket</div>';
+        t.classList.add('eliminated');
+        t.classList.remove('picked');
       }
-
-      col.innerHTML =
-        '<div class="' + cardClass + '" id="qf-card-' + m.num + '">' +
-          '<h5>QF' + m.num + ': ' + escapeHtml(t1) + ' vs ' + escapeHtml(t2) +
-            ' <span class="' + badgeClass + '" id="qf-badge-' + m.num + '">' + badgeText + '</span></h5>' +
-          hint +
-          '<div class="match-pick">' +
-            '<input type="radio" name="' + radioName + '" data-match="' + m.num + '" data-team="' + escapeAttr(dataTeam1) + '" id="' + id1 + '"' + disabledAttr + '> ' +
-            '<label for="' + id1 + '">' + displayNameWithFlag(m.team1, m.slot1) + '</label>' +
-          '</div>' +
-          '<div class="match-pick">' +
-            '<input type="radio" name="' + radioName + '" data-match="' + m.num + '" data-team="' + escapeAttr(dataTeam2) + '" id="' + id2 + '"' + disabledAttr + '> ' +
-            '<label for="' + id2 + '">' + displayNameWithFlag(m.team2, m.slot2) + '</label>' +
-          '</div>' +
-        '</div>';
-
-      container.appendChild(col);
     });
+
+    cascadePick(slot, team);
   }
 
-  // ---- QF State ----
+  function unpick(slot, team) {
+    var slotEl = document.querySelector('.bracket-slot[data-slot="' + slot + '"]');
+    var teams = slotEl.querySelectorAll('.bracket-team:not(.tbd)');
+
+    teams.forEach(function (t) {
+      t.classList.remove('picked', 'eliminated');
+    });
+
+    clearDownstream(slot);
+  }
+
+  // ---- Cascade / Clear ----
+
+  function cascadePick(slot, winner) {
+    if (slot === 'qf1' || slot === 'qf2') {
+      populateSFSlot('sf1', winner, slot);
+    } else if (slot === 'qf3' || slot === 'qf4') {
+      populateSFSlot('sf2', winner, slot);
+    } else if (slot === 'sf1' || slot === 'sf2') {
+      populateFinalSlot(winner, slot);
+    } else if (slot === 'final') {
+      updateChampion(winner);
+    }
+  }
+
+  function clearDownstream(slot) {
+    if (slot === 'qf1' || slot === 'qf2') {
+      clearSFSlot('sf1', slot);
+    } else if (slot === 'qf3' || slot === 'qf4') {
+      clearSFSlot('sf2', slot);
+    } else if (slot === 'sf1' || slot === 'sf2') {
+      clearFinalSlot(slot);
+    } else if (slot === 'final') {
+      updateChampion(null);
+    }
+  }
+
+  function populateSFSlot(sfSlot, winner, fromQF) {
+    var slotEl = document.querySelector('.bracket-slot[data-slot="' + sfSlot + '"]');
+    var teamDivs = slotEl.querySelectorAll('.bracket-team');
+
+    // Which position does this QF feed? qf1/qf3 = position 0, qf2/qf4 = position 1
+    var pos = (fromQF === 'qf1' || fromQF === 'qf3') ? 0 : 1;
+    var otherPos = pos === 0 ? 1 : 0;
+    var div = teamDivs[pos];
+
+    // If the team in this position was previously picked, clear downstream before replacing
+    if (div.classList.contains('picked')) {
+      clearDownstream(sfSlot);
+    }
+
+    // Check if existing team is different — if so, clear any pick state on the slot
+    var existingTeam = div.getAttribute('data-team');
+    if (existingTeam !== winner) {
+      // Clear pick state on both teams in this SF
+      teamDivs.forEach(function (t) {
+        t.classList.remove('picked', 'eliminated');
+      });
+      clearDownstream(sfSlot);
+    }
+
+    // Set the team
+    div.className = 'bracket-team';
+    div.setAttribute('data-team', winner);
+    div.innerHTML = flagHtml(winner) + escapeHtml(winner);
+
+    // Check if the slot is now fully populated
+    var otherDiv = teamDivs[otherPos];
+    if (otherDiv.classList.contains('tbd')) {
+      slotEl.classList.add('waiting');
+    } else {
+      slotEl.classList.remove('waiting');
+    }
+  }
+
+  function clearSFSlot(sfSlot, fromQF) {
+    var slotEl = document.querySelector('.bracket-slot[data-slot="' + sfSlot + '"]');
+    var teamDivs = slotEl.querySelectorAll('.bracket-team');
+    var pos = (fromQF === 'qf1' || fromQF === 'qf3') ? 0 : 1;
+    var div = teamDivs[pos];
+
+    // Any pick in this SF match is now invalid — clear downstream
+    var hadPick = false;
+    teamDivs.forEach(function (t) {
+      if (t.classList.contains('picked')) hadPick = true;
+    });
+    if (hadPick) {
+      clearDownstream(sfSlot);
+    }
+
+    // Clear pick/eliminated state on both
+    teamDivs.forEach(function (t) {
+      t.classList.remove('picked', 'eliminated');
+    });
+
+    // Reset to TBD
+    div.className = 'bracket-team tbd';
+    div.removeAttribute('data-team');
+    div.innerHTML = 'TBD';
+    slotEl.classList.add('waiting');
+  }
+
+  function populateFinalSlot(winner, fromSF) {
+    var slotEl = document.querySelector('.bracket-slot[data-slot="final"]');
+    var teamDivs = slotEl.querySelectorAll('.bracket-team');
+    var pos = (fromSF === 'sf1') ? 0 : 1;
+    var otherPos = pos === 0 ? 1 : 0;
+    var div = teamDivs[pos];
+
+    if (div.classList.contains('picked')) {
+      updateChampion(null);
+    }
+
+    var existingTeam = div.getAttribute('data-team');
+    if (existingTeam !== winner) {
+      teamDivs.forEach(function (t) {
+        t.classList.remove('picked', 'eliminated');
+      });
+      updateChampion(null);
+    }
+
+    div.className = 'bracket-team';
+    div.setAttribute('data-team', winner);
+    div.innerHTML = flagHtml(winner) + escapeHtml(winner);
+
+    var otherDiv = teamDivs[otherPos];
+    if (otherDiv.classList.contains('tbd')) {
+      slotEl.classList.add('waiting');
+    } else {
+      slotEl.classList.remove('waiting');
+    }
+  }
+
+  function clearFinalSlot(fromSF) {
+    var slotEl = document.querySelector('.bracket-slot[data-slot="final"]');
+    var teamDivs = slotEl.querySelectorAll('.bracket-team');
+    var pos = (fromSF === 'sf1') ? 0 : 1;
+    var div = teamDivs[pos];
+
+    // Any pick in the Final is now invalid — clear champion
+    var hadPick = false;
+    teamDivs.forEach(function (t) {
+      if (t.classList.contains('picked')) hadPick = true;
+    });
+    if (hadPick) {
+      updateChampion(null);
+    }
+
+    teamDivs.forEach(function (t) {
+      t.classList.remove('picked', 'eliminated');
+    });
+
+    div.className = 'bracket-team tbd';
+    div.removeAttribute('data-team');
+    div.innerHTML = 'TBD';
+    slotEl.classList.add('waiting');
+  }
+
+  function updateChampion(team) {
+    var el = document.getElementById('champion-display');
+    if (team) {
+      el.innerHTML = '<span class="trophy">\uD83C\uDFC6</span> ' + flagHtml(team) + '<strong>' + escapeHtml(team) + '</strong>';
+      el.classList.add('has-winner');
+    } else {
+      el.innerHTML = '<span class="champion-prompt">\uD83C\uDFC6 Pick the World Cup Winner</span>';
+      el.classList.remove('has-winner');
+    }
+  }
+
+  // ---- State Readers ----
 
   function getQFPick(matchNum) {
-    var radio = document.querySelector('input[name="qf-' + matchNum + '"]:checked');
-    return radio ? radio.getAttribute('data-team') : null;
+    var slot = 'qf' + matchNum;
+    var picked = document.querySelector('.bracket-slot[data-slot="' + slot + '"] .bracket-team.picked');
+    return picked ? picked.getAttribute('data-team') : null;
+  }
+
+  function getSFPick(matchNum) {
+    var slot = 'sf' + matchNum;
+    var picked = document.querySelector('.bracket-slot[data-slot="' + slot + '"] .bracket-team.picked');
+    return picked ? picked.getAttribute('data-team') : null;
+  }
+
+  function getWinnerPick() {
+    var picked = document.querySelector('.bracket-slot[data-slot="final"] .bracket-team.picked');
+    return picked ? picked.getAttribute('data-team') : null;
   }
 
   function countPickableQFs() {
-    return QF_MATCHES.filter(function (m) { return isKnown(m.team1) && isKnown(m.team2); }).length;
+    return QF_MATCHES.length;
   }
 
   function countPickedQFs() {
     var count = 0;
     QF_MATCHES.forEach(function (m) {
-      if (isKnown(m.team1) && isKnown(m.team2) && getQFPick(m.num)) count++;
+      if (getQFPick(m.num)) count++;
     });
     return count;
-  }
-
-  function allPickableQFsDone() {
-    return countPickedQFs() === countPickableQFs();
-  }
-
-  function onQFChange(matchNum) {
-    var card = document.getElementById('qf-card-' + matchNum);
-    var badge = document.getElementById('qf-badge-' + matchNum);
-    badge.textContent = 'Done';
-    badge.className = 'badge badge-success';
-    card.classList.add('complete');
-
-    rebuildSF();
-    validateAll();
-    saveState();
-  }
-
-  // ---- SF Section ----
-
-  function rebuildSF() {
-    var section = document.getElementById('sf-section');
-    var container = document.getElementById('sf-matches');
-
-    if (!allPickableQFsDone()) {
-      section.classList.remove('visible');
-      // Also hide final
-      document.getElementById('final-section').classList.remove('visible');
-      return;
-    }
-
-    // Preserve existing SF picks
-    var existingSF = {};
-    SF_PAIRINGS.forEach(function (sf) {
-      var pick = getSFPick(sf.num);
-      if (pick) existingSF[sf.num] = pick;
-    });
-
-    container.innerHTML = '';
-    section.classList.add('visible');
-
-    SF_PAIRINGS.forEach(function (sf) {
-      var teamA = getQFPick(sf.qfA);
-      var teamB = getQFPick(sf.qfB);
-
-      if (!teamA || !teamB) return; // shouldn't happen if allPickableQFsDone
-
-      var col = document.createElement('div');
-      col.className = 'col-md-6';
-
-      var safeA = teamA.replace(/[^a-zA-Z0-9]/g, '_');
-      var safeB = teamB.replace(/[^a-zA-Z0-9]/g, '_');
-      var idA = 'sf' + sf.num + '-' + safeA;
-      var idB = 'sf' + sf.num + '-' + safeB;
-      var radioName = 'sf-' + sf.num;
-
-      var wasCheckedA = existingSF[sf.num] === teamA;
-      var wasCheckedB = existingSF[sf.num] === teamB;
-
-      col.innerHTML =
-        '<div class="match-card" id="sf-card-' + sf.num + '">' +
-          '<h5>SF' + sf.num + ': ' + escapeHtml(teamA) + ' vs ' + escapeHtml(teamB) +
-            ' <span class="badge badge-secondary" id="sf-badge-' + sf.num + '">Pick</span></h5>' +
-          '<div class="match-pick">' +
-            '<input type="radio" name="' + radioName + '" data-match="' + sf.num + '" data-team="' + escapeAttr(teamA) + '" id="' + idA + '"' + (wasCheckedA ? ' checked' : '') + '> ' +
-            '<label for="' + idA + '">' + flagHtml(teamA) + escapeHtml(teamA) + '</label>' +
-          '</div>' +
-          '<div class="match-pick">' +
-            '<input type="radio" name="' + radioName + '" data-match="' + sf.num + '" data-team="' + escapeAttr(teamB) + '" id="' + idB + '"' + (wasCheckedB ? ' checked' : '') + '> ' +
-            '<label for="' + idB + '">' + flagHtml(teamB) + escapeHtml(teamB) + '</label>' +
-          '</div>' +
-        '</div>';
-
-      container.appendChild(col);
-
-      // Update badge if already picked
-      if (wasCheckedA || wasCheckedB) {
-        var badge = document.getElementById('sf-badge-' + sf.num);
-        var card = document.getElementById('sf-card-' + sf.num);
-        badge.textContent = 'Done';
-        badge.className = 'badge badge-success';
-        card.classList.add('complete');
-      }
-    });
-
-    // Attach SF listeners
-    container.querySelectorAll('input[type="radio"]').forEach(function (rb) {
-      rb.addEventListener('change', function () {
-        onSFChange(this.getAttribute('data-match'));
-      });
-    });
-
-    rebuildFinal();
-  }
-
-  function getSFPick(matchNum) {
-    var radio = document.querySelector('input[name="sf-' + matchNum + '"]:checked');
-    return radio ? radio.getAttribute('data-team') : null;
-  }
-
-  function allSFsDone() {
-    return SF_PAIRINGS.every(function (sf) { return !!getSFPick(sf.num); });
-  }
-
-  function onSFChange(matchNum) {
-    var card = document.getElementById('sf-card-' + matchNum);
-    var badge = document.getElementById('sf-badge-' + matchNum);
-    badge.textContent = 'Done';
-    badge.className = 'badge badge-success';
-    card.classList.add('complete');
-
-    rebuildFinal();
-    validateAll();
-    saveState();
-  }
-
-  // ---- Final Section ----
-
-  function rebuildFinal() {
-    var section = document.getElementById('final-section');
-    var container = document.getElementById('final-match');
-
-    if (!allSFsDone()) {
-      section.classList.remove('visible');
-      return;
-    }
-
-    var teamA = getSFPick(1);
-    var teamB = getSFPick(2);
-
-    // Preserve existing winner pick
-    var existingWinner = getWinnerPick();
-
-    container.innerHTML = '';
-    section.classList.add('visible');
-
-    var col = document.createElement('div');
-    col.className = 'col-md-6';
-
-    var safeA = teamA.replace(/[^a-zA-Z0-9]/g, '_');
-    var safeB = teamB.replace(/[^a-zA-Z0-9]/g, '_');
-    var idA = 'final-' + safeA;
-    var idB = 'final-' + safeB;
-
-    var wasCheckedA = existingWinner === teamA;
-    var wasCheckedB = existingWinner === teamB;
-
-    col.innerHTML =
-      '<div class="match-card" id="final-card">' +
-        '<h5>Final: ' + escapeHtml(teamA) + ' vs ' + escapeHtml(teamB) +
-          ' <span class="badge badge-secondary" id="final-badge">Pick</span></h5>' +
-        '<div class="match-pick">' +
-          '<input type="radio" name="winner" data-team="' + escapeAttr(teamA) + '" id="' + idA + '"' + (wasCheckedA ? ' checked' : '') + '> ' +
-          '<label for="' + idA + '">' + flagHtml(teamA) + escapeHtml(teamA) + '</label>' +
-        '</div>' +
-        '<div class="match-pick">' +
-          '<input type="radio" name="winner" data-team="' + escapeAttr(teamB) + '" id="' + idB + '"' + (wasCheckedB ? ' checked' : '') + '> ' +
-          '<label for="' + idB + '">' + flagHtml(teamB) + escapeHtml(teamB) + '</label>' +
-        '</div>' +
-      '</div>';
-
-    container.appendChild(col);
-
-    // Update badge if already picked
-    if (wasCheckedA || wasCheckedB) {
-      var badge = document.getElementById('final-badge');
-      var card = document.getElementById('final-card');
-      badge.textContent = 'Done';
-      badge.className = 'badge badge-success';
-      card.classList.add('complete');
-    }
-
-    // Attach final listeners
-    container.querySelectorAll('input[type="radio"]').forEach(function (rb) {
-      rb.addEventListener('change', function () {
-        var badge = document.getElementById('final-badge');
-        var card = document.getElementById('final-card');
-        badge.textContent = 'Done';
-        badge.className = 'badge badge-success';
-        card.classList.add('complete');
-        validateAll();
-        saveState();
-      });
-    });
-  }
-
-  function getWinnerPick() {
-    var radio = document.querySelector('input[name="winner"]:checked');
-    return radio ? radio.getAttribute('data-team') : null;
   }
 
   // ---- Validation ----
@@ -342,16 +373,14 @@
       issues.push('Pick ' + remaining + ' more QF winner' + (remaining !== 1 ? 's' : '') + ' (' + picked + '/' + pickable + ')');
     }
 
-    if (allPickableQFsDone()) {
-      var sfCount = 0;
-      SF_PAIRINGS.forEach(function (sf) { if (getSFPick(sf.num)) sfCount++; });
-      if (sfCount < 2) {
-        issues.push('Pick ' + (2 - sfCount) + ' more SF winner' + ((2 - sfCount) !== 1 ? 's' : '') + ' (' + sfCount + '/2)');
-      }
+    var sfCount = 0;
+    SF_PAIRINGS.forEach(function (sf) { if (getSFPick(sf.num)) sfCount++; });
+    if (sfCount < 2) {
+      issues.push('Pick ' + (2 - sfCount) + ' more SF winner' + ((2 - sfCount) !== 1 ? 's' : '') + ' (' + sfCount + '/2)');
+    }
 
-      if (allSFsDone() && !getWinnerPick()) {
-        issues.push('Pick the World Cup champion');
-      }
+    if (!getWinnerPick()) {
+      issues.push('Pick the World Cup champion');
     }
 
     var panel = document.getElementById('validation-panel');
@@ -362,7 +391,7 @@
     if (issues.length === 0) {
       panel.classList.add('valid');
       heading.textContent = 'Ready';
-      list.innerHTML = '<li>All good — ready to submit!</li>';
+      list.innerHTML = '<li>All good \u2014 ready to submit!</li>';
       btn.disabled = false;
     } else {
       panel.classList.remove('valid');
@@ -453,62 +482,29 @@
       if (state.email) document.getElementById('entry-email').value = state.email;
       if (state.location) document.getElementById('entry-location').value = state.location;
 
-      // Restore QF picks
+      // Restore QF picks — all DOM exists so no timeouts needed
       if (state.qf) {
         state.qf.forEach(function (team, i) {
           if (team) {
-            var matchNum = i + 1;
-            var radio = document.querySelector('input[name="qf-' + matchNum + '"][data-team="' + team + '"]');
-            if (radio && !radio.disabled) {
-              radio.checked = true;
-              var card = document.getElementById('qf-card-' + matchNum);
-              var badge = document.getElementById('qf-badge-' + matchNum);
-              if (badge) { badge.textContent = 'Done'; badge.className = 'badge badge-success'; }
-              if (card) card.classList.add('complete');
-            }
+            var slot = 'qf' + (i + 1);
+            pick(slot, team);
           }
         });
       }
 
-      // Rebuild SF from QF picks
-      rebuildSF();
-
       // Restore SF picks
-      if (state.sf && state.sf.length > 0) {
-        setTimeout(function () {
-          state.sf.forEach(function (team, i) {
-            if (team) {
-              var sfNum = i + 1;
-              var radio = document.querySelector('input[name="sf-' + sfNum + '"][data-team="' + team + '"]');
-              if (radio) {
-                radio.checked = true;
-                var card = document.getElementById('sf-card-' + sfNum);
-                var badge = document.getElementById('sf-badge-' + sfNum);
-                if (badge) { badge.textContent = 'Done'; badge.className = 'badge badge-success'; }
-                if (card) card.classList.add('complete');
-              }
-            }
-          });
-
-          rebuildFinal();
-
-          // Restore winner
-          if (state.winner) {
-            setTimeout(function () {
-              var radio = document.querySelector('input[name="winner"][data-team="' + state.winner + '"]');
-              if (radio) {
-                radio.checked = true;
-                var badge = document.getElementById('final-badge');
-                var card = document.getElementById('final-card');
-                if (badge) { badge.textContent = 'Done'; badge.className = 'badge badge-success'; }
-                if (card) card.classList.add('complete');
-              }
-              validateAll();
-            }, 50);
-          } else {
-            validateAll();
+      if (state.sf) {
+        state.sf.forEach(function (team, i) {
+          if (team) {
+            var slot = 'sf' + (i + 1);
+            pick(slot, team);
           }
-        }, 50);
+        });
+      }
+
+      // Restore winner
+      if (state.winner) {
+        pick('final', state.winner);
       }
     } catch (e) { /* ignore corrupt data */ }
   }
@@ -544,7 +540,6 @@
       return;
     }
 
-    // Show immediate confirmation
     var now = new Date();
     var timestamp = now.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) +
       ' at ' + now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
@@ -574,14 +569,10 @@
   // ---- Init ----
 
   function init() {
-    buildQFCards();
+    buildBracket();
 
-    // QF radio listeners
-    document.querySelectorAll('#qf-matches input[type="radio"]').forEach(function (rb) {
-      rb.addEventListener('change', function () {
-        onQFChange(parseInt(this.getAttribute('data-match'), 10));
-      });
-    });
+    // Single click handler for entire bracket
+    document.getElementById('bracket').addEventListener('click', onBracketClick);
 
     // Name/email/location listeners
     document.getElementById('entry-name').addEventListener('input', function () { validateAll(); saveState(); });

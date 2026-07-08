@@ -9,23 +9,206 @@ permalink: "/fifa-2026/st-421-entry"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/7.5.0/css/flag-icons.min.css">
 
 <style>
-  .match-card { border: 2px solid #dee2e6; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; transition: border-color 0.2s; }
-  .match-card.complete { border-color: #28a745; }
-  .match-card.needs-pick { border-color: #dc3545; }
-  .match-card h5 { margin-bottom: 0.75rem; display: flex; justify-content: space-between; align-items: center; }
-  .match-pick { padding: 0.35rem 0; font-size: 1.05rem; }
-  .match-pick label { cursor: pointer; margin-left: 0.4rem; }
-  .match-pick input[type="radio"] { transform: scale(1.25); cursor: pointer; }
+  /* ── Bracket Grid ── */
+  #bracket {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0.5rem 0.75rem;
+    margin: 1.5rem 0;
+    position: relative;
+  }
 
-  .disabled-match { opacity: 0.5; border-style: dashed; }
-  .disabled-match label { cursor: default; color: #999; }
+  /* Grid placement */
+  .bracket-slot[data-slot="qf1"] { grid-column: 1; grid-row: 1; }
+  .bracket-slot[data-slot="qf2"] { grid-column: 1; grid-row: 2; }
+  .bracket-slot[data-slot="sf1"] { grid-column: 2; grid-row: 1 / 3; align-self: center; }
+  .bracket-slot[data-slot="final"] { grid-column: 3; grid-row: 1 / 3; align-self: center; }
+  .bracket-slot[data-slot="sf2"] { grid-column: 4; grid-row: 1 / 3; align-self: center; }
+  .bracket-slot[data-slot="qf3"] { grid-column: 5; grid-row: 1; }
+  .bracket-slot[data-slot="qf4"] { grid-column: 5; grid-row: 2; }
+  #champion-display { grid-column: 3; grid-row: 3; text-align: center; }
 
-  .reveal-section { display: none; margin-top: 2rem; padding: 1.5rem; border-radius: 8px; }
-  .reveal-section.visible { display: block; }
+  /* ── Match Slot Styling ── */
+  .bracket-slot {
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    min-width: 0;
+  }
+  .bracket-slot .slot-header {
+    background: #343a40;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.25rem 0.6rem;
+    letter-spacing: 0.05em;
+  }
 
-  #sf-section { background: #f8f9ff; border: 2px solid #007bff; }
-  #final-section { background: #fff9e6; border: 2px solid #ffc107; }
+  .bracket-team {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: background 0.15s, opacity 0.15s;
+    user-select: none;
+    font-size: 0.95rem;
+  }
+  .bracket-team:last-child { border-bottom: none; }
+  .bracket-team:hover { background: #f0f7ff; }
+  .bracket-team .fi { margin-right: 0.4em; }
 
+  /* Picked (winner) */
+  .bracket-team.picked {
+    background: #d4edda;
+    font-weight: 700;
+    color: #155724;
+  }
+  .bracket-team.picked:hover { background: #c3e6cb; }
+
+  /* Eliminated (loser) */
+  .bracket-team.eliminated {
+    opacity: 0.45;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+
+  /* TBD / waiting */
+  .bracket-team.tbd {
+    color: #999;
+    font-style: italic;
+    cursor: default;
+    border-bottom-style: dashed;
+  }
+  .bracket-team.tbd:hover { background: transparent; }
+
+  .bracket-slot.waiting {
+    border-style: dashed;
+    border-color: #ccc;
+  }
+
+  /* Champion box — always visible as a call-to-action */
+  #champion-display {
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 0.75rem;
+    min-height: 3rem;
+    border: 2px dashed #adb5bd;
+    border-radius: 8px;
+    text-align: center;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #champion-display .champion-prompt {
+    color: #999;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.95rem;
+  }
+  #champion-display.has-winner {
+    border-color: #28a745;
+    border-style: solid;
+    background: #d4edda;
+    color: #155724;
+    font-size: 1.3rem;
+  }
+  #champion-display .trophy { font-size: 1.5rem; }
+
+  /* ── Connector Lines (desktop) ── */
+  .bracket-slot {
+    position: relative;
+  }
+
+  /* Right-side connectors: QF1/QF2 → SF1 */
+  .bracket-slot[data-slot="qf1"]::after,
+  .bracket-slot[data-slot="qf2"]::after {
+    content: '';
+    position: absolute;
+    right: -0.75rem;
+    top: 50%;
+    width: 0.75rem;
+    height: 2px;
+    background: #adb5bd;
+  }
+  .bracket-slot[data-slot="sf1"]::after {
+    content: '';
+    position: absolute;
+    right: -0.75rem;
+    top: 50%;
+    width: 0.75rem;
+    height: 2px;
+    background: #adb5bd;
+  }
+
+  /* Left-side connectors: QF3/QF4 → SF2 */
+  .bracket-slot[data-slot="qf3"]::before,
+  .bracket-slot[data-slot="qf4"]::before {
+    content: '';
+    position: absolute;
+    left: -0.75rem;
+    top: 50%;
+    width: 0.75rem;
+    height: 2px;
+    background: #adb5bd;
+  }
+  .bracket-slot[data-slot="sf2"]::before {
+    content: '';
+    position: absolute;
+    left: -0.75rem;
+    top: 50%;
+    width: 0.75rem;
+    height: 2px;
+    background: #adb5bd;
+  }
+
+  /* ── Mobile: Vertical Stack ── */
+  @media (max-width: 767px) {
+    #bracket {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .mobile-header {
+      display: block !important;
+      font-weight: 700;
+      font-size: 1rem;
+      margin: 1.25rem 0 0.5rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid #dee2e6;
+      color: #343a40;
+    }
+    .mobile-header:first-of-type { margin-top: 0; }
+    .bracket-slot {
+      margin-bottom: 0.5rem;
+    }
+    /* Hide connector lines on mobile */
+    .bracket-slot::before,
+    .bracket-slot::after {
+      display: none !important;
+    }
+    .mobile-arrow {
+      display: block !important;
+      text-align: center;
+      color: #adb5bd;
+      font-size: 1.3rem;
+      margin: 0.25rem 0;
+    }
+    #champion-display {
+      margin-top: 0.5rem;
+    }
+  }
+
+  /* Hide mobile elements on desktop */
+  @media (min-width: 768px) {
+    .mobile-header, .mobile-arrow { display: none !important; }
+  }
+
+  /* ── Validation, Summary, Form (unchanged) ── */
   #validation-panel { margin-top: 1.5rem; padding: 1rem; border-radius: 8px; background: #fde8e8; border: 2px solid #dc3545; color: #721c24; }
   #validation-panel.valid { background: #d4edda; border-color: #28a745; color: #155724; }
   #validation-panel ul { margin-bottom: 0; padding-left: 1.2rem; }
@@ -43,13 +226,11 @@ permalink: "/fifa-2026/st-421-entry"
   #submission-result { margin-top: 1rem; }
 
   .resubmit-note { background: #e8f4fd; border: 1px solid #b8daff; border-radius: 6px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; color: #004085; font-size: 0.95rem; }
-
-  .bracket-hint { font-size: 0.85rem; color: #6c757d; margin-top: 0.25rem; }
 </style>
 
 ## FIFA World Cup 2026 — Short-Term 4-2-1 Predictions
 
-The tournament is down to the **Quarterfinals**! All four QF matchups are set — pick your winners through the bracket to the Final.
+The tournament is down to the **Quarterfinals**! Click a team to pick the winner — your picks flow through the bracket to the Final.
 
 <div class="resubmit-note">
   You can re-submit at any time — only your latest entry counts.
@@ -75,24 +256,12 @@ The tournament is down to the **Quarterfinals**! All four QF matchups are set �
 
 ---
 
-### Step 1: Pick 4 Quarterfinal Winners (4 points each)
+### Pick Your Bracket
 
-<div class="row" id="qf-matches">
-  <!-- Match cards generated by st-421-entry.js -->
-</div>
+<p style="color: #6c757d; font-size: 0.9rem; margin-bottom: 0.5rem;">Click a team to pick the winner. Click again to change your mind.</p>
 
----
-
-<div id="sf-section" class="reveal-section">
-  <h3>Step 2: Pick the Semifinal Winners (4 points each)</h3>
-  <p>Your QF winners are paired by bracket. Pick who advances to the <strong>Final</strong>.</p>
-  <div class="row" id="sf-matches"></div>
-</div>
-
-<div id="final-section" class="reveal-section">
-  <h3>Step 3: Pick the World Cup Winner (8 points for correct pick)</h3>
-  <p>Who lifts the trophy?</p>
-  <div class="row" id="final-match"></div>
+<div id="bracket">
+  <!-- Built by st-421-entry.js -->
 </div>
 
 ---
