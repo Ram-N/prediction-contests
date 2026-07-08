@@ -104,7 +104,7 @@
   }
 
   function teamDivHtml(slot, team) {
-    return '<div class="bracket-team" data-slot="' + slot + '" data-team="' + escapeAttr(team) + '">' +
+    return '<div class="bracket-team" data-slot="' + slot + '" data-team="' + escapeAttr(team) + '" style="white-space:nowrap">' +
       flagHtml(team) + escapeHtml(team) +
     '</div>';
   }
@@ -428,15 +428,15 @@
     var rows = '';
 
     if (qfPicks.length > 0) {
-      var qfHtml = qfPicks.map(function (t) { return flagHtml(t) + escapeHtml(t); }).join(', ');
+      var qfHtml = qfPicks.map(function (t) { return '<span style="white-space:nowrap">' + flagHtml(t) + escapeHtml(t) + '</span>'; }).join(', ');
       rows += '<tr><td><strong>Semifinalists</strong> (QF winners)</td><td>' + qfHtml + '</td></tr>';
     }
     if (sfPicks.length > 0) {
-      var sfHtml = sfPicks.map(function (t) { return flagHtml(t) + escapeHtml(t); }).join(', ');
+      var sfHtml = sfPicks.map(function (t) { return '<span style="white-space:nowrap">' + flagHtml(t) + escapeHtml(t) + '</span>'; }).join(', ');
       rows += '<tr><td><strong>Finalists</strong> (SF winners)</td><td>' + sfHtml + '</td></tr>';
     }
     if (winner) {
-      rows += '<tr><td><strong>Champion</strong></td><td class="pick-highlight">' + flagHtml(winner) + escapeHtml(winner) + '</td></tr>';
+      rows += '<tr><td><strong>Champion</strong></td><td class="pick-highlight"><span style="white-space:nowrap">' + flagHtml(winner) + escapeHtml(winner) + '</span></td></tr>';
     }
 
     body.innerHTML = rows;
