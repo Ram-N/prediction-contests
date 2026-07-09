@@ -212,19 +212,32 @@ def score_participant(row, results):
 # ---------------------------------------------------------------------------
 
 
-def style_team(team_name, eliminated_teams):
-    """Apply red strikethrough if team is eliminated, otherwise plain text."""
+def style_team(team_name, eliminated_teams, semifinalists=None, finalists=None):
+    """Style a semifinalist/finalist pick cell.
+
+    - Eliminated → red strikethrough
+    - Confirmed semifinalist → green bold
+    - Otherwise → plain text
+    """
+    if semifinalists is None:
+        semifinalists = set()
+    if finalists is None:
+        finalists = set()
     abbrev = team_to_abbrev(team_name)
     if abbrev in eliminated_teams:
         return f'<span style="color:red"><s>{team_name}</s></span>'
+    if abbrev in semifinalists:
+        return f'<span style="color:green"><b>{team_name}</b></span>'
     return team_name
 
 
-def style_winner(team_name, eliminated_teams):
-    """Style the winner column (bold + strikethrough if eliminated)."""
+def style_winner(team_name, eliminated_teams, winner=None):
+    """Style the winner column (bold always, green if correct, red/strikethrough if eliminated)."""
     abbrev = team_to_abbrev(team_name)
     if abbrev in eliminated_teams:
         return f'<span style="color:red"><s>**{team_name}**</s></span>'
+    if winner and abbrev == winner:
+        return f'<span style="color:green"><b>{team_name}</b></span>'
     return f"**{team_name}**"
 
 
@@ -285,7 +298,7 @@ def generate_421_page(predictions, results, timestamp):
         elim_list = ", ".join(sorted(eliminated))
         lines.append(f"**Eliminated teams:** {elim_list}")
         lines.append("")
-        lines.append('Teams shown in <span style="color:red"><s>red strikethrough</s></span> have been eliminated from the tournament.')
+        lines.append('Teams shown in <span style="color:red"><s>red strikethrough</s></span> have been eliminated. <span style="color:green"><b>Green bold</b></span> = confirmed semifinalist (points awarded).')
         lines.append("")
 
     lines.append("---")
@@ -306,16 +319,20 @@ def generate_421_page(predictions, results, timestamp):
     lines.append("| Name | Location | Semi 1 | Semi 2 | Semi 3 | Semi 4 | Finalist 1 | Finalist 2 | Winner | Pts | Alive | Eliminated |")
     lines.append("|------|----------|--------|--------|--------|--------|------------|------------|--------|:---:|:---:|:---:|")
 
+    semifinalists = get_semifinalists(results)
+    finalists = get_finalists(results)
+    winner_team = get_winner(results)
+
     for pts, elim_count, row in scored:
         name = row["Name"]
         loc = row["Location"]
-        semi1 = style_team(row["Semi_1"], eliminated)
-        semi2 = style_team(row["Semi_2"], eliminated)
-        semi3 = style_team(row["Semi_3"], eliminated)
-        semi4 = style_team(row["Semi_4"], eliminated)
-        fin1 = style_team(row["Finalist_1"], eliminated)
-        fin2 = style_team(row["Finalist_2"], eliminated)
-        winner = style_winner(row["Winner"], eliminated)
+        semi1 = style_team(row["Semi_1"], eliminated, semifinalists)
+        semi2 = style_team(row["Semi_2"], eliminated, semifinalists)
+        semi3 = style_team(row["Semi_3"], eliminated, semifinalists)
+        semi4 = style_team(row["Semi_4"], eliminated, semifinalists)
+        fin1 = style_team(row["Finalist_1"], eliminated, semifinalists, finalists)
+        fin2 = style_team(row["Finalist_2"], eliminated, semifinalists, finalists)
+        winner = style_winner(row["Winner"], eliminated, winner_team)
         alive_count = 7 - elim_count
         alive_str = f"{alive_count}/7"
         elim_str = f"{elim_count}/7" if elim_count > 0 else "-"
