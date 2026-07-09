@@ -44,6 +44,7 @@ PREDICTIONS_CSV = os.path.join(
 )
 RESULTS_CSV = os.path.join(PROJECT_ROOT, "active-contest", "results", "421-results.csv")
 ST421_TABLE_MD = os.path.join(PROJECT_ROOT, "active-contest", "predictions-st421-table.md")
+ST421_PAGE_MD = os.path.join(PROJECT_ROOT, "active-contest", "st-421.md")
 LEADERBOARD_MD = os.path.join(PROJECT_ROOT, "active-contest", "leaderboard.md")
 CANONICAL_LOCATIONS_CSV = os.path.join(
     PROJECT_ROOT, "active-contest", "data", "canonical-locations.csv"
@@ -579,6 +580,84 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None):
 
 
 # ---------------------------------------------------------------------------
+# Generate standalone st-421.md page
+# ---------------------------------------------------------------------------
+
+
+def generate_st421_page(entries, results, scores, timestamp):
+    """Generate the full st-421.md standalone page."""
+    num_qf = count_qf_decided(results)
+    human_count = sum(1 for e in entries if e["Name"] not in AI_NAMES)
+    ai_count = len(entries) - human_count
+
+    lines = []
+    lines.append("---")
+    lines.append("layout: page")
+    lines.append('title: "ST-421 Leaderboard"')
+    lines.append('description: "FIFA World Cup 2026 — Quarterfinals to Final predictions and scores"')
+    lines.append("background: '/img/soccer/421-banner.png'")
+    lines.append('permalink: "/fifa-2026/st-421"')
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append("# FIFA World Cup 2026 — ST-421")
+    lines.append("")
+    lines.append(f"*Last updated: {timestamp}*")
+    lines.append("")
+    lines.append(f"**{len(entries)} participants** ({human_count} humans + {ai_count} AI) picked the winners of each quarterfinal, then 2 finalists and the overall winner.")
+    lines.append("")
+    lines.append("**Scoring:** Correct QF pick = 4 pts · Correct Finalist = 4 pts · Correct Winner = 8 pts · **Max: 32 pts**")
+    lines.append("")
+
+    if num_qf > 0:
+        qf_results = []
+        for col, t1, t2 in QF_MATCHES:
+            winner = get_qf_winner(col, t1, t2, results)
+            if winner:
+                loser = t2 if winner == t1 else t1
+                qf_results.append(f"**{winner}** beat {loser}")
+        lines.append(f"**{num_qf} of 4 QF matches decided:** " + ", ".join(qf_results) + ".")
+        lines.append("")
+
+    lines.append("**Color coding:**")
+    lines.append('- <span style="color:green"><b>Green/Bold</b></span> = Correct pick')
+    lines.append('- <span style="color:red"><s>Red/Strikethrough</s></span> = Wrong pick / eliminated')
+    lines.append("- Plain text = Result pending")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+
+    # Sorted leaderboard table
+    scored = sorted(
+        ((scores.get(e["Name"].strip(), 0), e["Name"].strip(), e) for e in entries),
+        key=lambda x: (-x[0], x[1].lower())
+    )
+
+    qf_link_headers = [QF_PLOT_LINKS[col] for col, _, _ in QF_MATCHES]
+    col_headers = ["Name", "Location", "Pts"] + qf_link_headers + ["Finalist 1", "Finalist 2", "Winner"]
+    lines.append("{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }")
+    lines.append("| " + " | ".join(col_headers) + " |")
+    lines.append("|------|----------|:---:|" + "|".join(["---"] * (len(QF_MATCHES) + 3)) + "|")
+
+    for pts, name, entry in scored:
+        location = entry["Location"].strip()
+        qf_cells = [style_qf_pick(entry[col].strip(), col, t1, t2, results) for col, t1, t2 in QF_MATCHES]
+        sf_cells = [style_finalist_pick(entry[c].strip(), results) for c in FINALIST_COLS]
+        win_cell = style_winner_pick(entry[WINNER_COL].strip(), results)
+        all_cells = qf_cells + sf_cells + [win_cell]
+        lines.append(f"| {name} | {location} | {pts} | " + " | ".join(all_cells) + " |")
+
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append("[Back to Contest Home](/prediction-contests/fifa-2026/) | [Leaderboard](/prediction-contests/fifa-2026/leaderboard) | [All Predictions](/prediction-contests/fifa-2026/predictions)")
+    lines.append("")
+    lines.append(ST421_PLOT_CSS_JS)
+
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -620,6 +699,12 @@ def main():
     table = generate_st421_table(entries, results)
     with open(ST421_TABLE_MD, "w") as f:
         f.write(table)
+    print("  Done")
+
+    print(f"Writing {ST421_PAGE_MD}...")
+    page_content = generate_st421_page(entries, results, scores, timestamp)
+    with open(ST421_PAGE_MD, "w") as f:
+        f.write(page_content)
     print("  Done")
 
     print(f"Updating {LEADERBOARD_MD}...")
