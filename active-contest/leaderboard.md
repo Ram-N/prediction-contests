@@ -26,8 +26,8 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | Tees | Seattle, WA | 24 | 26 | 28 | 4 | 82 |
 | Subbu | India | 25 | 26 | 24 | 4 | 79 |
 | Daniel | Boston | 24 | 26 | 24 | 4 | 78 |
-| ChatGPT (AI) | AI | 24 | 24 | 24 | 4 | 76 |
-| Claude (AI) | AI | 20 | 28 | 24 | 4 | 76 |
+| ChatGPT (AI) | 🤖 AI | 24 | 24 | 24 | 4 | 76 |
+| Claude (AI) | 🤖 AI | 20 | 28 | 24 | 4 | 76 |
 | Alex | Seattle | 27 | 24 | 20 | 4 | 75 |
 | Ranga Setlur | Buffalo, NY | 21 | 30 | 20 | 4 | 75 |
 | Goutham Ekollu | Saratoga, CA | 20 | 26 | 24 | 4 | 74 |
@@ -38,7 +38,7 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | Gokul Krishnan | Los Gatos | 23 | 28 | 16 | 4 | 71 |
 | Sri Iyer | Blue Bell, PA | 23 | 20 | 24 | 4 | 71 |
 | S Mahesh | Tampa | 22 | 28 | 16 | 4 | 70 |
-| Gemini (AI) | AI | 21 | 28 | 16 | 4 | 69 |
+| Gemini (AI) | 🤖 AI | 21 | 28 | 16 | 4 | 69 |
 | Shaji | Houston, TX | 21 | 28 | 20 | 0 | 69 |
 | Prasad R | Newton | 18 | 18 | 28 | 4 | 68 |
 | Vivek Shenoy | Redwood City | 18 | 22 | 24 | 4 | 68 |
