@@ -6,6 +6,18 @@ background: '/img/soccer/bg_fifa.webp'
 permalink: "/fifa-2026/predictions"
 ---
 
+# Semi-Final 4-2-1 (ST-421) Predictions
+
+All submitted predictions for the **ST-421** contest. Participants picked the winner of each of the 4 quarterfinal matches, then 2 finalists and the overall winner.
+
+**Total Entries:** 62 participants (59 humans + 3 AI models)
+
+---
+
+{% include_relative predictions-st421-table.md %}
+
+---
+
 # Round of 16 Predictions
 
 All submitted predictions for the **Round of 16** knockout stage. Participants picked the winner of each of the 8 matches. Each correct pick is worth **4 points**.

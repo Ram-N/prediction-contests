@@ -14,6 +14,12 @@ The knockout rounds are underway! We have **three contests** running across **65
 
 ## Active Contests
 
+### Contest 3: ST-421 — Submissions Closed
+
+Pick the **winner of each Quarterfinal** (4 matches), **2 Finalists**, and the **World Cup Winner**. **62 participants** (59 humans + 3 AI models) have submitted their picks.
+
+**[View ST-421 Predictions →](/prediction-contests/fifa-2026/predictions)**
+
 ### Contest 1: Round of 32 — In Progress
 
 Pick the **winner of each Round of 32 match** (16 matches). **65 participants** have submitted their picks. Results are being scored as matches are played.
