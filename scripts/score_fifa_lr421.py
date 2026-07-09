@@ -212,21 +212,24 @@ def score_participant(row, results):
 # ---------------------------------------------------------------------------
 
 
-def style_team(team_name, eliminated_teams, semifinalists=None, finalists=None):
-    """Style a semifinalist/finalist pick cell.
+def style_team(team_name, eliminated_teams, confirmed=None):
+    """Style a pick cell.
 
     - Eliminated → red strikethrough
-    - Confirmed semifinalist → green bold
+    - In confirmed set (earned points for this slot) → green bold
     - Otherwise → plain text
+
+    Pass the right confirmed set per column type:
+      Semi cols:     confirmed = semifinalists
+      Finalist cols: confirmed = finalists  (NOT semifinalists — reaching SF
+                                             doesn't yet mean they're in the final)
     """
-    if semifinalists is None:
-        semifinalists = set()
-    if finalists is None:
-        finalists = set()
+    if confirmed is None:
+        confirmed = set()
     abbrev = team_to_abbrev(team_name)
     if abbrev in eliminated_teams:
         return f'<span style="color:red"><s>{team_name}</s></span>'
-    if abbrev in semifinalists:
+    if abbrev in confirmed:
         return f'<span style="color:green"><b>{team_name}</b></span>'
     return team_name
 
@@ -330,8 +333,8 @@ def generate_421_page(predictions, results, timestamp):
         semi2 = style_team(row["Semi_2"], eliminated, semifinalists)
         semi3 = style_team(row["Semi_3"], eliminated, semifinalists)
         semi4 = style_team(row["Semi_4"], eliminated, semifinalists)
-        fin1 = style_team(row["Finalist_1"], eliminated, semifinalists, finalists)
-        fin2 = style_team(row["Finalist_2"], eliminated, semifinalists, finalists)
+        fin1 = style_team(row["Finalist_1"], eliminated, finalists)
+        fin2 = style_team(row["Finalist_2"], eliminated, finalists)
         winner = style_winner(row["Winner"], eliminated, winner_team)
         alive_count = 7 - elim_count
         alive_str = f"{alive_count}/7"
