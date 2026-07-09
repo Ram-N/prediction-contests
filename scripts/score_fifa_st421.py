@@ -492,7 +492,14 @@ def update_leaderboard(leaderboard_path, scores, entries, results, timestamp):
             while i < len(lines) and lines[i].startswith("|"):
                 table_rows.append(lines[i])
                 i += 1
-            new_lines.extend(rebuild_overall_table(table_rows, scores, canonical_locations))
+            # Extract prior-round scores from the individual sections so we can
+            # restore any participant who was dropped due to a name mismatch
+            prior_scores = {
+                "GS": extract_round_scores(lines, "Group Stage Leaderboard"),
+                "R32": extract_round_scores(lines, "Round of 32 Leaderboard"),
+                "R16": extract_round_scores(lines, "Round of 16 Leaderboard"),
+            }
+            new_lines.extend(rebuild_overall_table(table_rows, scores, canonical_locations, prior_scores))
             continue
 
         # Replace ST-421 section
@@ -521,10 +528,56 @@ def update_leaderboard(leaderboard_path, scores, entries, results, timestamp):
     return result
 
 
-def rebuild_overall_table(table_rows, st421_scores, location_map=None):
-    """Parse overall table rows, update ST-421/Total, re-sort by Total desc."""
+def extract_round_scores(lines, section_heading):
+    """Extract name -> pts from a leaderboard section identified by its ## heading.
+    The Pts column is the 3rd pipe-delimited cell (after Name and Location).
+    Medal emojis (🏆 🥈 🥉) are stripped from names.
+    """
+    MEDALS = ("🏆 ", "🥈 ", "🥉 ", "🏅 ")
+    scores = {}
+    in_section = False
+    past_header = False
+    for line in lines:
+        if f"## {section_heading}" in line:
+            in_section = True
+            past_header = False
+            continue
+        if in_section and line.startswith("## "):
+            break
+        if not in_section or not line.startswith("|"):
+            continue
+        cells = [c.strip() for c in line.split("|")]
+        if len(cells) < 4:
+            continue
+        name = cells[1]
+        # Skip header/separator rows
+        if not name or name in ("Name", "---") or "---" in name:
+            past_header = True
+            continue
+        if not past_header:
+            continue
+        pts_str = cells[3]
+        # Strip medal emojis
+        for medal in MEDALS:
+            name = name.replace(medal, "")
+        name = name.strip()
+        try:
+            scores[name] = int(pts_str)
+        except ValueError:
+            pass
+    return scores
+
+
+def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_scores=None):
+    """Parse overall table rows, update ST-421/Total, re-sort by Total desc.
+
+    prior_scores: dict with keys 'GS', 'R32', 'R16' mapping name -> pts,
+    used to restore participants who may have been dropped due to prior name mismatches.
+    """
     if location_map is None:
         location_map = {}
+    if prior_scores is None:
+        prior_scores = {}
 
     parsed = []
     seen_names = set()
@@ -546,7 +599,7 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None):
         # Compute total
         total = 0
         for val in [gs, r32, r16, st421]:
-            if val not in ("-", "") :
+            if val not in ("-", ""):
                 try:
                     total += int(val)
                 except ValueError:
@@ -555,12 +608,30 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None):
         parsed.append((name, location, gs, r32, r16, st421, str(total), total))
         seen_names.add(name)
 
-    # Add ST-421-only participants not already in the table
-    for name, pts in st421_scores.items():
-        if name not in seen_names:
-            location = location_map.get(name, "")
-            parsed.append((name, location, "-", "-", "-", str(pts), str(pts), pts))
-            seen_names.add(name)
+    # Add participants not already in the overall table.
+    # For ST-421 participants, look up their prior round scores from the
+    # individual round sections so they can be restored even if dropped.
+    gs_scores = prior_scores.get("GS", {})
+    r32_scores = prior_scores.get("R32", {})
+    r16_scores = prior_scores.get("R16", {})
+
+    for name, st421_pts in st421_scores.items():
+        if name in seen_names:
+            continue
+        location = location_map.get(name, "")
+        gs = str(gs_scores[name]) if name in gs_scores else "-"
+        r32 = str(r32_scores[name]) if name in r32_scores else "-"
+        r16 = str(r16_scores[name]) if name in r16_scores else "-"
+        st421 = str(st421_pts)
+        total = st421_pts
+        for val in [gs, r32, r16]:
+            if val != "-":
+                try:
+                    total += int(val)
+                except ValueError:
+                    pass
+        parsed.append((name, location, gs, r32, r16, st421, str(total), total))
+        seen_names.add(name)
 
     # Only include participants who have entries in all currently active rounds
     round_indices = {"GS": 2, "R32": 3, "R16": 4, "ST-421": 5}

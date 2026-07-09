@@ -6,6 +6,7 @@ from collections import Counter
 
 # --- Config ---
 CSV_PATH = "active-contest/data/predictions/FIFA-2026-ST-421-Predictions.csv"
+CANONICAL_NAMES_PATH = "pii-data/FIFA-2026/canonical-names.csv"
 CANONICAL_LOCATIONS_PATH = "active-contest/data/canonical-locations.csv"
 CLEAN_CSV_PATH = "active-contest/data/predictions/ST-421-Predictions-Clean.csv"
 OUTPUT_TABLE_PATH = "active-contest/predictions-st421-table.md"
@@ -24,6 +25,22 @@ COUNTRY_ABBREV = {
 AI_NAMES = {"ChatGPT (AI)", "Claude (AI)", "Gemini (AI)"}
 
 
+def load_canonical_names(path):
+    """Return email (lowercase) -> canonical_name mapping."""
+    mapping = {}
+    try:
+        with open(path, newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                email = row["canonical_email"].strip().lower()
+                name = row["canonical_name"].strip()
+                if email:
+                    mapping[email] = name
+    except FileNotFoundError:
+        print(f"Warning: {path} not found, skipping name canonicalization")
+    return mapping
+
+
 def load_canonical_locations(path):
     mapping = {}
     with open(path, newline="", encoding="utf-8") as f:
@@ -33,18 +50,28 @@ def load_canonical_locations(path):
     return mapping
 
 
-def parse_entries(path):
-    """Parse CSV, deduplicate by email (latest wins), AI entries kept separate."""
+def parse_entries(path, canonical_names=None):
+    """Parse CSV, deduplicate by email (latest wins), AI entries kept separate.
+    Uses canonical_names (email->name) to normalize submitted names.
+    """
+    if canonical_names is None:
+        canonical_names = {}
     entries = {}
 
     with open(path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            name = row["Name"].strip()
+            submitted_name = row["Name"].strip()
             email = row.get("Email", "").strip()
             timestamp = row["Timestamp"].strip()
 
-            key = name if name in AI_NAMES else email.lower()
+            key = submitted_name if submitted_name in AI_NAMES else email.lower()
+
+            # Use canonical name from email lookup; fall back to submitted name
+            if submitted_name in AI_NAMES:
+                name = submitted_name
+            else:
+                name = canonical_names.get(email.lower(), submitted_name)
 
             picks = {col: row[col].strip() for col in ALL_PICKS}
             entry = {
@@ -171,8 +198,9 @@ def generate_table(entries, canonical_locations):
 
 
 def main():
+    canonical_names = load_canonical_names(CANONICAL_NAMES_PATH)
     canonical_locations = load_canonical_locations(CANONICAL_LOCATIONS_PATH)
-    entries = parse_entries(CSV_PATH)
+    entries = parse_entries(CSV_PATH, canonical_names)
 
     write_clean_csv(entries, CLEAN_CSV_PATH)
 
