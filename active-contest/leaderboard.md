@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 7, 2026 — 07:15 PM EDT*
+*Last updated: July 9, 2026 — 06:26 PM EDT*
 
 ## Overall Leaderboard
 
@@ -18,10 +18,10 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | GS | [Group Stage (pick top 2 + 3rd from each group) ↓](#group-stage-leaderboard) | ✅ Completed |
 | R32 | [Round of 32 (pick winners) ↓](#round-of-32-leaderboard) | ✅ Complete |
 | R16 | [Round of 16 (pick winners) ↓](#round-of-16-leaderboard) | ✅ Completed |
-| ST-421 | [Quarterfinals → Semifinals → Final ↓](#st-421-leaderboard) | 🔄 In progress |
+| ST-421 | [Quarterfinals → Semifinals → Final ↓](#st-421-leaderboard) | 🔄 QF in progress (1/4) |
 
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
-| Name | Location | GS | R32 | R16 | ST-421 | Total |
+| ST-421 | [Quarterfinals → Semifinals → Final ↓](#st-421-leaderboard) | 🔄 QF in progress (1/4) |
 |------|----------|:---:|:---:|:---:|:---:|:---:|
 | Tees | Seattle, WA | 24 | 26 | 28 | - | 78 |
 | Subbu | India | 25 | 26 | 24 | - | 75 |
@@ -368,3 +368,127 @@ Results: **CAN** beat RSA, **PAR** beat GER, **MAR** beat NED, **BRA** beat JPN,
 | Shriya Sateesh | Seattle | 13 | <span style="color:green"><b>MEX</b></span><br><span style="color:red"><s>KOR</s></span><br><span style="color:#2563EB">---</span> | <span style="color:red"><s>QAT</s></span><br><span style="color:#D97706">BIH</span><br><span style="color:#2563EB">---</span> | <span style="color:green"><b>BRA</b></span><br><span style="color:green"><b>MAR</b></span><br><span style="color:red"><s>SCO</s></span> | <span style="color:#D97706">PAR</span><br><span style="color:green"><b>AUS</b></span><br><span style="color:#2563EB">---</span> | <span style="color:green"><b>GER</b></span><br><span style="color:#D97706">ECU</span><br><span style="color:#D97706">CIV</span> | <span style="color:green"><b>NED</b></span><br><span style="color:#D97706">SWE</span><br><span style="color:red"><s>TUN</s></span> | <span style="color:green"><b>BEL</b></span><br><span style="color:red"><s>IRN</s></span><br><span style="color:red"><s>NZL</s></span> | <span style="color:green"><b>ESP</b></span><br><span style="color:red"><s>URU</s></span><br><span style="color:red"><s>KSA</s></span> | <span style="color:green"><b>FRA</b></span><br><span style="color:#D97706">SEN</span><br><span style="color:red"><s>IRQ</s></span> | <span style="color:#D97706">ALG</span><br><span style="color:green"><b>AUT</b></span><br><span style="color:#D97706">ARG</span> | <span style="color:green"><b>POR</b></span><br><span style="color:green"><b>COL</b></span><br><span style="color:#2563EB">---</span> | <span style="color:green"><b>CRO</b></span><br><span style="color:#D97706">GHA</span><br><span style="color:red"><s>PAN</s></span> | 18/32 |
 
 ---
+
+## ST-421 Leaderboard
+
+**1 of 4 QF matches decided.** Scoring: QF pick = 4 pts, Finalist pick = 4 pts, Winner = 8 pts. Max: 32 pts.
+
+QF results: **FRA** beat MAR.
+
+**Color coding:**
+- <span style="color:green"><b>Green/Bold</b></span> = Correct pick
+- <span style="color:red"><s>Red/Strikethrough</s></span> = Wrong pick / eliminated
+- Plain text = Result pending
+
+---
+
+{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
+| Name | Location | Pts | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_FRA_v_MAR.png">FRA v MAR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ESP_v_BEL.png">ESP v BEL</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ENG_v_NOR.png">ENG v NOR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ARG_v_SUI.png">ARG v SUI</a> | Finalist 1 | Finalist 2 | Winner |
+|------|----------|:---:|---|---|---|---|---|---|---|
+| Aarush Krishnan | Los Gatos | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Ajai singh | Tampa | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | ESP | ARG | **ARG** |
+| Alex | Seattle | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Aravind Sivakumar | NYC | 4 | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | ARG | **FRA** |
+| Arvind 237 | Santa clara | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **ARG** |
+| bala | Oakland | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | ESP | ENG | **ESP** |
+| Bharath Sridharan | Dallas | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| ChatGPT (AI) | 🤖 AI | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **ARG** |
+| Cheen | Dubai | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **ARG** |
+| Claude (AI) | 🤖 AI | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| D. Sivakumar | Cupertino, CA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Daniel | Boston | 4 | <span style="color:green"><b>FRA</b></span> | BEL | ENG | ARG | FRA | ENG | **ENG** |
+| Dodo | Boston | 4 | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | NOR | **FRA** |
+| GAUTAM | India | 4 | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | ARG | **FRA** |
+| Gautam Grover | Chicago | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Gemini (AI) | 🤖 AI | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **ARG** |
+| Gokul | Los Gatos | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Goutham Ekollu | Saratoga, CA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Guru Bhat | Bangalore | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Harish | India | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| ishaan | oakland | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | ESP | ENG | **ESP** |
+| Joydeep Dey | London, UK | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | SUI | ESP | ENG | **ENG** |
+| Keshav | Fremont | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Keshav Narasimhan | San Diego | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Kshitij | USA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Manav | USA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Manish | Orlando | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | ESP | NOR | **ESP** |
+| Manu Anand | Laredo | 4 | <span style="color:green"><b>FRA</b></span> | BEL | ENG | ARG | FRA | ARG | **FRA** |
+| Mukund N. | Pittsburgh | 4 | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | NOR | **FRA** |
+| Niraj | Tampa | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Nishant | Boca Raton, FL | 4 | <span style="color:green"><b>FRA</b></span> | BEL | ENG | ARG | FRA | ENG | **FRA** |
+| R. Santhanam | India | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **FRA** |
+| Radhika Santhanam | Mumbai | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| Rahul Santhanam | UK | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | ESP | ENG | **ENG** |
+| Rajesh | Chennai | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Ram | Orlando, FL | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Ranga Setlur | Buffalo, NY | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Rishi Baveja | USA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Rupal | Florida | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Rupender Dahiya | United States | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| S Mahesh | Tampa | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Sackett | Pleasanton | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Sanjeev | Doral | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| shriya | seattle | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| Siva Kantamneni | Largo | 4 | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | ARG | **FRA** |
+| Sri Iyer | Blue Bell, PA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **FRA** |
+| Subbu | India | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | ESP | ARG | **ESP** |
+| Subbu Mahadevan | Palo Alto | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Subha | Seattle | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **FRA** |
+| Tees | Seattle, WA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| The Kasher | Los Angeles, CA | 4 | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Vishal | Austin | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| vivek | Tandoor Loin | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **ARG** |
+| Vivek Shenoy | Redwood City | 4 | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Alok | US | 0 | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | <span style="color:red"><s>MAR</s></span> | ARG | <span style="color:red"><s><b>MAR</b></s></span> |
+| Ashish Naik | Los Altos | 0 | <span style="color:red"><s>MAR</s></span> | BEL | NOR | ARG | <span style="color:red"><s>MAR</s></span> | NOR | **NOR** |
+| Chayan Chakrabarti | Oakland, CA | 0 | <span style="color:red"><s>MAR</s></span> | BEL | NOR | SUI | BEL | NOR | **NOR** |
+| Kunal Soni | Orlando | 0 | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | ESP | ARG | **ESP** |
+| Mk | Miami | 0 | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | ESP | ARG | **ARG** |
+| Nitin Khanna | San Jose | 0 | <span style="color:red"><s>MAR</s></span> | ESP | ENG | ARG | <span style="color:red"><s>MAR</s></span> | ENG | <span style="color:red"><s><b>MAR</b></s></span> |
+| Sahana | Seattle | 0 | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | ESP | NOR | **NOR** |
+| Shaji | Houston, TX | 0 | <span style="color:red"><s>MAR</s></span> | ESP | ENG | ARG | ESP | ARG | **ARG** |
+
+---
+
+
+<style>
+.r16-plot-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.r16-plot-overlay.active { display: flex; }
+.r16-plot-overlay img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  background: #fff;
+}
+a.r16-plot-link {
+  text-decoration: underline dotted;
+  cursor: pointer;
+  color: inherit;
+}
+</style>
+
+<div class="r16-plot-overlay" id="plotOverlay" onclick="this.classList.remove('active')">
+  <img id="plotImg" src="" alt="ST-421 prediction split">
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.r16-plot-link').forEach(function(a) {
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.getElementById('plotImg').src = this.dataset.plot;
+      document.getElementById('plotOverlay').classList.add('active');
+    });
+  });
+});
+</script>

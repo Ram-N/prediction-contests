@@ -1,66 +1,65 @@
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_FRA_v_MAR.png">FRA v MAR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ESP_v_BEL.png">ESP v BEL</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ENG_v_NOR.png">ENG v NOR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ARG_v_SUI.png">ARG v SUI</a> | Finalist 1 | Finalist 2 | Winner |
 |---|---|---|---|---|---|---|---|---|
-| ChatGPT (AI) | 🤖 AI | FRA | ESP | ENG | ARG | FRA | ARG | **ARG** |
-| Claude (AI) | 🤖 AI | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| Gemini (AI) | 🤖 AI | FRA | ESP | ENG | ARG | FRA | ARG | **ARG** |
-| WOTC | 👥 Crowd | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| Aarush Krishnan | Los Gatos | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Ajai singh | Tampa | FRA | ESP | NOR | ARG | ESP | ARG | **ARG** |
-| Alex | Seattle | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Alok | US | MAR | ESP | NOR | ARG | MAR | ARG | **MAR** |
-| Aravind Sivakumar | NYC | FRA | BEL | NOR | ARG | FRA | ARG | **FRA** |
-| Arvind 237 | Santa clara | FRA | ESP | NOR | ARG | FRA | ARG | **ARG** |
-| Ashish Naik | Los Altos | MAR | BEL | NOR | ARG | MAR | NOR | **NOR** |
-| bala | Oakland | FRA | ESP | ENG | ARG | ESP | ENG | **ESP** |
-| Bharath Sridharan | Dallas | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| Chayan Chakrabarti | Oakland, CA | MAR | BEL | NOR | SUI | BEL | NOR | **NOR** |
-| Cheen | Dubai | FRA | ESP | ENG | ARG | FRA | ARG | **ARG** |
-| D. Sivakumar | Cupertino, CA | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Daniel | Boston | FRA | BEL | ENG | ARG | FRA | ENG | **ENG** |
-| Dodo | Boston | FRA | BEL | NOR | ARG | FRA | NOR | **FRA** |
-| GAUTAM | India | FRA | BEL | NOR | ARG | FRA | ARG | **FRA** |
-| Gautam Grover | Chicago | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Gokul | Los Gatos | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| Goutham Ekollu | Saratoga, CA | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Guru Bhat | Bangalore | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| Harish | India | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| ishaan | oakland | FRA | ESP | ENG | ARG | ESP | ENG | **ESP** |
-| Joydeep Dey | London, UK | FRA | ESP | ENG | SUI | ESP | ENG | **ENG** |
-| Keshav | Fremont | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| Keshav Narasimhan | San Diego | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| Kshitij | USA | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Kunal Soni | Orlando | MAR | ESP | NOR | ARG | ESP | ARG | **ESP** |
-| Manav | USA | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| Manish | Orlando | FRA | ESP | NOR | ARG | ESP | NOR | **ESP** |
-| Manu Anand | Laredo | FRA | BEL | ENG | ARG | FRA | ARG | **FRA** |
-| Mk | Miami | MAR | ESP | NOR | ARG | ESP | ARG | **ARG** |
-| Mukund N. | Pittsburgh | FRA | BEL | NOR | ARG | FRA | NOR | **FRA** |
-| Niraj | Tampa | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| Nishant | Boca Raton, FL | FRA | BEL | ENG | ARG | FRA | ENG | **FRA** |
-| Nitin Khanna | San Jose | MAR | ESP | ENG | ARG | MAR | ENG | **MAR** |
-| R. Santhanam | India | FRA | ESP | NOR | ARG | FRA | NOR | **FRA** |
-| Radhika Santhanam | Mumbai | FRA | ESP | NOR | ARG | FRA | NOR | **NOR** |
-| Rahul Santhanam | UK | FRA | ESP | ENG | ARG | ESP | ENG | **ENG** |
-| Rajesh | Chennai | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| Ram | Orlando, FL | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Ranga Setlur | Buffalo, NY | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Rishi Baveja | USA | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| Rupal | Florida | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| Rupender Dahiya | United States | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| S Mahesh | Tampa | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
-| Sackett | Pleasanton | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| Sahana | Seattle | MAR | ESP | NOR | ARG | ESP | NOR | **NOR** |
-| Sanjeev | Doral | FRA | ESP | NOR | ARG | FRA | NOR | **NOR** |
-| Shaji | Houston, TX | MAR | ESP | ENG | ARG | ESP | ARG | **ARG** |
-| shriya | seattle | FRA | ESP | NOR | ARG | FRA | NOR | **NOR** |
-| Siva Kantamneni | Largo | FRA | BEL | NOR | ARG | FRA | ARG | **FRA** |
-| Sri Iyer | Blue Bell, PA | FRA | ESP | NOR | ARG | FRA | NOR | **FRA** |
-| Subbu | India | FRA | ESP | NOR | ARG | ESP | ARG | **ESP** |
-| Subbu Mahadevan | Palo Alto | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Subha | Seattle | FRA | ESP | NOR | ARG | FRA | NOR | **FRA** |
-| Tees | Seattle, WA | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
-| The Kasher | Los Angeles, CA | FRA | ESP | ENG | ARG | FRA | ENG | **FRA** |
-| Vishal | Austin | FRA | ESP | NOR | ARG | FRA | NOR | **NOR** |
-| vivek | Tandoor Loin | FRA | ESP | NOR | ARG | FRA | ARG | **ARG** |
-| Vivek Shenoy | Redwood City | FRA | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| ChatGPT (AI) | 🤖 AI | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **ARG** |
+| Claude (AI) | 🤖 AI | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Gemini (AI) | 🤖 AI | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **ARG** |
+| Aarush Krishnan | Los Gatos | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Ajai singh | Tampa | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | ESP | ARG | **ARG** |
+| Alex | Seattle | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Alok | US | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | <span style="color:red"><s>MAR</s></span> | ARG | <span style="color:red"><s><b>MAR</b></s></span> |
+| Aravind Sivakumar | NYC | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | ARG | **FRA** |
+| Arvind 237 | Santa clara | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **ARG** |
+| Ashish Naik | Los Altos | <span style="color:red"><s>MAR</s></span> | BEL | NOR | ARG | <span style="color:red"><s>MAR</s></span> | NOR | **NOR** |
+| bala | Oakland | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | ESP | ENG | **ESP** |
+| Bharath Sridharan | Dallas | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Chayan Chakrabarti | Oakland, CA | <span style="color:red"><s>MAR</s></span> | BEL | NOR | SUI | BEL | NOR | **NOR** |
+| Cheen | Dubai | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **ARG** |
+| D. Sivakumar | Cupertino, CA | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Daniel | Boston | <span style="color:green"><b>FRA</b></span> | BEL | ENG | ARG | FRA | ENG | **ENG** |
+| Dodo | Boston | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | NOR | **FRA** |
+| GAUTAM | India | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | ARG | **FRA** |
+| Gautam Grover | Chicago | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Gokul | Los Gatos | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Goutham Ekollu | Saratoga, CA | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Guru Bhat | Bangalore | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Harish | India | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| ishaan | oakland | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | ESP | ENG | **ESP** |
+| Joydeep Dey | London, UK | <span style="color:green"><b>FRA</b></span> | ESP | ENG | SUI | ESP | ENG | **ENG** |
+| Keshav | Fremont | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Keshav Narasimhan | San Diego | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Kshitij | USA | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Kunal Soni | Orlando | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | ESP | ARG | **ESP** |
+| Manav | USA | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Manish | Orlando | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | ESP | NOR | **ESP** |
+| Manu Anand | Laredo | <span style="color:green"><b>FRA</b></span> | BEL | ENG | ARG | FRA | ARG | **FRA** |
+| Mk | Miami | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | ESP | ARG | **ARG** |
+| Mukund N. | Pittsburgh | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | NOR | **FRA** |
+| Niraj | Tampa | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Nishant | Boca Raton, FL | <span style="color:green"><b>FRA</b></span> | BEL | ENG | ARG | FRA | ENG | **FRA** |
+| Nitin Khanna | San Jose | <span style="color:red"><s>MAR</s></span> | ESP | ENG | ARG | <span style="color:red"><s>MAR</s></span> | ENG | <span style="color:red"><s><b>MAR</b></s></span> |
+| R. Santhanam | India | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **FRA** |
+| Radhika Santhanam | Mumbai | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| Rahul Santhanam | UK | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | ESP | ENG | **ENG** |
+| Rajesh | Chennai | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Ram | Orlando, FL | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Ranga Setlur | Buffalo, NY | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Rishi Baveja | USA | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Rupal | Florida | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Rupender Dahiya | United States | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| S Mahesh | Tampa | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ARG | **FRA** |
+| Sackett | Pleasanton | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| Sahana | Seattle | <span style="color:red"><s>MAR</s></span> | ESP | NOR | ARG | ESP | NOR | **NOR** |
+| Sanjeev | Doral | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| Shaji | Houston, TX | <span style="color:red"><s>MAR</s></span> | ESP | ENG | ARG | ESP | ARG | **ARG** |
+| shriya | seattle | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| Siva Kantamneni | Largo | <span style="color:green"><b>FRA</b></span> | BEL | NOR | ARG | FRA | ARG | **FRA** |
+| Sri Iyer | Blue Bell, PA | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **FRA** |
+| Subbu | India | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | ESP | ARG | **ESP** |
+| Subbu Mahadevan | Palo Alto | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Subha | Seattle | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **FRA** |
+| Tees | Seattle, WA | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
+| The Kasher | Los Angeles, CA | <span style="color:green"><b>FRA</b></span> | ESP | ENG | ARG | FRA | ENG | **FRA** |
+| Vishal | Austin | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | NOR | **NOR** |
+| vivek | Tandoor Loin | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **ARG** |
+| Vivek Shenoy | Redwood City | <span style="color:green"><b>FRA</b></span> | ESP | NOR | ARG | FRA | ARG | **FRA** |
