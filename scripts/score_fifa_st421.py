@@ -481,12 +481,19 @@ def update_leaderboard(leaderboard_path, scores, entries, results, timestamp):
             i += 1
             continue
 
-        # Update overall leaderboard table (Name | Location | GS | R32 | R16 | ST-421 | Total)
+        # Update overall leaderboard table (Name | Location | GS | R32 | R16 | ST-421 | Total | picks...)
         if "| Name |" in line and "| GS |" in line and "| ST-421 |" in line:
-            new_lines.append(line)
+            # Replace header with extended version including ST-421 picks
+            new_lines.append(
+                "| Name | Location | GS | R32 | R16 | ST-421 | Total"
+                " | FRA-MAR | ESP-BEL | ENG-NOR | ARG-SUI | SF1 | SF2 | 🏆 |"
+            )
             i += 1
             if i < len(lines) and lines[i].startswith("|") and "---" in lines[i]:
-                new_lines.append(lines[i])
+                new_lines.append(
+                    "|------|----------|:---:|:---:|:---:|:---:|:---:"
+                    "|:---:|:---:|:---:|:---:|:---:|:---:|:---:|"
+                )
                 i += 1
             table_rows = []
             while i < len(lines) and lines[i].startswith("|"):
@@ -499,7 +506,17 @@ def update_leaderboard(leaderboard_path, scores, entries, results, timestamp):
                 "R32": extract_round_scores(lines, "Round of 32 Leaderboard"),
                 "R16": extract_round_scores(lines, "Round of 16 Leaderboard"),
             }
-            new_lines.extend(rebuild_overall_table(table_rows, scores, canonical_locations, prior_scores))
+            picks_by_name = {
+                entry["Name"].strip(): {
+                    col: entry.get(col, "").strip()
+                    for col in [m[0] for m in QF_MATCHES] + FINALIST_COLS + [WINNER_COL]
+                }
+                for entry in entries
+            }
+            new_lines.extend(rebuild_overall_table(
+                table_rows, scores, canonical_locations, prior_scores,
+                picks_by_name=picks_by_name, results=results,
+            ))
             continue
 
         # Replace ST-421 section
@@ -568,11 +585,14 @@ def extract_round_scores(lines, section_heading):
     return scores
 
 
-def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_scores=None):
+def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_scores=None,
+                          picks_by_name=None, results=None):
     """Parse overall table rows, update ST-421/Total, re-sort by Total desc.
 
     prior_scores: dict with keys 'GS', 'R32', 'R16' mapping name -> pts,
     used to restore participants who may have been dropped due to prior name mismatches.
+    picks_by_name: dict mapping name -> {col: pick_raw} for QF/SF/Winner columns.
+    results: results dict (from parse_results) for color-coding picks.
     """
     if location_map is None:
         location_map = {}
@@ -644,9 +664,28 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_sco
 
     result_lines = []
     for name, location, gs, r32, r16, st421, total_str, _ in parsed:
-        result_lines.append(
-            f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {total_str} |"
-        )
+        pick_cells = ""
+        if picks_by_name is not None and results is not None:
+            picks = picks_by_name.get(name, {})
+            cells_list = []
+            for col, t1, t2 in QF_MATCHES:
+                pick_raw = picks.get(col, "")
+                cells_list.append(style_qf_pick(pick_raw, col, t1, t2, results) if pick_raw else "")
+            for sf_col in FINALIST_COLS:
+                pick_raw = picks.get(sf_col, "")
+                cells_list.append(style_finalist_pick(pick_raw, results) if pick_raw else "")
+            pick_raw = picks.get(WINNER_COL, "")
+            cells_list.append(style_winner_pick(pick_raw, results) if pick_raw else "")
+            pick_cells = " | ".join(cells_list)
+
+        if pick_cells:
+            result_lines.append(
+                f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {total_str} | {pick_cells} |"
+            )
+        else:
+            result_lines.append(
+                f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {total_str} |"
+            )
     return result_lines
 
 
