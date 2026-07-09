@@ -3,6 +3,8 @@
 (function () {
   'use strict';
 
+  var CONTEST_CLOSED = true;  // Set to false to re-open submissions
+
   var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz0ooX4IA2NoKJlqNTuohNb_L9U4dVSYQuean-2JLCbxDtHOEL1bn2gl6IHpxmPKJI/exec';
   var STORAGE_KEY = 'fifa2026_st421_entry';
 
@@ -583,6 +585,17 @@
   // ---- Init ----
 
   function init() {
+    if (CONTEST_CLOSED) {
+      document.getElementById('bracket').innerHTML = '<div class="alert alert-warning" style="margin-top:1rem;">⏰ Submissions are now closed. Thanks to everyone who entered!</div>';
+      document.getElementById('entry-name').disabled = true;
+      document.getElementById('entry-email').disabled = true;
+      document.getElementById('entry-location').disabled = true;
+      document.getElementById('submit-btn').disabled = true;
+      document.getElementById('submit-btn').textContent = 'Submissions Closed';
+      document.getElementById('validation-panel').style.display = 'none';
+      return;
+    }
+
     buildBracket();
 
     // Single click handler for entire bracket
