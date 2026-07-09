@@ -94,10 +94,21 @@ def compute_wotc(entries):
     return wotc
 
 
+PLOT_BASE = "/prediction-contests/active-contest/data/plots/st421"
+
+QF_PLOT_LINKS = {
+    "FRA v MAR": f'<a href="#" class="r16-plot-link" data-plot="{PLOT_BASE}/st421_FRA_v_MAR.png">FRA v MAR</a>',
+    "ESP v BEL": f'<a href="#" class="r16-plot-link" data-plot="{PLOT_BASE}/st421_ESP_v_BEL.png">ESP v BEL</a>',
+    "ENG v NOR": f'<a href="#" class="r16-plot-link" data-plot="{PLOT_BASE}/st421_ENG_v_NOR.png">ENG v NOR</a>',
+    "ARG v SUI": f'<a href="#" class="r16-plot-link" data-plot="{PLOT_BASE}/st421_ARG_v_SUI.png">ARG v SUI</a>',
+}
+
+
 def generate_table(entries, canonical_locations):
     lines = []
 
-    col_headers = ["Name", "Location", "FRA v MAR", "ESP v BEL", "ENG v NOR", "ARG v SUI", "Finalist 1", "Finalist 2", "Winner"]
+    qf_headers = [QF_PLOT_LINKS[m] for m in QF_MATCHES]
+    col_headers = ["Name", "Location"] + qf_headers + ["Finalist 1", "Finalist 2", "Winner"]
     header = "| " + " | ".join(col_headers) + " |"
     sep = "|" + "|".join(["---"] * len(col_headers)) + "|"
     lines.append("{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }")

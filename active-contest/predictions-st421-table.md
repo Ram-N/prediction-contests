@@ -1,5 +1,5 @@
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
-| Name | Location | FRA v MAR | ESP v BEL | ENG v NOR | ARG v SUI | Finalist 1 | Finalist 2 | Winner |
+| Name | Location | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_FRA_v_MAR.png">FRA v MAR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ESP_v_BEL.png">ESP v BEL</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ENG_v_NOR.png">ENG v NOR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ARG_v_SUI.png">ARG v SUI</a> | Finalist 1 | Finalist 2 | Winner |
 |---|---|---|---|---|---|---|---|---|
 | ChatGPT (AI) | 🤖 AI | FRA | ESP | ENG | ARG | FRA | ARG | **ARG** |
 | Claude (AI) | 🤖 AI | FRA | ESP | ENG | ARG | FRA | ARG | **FRA** |
