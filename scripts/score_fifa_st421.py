@@ -460,8 +460,8 @@ def update_leaderboard(leaderboard_path, scores, entries, results, timestamp):
             i += 1
             continue
 
-        # Update ST-421 status row
-        if "| ST-421 |" in line:
+        # Update ST-421 status row (rounds summary — not the overall table header)
+        if "| ST-421 |" in line and "| Name |" not in line and "| GS |" not in line:
             num_qf = count_qf_decided(results)
             has_sf = any(results.get(t, {}).get("SF") in ("+1", "-1") for _, t1, t2 in QF_MATCHES for t in (t1, t2))
             has_final = any(results.get(t, {}).get("Finals") == "+1" for _, t1, t2 in QF_MATCHES for t in (t1, t2))

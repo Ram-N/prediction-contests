@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 9, 2026 — 06:39 PM EDT*
+*Last updated: July 9, 2026 — 06:45 PM EDT*
 
 ## Overall Leaderboard
 
@@ -21,50 +21,37 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | ST-421 | [Quarterfinals → Semifinals → Final ↓](#st-421-leaderboard) | 🔄 QF in progress (1/4) |
 
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
-| ST-421 | [Quarterfinals → Semifinals → Final ↓](#st-421-leaderboard) | 🔄 QF in progress (1/4) |
+| Name | Location | GS | R32 | R16 | ST-421 | Total |
 |------|----------|:---:|:---:|:---:|:---:|:---:|
-| Tees | Seattle, WA | 24 | 26 | 28 | - | 78 |
-| Subbu | India | 25 | 26 | 24 | - | 75 |
-| Aarush | Los Gatos | 26 | 28 | 20 | - | 74 |
-| Daniel | Boston | 24 | 26 | 24 | - | 74 |
-| ChatGPT (AI) | AI | 24 | 24 | 24 | - | 72 |
-| Claude (AI) | AI | 20 | 28 | 24 | - | 72 |
-| Alex | Seattle | 27 | 24 | 20 | - | 71 |
-| Ranga Setlur | Buffalo, NY | 21 | 30 | 20 | - | 71 |
-| Goutham Ekollu | Saratoga, CA | 20 | 26 | 24 | - | 70 |
-| Keshav Venkatesh | Fremont | 21 | 28 | 20 | - | 69 |
-| Rahul Santhanam | UK | 25 | 24 | 20 | - | 69 |
-| Shaji | Houston, TX | 21 | 28 | 20 | - | 69 |
-| bala varadarajan | Oakland | 22 | 26 | 20 | - | 68 |
-| Keshav Narasimhan | San Diego | 24 | 24 | 20 | - | 68 |
-| Gokul Krishnan | Los Gatos | 23 | 28 | 16 | - | 67 |
-| Sri Iyer | Blue Bell, PA | 23 | 20 | 24 | - | 67 |
-| S Mahesh | Tampa | 22 | 28 | 16 | - | 66 |
-| WOTC | Crowd | 22 | 28 | 16 | - | 66 |
-| Gemini (AI) | AI | 21 | 28 | 16 | - | 65 |
-| Prasad R | Newton | 18 | 18 | 28 | - | 64 |
-| Vivek Shenoy | Redwood City | 18 | 22 | 24 | - | 64 |
-| Aravind Sivakumar | NYC | 21 | 26 | 16 | - | 63 |
-| D. Sivakumar | Cupertino, CA | 17 | 26 | 20 | - | 63 |
-| Ram N | Orlando | 17 | 26 | 20 | - | 63 |
-| Mukund N. | Pittsburgh | 16 | 26 | 20 | - | 62 |
-| Sanjeev | Doral | 18 | 28 | 16 | - | 62 |
-| Rajesh | Chennai | 21 | 20 | 20 | - | 61 |
-| Rupal | Florida | 21 | 24 | 16 | - | 61 |
-| Alok | US | 19 | 24 | 16 | - | 59 |
-| Bharathkirishnan S R | Bangalore | 19 | 20 | 20 | - | 59 |
-| Neeraj Mendiratta | Palm Beach County, FL | 21 | 26 | 12 | - | 59 |
-| Shriya Sateesh | Seattle | 13 | 26 | 20 | - | 59 |
-| R. Santhanam | India | 17 | 20 | 20 | - | 57 |
-| Sackett | Pleasanton | 19 | 22 | 16 | - | 57 |
-| Cheen | Dubai | 22 | 18 | 16 | - | 56 |
-| Harsh | United States | 18 | 26 | 12 | - | 56 |
-| Arvind Narayanan | Santa Clara | 21 | 18 | 16 | - | 55 |
-| Subbu Mahadevan | Palo Alto | 19 | 20 | 16 | - | 55 |
-| Ashish Naik | Los Altos | 18 | 20 | 16 | - | 54 |
-| Radhika Santhanam | Mumbai | 18 | 20 | 16 | - | 54 |
-| Chandran Dharmarajan | India | 15 | 12 | 20 | - | 47 |
-| Chayan Chakrabarti | Oakland, CA | 22 | 6 | 8 | - | 36 |
+| Tees | Seattle, WA | 24 | 26 | 28 | 4 | 82 |
+| Subbu | India | 25 | 26 | 24 | 4 | 79 |
+| Daniel | Boston | 24 | 26 | 24 | 4 | 78 |
+| ChatGPT (AI) | AI | 24 | 24 | 24 | 4 | 76 |
+| Claude (AI) | AI | 20 | 28 | 24 | 4 | 76 |
+| Alex | Seattle | 27 | 24 | 20 | 4 | 75 |
+| Ranga Setlur | Buffalo, NY | 21 | 30 | 20 | 4 | 75 |
+| Goutham Ekollu | Saratoga, CA | 20 | 26 | 24 | 4 | 74 |
+| Rahul Santhanam | UK | 25 | 24 | 20 | 4 | 73 |
+| Keshav Narasimhan | San Diego | 24 | 24 | 20 | 4 | 72 |
+| Sri Iyer | Blue Bell, PA | 23 | 20 | 24 | 4 | 71 |
+| S Mahesh | Tampa | 22 | 28 | 16 | 4 | 70 |
+| Gemini (AI) | AI | 21 | 28 | 16 | 4 | 69 |
+| Shaji | Houston, TX | 21 | 28 | 20 | 0 | 69 |
+| Vivek Shenoy | Redwood City | 18 | 22 | 24 | 4 | 68 |
+| Aravind Sivakumar | NYC | 21 | 26 | 16 | 4 | 67 |
+| D. Sivakumar | Cupertino, CA | 17 | 26 | 20 | 4 | 67 |
+| Mukund N. | Pittsburgh | 16 | 26 | 20 | 4 | 66 |
+| Sanjeev | Doral | 18 | 28 | 16 | 4 | 66 |
+| Rajesh | Chennai | 21 | 20 | 20 | 4 | 65 |
+| Rupal | Florida | 21 | 24 | 16 | 4 | 65 |
+| R. Santhanam | India | 17 | 20 | 20 | 4 | 61 |
+| Sackett | Pleasanton | 19 | 22 | 16 | 4 | 61 |
+| Cheen | Dubai | 22 | 18 | 16 | 4 | 60 |
+| Alok | US | 19 | 24 | 16 | 0 | 59 |
+| Subbu Mahadevan | Palo Alto | 19 | 20 | 16 | 4 | 59 |
+| Radhika Santhanam | Mumbai | 18 | 20 | 16 | 4 | 58 |
+| Ashish Naik | Los Altos | 18 | 20 | 16 | 0 | 54 |
+| Chayan Chakrabarti | Oakland, CA | 22 | 6 | 8 | 0 | 36 |
 
 ---
 
