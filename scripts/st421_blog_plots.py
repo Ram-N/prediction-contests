@@ -85,12 +85,12 @@ def plot_qf_overview(rows):
     for i, (col, a1, a2, pct1, pct2, n1, n2) in enumerate(data):
         y = i
         # Left bar (favourite / team 1)
-        c1 = TEAM_COLORS.get(
-            next((t for c, t, *_ in QF_MATCHES if c == col), a1), "#3498db"
-        )
-        ax.barh(y, pct1, height=bar_height, color=c1, edgecolor="white", linewidth=0.8)
-        # Right bar (underdog / team 2)
         col_info = next((m for m in QF_MATCHES if m[0] == col), None)
+        c1 = TEAM_COLORS.get(col_info[1] if col_info else a1, "#3498db")
+        edge1 = "#cf081f" if c1 == "#ffffff" else "white"
+        lw1 = 2.5 if c1 == "#ffffff" else 0.8
+        ax.barh(y, pct1, height=bar_height, color=c1, edgecolor=edge1, linewidth=lw1)
+        # Right bar (underdog / team 2)
         c2 = TEAM_COLORS.get(col_info[2] if col_info else a2, "#e74c3c")
         ax.barh(y, pct2, left=pct1, height=bar_height, color=c2,
                 edgecolor="white", linewidth=0.8, alpha=0.85)
