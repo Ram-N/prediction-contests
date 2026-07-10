@@ -10,6 +10,8 @@ The ST-421 round is underway. France dispatched Morocco in the first quarterfina
 
 Here's what the field is thinking.
 
+![ST-421 QF picks overview]({{ site.baseurl }}/active-contest/data/plots/st421/st421_qf_overview.png){: .img-fluid }
+
 ---
 
 ## The AI Bloc: Unanimous on Everything. Almost.
@@ -74,24 +76,11 @@ Whoever calls this one correctly earns 4 points. Whoever doesn't, loses ground.
 
 With France through, the SF1 slot is theirs barring collapse. The field reflects this:
 
-| SF1 Pick | Count | % |
-|----------|:-----:|:---:|
-| France | 47 | 76% |
-| Spain | 11 | 18% |
-| Morocco | 3 | 5% |
-| Belgium | 1 | 2% |
-
-The 3 Morocco SF1 picks (Alok, Ashish, Nitin) are already eliminated — France advanced. The Belgium SF1 pick (Chayan) is contingent on Belgium beating Spain, which would itself be a surprise. The 11 Spain pickers are hoping for what would be the round's second upset after Morocco went out.
-
 ### SF2 — The Contested Half (ENG/NOR vs ARG/SUI)
 
-| SF2 Pick | Count | % |
-|----------|:-----:|:---:|
-| Argentina | 32 | 52% |
-| England | 17 | 27% |
-| Norway | 13 | 21% |
+Argentina dominate SF2 picks. But with 13 Norway and 17 England picks, the ENG/NOR match outcome will determine whether 27% or 21% of the field gets their semi right — Argentina have already been picked to the final by 52%.
 
-Argentina dominate here. But with 13 Norway SF2 picks and 17 England SF2 picks, the ENG/NOR match outcome will determine whether 27% or 21% of the field gets their semi right — Argentina have already been picked to the final by 52%.
+![ST-421 SF picks]({{ site.baseurl }}/active-contest/data/plots/st421/st421_sf_picks.png){: .img-fluid }
 
 ---
 
@@ -99,14 +88,7 @@ Argentina dominate here. But with 13 Norway SF2 picks and 17 England SF2 picks, 
 
 France are the heavy favourite — 37 of 62 participants (60%) picked them as champions. But the remaining 40% is spread across five different countries, which reflects genuine uncertainty about who meets France in the final.
 
-| 🏆 Winner Pick | Count | % |
-|----------------|:-----:|:---:|
-| France | 37 | 60% |
-| Argentina | 8 | 13% |
-| Norway | 7 | 11% |
-| Spain | 5 | 8% |
-| England | 3 | 5% |
-| Morocco | 2 | 3% |
+![ST-421 winner picks]({{ site.baseurl }}/active-contest/data/plots/st421/st421_winner_picks.png){: .img-fluid }
 
 **Norway as champion** is picked by 7 people — Ashish Naik, Chayan, Radhika Santhanam, Sahana, Sanjeev, Shriya Sateesh, and Vishal Goyal. For Norway to win, they'd need to beat England in the QF, advance through the semis, and beat France in the final. That's three upsets in a row. If it happens, those seven will be sitting very pretty.
 
