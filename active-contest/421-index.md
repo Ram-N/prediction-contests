@@ -13,6 +13,8 @@ permalink: "/fifa-2026/lr-421"
 
 Predict the **4 Semifinalists**, **2 Finalists**, and the **World Cup Winner** before the tournament begins.
 
+*This is arguably the toughest prediction challenge in the contest. Before the first ball was kicked — over a month before the knockout rounds began — participants had to identify 7 specific teams from a field of 48, with no group stage results, no bracket, and no match context to guide them. Pure conviction.*
+
 **Scoring:** Correct Semifinalist = 1 pt, Correct Finalist = 2 pts, Correct Winner = 4 pts. **Max: 12 points.**
 
 **Eliminated teams:** ALG, AUS, AUT, BIH, BRA, CAN, CIV, COD, COL, CPV, CRO, ECU, EGY, GER, GHA, JPN, MEX, MOR, NED, PAR, POR, RSA, SEN, SWE, USA
