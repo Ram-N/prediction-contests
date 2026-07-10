@@ -8,7 +8,7 @@ permalink: "/fifa-2026/round-of-16"
 
 ## FIFA World Cup 2026 — Round of 16 Predictions
 
-*Last updated: July 7, 2026 — 07:00 PM EDT*
+*Last updated: July 10, 2026 — 05:27 PM EDT*
 
 **67 participants** (63 humans + 3 AI models + WOTC) picked the winner of each of the 8 knockout matches. Each correct pick is worth **4 points**.
 
