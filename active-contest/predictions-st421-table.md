@@ -4,7 +4,7 @@
 | ChatGPT (AI) | 🤖 AI | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ARG | **ARG** |
 | Claude (AI) | 🤖 AI | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ARG | **FRA** |
 | Gemini (AI) | 🤖 AI | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ARG | **ARG** |
-| Aarush Krishnan | Los Gatos | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
+| Aarush | Los Gatos | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
 | Ajai Singh | Tampa | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | NOR | ARG | ESP | ARG | **ARG** |
 | Alex | Seattle | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
 | Alok | US | <span style="color:red"><s>MAR</s></span> | <span style="color:green"><b>ESP</b></span> | NOR | ARG | <span style="color:red"><s>MAR</s></span> | ARG | <span style="color:red"><s><b>MAR</b></s></span> |

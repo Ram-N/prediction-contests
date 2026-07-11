@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 10, 2026 — 05:28 PM EDT*
+*Last updated: July 10, 2026 — 10:58 PM EDT*
 
 ## Overall Leaderboard
 
@@ -25,6 +25,7 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 |------|----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Tees | Seattle, WA | 24 | 26 | 28 | 8 | 86 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | NOR | ARG | FRA | ARG | **FRA** |
 | Subbu | India | 25 | 26 | 24 | 8 | 83 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | NOR | ARG | ESP | ARG | **ESP** |
+| Aarush | Los Gatos | 26 | 28 | 20 | 8 | 82 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
 | ChatGPT (AI) | 🤖 AI | 24 | 24 | 24 | 8 | 80 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ARG | **ARG** |
 | Claude (AI) | 🤖 AI | 20 | 28 | 24 | 8 | 80 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ARG | **FRA** |
 | Alex | Seattle | 27 | 24 | 20 | 8 | 79 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
@@ -90,7 +91,7 @@ QF results: **FRA** beat MAR, **ESP** beat BEL.
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | Pts | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_FRA_v_MAR.png">FRA v MAR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ESP_v_BEL.png">ESP v BEL</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ENG_v_NOR.png">ENG v NOR</a> | <a href="#" class="r16-plot-link" data-plot="/prediction-contests/active-contest/data/plots/st421/st421_ARG_v_SUI.png">ARG v SUI</a> | Finalist 1 | Finalist 2 | Winner |
 |------|----------|:---:|---|---|---|---|---|---|---|
-| Aarush Krishnan | Los Gatos | 8 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
+| Aarush | Los Gatos | 8 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
 | Ajai Singh | Tampa | 8 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | NOR | ARG | ESP | ARG | **ARG** |
 | Alex | Seattle | 8 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | ENG | ARG | FRA | ENG | **FRA** |
 | Arvind Narayanan | Santa Clara | 8 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | NOR | ARG | FRA | ARG | **ARG** |
