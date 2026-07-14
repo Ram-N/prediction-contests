@@ -6,9 +6,15 @@ date: 2026-07-13 12:00:00
 background: '/img/soccer/bg_fifa.webp'
 ---
 
-Three matches remain. The quarterfinals are done — France, Spain, England, and Argentina all advanced, validating nearly everyone who submitted ST-421 picks. Now the field narrows to the last four.
+Three matches remain. The quarterfinals are done — France, Spain, England, and Argentina all advanced. Now the field narrows to the last four.
 
-We have two sources of prediction data to look back on: **LR-421**, submitted in early June before the Round of 32 (55 participants, 51 humans), and **ST-421**, locked in last week before the quarterfinals (62 participants, 59 humans). Let's see what the crowd thought then — and what they think now.
+Here's the simplest way to see where the crowd stands right now:
+
+![ST-421 winner picks — 4 teams remaining]({{ site.baseurl }}/active-contest/data/plots/finals/finals_st421_winner_simple.png){: .img-fluid }
+
+**France are the runaway favourite.** 36 of 59 humans (61%) picked them to win the tournament. Argentina are a distant second at 6, Spain at 5, and England at just 3.
+
+We have two sources of prediction data to compare: **LR-421**, submitted in early June before the Round of 32 (55 participants, 51 humans), and **ST-421**, locked in last week before the quarterfinals (62 participants, 59 humans). Let's see how much has changed.
 
 ---
 
