@@ -425,6 +425,78 @@ def plot_dream_finals(st_rows):
     print(f"Saved {out}")
 
 
+# ---------------------------------------------------------------------------
+# Plot 6: Simple 4-bar chart — ST-421 winner picks, alive teams only
+# ---------------------------------------------------------------------------
+def plot_st421_winner_simple(st_rows):
+    st_humans = humans(st_rows)
+    n_h = len(st_humans)
+
+    all_rows = st_rows  # includes AIs
+    ai_winner_picks = {
+        r["Name"].strip(): r["Winner"].strip()
+        for r in all_rows if r["Name"].strip() in AI_NAMES
+    }
+    # Display name + brand color for each AI
+    AI_DISPLAY = {
+        "ChatGPT (AI)": ("ChatGPT", "#10a37f"),
+        "Claude (AI)":  ("Claude",  "#cc785c"),
+        "Gemini (AI)":  ("Gemini",  "#4285f4"),
+    }
+
+    winner_counts = Counter(r["Winner"].strip() for r in st_humans)
+
+    # Only the 4 teams still in the tournament, sorted by count
+    alive_order = sorted(ALIVE, key=lambda t: -winner_counts.get(t, 0))
+    vals = [winner_counts.get(t, 0) for t in alive_order]
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    for i, (team, val) in enumerate(zip(alive_order, vals)):
+        color, edge, lw, _ = bar_style(team)
+        ax.bar(i, val, color=color, edgecolor=edge, linewidth=lw, width=0.55)
+        pct = val * 100 // n_h
+        txt_col = TEAM_TEXT.get(team, "white")
+        if val >= 8:
+            ax.text(i, val / 2, f"{val}\n({pct}%)",
+                    ha="center", va="center", fontsize=14, fontweight="bold", color=txt_col)
+        else:
+            ax.text(i, val + 0.4, f"{val}\n({pct}%)",
+                    ha="center", va="bottom", fontsize=12, fontweight="bold", color="#222")
+
+    # Annotate AI picks below the x-axis, stacked per bar
+    # Build a mapping: team -> list of (display_name, color)
+    ai_by_team = {t: [] for t in alive_order}
+    for ai_name, pick in ai_winner_picks.items():
+        if pick in ai_by_team:
+            disp, col = AI_DISPLAY[ai_name]
+            ai_by_team[pick].append((disp, col))
+
+    y_base = -1.8   # starting y below axis (in data coords)
+    y_step = -1.4
+
+    for i, team in enumerate(alive_order):
+        for j, (disp, col) in enumerate(ai_by_team[team]):
+            ax.text(i, y_base + j * y_step, f"[AI] {disp}",
+                    ha="center", va="top", fontsize=9, fontweight="bold",
+                    color=col, clip_on=False, transform=ax.transData)
+
+    ax.set_xticks(range(len(alive_order)))
+    ax.set_xticklabels(alive_order, fontsize=14, fontweight="bold")
+    ax.set_ylabel("Number of picks (humans)", fontsize=11)
+    ax.set_title(f"ST-421: Who do {n_h} participants think will win the World Cup?",
+                 fontsize=13, fontweight="bold", pad=12)
+    ax.set_ylim(0, max(vals) + 6)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+
+    plt.tight_layout()
+    out = os.path.join(OUTPUT_DIR, "finals_st421_winner_simple.png")
+    fig.savefig(out, dpi=150, bbox_inches="tight", facecolor="white")
+    plt.close(fig)
+    print(f"Saved {out}")
+
+
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     st_rows = load_csv(ST421_CSV)
@@ -432,6 +504,7 @@ def main():
     print(f"ST-421: {len(st_rows)} participants ({len(humans(st_rows))} humans)")
     print(f"LR-421: {len(lr_rows)} participants ({len(humans(lr_rows))} humans)")
 
+    plot_st421_winner_simple(st_rows)
     plot_finalist_comparison(st_rows, lr_rows)
     plot_winner_comparison(st_rows, lr_rows)
     plot_sf_breakdown(st_rows)
