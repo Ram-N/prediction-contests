@@ -464,29 +464,40 @@ def plot_st421_winner_simple(st_rows):
             ax.text(i, val + 0.4, f"{val}\n({pct}%)",
                     ha="center", va="bottom", fontsize=12, fontweight="bold", color="#222")
 
-    # Annotate AI picks below the x-axis, stacked per bar
-    # Build a mapping: team -> list of (display_name, color)
+    # Annotate AI picks with arrows from clear space above → bar top
     ai_by_team = {t: [] for t in alive_order}
     for ai_name, pick in ai_winner_picks.items():
         if pick in ai_by_team:
             disp, col = AI_DISPLAY[ai_name]
             ai_by_team[pick].append((disp, col))
 
-    y_base = -1.8   # starting y below axis (in data coords)
-    y_step = -1.4
+    max_val = max(vals)
+    text_y_base = max_val + 4   # labels float in clear space above all bars
 
     for i, team in enumerate(alive_order):
-        for j, (disp, col) in enumerate(ai_by_team[team]):
-            ax.text(i, y_base + j * y_step, f"[AI] {disp}",
-                    ha="center", va="top", fontsize=9, fontweight="bold",
-                    color=col, clip_on=False, transform=ax.transData)
+        entries = ai_by_team[team]
+        n = len(entries)
+        # Spread labels horizontally around the bar centre
+        offsets = np.linspace(-0.3 * (n - 1), 0.3 * (n - 1), n) if n > 1 else [0.0]
+        bar_val = vals[i]
+        for j, ((disp, col), x_off) in enumerate(zip(entries, offsets)):
+            label_y = text_y_base + j * 1.6
+            ax.annotate(
+                f"[AI] {disp}",
+                xy=(i, bar_val),                    # arrow tip: bar top
+                xytext=(i + x_off, label_y),        # label position
+                ha="center", va="bottom",
+                fontsize=9, fontweight="bold", color=col,
+                arrowprops=dict(arrowstyle="-|>", color=col, lw=1.2,
+                                connectionstyle="arc3,rad=0.0"),
+            )
 
     ax.set_xticks(range(len(alive_order)))
     ax.set_xticklabels(alive_order, fontsize=14, fontweight="bold")
     ax.set_ylabel("Number of picks (humans)", fontsize=11)
     ax.set_title(f"ST-421: Who do {n_h} participants think will win the World Cup?",
                  fontsize=13, fontweight="bold", pad=12)
-    ax.set_ylim(0, max(vals) + 6)
+    ax.set_ylim(0, max_val + 10)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
 
