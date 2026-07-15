@@ -115,16 +115,23 @@ TEAM_NAME_TO_ABBREV = {
 # ---------------------------------------------------------------------------
 
 
-def parse_results(filepath):
-    """Parse results CSV into dict: team_abbrev -> result_code.
+def result_value(r):
+    """Convert result string to numeric value."""
+    return {"-1": -1, "+1": 1, "+2": 2, "+4": 4}.get(r, 0)
 
-    Result codes:
-      -1 = eliminated
-      +1 = reached semifinals
-      +2 = reached final
-      +4 = won World Cup
+
+def parse_results(filepath):
+    """Parse results CSV. Returns (current, peak) dicts mapping team_abbrev -> result.
+
+    current[team] = last result string in file (may be -1 after a team is knocked out)
+    peak[team]    = highest numeric value ever recorded for the team
+
+    This distinction matters for teams like France that reached the semis (+1)
+    but were later knocked out (-1): their semi picks should still score/display
+    as correct even though their current result is -1.
     """
-    results = {}
+    current = {}
+    peak = {}
     with open(filepath, "r") as f:
         for line in f:
             line = line.strip()
@@ -134,29 +141,51 @@ def parse_results(filepath):
             if len(parts) >= 2:
                 team = parts[0].strip()
                 result = parts[1].strip()
-                results[team] = result
-    return results
+                current[team] = result
+                val = result_value(result)
+                if team not in peak or val > peak[team]:
+                    peak[team] = val
+    return current, peak
 
 
-def get_eliminated_teams(results):
-    """Return set of team abbreviations that are eliminated."""
-    return {team for team, result in results.items() if result == "-1"}
+def get_eliminated_teams(current):
+    """Return set of team abbreviations whose current result is -1."""
+    return {team for team, result in current.items() if result == "-1"}
 
 
-def get_semifinalists(results):
-    """Return set of teams that reached semifinals."""
-    return {team for team, result in results.items() if result in ("+1", "+2", "+4")}
+def get_semi_eliminated(current, peak):
+    """Teams confirmed to have NEVER reached the semis (current=-1 and peak < 1).
+
+    Teams that reached the semis but then lost (e.g. SF losers) are NOT in this
+    set — their semi picks were correct and should show as green, not strikethrough.
+    """
+    return {t for t, v in current.items() if v == "-1" and peak.get(t, -1) < 1}
 
 
-def get_finalists(results):
+def get_finalist_eliminated(current, peak):
+    """Teams confirmed to not be in the final (current=-1 and peak < 2)."""
+    return {t for t, v in current.items() if v == "-1" and peak.get(t, -1) < 2}
+
+
+def get_winner_eliminated(current):
+    """Teams confirmed out of the tournament (current=-1)."""
+    return {t for t, v in current.items() if v == "-1"}
+
+
+def get_semifinalists(peak):
+    """Return set of teams that have reached (or surpassed) the semifinals."""
+    return {team for team, val in peak.items() if val >= 1}
+
+
+def get_finalists(peak):
     """Return set of teams that reached the final."""
-    return {team for team, result in results.items() if result in ("+2", "+4")}
+    return {team for team, val in peak.items() if val >= 2}
 
 
-def get_winner(results):
+def get_winner(peak):
     """Return the winning team, or None."""
-    for team, result in results.items():
-        if result == "+4":
+    for team, val in peak.items():
+        if val >= 4:
             return team
     return None
 
@@ -171,7 +200,7 @@ def team_to_abbrev(team_name):
 # ---------------------------------------------------------------------------
 
 
-def score_participant(row, results):
+def score_participant(row, peak):
     """Score a participant's predictions.
 
     Points are awarded only when a team actually reaches the milestone:
@@ -179,11 +208,14 @@ def score_participant(row, results):
       - Correct finalist: +2 (when team reaches final)
       - Correct winner: +4 (when team wins)
 
+    Uses peak results so that SF losers (who reached +1 then were knocked out)
+    still award points for semi picks.
+
     Returns total points.
     """
-    semifinalists = get_semifinalists(results)
-    finalists = get_finalists(results)
-    winner = get_winner(results)
+    semifinalists = get_semifinalists(peak)
+    finalists = get_finalists(peak)
+    winner = get_winner(peak)
 
     points = 0
 
@@ -262,19 +294,34 @@ def get_timestamp():
 # ---------------------------------------------------------------------------
 
 
-def count_eliminated_picks(row, eliminated_teams):
-    """Count how many of a participant's 7 picks are eliminated."""
+def count_eliminated_picks(row, current, peak):
+    """Count how many of a participant's 7 picks are eliminated for their slot.
+
+    Uses slot-specific elimination so that SF losers don't count as eliminated
+    in semi slots (they reached the semis — those picks were correct).
+    """
+    semi_elim = get_semi_eliminated(current, peak)
+    finalist_elim = get_finalist_eliminated(current, peak)
+    winner_elim = get_winner_eliminated(current)
+
     count = 0
-    for col in ["Semi_1", "Semi_2", "Semi_3", "Semi_4", "Finalist_1", "Finalist_2", "Winner"]:
-        abbrev = team_to_abbrev(row[col])
-        if abbrev in eliminated_teams:
+    for col in ["Semi_1", "Semi_2", "Semi_3", "Semi_4"]:
+        if team_to_abbrev(row[col]) in semi_elim:
             count += 1
+    for col in ["Finalist_1", "Finalist_2"]:
+        if team_to_abbrev(row[col]) in finalist_elim:
+            count += 1
+    if team_to_abbrev(row["Winner"]) in winner_elim:
+        count += 1
     return count
 
 
-def generate_421_page(predictions, results, timestamp):
+def generate_421_page(predictions, current, peak, timestamp):
     """Generate the full 421-index.md content."""
-    eliminated = get_eliminated_teams(results)
+    eliminated = get_eliminated_teams(current)
+    semi_elim = get_semi_eliminated(current, peak)
+    finalist_elim = get_finalist_eliminated(current, peak)
+    winner_elim = get_winner_eliminated(current)
     lines = []
 
     # Front matter
@@ -309,10 +356,14 @@ def generate_421_page(predictions, results, timestamp):
 
     # --- Combined predictions + leaderboard table ---
     # Score and sort participants
+    semifinalists = get_semifinalists(peak)
+    finalists = get_finalists(peak)
+    winner_team = get_winner(peak)
+
     scored = []
     for row in predictions:
-        pts = score_participant(row, results)
-        elim_count = count_eliminated_picks(row, eliminated)
+        pts = score_participant(row, peak)
+        elim_count = count_eliminated_picks(row, current, peak)
         scored.append((pts, elim_count, row))
 
     # Sort by points desc, then more alive picks, then name
@@ -322,20 +373,16 @@ def generate_421_page(predictions, results, timestamp):
     lines.append("| Name | Location | Semi 1 | Semi 2 | Semi 3 | Semi 4 | Finalist 1 | Finalist 2 | Winner | Pts | Alive | Eliminated |")
     lines.append("|------|----------|--------|--------|--------|--------|------------|------------|--------|:---:|:---:|:---:|")
 
-    semifinalists = get_semifinalists(results)
-    finalists = get_finalists(results)
-    winner_team = get_winner(results)
-
     for pts, elim_count, row in scored:
         name = row["Name"]
         loc = row["Location"]
-        semi1 = style_team(row["Semi_1"], eliminated, semifinalists)
-        semi2 = style_team(row["Semi_2"], eliminated, semifinalists)
-        semi3 = style_team(row["Semi_3"], eliminated, semifinalists)
-        semi4 = style_team(row["Semi_4"], eliminated, semifinalists)
-        fin1 = style_team(row["Finalist_1"], eliminated, finalists)
-        fin2 = style_team(row["Finalist_2"], eliminated, finalists)
-        winner = style_winner(row["Winner"], eliminated, winner_team)
+        semi1 = style_team(row["Semi_1"], semi_elim, semifinalists)
+        semi2 = style_team(row["Semi_2"], semi_elim, semifinalists)
+        semi3 = style_team(row["Semi_3"], semi_elim, semifinalists)
+        semi4 = style_team(row["Semi_4"], semi_elim, semifinalists)
+        fin1 = style_team(row["Finalist_1"], finalist_elim, finalists)
+        fin2 = style_team(row["Finalist_2"], finalist_elim, finalists)
+        winner = style_winner(row["Winner"], winner_elim, winner_team)
         alive_count = 7 - elim_count
         alive_str = f"{alive_count}/7"
         elim_str = f"{elim_count}/7" if elim_count > 0 else "-"
@@ -366,12 +413,12 @@ def main():
     print(f"  {len(predictions)} participants loaded")
 
     print("Reading results...")
-    results = parse_results(RESULTS_CSV)
-    eliminated = get_eliminated_teams(results)
-    print(f"  {len(results)} results loaded")
+    current, peak = parse_results(RESULTS_CSV)
+    eliminated = get_eliminated_teams(current)
+    print(f"  {len(current)} results loaded")
     print(f"  Eliminated: {', '.join(sorted(eliminated)) if eliminated else 'none'}")
 
-    semifinalists = get_semifinalists(results)
+    semifinalists = get_semifinalists(peak)
     if semifinalists:
         print(f"  Semifinalists: {', '.join(sorted(semifinalists))}")
 
@@ -380,8 +427,8 @@ def main():
 
     scored = []
     for row in predictions:
-        pts = score_participant(row, results)
-        elim = count_eliminated_picks(row, eliminated)
+        pts = score_participant(row, peak)
+        elim = count_eliminated_picks(row, current, peak)
         scored.append((pts, elim, row["Name"]))
 
     scored.sort(key=lambda x: (-x[0], x[1], x[2].lower()))
@@ -391,7 +438,7 @@ def main():
         print(f"  {name:<25} {pts:>3}  {elim:>3}/7")
 
     print(f"\nWriting {OUTPUT_MD}...")
-    content = generate_421_page(predictions, results, timestamp)
+    content = generate_421_page(predictions, current, peak, timestamp)
     with open(OUTPUT_MD, "w") as f:
         f.write(content)
     print(f"  Done ({len(predictions)} rows)")
