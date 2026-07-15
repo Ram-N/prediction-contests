@@ -485,14 +485,14 @@ def update_leaderboard(leaderboard_path, scores, entries, results, timestamp):
         if "| Name |" in line and "| GS |" in line and "| ST-421 |" in line:
             # Replace header with extended version including ST-421 picks
             new_lines.append(
-                "| Name | Location | GS | R32 | R16 | ST-421 | Total"
-                " | FRA-MAR | ESP-BEL | ENG-NOR | ARG-SUI | SF1 | SF2 | 🏆 |"
+                "| Name | Location | GS | R32 | R16 | ST-421"
+                " | FRA-MAR | ESP-BEL | ENG-NOR | ARG-SUI | SF1 | SF2 | 🏆 | Total |"
             )
             i += 1
             if i < len(lines) and lines[i].startswith("|") and "---" in lines[i]:
                 new_lines.append(
-                    "|------|----------|:---:|:---:|:---:|:---:|:---:"
-                    "|:---:|:---:|:---:|:---:|:---:|:---:|:---:|"
+                    "|------|----------|:---:|:---:|:---:|:---:"
+                    "|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|"
                 )
                 i += 1
             table_rows = []
@@ -680,7 +680,7 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_sco
 
         if pick_cells:
             result_lines.append(
-                f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {total_str} | {pick_cells} |"
+                f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {pick_cells} | {total_str} |"
             )
         else:
             result_lines.append(
