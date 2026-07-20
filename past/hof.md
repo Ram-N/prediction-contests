@@ -11,6 +11,11 @@ Win a contest to get your name up here.
 <table class="table thead-dark table-striped table-bordered table-sm">
 <thead><tr><th>Year</th><th>Contest</th><th>Winners</th></tr></thead>
 <tbody>
+<tr style="border-top: 3px solid #333;"><td>2026</td><td>FIFA 2026 WC Overall Contest</td><td>Subbu (1st), bala varadarajan (2nd), Tees (3rd)</td></tr>
+<tr><td>2026</td><td>FIFA 2026 WC Short-term 4-2-1 Contest</td><td>bala varadarajan, Ishaan, and Subbu (Winners); Kunal Soni and Manish (Silver)</td></tr>
+<tr><td>2026</td><td>FIFA 2026 WC Round of 16</td><td>Prasad R and Tees (Winners)</td></tr>
+<tr><td>2026</td><td>FIFA 2026 WC Round of 32</td><td>Ranga Setlur (Winner)</td></tr>
+<tr><td>2026</td><td>FIFA 2026 WC Group Stage</td><td>Alex (1st), Aarush (2nd), Amit Baranwal, Rahul Santhanam, and Subbu (3rd)</td></tr>
 <tr style="border-top: 3px solid #333;"><td>2026</td><td>T20 2026 WC Overall Contest</td><td>Aditya Iyengar (1st), Keshav V. and Ramesh S. (T-2nd)</td></tr>
 <tr><td>2026</td><td>T20 2026 WC KO + Finals</td><td>Aakarsh E., Dhanush E., Gokul, Goutham E., Mahesh, Ramesh S., Rankanathan V., Shiv, Subha, Vivek, and Vivek</td></tr>
 <tr><td>2026</td><td>T20 2026 WC Super-8</td><td>Sackett and Keshav Venkatesh</td></tr>
