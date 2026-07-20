@@ -9,10 +9,6 @@ permalink: "/fifa-2026/leaderboard"
 
 *Last updated: July 20, 2026 — 09:11 AM EDT*
 
-## Overall Leaderboard
-
-The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is determined by the grand total across all rounds.
-
 | Round | Contest | Status |
 |-------|---------|--------|
 | ST-421 | [Quarterfinals → Semifinals → Final ↓](#st-421-leaderboard) | ✅ Complete |
@@ -20,7 +16,9 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 | R32 | [Round of 32 (pick winners) ↓](#round-of-32-leaderboard) | ✅ Complete |
 | GS | [Group Stage (pick top 2 + 3rd from each group) ↓](#group-stage-leaderboard) | ✅ Completed |
 
-*<u>Underlined total</u> = Run ended — winner pick eliminated, no more points available*
+## Overall Leaderboard
+
+The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is determined by the grand total across all rounds.
 
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | GS | R32 | R16 | ST-421 | FRA-MAR | ESP-BEL | ENG-NOR | ARG-SUI | SF1 | SF2 | 🏆 | Total |
