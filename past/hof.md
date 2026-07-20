@@ -12,6 +12,7 @@ Win a contest to get your name up here.
 <thead><tr><th>Year</th><th>Contest</th><th>Winners</th></tr></thead>
 <tbody>
 <tr style="border-top: 3px solid #333;"><td>2026</td><td>FIFA 2026 WC Overall Contest</td><td>Subbu (1st), bala varadarajan (2nd), Tees (3rd)</td></tr>
+<tr><td>2026</td><td>FIFA 2026 WC Long-range 4-2-1 Contest</td><td>Guru Bhat and Shaj (Winners, perfect 12/12); Kunal Soni, Manish Bhatt, Subbu, Tees, and Vishal Goyal (Silver)</td></tr>
 <tr><td>2026</td><td>FIFA 2026 WC Short-term 4-2-1 Contest</td><td>bala varadarajan, Ishaan, and Subbu (Winners); Kunal Soni and Manish (Silver)</td></tr>
 <tr><td>2026</td><td>FIFA 2026 WC Round of 16</td><td>Prasad R and Tees (Winners)</td></tr>
 <tr><td>2026</td><td>FIFA 2026 WC Round of 32</td><td>Ranga Setlur (Winner)</td></tr>
