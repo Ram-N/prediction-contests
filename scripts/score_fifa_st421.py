@@ -766,6 +766,16 @@ def generate_st421_page(entries, results, scores, timestamp):
         key=lambda x: (-x[0], x[1].lower())
     )
 
+    # Medal emojis by score tier
+    unique_scores = sorted({pts for pts, _, _ in scored}, reverse=True)
+    medal_map = {}
+    if len(unique_scores) >= 1:
+        medal_map[unique_scores[0]] = "🏆"
+    if len(unique_scores) >= 2:
+        medal_map[unique_scores[1]] = "🥈"
+    if len(unique_scores) >= 3:
+        medal_map[unique_scores[2]] = "🥉"
+
     qf_link_headers = [QF_PLOT_LINKS[col] for col, _, _ in QF_MATCHES]
     col_headers = ["Name", "Location", "Pts"] + qf_link_headers + ["Finalist 1", "Finalist 2", "Winner"]
     lines.append("{:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }")
@@ -774,11 +784,13 @@ def generate_st421_page(entries, results, scores, timestamp):
 
     for pts, name, entry in scored:
         location = entry["Location"].strip()
+        medal = medal_map.get(pts, "")
+        display_name = f"{name} {medal}" if medal else name
         qf_cells = [style_qf_pick(entry[col].strip(), col, t1, t2, results) for col, t1, t2 in QF_MATCHES]
         sf_cells = [style_finalist_pick(entry[c].strip(), results) for c in FINALIST_COLS]
         win_cell = style_winner_pick(entry[WINNER_COL].strip(), results)
         all_cells = qf_cells + sf_cells + [win_cell]
-        lines.append(f"| {name} | {location} | {pts} | " + " | ".join(all_cells) + " |")
+        lines.append(f"| {display_name} | {location} | {pts} | " + " | ".join(all_cells) + " |")
 
     lines.append("")
     lines.append("---")

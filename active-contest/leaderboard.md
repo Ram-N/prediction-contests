@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 20, 2026 — 06:59 PM EDT*
+*Last updated: July 20, 2026 — 07:00 PM EDT*
 
 | Round | Contest | Status |
 |-------|---------|--------|
