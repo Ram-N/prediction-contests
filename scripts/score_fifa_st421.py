@@ -283,6 +283,28 @@ def style_finalist_pick(pick_raw, results):
     return pick  # result still pending
 
 
+def compute_medal_map(scored):
+    """Return a dict mapping score -> medal emoji.
+
+    Gold (🏆) is always awarded.
+    Silver (🥈) and Bronze (🥉) are only awarded when ≤4 participants
+    share that score tier — skip the medal if too many people are tied.
+    """
+    unique_scores = sorted({pts for pts, _, _ in scored}, reverse=True)
+    counts = {}
+    for pts, _, _ in scored:
+        counts[pts] = counts.get(pts, 0) + 1
+
+    medal_map = {}
+    if len(unique_scores) >= 1:
+        medal_map[unique_scores[0]] = "🏆"
+    if len(unique_scores) >= 2 and counts[unique_scores[1]] <= 4:
+        medal_map[unique_scores[1]] = "🥈"
+    if len(unique_scores) >= 3 and counts[unique_scores[2]] <= 4:
+        medal_map[unique_scores[2]] = "🥉"
+    return medal_map
+
+
 def style_winner_pick(pick_raw, results):
     """Color-code the winner pick (bold always, strikethrough if eliminated)."""
     pick = abbrev(pick_raw)
@@ -419,15 +441,7 @@ def build_st421_leaderboard_section(entries, results, scores, timestamp):
         scored.append((pts, name, entry))
     scored.sort(key=lambda x: (-x[0], x[1].lower()))
 
-    # Assign medal emojis by score tier (top 3 unique scores)
-    unique_scores = sorted({pts for pts, _, _ in scored}, reverse=True)
-    medal_map = {}
-    if len(unique_scores) >= 1:
-        medal_map[unique_scores[0]] = "🏆"
-    if len(unique_scores) >= 2:
-        medal_map[unique_scores[1]] = "🥈"
-    if len(unique_scores) >= 3:
-        medal_map[unique_scores[2]] = "🥉"
+    medal_map = compute_medal_map(scored)
 
     qf_link_headers = [QF_PLOT_LINKS[col] for col, _, _ in QF_MATCHES]
     col_headers = ["Name", "Location", "Pts"] + qf_link_headers + ["Finalist 1", "Finalist 2", "Winner"]
@@ -766,15 +780,7 @@ def generate_st421_page(entries, results, scores, timestamp):
         key=lambda x: (-x[0], x[1].lower())
     )
 
-    # Medal emojis by score tier
-    unique_scores = sorted({pts for pts, _, _ in scored}, reverse=True)
-    medal_map = {}
-    if len(unique_scores) >= 1:
-        medal_map[unique_scores[0]] = "🏆"
-    if len(unique_scores) >= 2:
-        medal_map[unique_scores[1]] = "🥈"
-    if len(unique_scores) >= 3:
-        medal_map[unique_scores[2]] = "🥉"
+    medal_map = compute_medal_map(scored)
 
     qf_link_headers = [QF_PLOT_LINKS[col] for col, _, _ in QF_MATCHES]
     col_headers = ["Name", "Location", "Pts"] + qf_link_headers + ["Finalist 1", "Finalist 2", "Winner"]
