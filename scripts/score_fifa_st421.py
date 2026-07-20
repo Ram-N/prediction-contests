@@ -262,14 +262,25 @@ def style_qf_pick(pick_raw, match_label, t1, t2, results):
 
 
 def style_finalist_pick(pick_raw, results):
-    """Color-code a finalist (SF1/SF2) pick."""
+    """Color-code a finalist (SF1/SF2) pick.
+
+    Green  = team reached the final (SF=+1), regardless of Finals result.
+    Red    = team confirmed did NOT reach the final (eliminated in QF or SF).
+    Plain  = result still pending.
+
+    Note: do NOT use is_eliminated() here — a finalist like Argentina that
+    lost the final has Finals=-1, which would incorrectly trigger red.
+    """
     pick = abbrev(pick_raw)
-    if is_eliminated(pick, results):
-        return f'<span style="color:red"><s>{pick}</s></span>'
     status = get_finalist_status(pick, results)
     if status == "+1":
         return f'<span style="color:green"><b>{pick}</b></span>'
-    return pick  # still alive, result pending
+    r = results.get(pick, {})
+    qf_val = r.get("QF", "")
+    sf_val = r.get("SF", "")
+    if qf_val in ("-1", "0") or sf_val in ("-1", "0"):
+        return f'<span style="color:red"><s>{pick}</s></span>'
+    return pick  # result still pending
 
 
 def style_winner_pick(pick_raw, results):
@@ -408,6 +419,16 @@ def build_st421_leaderboard_section(entries, results, scores, timestamp):
         scored.append((pts, name, entry))
     scored.sort(key=lambda x: (-x[0], x[1].lower()))
 
+    # Assign medal emojis by score tier (top 3 unique scores)
+    unique_scores = sorted({pts for pts, _, _ in scored}, reverse=True)
+    medal_map = {}
+    if len(unique_scores) >= 1:
+        medal_map[unique_scores[0]] = "🏆"
+    if len(unique_scores) >= 2:
+        medal_map[unique_scores[1]] = "🥈"
+    if len(unique_scores) >= 3:
+        medal_map[unique_scores[2]] = "🥉"
+
     qf_link_headers = [QF_PLOT_LINKS[col] for col, _, _ in QF_MATCHES]
     col_headers = ["Name", "Location", "Pts"] + qf_link_headers + ["Finalist 1", "Finalist 2", "Winner"]
     header = "| " + " | ".join(col_headers) + " |"
@@ -419,11 +440,13 @@ def build_st421_leaderboard_section(entries, results, scores, timestamp):
 
     for pts, name, entry in scored:
         location = entry["Location"].strip()
+        medal = medal_map.get(pts, "")
+        display_name = f"{name} {medal}" if medal else name
         qf_cells = [style_qf_pick(entry[col].strip(), col, t1, t2, results) for col, t1, t2 in QF_MATCHES]
         sf_cells = [style_finalist_pick(entry[c].strip(), results) for c in FINALIST_COLS]
         win_cell = style_winner_pick(entry[WINNER_COL].strip(), results)
         all_cells = qf_cells + sf_cells + [win_cell]
-        lines.append(f"| {name} | {location} | {pts} | " + " | ".join(all_cells) + " |")
+        lines.append(f"| {display_name} | {location} | {pts} | " + " | ".join(all_cells) + " |")
 
     lines.append("")
     lines.append("---")
