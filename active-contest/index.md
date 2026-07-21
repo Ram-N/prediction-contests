@@ -8,46 +8,50 @@ permalink: "/fifa-2026/"
 
 # FIFA World Cup 2026 Prediction Contest
 
-The knockout rounds are underway! We have **three contests** running across **65+ participants** — humans and 3 AI models.
+The tournament is over! **Spain defeated Argentina** in the Final to claim the 2026 FIFA World Cup. **Subbu** won the overall prediction contest with 103 points.
+
+[Read the full wrap-up →](/prediction-contests/2026/07/20/fifa-2026-contest-wrap-up.html)
 
 ---
 
-## Active Contests
+## Final Results
 
-### Contest 3: ST-421 — Submissions Closed
+### Overall Contest — Complete
 
-Pick the **winner of each Quarterfinal** (4 matches), **2 Finalists**, and the **World Cup Winner**. **62 participants** (59 humans + 3 AI models) have submitted their picks.
+**Subbu** 🏆 wins with **103 points** — the only participant to crack 100, wire-to-wire across all four scoring rounds.
 
-**[View ST-421 Predictions →](/prediction-contests/fifa-2026/predictions)**
+**[Full Leaderboard →](/prediction-contests/fifa-2026/leaderboard)**
 
-### Contest 1: Round of 32 — In Progress
+### ST-421 Contest — Complete
 
-Pick the **winner of each Round of 32 match** (16 matches). **65 participants** have submitted their picks. Results are being scored as matches are played.
+**bala varadarajan**, **Ishaan**, and **Subbu** all scored **28/32** — correctly calling all four QF results, Spain as finalist, and Spain as champion.
 
-**[View Round of 32 predictions →](/prediction-contests/fifa-2026/round-of-32)**
+**[ST-421 Standings →](/prediction-contests/fifa-2026/st-421)**
 
-### Contest 2: 4-2-1 Long Range Predictions
+### Long Range 4-2-1 — Complete
 
-**4 Semifinalists**, **2 Finalists**, and the **World Cup Winner**. Entries are closed — this one plays out over the entire tournament.
+**Guru Bhat** and **Shaj** scored a perfect **12/12** — the only two out of 55 participants to get all 7 predictions right.
 
-**[View 4-2-1 Long Range Predictions →](/prediction-contests/fifa-2026/lr-421)**
+**[LR-421 Standings →](/prediction-contests/fifa-2026/lr-421)**
 
----
+### Round of 16 — Complete
 
-## Completed Rounds
+**Prasad R** and **Tees** won with **28/32**.
 
-### Group Stage — Completed
+### Round of 32 — Complete
 
-Pick the 2 teams from each group that advance to the Round of 32, plus 8 best third-place teams. **Alex leads with 27 points** out of 32. [Read the wrap-up →](/prediction-contests/2026/06/28/fifa-2026-group-stage-wrap-up.html)
+**Ranga Setlur** won with **30/32** — the highest single-round score in any category.
+
+### Group Stage — Complete
+
+**Alex** led with **27/32**. [Group Stage wrap-up →](/prediction-contests/2026/06/28/fifa-2026-group-stage-wrap-up.html)
 
 ---
 
 ## Contest Information
 
-- [Current Leaderboard](/prediction-contests/fifa-2026/leaderboard)
-- [4-2-1 Long Range Predictions](/prediction-contests/fifa-2026/lr-421)
-- [All Predictions](/prediction-contests/fifa-2026/predictions)
+- [Full Leaderboard](/prediction-contests/fifa-2026/leaderboard)
+- [LR-421 Long Range Predictions](/prediction-contests/fifa-2026/lr-421)
+- [ST-421 Predictions](/prediction-contests/fifa-2026/predictions)
 - [Group Stage Results](/prediction-contests/fifa-2026/group-stage)
 - [Contest Rules](/prediction-contests/fifa-2026/rules)
-
-Good luck to all participants!
