@@ -704,8 +704,13 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_sco
 
     parsed.sort(key=lambda x: (-x[7], x[0].lower()))
 
+    # Build overall medal map keyed by total score
+    _overall_totals = [(row[7], row[0]) for row in parsed]
+    _overall_scored = [(t, "", n) for t, n in _overall_totals]
+    overall_medal_map = compute_medal_map(_overall_scored)
+
     result_lines = []
-    for name, location, gs, r32, r16, st421, total_str, _ in parsed:
+    for name, location, gs, r32, r16, st421, total_str, total_int in parsed:
         pick_cells = ""
         if picks_by_name is not None and results is not None:
             picks = picks_by_name.get(name, {})
@@ -720,13 +725,16 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_sco
             cells_list.append(style_winner_pick(pick_raw, results) if pick_raw else "")
             pick_cells = " | ".join(cells_list)
 
+        overall_medal = overall_medal_map.get(total_int, "")
+        display_name = f"{name} {overall_medal}" if overall_medal else name
+
         if pick_cells:
             result_lines.append(
-                f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {pick_cells} | {total_str} |"
+                f"| {display_name} | {location} | {gs} | {r32} | {r16} | {st421} | {pick_cells} | {total_str} |"
             )
         else:
             result_lines.append(
-                f"| {name} | {location} | {gs} | {r32} | {r16} | {st421} | {total_str} |"
+                f"| {display_name} | {location} | {gs} | {r32} | {r16} | {st421} | {total_str} |"
             )
     return result_lines
 

@@ -7,7 +7,7 @@ permalink: "/fifa-2026/leaderboard"
 
 ---
 
-*Last updated: July 20, 2026 — 10:34 PM EDT*
+*Last updated: July 21, 2026 — 08:22 AM EDT*
 
 | Round | Contest | Status |
 |-------|---------|--------|
@@ -23,9 +23,9 @@ The FIFA WC 2026 prediction contest has **4 rounds**. The overall winner is dete
 {:.thead-dark .table-striped .table-bordered .table-sm .table-searchable }
 | Name | Location | GS | R32 | R16 | ST-421 | FRA-MAR | ESP-BEL | ENG-NOR | ARG-SUI | SF1 | SF2 | 🏆 | Total |
 |------|----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Subbu | India | 25 | 26 | 24 | 28 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:red"><s>NOR</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:green"><b>ESP</b></span> | 103 |
-| bala varadarajan | Oakland | 22 | 26 | 20 | 28 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:green"><b>ENG</b></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:red"><s>ENG</s></span> | <span style="color:green"><b>ESP</b></span> | 96 |
-| Tees | Seattle, WA | 24 | 26 | 28 | 16 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:red"><s>NOR</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s>FRA</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s><b>FRA</b></s></span> | 94 |
+| Subbu 🏆 | India | 25 | 26 | 24 | 28 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:red"><s>NOR</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:green"><b>ESP</b></span> | 103 |
+| bala varadarajan 🥈 | Oakland | 22 | 26 | 20 | 28 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:green"><b>ENG</b></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:red"><s>ENG</s></span> | <span style="color:green"><b>ESP</b></span> | 96 |
+| Tees 🥉 | Seattle, WA | 24 | 26 | 28 | 16 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:red"><s>NOR</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s>FRA</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s><b>FRA</b></s></span> | 94 |
 | ChatGPT (AI) | 🤖 AI | 24 | 24 | 24 | 20 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:green"><b>ENG</b></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s>FRA</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s><b>ARG</b></s></span> | 92 |
 | Claude (AI) | 🤖 AI | 20 | 28 | 24 | 20 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:green"><b>ENG</b></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s>FRA</s></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s><b>FRA</b></s></span> | 92 |
 | Aarush | Los Gatos | 26 | 28 | 20 | 16 | <span style="color:green"><b>FRA</b></span> | <span style="color:green"><b>ESP</b></span> | <span style="color:green"><b>ENG</b></span> | <span style="color:green"><b>ARG</b></span> | <span style="color:red"><s>FRA</s></span> | <span style="color:red"><s>ENG</s></span> | <span style="color:red"><s><b>FRA</b></s></span> | 90 |
