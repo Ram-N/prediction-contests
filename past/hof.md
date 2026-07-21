@@ -8,7 +8,9 @@ permalink: "/hof"
 
 Win a contest to get your name up here.
 
-<table class="table thead-dark table-striped table-bordered table-sm">
+<input type="text" id="hofSearch" class="form-control mb-3" placeholder="Search by name or contest...">
+
+<table id="hofTable" class="table thead-dark table-striped table-bordered table-sm">
 <thead><tr><th>Year</th><th>Contest</th><th>Winners</th></tr></thead>
 <tbody>
 <tr style="border-top: 3px solid #333;"><td>2026</td><td>FIFA 2026 WC Overall Contest</td><td>Subbu (1st), bala varadarajan (2nd), Tees (3rd)</td></tr>
@@ -44,3 +46,12 @@ Win a contest to get your name up here.
 <tr style="border-top: 3px solid #333;"><td>2018</td><td>FIFA World Cup</td><td>Gokul Krishnan</td></tr>
 </tbody>
 </table>
+
+<script>
+document.getElementById('hofSearch').addEventListener('input', function () {
+  var filter = this.value.toLowerCase();
+  document.querySelectorAll('#hofTable tbody tr').forEach(function (row) {
+    row.style.display = row.textContent.toLowerCase().includes(filter) ? '' : 'none';
+  });
+});
+</script>
