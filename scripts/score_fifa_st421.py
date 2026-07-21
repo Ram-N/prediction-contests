@@ -644,6 +644,11 @@ def rebuild_overall_table(table_rows, st421_scores, location_map=None, prior_sco
         if len(cells) < 8:
             continue
         name = cells[1]
+        for _medal in ("🏆", "🥈", "🥉", "🏅"):
+            name = name.replace(f" {_medal}", "")
+        name = name.strip()
+        if name in seen_names:
+            continue
         location = location_map.get(name, cells[2])
         gs = cells[3]
         r32 = cells[4]
